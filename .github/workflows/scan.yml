@@ -1,15 +1,13 @@
-name: DealHunter scan
+name: DealHunter API scan (manual)
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '7-59/10 * * * *'
 
 permissions:
   contents: write
 
 concurrency:
-  group: dealhunter-scan
+  group: dealhunter-data
   cancel-in-progress: false
 
 jobs:
