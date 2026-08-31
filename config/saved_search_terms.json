@@ -1,0 +1,26 @@
+{
+  "notes": "Maak deze zoekopdrachten afzonderlijk aan in Mijn Marktplaats. Houd prijsfilters in eerste instantie ruim; DealHunter doet de margefiltering.",
+  "searches": [
+    {"category":"Spelcomputers","query":"PS5 Pro"},
+    {"category":"Spelcomputers","query":"PS5 Slim"},
+    {"category":"Spelcomputers","query":"PS5 Disc"},
+    {"category":"Spelcomputers","query":"PlayStation 5"},
+    {"category":"Spelcomputers","query":"Nintendo Switch OLED"},
+    {"category":"Spelcomputers","query":"Switch OLED"},
+    {"category":"Spelcomputers","query":"Steam Deck OLED"},
+    {"category":"Spelcomputers","query":"Steam Deck"},
+    {"category":"Spelcomputers","query":"Xbox Series X"},
+    {"category":"Spelcomputers","query":"Xbox Series S"},
+    {"category":"Spelcomputers","query":"New Nintendo 3DS XL"},
+    {"category":"Gereedschap","query":"Festool TS55"},
+    {"category":"Gereedschap","query":"Festool TS 55"},
+    {"category":"Gereedschap","query":"Festool CTL MIDI"},
+    {"category":"Gereedschap","query":"Makita DHR243"},
+    {"category":"Audio","query":"Marantz PM-80"},
+    {"category":"Audio","query":"Shure SM7B"},
+    {"category":"Audio","query":"Sennheiser MKH 416"},
+    {"category":"Meetapparatuur","query":"Fluke 87V"},
+    {"category":"Meetapparatuur","query":"Fluke 289"},
+    {"category":"Meetapparatuur","query":"Tektronix TBS1102B"}
+  ]
+}
