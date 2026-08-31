@@ -1,0 +1,43 @@
+{
+  "alert_thresholds": {
+    "min_deal_score": 82,
+    "min_expected_profit": 75,
+    "min_roi_percent": 25
+  },
+  "assumptions": {
+    "selling_fee_rate": 0.0
+  },
+  "dashboard": {
+    "max_deals": 100
+  },
+  "searches": [
+    {
+      "name": "Spelcomputers",
+      "category": "Spelcomputers",
+      "query": "(ps5 or playstation 5 or xbox series x or xbox series s or switch oled or steam deck or new 3ds xl)",
+      "limit": 100,
+      "min_identify_confidence": 0.65
+    },
+    {
+      "name": "Gereedschap",
+      "category": "Gereedschap",
+      "query": "(festool ts55 or festool ctl midi or makita dhr243)",
+      "limit": 80,
+      "min_identify_confidence": 0.65
+    },
+    {
+      "name": "Audio",
+      "category": "Audio",
+      "query": "(marantz pm80 or shure sm7b or sennheiser mkh416)",
+      "limit": 80,
+      "min_identify_confidence": 0.65
+    },
+    {
+      "name": "Meetapparatuur",
+      "category": "Meetapparatuur",
+      "query": "(fluke 87v or fluke 289 or tektronix tbs1102b)",
+      "limit": 80,
+      "min_identify_confidence": 0.65
+    }
+  ]
+}
