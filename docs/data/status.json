@@ -1,14 +1,16 @@
 {
-  "last_checked": "2026-08-31T17:25:53.576771+00:00",
-  "checked_ads": 0,
-  "new_ads_seen": 0,
+  "mode": "saved-search-monitor",
+  "last_checked": "2026-08-31T17:48:21.627398+00:00",
+  "source_items_checked": 0,
+  "new_source_items": 0,
   "new_deals": 0,
+  "unscored_candidates": 0,
+  "unscored_candidates_total": 0,
   "total_dashboard_deals": 0,
-  "errors": [
-    "Marktplaats query '(ps5 or playstation 5 or xbox series x or xbox series s or switch oled or steam deck or new 3ds xl)': RuntimeError: MARKTPLAATS_ACCESS_TOKEN ontbreekt",
-    "Marktplaats query '(festool ts55 or festool ctl midi or makita dhr243)': RuntimeError: MARKTPLAATS_ACCESS_TOKEN ontbreekt",
-    "Marktplaats query '(marantz pm80 or shure sm7b or sennheiser mkh416)': RuntimeError: MARKTPLAATS_ACCESS_TOKEN ontbreekt",
-    "Marktplaats query '(fluke 87v or fluke 289 or tektronix tbs1102b)': RuntimeError: MARKTPLAATS_ACCESS_TOKEN ontbreekt"
-  ],
+  "configured_sources": {
+    "rss": false,
+    "imap": false
+  },
+  "errors": [],
   "whatsapp_enabled": false
 }
