@@ -1,0 +1,48 @@
+name: DealHunter scan
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '7-59/10 * * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: dealhunter-scan
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Scan Marktplaats and alert WhatsApp
+        env:
+          MARKTPLAATS_ACCESS_TOKEN: ${{ secrets.MARKTPLAATS_ACCESS_TOKEN }}
+          EBAY_ACCESS_TOKEN: ${{ secrets.EBAY_ACCESS_TOKEN }}
+          TWILIO_ACCOUNT_SID: ${{ secrets.TWILIO_ACCOUNT_SID }}
+          TWILIO_AUTH_TOKEN: ${{ secrets.TWILIO_AUTH_TOKEN }}
+          TWILIO_FROM: ${{ secrets.TWILIO_FROM }}
+          TWILIO_TO: ${{ secrets.TWILIO_TO }}
+          TWILIO_CONTENT_SID: ${{ secrets.TWILIO_CONTENT_SID }}
+          SEND_WHATSAPP: 'true'
+        run: python -m dealhunter.scanner
+      - name: Publish new dashboard data
+        run: |
+          git config user.name "dealhunter-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data/
+          if git diff --cached --quiet; then
+            echo "No data changes"
+          else
+            git commit -m "chore: update DealHunter scan data"
+            git push
+          fi
