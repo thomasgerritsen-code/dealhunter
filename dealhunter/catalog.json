@@ -1,0 +1,21 @@
+[
+  {"category":"Spelcomputers","brand":"Sony","model":"PlayStation 5 Disc Slim","aliases":["ps5 slim disc","playstation 5 slim disc","ps5 disc slim"],"reference_value":390,"liquidity":96,"base_risk":20},
+  {"category":"Spelcomputers","brand":"Sony","model":"PlayStation 5 Disc (original)","aliases":["ps5 disc","playstation 5 disc","ps5 disk"],"reference_value":340,"liquidity":96,"base_risk":20},
+  {"category":"Spelcomputers","brand":"Sony","model":"PlayStation 5 Digital Slim","aliases":["ps5 slim digital","playstation 5 slim digital"],"reference_value":310,"liquidity":93,"base_risk":20},
+  {"category":"Spelcomputers","brand":"Sony","model":"PlayStation 5 Pro","aliases":["ps5 pro","playstation 5 pro"],"reference_value":650,"liquidity":92,"base_risk":18},
+  {"category":"Spelcomputers","brand":"Microsoft","model":"Xbox Series X 1TB","aliases":["xbox series x","series x 1tb"],"reference_value":330,"liquidity":87,"base_risk":18},
+  {"category":"Spelcomputers","brand":"Microsoft","model":"Xbox Series S 512GB","aliases":["xbox series s","series s 512"],"reference_value":185,"liquidity":84,"base_risk":18},
+  {"category":"Spelcomputers","brand":"Nintendo","model":"Switch OLED","aliases":["nintendo switch oled","switch oled"],"reference_value":235,"liquidity":94,"base_risk":16},
+  {"category":"Spelcomputers","brand":"Nintendo","model":"Switch V2","aliases":["nintendo switch v2","switch v2","switch 2019"],"reference_value":175,"liquidity":90,"base_risk":18},
+  {"category":"Spelcomputers","brand":"Valve","model":"Steam Deck OLED 512GB","aliases":["steam deck oled 512","steamdeck oled 512"],"reference_value":470,"liquidity":80,"base_risk":22},
+  {"category":"Spelcomputers","brand":"Nintendo","model":"New Nintendo 3DS XL","aliases":["new 3ds xl","new nintendo 3ds xl"],"reference_value":230,"liquidity":79,"base_risk":24},
+  {"category":"Gereedschap","brand":"Festool","model":"TS 55 REBQ","aliases":["festool ts55 rebq","ts 55 rebq","ts55"],"reference_value":410,"liquidity":82,"base_risk":18},
+  {"category":"Gereedschap","brand":"Festool","model":"CTL MIDI","aliases":["festool ctl midi","ctl midi"],"reference_value":340,"liquidity":76,"base_risk":18},
+  {"category":"Gereedschap","brand":"Makita","model":"DHR243","aliases":["makita dhr243","dhr243"],"reference_value":175,"liquidity":78,"base_risk":18},
+  {"category":"Audio","brand":"Marantz","model":"PM-80 MKII","aliases":["marantz pm80 mkii","pm-80 mkii","pm80 mk2"],"reference_value":390,"liquidity":62,"base_risk":28},
+  {"category":"Audio","brand":"Shure","model":"SM7B","aliases":["shure sm7b","sm7b"],"reference_value":285,"liquidity":88,"base_risk":16},
+  {"category":"Audio","brand":"Sennheiser","model":"MKH 416","aliases":["sennheiser mkh416","mkh 416"],"reference_value":650,"liquidity":76,"base_risk":24},
+  {"category":"Meetapparatuur","brand":"Fluke","model":"87V","aliases":["fluke 87v","fluke 87 v"],"reference_value":300,"liquidity":82,"base_risk":22},
+  {"category":"Meetapparatuur","brand":"Fluke","model":"289","aliases":["fluke 289"],"reference_value":390,"liquidity":72,"base_risk":22},
+  {"category":"Meetapparatuur","brand":"Tektronix","model":"TBS1102B","aliases":["tektronix tbs1102b","tbs1102b"],"reference_value":330,"liquidity":55,"base_risk":30}
+]
