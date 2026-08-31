@@ -32,11 +32,6 @@ def write_json(path: Path, value: Any) -> None:
     path.write_text(json.dumps(value, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
-def _category_for(item: AlertItem) -> str | None:
-    product, _ = identify_product(item.title, item.description)
-    return product.get("category") if product else None
-
-
 def _analyze(item: AlertItem, cfg: dict[str, Any], ebay: EbayBrowseConnector) -> tuple[dict[str, Any] | None, str | None]:
     if item.asking_price is None or item.asking_price <= 0:
         return None, "Geen betrouwbare vraagprijs in melding/feed gevonden"
@@ -88,6 +83,7 @@ def run() -> dict[str, Any]:
     source_seen = set(state.get("source_seen", []))
     old_deals = read_json(DEALS, [])
     old_candidates = read_json(CANDIDATES, [])
+    previous_status = read_json(STATUS, {})
     ebay = EbayBrowseConnector()
 
     items, errors = load_alert_items()
@@ -151,10 +147,12 @@ def run() -> dict[str, Any]:
         candidate_map[candidate["id"]] = candidate
     candidate_list = sorted(candidate_map.values(), key=lambda c: c.get("found_at", ""), reverse=True)[:100]
 
-    source_seen.update(new_source_seen)
-    state["source_seen"] = list(source_seen)[-5000:]
-    state["updated_at"] = datetime.now(timezone.utc).isoformat()
-    write_json(STATE, state)
+    if new_source_seen:
+        source_seen.update(new_source_seen)
+        state["source_seen"] = list(source_seen)[-5000:]
+        state["updated_at"] = datetime.now(timezone.utc).isoformat()
+        write_json(STATE, state)
+
     write_json(DEALS, deals)
     write_json(CANDIDATES, candidate_list)
 
@@ -162,19 +160,35 @@ def run() -> dict[str, Any]:
         "rss": bool(os.getenv("DEALHUNTER_RSS_URLS")),
         "imap": bool(os.getenv("IMAP_HOST") and os.getenv("IMAP_USERNAME") and os.getenv("IMAP_PASSWORD")),
     }
-    status = {
-        "mode": "saved-search-monitor",
-        "last_checked": datetime.now(timezone.utc).isoformat(),
-        "source_items_checked": len(items),
-        "new_source_items": len(new_source_seen),
-        "new_deals": len(new_deals),
-        "unscored_candidates": len(candidates),
-        "total_dashboard_deals": len(deals),
-        "configured_sources": configured_sources,
-        "errors": errors[-10:],
-        "whatsapp_enabled": send_alerts and bool(os.getenv("TWILIO_ACCOUNT_SID")),
-    }
-    write_json(STATUS, status)
+    whatsapp_enabled = send_alerts and bool(os.getenv("TWILIO_ACCOUNT_SID"))
+    errors = errors[-10:]
+
+    status_changed = (
+        bool(new_source_seen)
+        or configured_sources != previous_status.get("configured_sources")
+        or whatsapp_enabled != bool(previous_status.get("whatsapp_enabled"))
+        or errors != previous_status.get("errors", [])
+        or previous_status.get("mode") != "saved-search-monitor"
+    )
+
+    if status_changed:
+        status = {
+            "mode": "saved-search-monitor",
+            "last_checked": datetime.now(timezone.utc).isoformat(),
+            "source_items_checked": len(items),
+            "new_source_items": len(new_source_seen),
+            "new_deals": len(new_deals),
+            "unscored_candidates": len(candidates),
+            "unscored_candidates_total": len(candidate_list),
+            "total_dashboard_deals": len(deals),
+            "configured_sources": configured_sources,
+            "errors": errors,
+            "whatsapp_enabled": whatsapp_enabled,
+        }
+        write_json(STATUS, status)
+    else:
+        status = previous_status
+
     return status
 
 
