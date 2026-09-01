@@ -1,1 +1,45 @@
-[]
+[
+  {
+    "id": "marktplaats-html:a1530454046",
+    "found_at": "2026-09-01T19:20:06.140833+00:00",
+    "source": "marktplaats-html",
+    "query": "xbox series x",
+    "category_hint": "Spelcomputers",
+    "title": "Microsoft Xbox Series X & S Controller Carbon Black",
+    "description": "Bewaren in Mijn Favorieten Microsoft Xbox Series X & S Controller Carbon Black Microsoft xbox series x & s controller carbon black www.justingames.nl koop al jouw games, accessoires en consoles veilig en snel via onze webshop met ideal of klarna achteraf betalen . Groot asso Zo goed als nieuw Ophalen of Verzenden € 44,98 Vandaag JustinGames.nl Voorschoten Bewaren in Mijn Favorieten Microsoft Xbox Series X & S Controller Carbon Black € 44,98 Microsoft xbox series x & s controller carbon black www.justingames.nl koop al jouw games, accessoires en consoles veilig en snel via onze webshop met ideal of klarna achteraf betalen . Groot asso Zo goed ",
+    "url": "https://www.marktplaats.nl/v/spelcomputers-en-games/spelcomputers-xbox-one/a1530454046-microsoft-xbox-series-x-s-controller-carbon-black",
+    "asking_price": 44.98,
+    "promoted": false,
+    "matched_product": "Microsoft Xbox Series X 1TB",
+    "recognition_confidence": 93,
+    "analysis": {
+      "matched_product": "Microsoft Xbox Series X 1TB",
+      "category": "Spelcomputers",
+      "source": "lokale referentiecatalogus (demo)",
+      "asking_price": 44.98,
+      "expected_resale": 306.9,
+      "market_low": 275.17,
+      "market_high": 338.63,
+      "fees": 0.0,
+      "risk_reserve": 21.63,
+      "travel_cost": 0.0,
+      "expected_profit": 240.29,
+      "roi_percent": 534.2,
+      "max_buy_price": 225.27,
+      "deal_score": 100,
+      "risk_score": 26,
+      "liquidity_score": 87,
+      "confidence_percent": 93,
+      "verdict": "TOPDEAL",
+      "risk_reasons": [
+        "Vraagprijs is <45% van geschatte waarde: extra fraude-/defectcheck"
+      ],
+      "note": "Referentiewaarden in v0.1 zijn demo-startwaarden en nog geen live gerealiseerde verkoopprijzen.",
+      "valuation_samples": 0,
+      "valuation_basis": "lokale referentiecatalogus (demo)"
+    },
+    "result_status": "deal",
+    "is_deal": true,
+    "exclusion_reason": null
+  }
+]
