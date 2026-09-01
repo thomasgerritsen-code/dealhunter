@@ -8,6 +8,7 @@ on:
     paths:
       - '.github/workflows/scraper-monitor.yml'
       - 'dealhunter/html_scraper.py'
+      - 'dealhunter/engine.py'
       - 'config/scraper_searches.json'
   schedule:
     - cron: '4-59/10 * * * *'
@@ -36,6 +37,8 @@ jobs:
           cache: pip
       - name: Install dependencies
         run: pip install -r requirements.txt
+      - name: Run recognition tests
+        run: pytest -q
       - name: Scrape public Marktplaats search pages
         env:
           EBAY_ACCESS_TOKEN: ${{ secrets.EBAY_ACCESS_TOKEN }}
@@ -50,13 +53,22 @@ jobs:
         run: |
           git config user.name "dealhunter-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # Preserve the freshly generated data, then move to the latest main.
+          # This prevents a concurrent source-code commit from causing a rebase
+          # conflict in state.json/results.json.
+          mkdir -p /tmp/dealhunter-data
+          cp docs/data/*.json /tmp/dealhunter-data/
+          git fetch origin main
+          git reset --hard origin/main
+          cp /tmp/dealhunter-data/*.json docs/data/
+
           git add docs/data/
           if git diff --cached --quiet; then
             echo "No data changes"
           else
             git commit -m "chore: update scraper data"
-            git pull --rebase origin main
-            git push
+            git push origin HEAD:main
           fi
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
