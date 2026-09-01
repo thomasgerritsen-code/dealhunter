@@ -2,6 +2,13 @@ name: DealHunter HTML scraper
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/scraper-monitor.yml'
+      - 'dealhunter/html_scraper.py'
+      - 'config/scraper_searches.json'
   schedule:
     - cron: '4-59/10 * * * *'
 
@@ -16,7 +23,6 @@ concurrency:
 
 jobs:
   scrape:
-    if: ${{ github.event_name == 'workflow_dispatch' || vars.SCRAPER_ENABLED == 'true' }}
     runs-on: ubuntu-latest
     timeout-minutes: 8
     environment:
@@ -49,6 +55,7 @@ jobs:
             echo "No data changes"
           else
             git commit -m "chore: update scraper data"
+            git pull --rebase origin main
             git push
           fi
       - name: Configure GitHub Pages
