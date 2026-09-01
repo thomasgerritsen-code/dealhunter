@@ -11,7 +11,7 @@ from typing import Any
 from urllib.parse import quote_plus, urljoin
 
 import httpx
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, Tag
 
 from .ebay import EbayBrowseConnector, conservative_active_market_value
 from .engine import analyze_deal, identify_product
@@ -26,6 +26,7 @@ DEALS = ROOT / "docs" / "data" / "deals.json"
 RESULTS = ROOT / "docs" / "data" / "results.json"
 STATUS = ROOT / "docs" / "data" / "status.json"
 CANDIDATES = ROOT / "docs" / "data" / "scraper_candidates.json"
+
 BASE = "https://www.marktplaats.nl"
 ITEM_ID_RE = re.compile(r"(?:^|/)([ma]\d{6,})(?:[-/?#]|$)", re.I)
 PRICE_RE = re.compile(r"€\s*([0-9][0-9.]*)(?:,([0-9]{2}))?")
@@ -38,6 +39,39 @@ BLOCK_MARKERS = (
     "temporarily blocked",
     "ben je een robot",
     "verify you are human",
+)
+
+# Terms that strongly indicate the listing is an accessory/service rather than
+# the console itself. This prevents e.g. a €15 PS5 stand being scored as a PS5.
+CONSOLE_NON_PRODUCT_TERMS = (
+    "standaard",
+    "pootjes",
+    "capture card",
+    "game capture",
+    "headset",
+    "koptelefoon",
+    "hoes",
+    "case",
+    "cover",
+    "skin",
+    "faceplate",
+    "kabel",
+    "adapter",
+    "oplader",
+    "charger",
+    "dock",
+    "houder",
+    "mount",
+    "koeler",
+    "cooler",
+    "fan ",
+    "camera",
+    "media remote",
+    "afstandsbediening",
+    "reparatie",
+    "onderhoud service",
+    "gezocht",
+    "inkoop",
 )
 
 
@@ -80,14 +114,58 @@ def parse_price(text: str) -> float | None:
         return None
 
 
+def parse_card_price(card: Tag, card_text: str) -> float | None:
+    """Prefer a dedicated short price element over prices mentioned in ad text."""
+    candidates: list[float] = []
+    for node in card.find_all(string=PRICE_RE):
+        txt = " ".join(str(node).replace("\xa0", " ").split())
+        # A listing price is usually in its own short DOM node. This avoids
+        # picking e.g. 'gratis verzending vanaf €75' from the description.
+        if len(txt) <= 32:
+            value = parse_price(txt)
+            if value is not None:
+                candidates.append(value)
+    if candidates:
+        # Repeated values are especially likely to be the actual listing price.
+        counts: dict[float, int] = {}
+        for value in candidates:
+            counts[value] = counts.get(value, 0) + 1
+        return sorted(counts, key=lambda v: (counts[v], -candidates.index(v)), reverse=True)[0]
+    return parse_price(card_text)
+
+
 def _item_id(href: str) -> str | None:
     m = ITEM_ID_RE.search(href)
     return m.group(1).lower() if m else None
 
 
+def _console_exclusion(title: str, product: dict[str, Any]) -> str | None:
+    if product.get("category") != "Spelcomputers":
+        return None
+    t = " ".join(title.lower().split())
+    for term in CONSOLE_NON_PRODUCT_TERMS:
+        if term in t:
+            return f"Accessoire/dienst gedetecteerd: {term.strip()}"
+
+    # Controllers are accessories unless the wording clearly describes a
+    # console bundle, e.g. 'PS5 met 2 controllers'.
+    if "controller" in t:
+        bundle_wording = any(x in t for x in ("met controller", "met 2 controller", "met twee controller", "+ controller", "incl controller", "inclusief controller"))
+        if not bundle_wording:
+            return "Controller/accessoire in plaats van console"
+
+    # Pure game listings are not consoles; console bundles with games are kept.
+    if re.search(r"\b(games?|spellen)\b", t):
+        bundle_wording = any(x in t for x in ("met game", "met spel", "+ game", "+ spel", "incl game", "inclusief game"))
+        if not bundle_wording and "console" not in t:
+            return "Game/software in plaats van console"
+    return None
+
+
 def parse_search_html(html: str, max_results: int = 12) -> list[ScrapedListing]:
     soup = BeautifulSoup(html, "html.parser")
     by_id: dict[str, ScrapedListing] = {}
+
     for a in soup.find_all("a", href=True):
         href = str(a.get("href") or "")
         item_id = _item_id(href)
@@ -95,11 +173,12 @@ def parse_search_html(html: str, max_results: int = 12) -> list[ScrapedListing]:
             continue
         url = urljoin(BASE, href.split("?")[0])
         card = a.find_parent(["li", "article"]) or a.parent
-        if card is None:
+        if not isinstance(card, Tag):
             continue
         card_text = " ".join(card.stripped_strings)
         if not card_text:
             continue
+
         title_candidates: list[str] = []
         for link in card.find_all("a", href=True):
             if _item_id(str(link.get("href") or "")) != item_id:
@@ -116,8 +195,9 @@ def parse_search_html(html: str, max_results: int = 12) -> list[ScrapedListing]:
                 alt = str(img.get("alt") or "").strip()
                 if alt:
                     title_candidates.append(alt.split(",")[0].strip())
+
         title = min(title_candidates, key=len) if title_candidates else card_text[:160]
-        price = parse_price(card_text)
+        price = parse_card_price(card, card_text)
         promoted = "topadvertentie" in card_text.lower() or "dagtopper" in card_text.lower()
         listing = ScrapedListing(item_id, title, url, price, card_text[:650], promoted)
         existing = by_id.get(item_id)
@@ -125,18 +205,23 @@ def parse_search_html(html: str, max_results: int = 12) -> list[ScrapedListing]:
             by_id[item_id] = listing
         if len(by_id) >= max_results:
             break
+
     return list(by_id.values())[:max_results]
 
 
 def fetch_search(client: httpx.Client, query: str, max_results: int) -> list[ScrapedListing]:
-    r = client.get(search_url(query))
-    if r.status_code in {403, 429}:
-        raise RuntimeError(f"Marktplaats blokkeert/rate-limit de request ({r.status_code}); scraper stopt")
-    r.raise_for_status()
-    lower = r.text.lower()
+    response = client.get(search_url(query))
+    if response.status_code in {403, 429}:
+        raise RuntimeError(f"Marktplaats blokkeert/rate-limit de request ({response.status_code}); scraper stopt")
+    response.raise_for_status()
+    lower = response.text.lower()
     if any(marker in lower for marker in BLOCK_MARKERS):
         raise RuntimeError("Mogelijke CAPTCHA/blokkade gedetecteerd; scraper stopt zonder omzeiling")
-    return parse_search_html(r.text, max_results=max_results)
+    return parse_search_html(response.text, max_results=max_results)
+
+
+def _twilio_ready() -> bool:
+    return all(os.getenv(k) for k in ("TWILIO_ACCOUNT_SID", "TWILIO_AUTH_TOKEN", "TWILIO_FROM", "TWILIO_TO"))
 
 
 def run() -> dict[str, Any]:
@@ -149,13 +234,15 @@ def run() -> dict[str, Any]:
     max_links = min(100, int(scfg.get("max_links_per_run", 96)))
     max_results = int(scfg.get("max_results_per_query", 12))
     delay = max(1.0, float(scfg.get("poll_seconds_between_queries", 2.0)))
-    send_alerts = os.getenv("SEND_WHATSAPP", "true").lower() in {"1", "true", "yes"}
+    requested_whatsapp = os.getenv("SEND_WHATSAPP", "true").lower() in {"1", "true", "yes"}
+    send_alerts = requested_whatsapp and _twilio_ready()
 
     state = read_json(STATE, {"seen": [], "source_seen": [], "scraper_seen": []})
     seen = set(state.get("scraper_seen", []))
     old_deals = read_json(DEALS, [])
     old_results = read_json(RESULTS, [])
     old_candidates = read_json(CANDIDATES, [])
+
     new_seen: list[str] = []
     new_deals: list[dict[str, Any]] = []
     new_results: list[dict[str, Any]] = []
@@ -163,10 +250,11 @@ def run() -> dict[str, Any]:
     errors: list[str] = []
     checked = 0
     fetched_links = 0
+    excluded = 0
     ebay = EbayBrowseConnector()
 
     headers = {
-        "User-Agent": "DealHunterPersonalMonitor/0.5 (+https://github.com/thomasgerritsen-code/dealhunter)",
+        "User-Agent": "DealHunterPersonalMonitor/0.6 (+https://github.com/thomasgerritsen-code/dealhunter)",
         "Accept-Language": "nl-NL,nl;q=0.9,en;q=0.5",
         "Accept": "text/html,application/xhtml+xml",
     }
@@ -195,7 +283,7 @@ def run() -> dict[str, Any]:
                     continue
                 now = datetime.now(timezone.utc).isoformat()
                 new_seen.append(key)
-                base_result: dict[str, Any] = {
+                result: dict[str, Any] = {
                     "id": key,
                     "found_at": now,
                     "source": "marktplaats-html",
@@ -210,11 +298,12 @@ def run() -> dict[str, Any]:
                     "analysis": None,
                     "result_status": "new",
                     "is_deal": False,
+                    "exclusion_reason": None,
                 }
 
                 if row.asking_price is None or row.asking_price <= 0:
-                    base_result["result_status"] = "unpriced"
-                    new_results.append(base_result)
+                    result["result_status"] = "unpriced"
+                    new_results.append(result)
                     new_candidates.append({
                         "id": key,
                         "found_at": now,
@@ -224,13 +313,24 @@ def run() -> dict[str, Any]:
                     })
                     continue
 
-                product, confidence = identify_product(row.title, row.description, search.get("category"))
+                # Identify primarily from the title. The long card description can
+                # mention compatible consoles and otherwise create false matches.
+                product, confidence = identify_product(row.title, "", search.get("category"))
                 if not product or confidence < 0.60:
-                    base_result["result_status"] = "unrecognized"
-                    new_results.append(base_result)
+                    result["result_status"] = "unrecognized"
+                    new_results.append(result)
                     continue
 
-                matched = f"{product['brand']} {product['model']}"
+                result["matched_product"] = f"{product['brand']} {product['model']}"
+                exclusion = _console_exclusion(row.title, product)
+                if exclusion:
+                    result["result_status"] = "excluded"
+                    result["exclusion_reason"] = exclusion
+                    new_results.append(result)
+                    excluded += 1
+                    continue
+
+                matched = result["matched_product"]
                 live_value = None
                 samples = 0
                 try:
@@ -258,16 +358,15 @@ def run() -> dict[str, Any]:
                     and analysis["expected_profit"] >= min_profit
                     and analysis["roi_percent"] >= min_roi
                 )
-                base_result.update({
-                    "matched_product": matched,
+                result.update({
                     "analysis": analysis,
                     "result_status": "deal" if is_deal else "scored",
                     "is_deal": is_deal,
                 })
-                new_results.append(base_result)
+                new_results.append(result)
 
                 if is_deal:
-                    deal = dict(base_result)
+                    deal = dict(result)
                     new_deals.append(deal)
                     if send_alerts:
                         try:
@@ -281,19 +380,23 @@ def run() -> dict[str, Any]:
                 time.sleep(delay)
 
     deal_map = {d.get("id"): d for d in old_deals if d.get("id")}
-    for d in new_deals:
-        deal_map[d["id"]] = d
-    deals = sorted(deal_map.values(), key=lambda d: (d.get("analysis", {}).get("deal_score", 0), d.get("found_at", "")), reverse=True)[:250]
+    for deal in new_deals:
+        deal_map[deal["id"]] = deal
+    deals = sorted(
+        deal_map.values(),
+        key=lambda d: (d.get("analysis", {}).get("deal_score", 0), d.get("found_at", "")),
+        reverse=True,
+    )[:250]
 
     result_map = {r.get("id"): r for r in old_results if r.get("id")}
-    for r in new_results:
-        result_map[r["id"]] = r
+    for result in new_results:
+        result_map[result["id"]] = result
     results = sorted(result_map.values(), key=lambda r: r.get("found_at", ""), reverse=True)[:2000]
 
-    cand_map = {c.get("id"): c for c in old_candidates if c.get("id")}
-    for c in new_candidates:
-        cand_map[c["id"]] = c
-    candidates = sorted(cand_map.values(), key=lambda c: c.get("found_at", ""), reverse=True)[:250]
+    candidate_map = {c.get("id"): c for c in old_candidates if c.get("id")}
+    for candidate in new_candidates:
+        candidate_map[candidate["id"]] = candidate
+    candidates = sorted(candidate_map.values(), key=lambda c: c.get("found_at", ""), reverse=True)[:250]
 
     seen.update(new_seen)
     state["scraper_seen"] = list(seen)[-5000:]
@@ -303,6 +406,7 @@ def run() -> dict[str, Any]:
     write_json(DEALS, deals)
     write_json(RESULTS, results)
     write_json(CANDIDATES, candidates)
+
     status = {
         "mode": "marktplaats-html-scraper",
         "last_checked": datetime.now(timezone.utc).isoformat(),
@@ -312,11 +416,12 @@ def run() -> dict[str, Any]:
         "new_ads_seen": len(new_seen),
         "new_results_saved": len(new_results),
         "new_deals": len(new_deals),
+        "excluded_results": excluded,
         "unpriced_candidates": len(new_candidates),
         "total_results": len(results),
         "total_deals": len(deals),
         "errors": errors[-10:],
-        "whatsapp_enabled": send_alerts and bool(os.getenv("TWILIO_ACCOUNT_SID")),
+        "whatsapp_enabled": send_alerts,
     }
     write_json(STATUS, status)
     return status
