@@ -23,6 +23,7 @@ SEARCH_CFG = ROOT / "config" / "scraper_searches.json"
 MAIN_CFG = ROOT / "config" / "searches.json"
 STATE = ROOT / "docs" / "data" / "state.json"
 DEALS = ROOT / "docs" / "data" / "deals.json"
+RESULTS = ROOT / "docs" / "data" / "results.json"
 STATUS = ROOT / "docs" / "data" / "status.json"
 CANDIDATES = ROOT / "docs" / "data" / "scraper_candidates.json"
 BASE = "https://www.marktplaats.nl"
@@ -54,7 +55,6 @@ def write_json(path: Path, value: Any) -> None:
 
 
 def search_url(query: str) -> str:
-    # Public HTML search page; do not call Marktplaats' internal JSON search endpoints.
     slug = quote_plus(query.strip())
     return f"{BASE}/q/{slug}/?sortBy=SORT_INDEX&sortOrder=DECREASING"
 
@@ -79,23 +79,18 @@ def _item_id(href: str) -> str | None:
 def parse_search_html(html: str, max_results: int = 12) -> list[ScrapedListing]:
     soup = BeautifulSoup(html, "html.parser")
     by_id: dict[str, ScrapedListing] = {}
-
     for a in soup.find_all("a", href=True):
         href = str(a.get("href") or "")
         item_id = _item_id(href)
         if not item_id:
             continue
         url = urljoin(BASE, href.split("?")[0])
-        card = a.find_parent(["li", "article"])
-        if card is None:
-            card = a.parent
+        card = a.find_parent(["li", "article"]) or a.parent
         if card is None:
             continue
         card_text = " ".join(card.stripped_strings)
         if not card_text:
             continue
-
-        # Prefer a textual anchor for the same listing; fall back to aria-label/image alt.
         title_candidates: list[str] = []
         for link in card.find_all("a", href=True):
             if _item_id(str(link.get("href") or "")) != item_id:
@@ -113,17 +108,14 @@ def parse_search_html(html: str, max_results: int = 12) -> list[ScrapedListing]:
                 if alt:
                     title_candidates.append(alt.split(",")[0].strip())
         title = min(title_candidates, key=len) if title_candidates else card_text[:160]
-
         price = parse_price(card_text)
         promoted = "topadvertentie" in card_text.lower() or "dagtopper" in card_text.lower()
-        description = card_text[:650]
+        listing = ScrapedListing(item_id, title, url, price, card_text[:650], promoted)
         existing = by_id.get(item_id)
-        listing = ScrapedListing(item_id, title, url, price, description, promoted)
         if existing is None or len(listing.title) < len(existing.title):
             by_id[item_id] = listing
         if len(by_id) >= max_results:
             break
-
     return list(by_id.values())[:max_results]
 
 
@@ -153,9 +145,11 @@ def run() -> dict[str, Any]:
     state = read_json(STATE, {"seen": [], "source_seen": [], "scraper_seen": []})
     seen = set(state.get("scraper_seen", []))
     old_deals = read_json(DEALS, [])
+    old_results = read_json(RESULTS, [])
     old_candidates = read_json(CANDIDATES, [])
     new_seen: list[str] = []
     new_deals: list[dict[str, Any]] = []
+    new_results: list[dict[str, Any]] = []
     new_candidates: list[dict[str, Any]] = []
     errors: list[str] = []
     checked = 0
@@ -163,13 +157,14 @@ def run() -> dict[str, Any]:
     ebay = EbayBrowseConnector()
 
     headers = {
-        "User-Agent": "DealHunterPersonalMonitor/0.4 (+https://github.com/thomasgerritsen-code/dealhunter)",
+        "User-Agent": "DealHunterPersonalMonitor/0.5 (+https://github.com/thomasgerritsen-code/dealhunter)",
         "Accept-Language": "nl-NL,nl;q=0.9,en;q=0.5",
         "Accept": "text/html,application/xhtml+xml",
     }
 
     with httpx.Client(timeout=25, follow_redirects=True, headers=headers) as client:
-        for idx, search in enumerate(scfg.get("searches", [])):
+        searches = scfg.get("searches", [])
+        for idx, search in enumerate(searches):
             if fetched_links >= max_links:
                 break
             query = str(search.get("query", "")).strip()
@@ -179,8 +174,7 @@ def run() -> dict[str, Any]:
                 rows = fetch_search(client, query, min(max_results, max_links - fetched_links))
             except Exception as exc:
                 errors.append(f"{query}: {type(exc).__name__}: {exc}")
-                # 403/429/CAPTCHA is treated as a hard stop for the entire run.
-                if "blok" in str(exc).lower() or "captcha" in str(exc).lower() or "rate-limit" in str(exc).lower():
+                if any(s in str(exc).lower() for s in ("blok", "captcha", "rate-limit")):
                     break
                 continue
 
@@ -190,11 +184,31 @@ def run() -> dict[str, Any]:
                 key = f"marktplaats-html:{row.id}"
                 if key in seen:
                     continue
+                now = datetime.now(timezone.utc).isoformat()
                 new_seen.append(key)
+                base_result: dict[str, Any] = {
+                    "id": key,
+                    "found_at": now,
+                    "source": "marktplaats-html",
+                    "query": query,
+                    "category_hint": search.get("category"),
+                    "title": row.title,
+                    "description": row.description,
+                    "url": row.url,
+                    "asking_price": row.asking_price,
+                    "promoted": row.promoted,
+                    "matched_product": None,
+                    "analysis": None,
+                    "result_status": "new",
+                    "is_deal": False,
+                }
+
                 if row.asking_price is None or row.asking_price <= 0:
+                    base_result["result_status"] = "unpriced"
+                    new_results.append(base_result)
                     new_candidates.append({
                         "id": key,
-                        "found_at": datetime.now(timezone.utc).isoformat(),
+                        "found_at": now,
                         "title": row.title,
                         "url": row.url,
                         "reason": "Geen vaste vraagprijs (bijv. Bieden/Zie omschrijving)",
@@ -203,7 +217,10 @@ def run() -> dict[str, Any]:
 
                 product, confidence = identify_product(row.title, row.description, search.get("category"))
                 if not product or confidence < 0.60:
+                    base_result["result_status"] = "unrecognized"
+                    new_results.append(base_result)
                     continue
+
                 matched = f"{product['brand']} {product['model']}"
                 live_value = None
                 samples = 0
@@ -227,19 +244,21 @@ def run() -> dict[str, Any]:
                 })
                 analysis["valuation_samples"] = samples
                 analysis["valuation_basis"] = "eBay actieve vraagprijzen + referentie" if live_value else "lokale referentiecatalogus (demo)"
-                deal = {
-                    "id": key,
-                    "found_at": datetime.now(timezone.utc).isoformat(),
-                    "source": "marktplaats-html",
-                    "title": row.title,
-                    "description": row.description,
-                    "url": row.url,
-                    "asking_price": row.asking_price,
+                is_deal = (
+                    analysis["deal_score"] >= min_score
+                    and analysis["expected_profit"] >= min_profit
+                    and analysis["roi_percent"] >= min_roi
+                )
+                base_result.update({
                     "matched_product": matched,
-                    "promoted": row.promoted,
                     "analysis": analysis,
-                }
-                if analysis["deal_score"] >= min_score and analysis["expected_profit"] >= min_profit and analysis["roi_percent"] >= min_roi:
+                    "result_status": "deal" if is_deal else "scored",
+                    "is_deal": is_deal,
+                })
+                new_results.append(base_result)
+
+                if is_deal:
+                    deal = dict(base_result)
                     new_deals.append(deal)
                     if send_alerts:
                         try:
@@ -249,25 +268,31 @@ def run() -> dict[str, Any]:
                             deal["whatsapp"] = {"sent": False, "error": f"{type(exc).__name__}: {exc}"}
                             errors.append(f"WhatsApp '{row.title}': {type(exc).__name__}: {exc}")
 
-            if idx < len(scfg.get("searches", [])) - 1:
+            if idx < len(searches) - 1:
                 time.sleep(delay)
 
-    merged = {d.get("id"): d for d in old_deals if d.get("id")}
+    deal_map = {d.get("id"): d for d in old_deals if d.get("id")}
     for d in new_deals:
-        merged[d["id"]] = d
-    deals = sorted(merged.values(), key=lambda d: (d.get("analysis", {}).get("deal_score", 0), d.get("found_at", "")), reverse=True)[:100]
+        deal_map[d["id"]] = d
+    deals = sorted(deal_map.values(), key=lambda d: (d.get("analysis", {}).get("deal_score", 0), d.get("found_at", "")), reverse=True)[:250]
+
+    result_map = {r.get("id"): r for r in old_results if r.get("id")}
+    for r in new_results:
+        result_map[r["id"]] = r
+    results = sorted(result_map.values(), key=lambda r: r.get("found_at", ""), reverse=True)[:2000]
 
     cand_map = {c.get("id"): c for c in old_candidates if c.get("id")}
     for c in new_candidates:
         cand_map[c["id"]] = c
-    candidates = sorted(cand_map.values(), key=lambda c: c.get("found_at", ""), reverse=True)[:100]
+    candidates = sorted(cand_map.values(), key=lambda c: c.get("found_at", ""), reverse=True)[:250]
 
     seen.update(new_seen)
-    state["scraper_seen"] = list(seen)[-3000:]
+    state["scraper_seen"] = list(seen)[-5000:]
     if new_seen:
         state["updated_at"] = datetime.now(timezone.utc).isoformat()
     write_json(STATE, state)
     write_json(DEALS, deals)
+    write_json(RESULTS, results)
     write_json(CANDIDATES, candidates)
     status = {
         "mode": "marktplaats-html-scraper",
@@ -276,8 +301,11 @@ def run() -> dict[str, Any]:
         "links_fetched": fetched_links,
         "checked_ads": checked,
         "new_ads_seen": len(new_seen),
+        "new_results_saved": len(new_results),
         "new_deals": len(new_deals),
         "unpriced_candidates": len(new_candidates),
+        "total_results": len(results),
+        "total_deals": len(deals),
         "errors": errors[-10:],
         "whatsapp_enabled": send_alerts and bool(os.getenv("TWILIO_ACCOUNT_SID")),
     }
