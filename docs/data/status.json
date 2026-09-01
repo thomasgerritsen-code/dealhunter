@@ -1,17 +1,22 @@
 {
   "mode": "marktplaats-html-scraper",
-  "last_checked": "2026-09-01T18:52:06.531228+00:00",
+  "last_checked": "2026-09-01T18:54:02.144093+00:00",
   "queries_configured": 8,
-  "links_fetched": 0,
-  "checked_ads": 0,
-  "new_ads_seen": 0,
-  "new_results_saved": 0,
-  "new_deals": 0,
-  "unpriced_candidates": 0,
-  "total_results": 0,
-  "total_deals": 0,
+  "links_fetched": 96,
+  "checked_ads": 96,
+  "new_ads_seen": 96,
+  "new_results_saved": 96,
+  "new_deals": 6,
+  "unpriced_candidates": 29,
+  "total_results": 95,
+  "total_deals": 6,
   "errors": [
-    "ps5: RuntimeError: Mogelijke CAPTCHA/blokkade gedetecteerd; scraper stopt zonder omzeiling"
+    "WhatsApp 'Razer Wolverine V2 Pro - Draadloze Controller - PS5 - Zwart': RuntimeError: Twilio WhatsApp secrets zijn niet compleet",
+    "WhatsApp 'Verticale Standaard voor PS5': RuntimeError: Twilio WhatsApp secrets zijn niet compleet",
+    "WhatsApp 'Pootjes PS5 Slim & PS5 Pro (PS5) (NIEUW)': RuntimeError: Twilio WhatsApp secrets zijn niet compleet",
+    "WhatsApp 'Elgato 4K X - Game Capture Card - PS5': RuntimeError: Twilio WhatsApp secrets zijn niet compleet",
+    "WhatsApp 'Xbox One Controller (origineel) veel keuze': RuntimeError: Twilio WhatsApp secrets zijn niet compleet",
+    "WhatsApp 'Shure SM7B Dynamic Studio Vocal Microphone': RuntimeError: Twilio WhatsApp secrets zijn niet compleet"
   ],
   "whatsapp_enabled": false
 }
