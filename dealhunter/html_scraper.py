@@ -29,7 +29,16 @@ CANDIDATES = ROOT / "docs" / "data" / "scraper_candidates.json"
 BASE = "https://www.marktplaats.nl"
 ITEM_ID_RE = re.compile(r"(?:^|/)([ma]\d{6,})(?:[-/?#]|$)", re.I)
 PRICE_RE = re.compile(r"€\s*([0-9][0-9.]*)(?:,([0-9]{2}))?")
-BLOCK_MARKERS = ("captcha", "te veel verzoeken", "access denied", "temporarily blocked", "robot")
+BLOCK_MARKERS = (
+    "captcha",
+    "hcaptcha",
+    "recaptcha",
+    "te veel verzoeken",
+    "access denied",
+    "temporarily blocked",
+    "ben je een robot",
+    "verify you are human",
+)
 
 
 @dataclass
