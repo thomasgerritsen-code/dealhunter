@@ -14,6 +14,7 @@ concurrency:
 
 jobs:
   monitor:
+    if: ${{ github.event_name == 'workflow_dispatch' || vars.SAVED_SEARCH_ENABLED == 'true' }}
     runs-on: ubuntu-latest
     timeout-minutes: 8
     steps:
