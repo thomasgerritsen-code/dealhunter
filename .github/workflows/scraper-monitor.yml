@@ -1,0 +1,48 @@
+name: DealHunter HTML scraper
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '4-59/10 * * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: dealhunter-data
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    if: ${{ github.event_name == 'workflow_dispatch' || vars.SCRAPER_ENABLED == 'true' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Scrape public Marktplaats search pages
+        env:
+          EBAY_ACCESS_TOKEN: ${{ secrets.EBAY_ACCESS_TOKEN }}
+          TWILIO_ACCOUNT_SID: ${{ secrets.TWILIO_ACCOUNT_SID }}
+          TWILIO_AUTH_TOKEN: ${{ secrets.TWILIO_AUTH_TOKEN }}
+          TWILIO_FROM: ${{ secrets.TWILIO_FROM }}
+          TWILIO_TO: ${{ secrets.TWILIO_TO }}
+          TWILIO_CONTENT_SID: ${{ secrets.TWILIO_CONTENT_SID }}
+          SEND_WHATSAPP: 'true'
+        run: python -m dealhunter.html_scraper
+      - name: Publish dashboard state
+        run: |
+          git config user.name "dealhunter-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data/
+          if git diff --cached --quiet; then
+            echo "No data changes"
+          else
+            git commit -m "chore: update scraper data"
+            git push
+          fi
