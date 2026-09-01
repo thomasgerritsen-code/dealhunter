@@ -7,6 +7,8 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: dealhunter-data
@@ -17,6 +19,9 @@ jobs:
     if: ${{ github.event_name == 'workflow_dispatch' || vars.SCRAPER_ENABLED == 'true' }}
     runs-on: ubuntu-latest
     timeout-minutes: 8
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -35,7 +40,7 @@ jobs:
           TWILIO_CONTENT_SID: ${{ secrets.TWILIO_CONTENT_SID }}
           SEND_WHATSAPP: 'true'
         run: python -m dealhunter.html_scraper
-      - name: Publish dashboard state
+      - name: Save dashboard data to repository
         run: |
           git config user.name "dealhunter-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -46,3 +51,12 @@ jobs:
             git commit -m "chore: update scraper data"
             git push
           fi
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Upload dashboard
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: docs
+      - name: Deploy dashboard
+        id: deployment
+        uses: actions/deploy-pages@v4
