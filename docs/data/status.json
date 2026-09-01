@@ -1,16 +1,17 @@
 {
-  "mode": "saved-search-monitor",
-  "last_checked": "2026-08-31T17:48:21.627398+00:00",
-  "source_items_checked": 0,
-  "new_source_items": 0,
+  "mode": "marktplaats-html-scraper",
+  "last_checked": "2026-09-01T18:52:06.531228+00:00",
+  "queries_configured": 8,
+  "links_fetched": 0,
+  "checked_ads": 0,
+  "new_ads_seen": 0,
+  "new_results_saved": 0,
   "new_deals": 0,
-  "unscored_candidates": 0,
-  "unscored_candidates_total": 0,
-  "total_dashboard_deals": 0,
-  "configured_sources": {
-    "rss": false,
-    "imap": false
-  },
-  "errors": [],
+  "unpriced_candidates": 0,
+  "total_results": 0,
+  "total_deals": 0,
+  "errors": [
+    "ps5: RuntimeError: Mogelijke CAPTCHA/blokkade gedetecteerd; scraper stopt zonder omzeiling"
+  ],
   "whatsapp_enabled": false
 }
