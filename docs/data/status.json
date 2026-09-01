@@ -1,6 +1,6 @@
 {
   "mode": "marktplaats-html-scraper",
-  "last_checked": "2026-09-01T21:40:49.137554+00:00",
+  "last_checked": "2026-09-01T21:48:50.382604+00:00",
   "queries_configured": 8,
   "links_fetched": 96,
   "checked_ads": 96,
@@ -10,7 +10,7 @@
   "excluded_results": 0,
   "recognized_unvalued": 0,
   "unpriced_candidates": 0,
-  "total_results": 106,
+  "total_results": 107,
   "total_deals": 1,
   "errors": [],
   "whatsapp_enabled": false
