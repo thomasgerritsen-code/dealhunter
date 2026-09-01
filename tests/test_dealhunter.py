@@ -1,7 +1,8 @@
 from dealhunter.marktplaats import MarktplaatsConnector
 from dealhunter.whatsapp import format_message
-from dealhunter.engine import analyze_deal
+from dealhunter.engine import analyze_deal, identify_product
 from dealhunter.scanner import infer_risk_flags
+from dealhunter.html_scraper import _console_exclusion
 
 
 def test_marktplaats_normalize_cents_and_link():
@@ -36,3 +37,49 @@ def test_whatsapp_message_contains_core_numbers():
     assert "PS5 Disc" in msg
     assert "€200" in msg
     assert "90/100" in msg
+
+
+def test_fallback_recognizes_fluke_model():
+    product, confidence = identify_product("Fluke 805FC Vibration Meter", "", "Meetapparatuur")
+    assert product is not None
+    assert product["brand"] == "Fluke"
+    assert "805FC" in product["model"]
+    assert confidence >= 0.80
+
+
+def test_fallback_recognizes_shure_sm7db():
+    product, confidence = identify_product("Shure SM7dB dynamische vocal microfoon", "", "Audio")
+    assert product is not None
+    assert product["brand"] == "Shure"
+    assert "SM7DB" in product["model"]
+    assert confidence >= 0.80
+
+
+def test_fallback_recognizes_rode_nt1():
+    product, confidence = identify_product("RØDE NT1 5th Gen - amper gebruikt", "", "Audio")
+    assert product is not None
+    assert product["brand"] == "RØDE"
+    assert "NT1" in product["model"]
+    assert confidence >= 0.80
+
+
+def test_fallback_recognizes_steam_deck_lcd():
+    product, confidence = identify_product("Steam Deck 512GB (LCD) + JSAUX Case", "", "Spelcomputers")
+    assert product is not None
+    assert product["brand"] == "Valve"
+    assert "LCD" in product["model"]
+    assert "512GB" in product["model"]
+    assert confidence >= 0.80
+
+
+def test_console_bundle_with_games_is_not_excluded():
+    product, _ = identify_product("Nintendo Switch OLED met 2 games en veel accessoires", "", "Spelcomputers")
+    assert product is not None
+    assert _console_exclusion("Nintendo Switch OLED met 2 games en veel accessoires", product) is None
+
+
+def test_console_accessory_is_excluded():
+    product, _ = identify_product("Verticale standaard voor PS5 Pro", "", "Spelcomputers")
+    assert product is not None
+    reason = _console_exclusion("Verticale standaard voor PS5 Pro", product)
+    assert reason is not None
