@@ -38,7 +38,7 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
       - name: Run recognition tests
-        run: pytest -q
+        run: python -m pytest -q
       - name: Scrape public Marktplaats search pages
         env:
           EBAY_ACCESS_TOKEN: ${{ secrets.EBAY_ACCESS_TOKEN }}
