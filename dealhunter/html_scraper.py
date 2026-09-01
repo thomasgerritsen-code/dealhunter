@@ -41,8 +41,6 @@ BLOCK_MARKERS = (
     "verify you are human",
 )
 
-# Terms that strongly indicate the listing is an accessory/service rather than
-# the console itself. This prevents e.g. a €15 PS5 stand being scored as a PS5.
 CONSOLE_NON_PRODUCT_TERMS = (
     "standaard",
     "pootjes",
@@ -68,10 +66,15 @@ CONSOLE_NON_PRODUCT_TERMS = (
     "camera",
     "media remote",
     "afstandsbediening",
+)
+
+CONSOLE_SERVICE_TERMS = (
     "reparatie",
     "onderhoud service",
     "gezocht",
     "inkoop",
+    "repareren",
+    "ombouwen",
 )
 
 
@@ -115,18 +118,14 @@ def parse_price(text: str) -> float | None:
 
 
 def parse_card_price(card: Tag, card_text: str) -> float | None:
-    """Prefer a dedicated short price element over prices mentioned in ad text."""
     candidates: list[float] = []
     for node in card.find_all(string=PRICE_RE):
         txt = " ".join(str(node).replace("\xa0", " ").split())
-        # A listing price is usually in its own short DOM node. This avoids
-        # picking e.g. 'gratis verzending vanaf €75' from the description.
         if len(txt) <= 32:
             value = parse_price(txt)
             if value is not None:
                 candidates.append(value)
     if candidates:
-        # Repeated values are especially likely to be the actual listing price.
         counts: dict[float, int] = {}
         for value in candidates:
             counts[value] = counts.get(value, 0) + 1
@@ -139,26 +138,49 @@ def _item_id(href: str) -> str | None:
     return m.group(1).lower() if m else None
 
 
+def _console_is_primary(title: str) -> bool:
+    t = " ".join(title.lower().split())
+    starts = (
+        "ps5",
+        "playstation 5",
+        "sony playstation 5",
+        "xbox series x",
+        "xbox series s",
+        "microsoft xbox series",
+        "nintendo switch",
+        "switch oled",
+        "steam deck",
+        "valve steam deck",
+    )
+    return t.startswith(starts) or re.match(r"^(te koop[: -]+)?(ps5|playstation 5|xbox series [xs]|nintendo switch|steam deck)\b", t) is not None
+
+
 def _console_exclusion(title: str, product: dict[str, Any]) -> str | None:
     if product.get("category") != "Spelcomputers":
         return None
     t = " ".join(title.lower().split())
-    for term in CONSOLE_NON_PRODUCT_TERMS:
+
+    for term in CONSOLE_SERVICE_TERMS:
         if term in t:
-            return f"Accessoire/dienst gedetecteerd: {term.strip()}"
+            return f"Dienst/gezocht-advertentie gedetecteerd: {term}"
 
-    # Controllers are accessories unless the wording clearly describes a
-    # console bundle, e.g. 'PS5 met 2 controllers'.
-    if "controller" in t:
-        bundle_wording = any(x in t for x in ("met controller", "met 2 controller", "met twee controller", "+ controller", "incl controller", "inclusief controller"))
-        if not bundle_wording:
-            return "Controller/accessoire in plaats van console"
+    primary = _console_is_primary(title)
 
-    # Pure game listings are not consoles; console bundles with games are kept.
-    if re.search(r"\b(games?|spellen)\b", t):
-        bundle_wording = any(x in t for x in ("met game", "met spel", "+ game", "+ spel", "incl game", "inclusief game"))
-        if not bundle_wording and "console" not in t:
-            return "Game/software in plaats van console"
+    # Accessory words are allowed when the title clearly starts with the
+    # console itself, e.g. 'Steam Deck 512GB + case' or 'PS5 met controller'.
+    if not primary:
+        for term in CONSOLE_NON_PRODUCT_TERMS:
+            if term in t:
+                return f"Accessoire/dienst gedetecteerd: {term.strip()}"
+
+    if "controller" in t and not primary:
+        return "Controller/accessoire in plaats van console"
+
+    # Pure game listings are not consoles, but console bundles containing games
+    # are valid results.
+    if re.search(r"\b(games?|spellen)\b", t) and not primary and "console" not in t:
+        return "Game/software in plaats van console"
+
     return None
 
 
@@ -251,10 +273,11 @@ def run() -> dict[str, Any]:
     checked = 0
     fetched_links = 0
     excluded = 0
+    recognized_unvalued = 0
     ebay = EbayBrowseConnector()
 
     headers = {
-        "User-Agent": "DealHunterPersonalMonitor/0.6 (+https://github.com/thomasgerritsen-code/dealhunter)",
+        "User-Agent": "DealHunterPersonalMonitor/0.7 (+https://github.com/thomasgerritsen-code/dealhunter)",
         "Accept-Language": "nl-NL,nl;q=0.9,en;q=0.5",
         "Accept": "text/html,application/xhtml+xml",
     }
@@ -295,11 +318,26 @@ def run() -> dict[str, Any]:
                     "asking_price": row.asking_price,
                     "promoted": row.promoted,
                     "matched_product": None,
+                    "recognition_confidence": None,
                     "analysis": None,
                     "result_status": "new",
                     "is_deal": False,
                     "exclusion_reason": None,
                 }
+
+                # Recognition happens before price handling, so 'Bieden' ads can
+                # still be classified and shown with a useful product name.
+                product, confidence = identify_product(row.title, "", search.get("category"))
+                if product and confidence >= 0.60:
+                    result["matched_product"] = f"{product['brand']} {product['model']}"
+                    result["recognition_confidence"] = round(confidence * 100)
+                    exclusion = _console_exclusion(row.title, product)
+                    if exclusion:
+                        result["result_status"] = "excluded"
+                        result["exclusion_reason"] = exclusion
+                        new_results.append(result)
+                        excluded += 1
+                        continue
 
                 if row.asking_price is None or row.asking_price <= 0:
                     result["result_status"] = "unpriced"
@@ -308,36 +346,34 @@ def run() -> dict[str, Any]:
                         "id": key,
                         "found_at": now,
                         "title": row.title,
+                        "matched_product": result.get("matched_product"),
                         "url": row.url,
                         "reason": "Geen vaste vraagprijs (bijv. Bieden/Zie omschrijving)",
                     })
                     continue
 
-                # Identify primarily from the title. The long card description can
-                # mention compatible consoles and otherwise create false matches.
-                product, confidence = identify_product(row.title, "", search.get("category"))
                 if not product or confidence < 0.60:
                     result["result_status"] = "unrecognized"
                     new_results.append(result)
                     continue
 
-                result["matched_product"] = f"{product['brand']} {product['model']}"
-                exclusion = _console_exclusion(row.title, product)
-                if exclusion:
-                    result["result_status"] = "excluded"
-                    result["exclusion_reason"] = exclusion
-                    new_results.append(result)
-                    excluded += 1
-                    continue
-
                 matched = result["matched_product"]
+                reference = product.get("reference_value")
                 live_value = None
                 samples = 0
                 try:
                     prices = ebay.active_prices_eur(matched)
-                    live_value, samples = conservative_active_market_value(prices, float(product["reference_value"]))
+                    live_value, samples = conservative_active_market_value(prices, float(reference or 0))
                 except Exception:
                     pass
+
+                # Brand/model can be recognized without inventing a market value.
+                if not live_value and (reference is None or float(reference or 0) <= 0):
+                    result["result_status"] = "recognized_unvalued"
+                    result["valuation_samples"] = samples
+                    new_results.append(result)
+                    recognized_unvalued += 1
+                    continue
 
                 analysis = analyze_deal({
                     "title": row.title,
@@ -352,7 +388,7 @@ def run() -> dict[str, Any]:
                     "manual_market_value": live_value,
                 })
                 analysis["valuation_samples"] = samples
-                analysis["valuation_basis"] = "eBay actieve vraagprijzen + referentie" if live_value else "lokale referentiecatalogus (demo)"
+                analysis["valuation_basis"] = "eBay actieve vraagprijzen" if live_value and not reference else "eBay actieve vraagprijzen + referentie" if live_value else "lokale referentiecatalogus (demo)"
                 is_deal = (
                     analysis["deal_score"] >= min_score
                     and analysis["expected_profit"] >= min_profit
@@ -417,6 +453,7 @@ def run() -> dict[str, Any]:
         "new_results_saved": len(new_results),
         "new_deals": len(new_deals),
         "excluded_results": excluded,
+        "recognized_unvalued": recognized_unvalued,
         "unpriced_candidates": len(new_candidates),
         "total_results": len(results),
         "total_deals": len(deals),
