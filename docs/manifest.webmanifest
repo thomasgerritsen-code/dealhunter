@@ -1,0 +1,19 @@
+{
+  "name": "DealHunter",
+  "short_name": "DealHunter",
+  "description": "Mobiele Marktplaats dealmonitor met Deal Score, winst en ROI.",
+  "start_url": "./#overview",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#080d12",
+  "theme_color": "#080d12",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
