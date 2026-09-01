@@ -1,11 +1,27 @@
-# DealHunter v0.3 — Saved Search Monitor + WhatsApp
+# DealHunter v0.4 — Marktplaats monitor + WhatsApp
 
-DealHunter kan nu op twee manieren werken:
+DealHunter ondersteunt nu drie ingangen:
 
-1. **Saved-search monitor (aanbevolen zonder Marktplaats API)** — Marktplaats of een feed/mailbox levert een melding van een nieuwe advertentie; DealHunter analyseert alleen die nieuwe melding.
-2. **Officiële Marktplaats API** — blijft beschikbaar als handmatige workflow zodra officiële API-toegang is verkregen.
+1. **HTML scraper (experimenteel)** — leest alleen gewone openbare Marktplaats `/q/.../` zoekpagina's, sorteert op nieuwste en analyseert nieuwe advertenties.
+2. **Saved-search monitor** — verwerkt nieuwe meldingen via mailbox/RSS.
+3. **Officiële Marktplaats API** — handmatig beschikbaar zodra API-toegang is verkregen.
 
-De automatische directe API-scan staat bewust niet meer op een schedule.
+## HTML scraper
+De scraper gebruikt geen login, geen persoonsgegevens en geen interne `/lrp/api/search`- of `/lp/api/listings`-endpoint. Hij stopt bij HTTP 403/429 of wanneer een CAPTCHA/blokkade wordt gedetecteerd; er is geen proxyrotatie of blokkade-omzeiling ingebouwd.
+
+De configuratie staat in `config/scraper_searches.json` en is bewust beperkt tot maximaal 96 links per run. Standaard worden 8 gerichte zoekopdrachten gecontroleerd en zit er 2 seconden rust tussen queries.
+
+### Automatisch inschakelen
+Ga naar:
+**Settings → Secrets and variables → Actions → Variables → New repository variable**
+
+Naam:
+`SCRAPER_ENABLED`
+
+Waarde:
+`true`
+
+Daarna draait **DealHunter HTML scraper** ongeveer iedere 10 minuten. Zonder deze variabele blijft de geplande scraper uit. Handmatig testen kan altijd via **Actions → DealHunter HTML scraper → Run workflow**.
 
 ## Categorieën
 - spelcomputers: PS5/PS5 Pro, Xbox Series X/S, Switch/OLED, Steam Deck, New 3DS XL
@@ -13,55 +29,42 @@ De automatische directe API-scan staat bewust niet meer op een schedule.
 - audio / HiFi / studio
 - meet- en testapparatuur
 
-## Aanbevolen saved searches
-Maak de losse zoekopdrachten uit `config/saved_search_terms.json` aan in **Mijn Marktplaats → Zoekopdrachten**. Laat prijsfilters in het begin ruim; DealHunter doet de uiteindelijke margefiltering.
-
-## Automatische bron voor v0.3
-De monitor accepteert twee typen bron. Je hoeft er maar één te configureren.
-
-### A. Mailbox / IMAP
-Handig wanneer nieuwe-zoekresultaatmeldingen per e-mail binnenkomen of daarnaartoe worden doorgestuurd.
-
-Repository secrets:
-- `IMAP_HOST`
-- `IMAP_PORT` (meestal `993`)
-- `IMAP_USERNAME`
-- `IMAP_PASSWORD` (gebruik een app-specifiek wachtwoord indien jouw provider dat vereist; nooit je normale wachtwoord in code zetten)
-- `IMAP_FOLDER` (optioneel, standaard `INBOX`)
-- `IMAP_SENDER_DOMAINS` (optioneel; standaard `marktplaats.nl;em.marktplaats.nl;mail.marktplaats.nl`)
-
-De monitor opent de mailbox read-only en houdt zelf bij welke melding al verwerkt is.
-
-### B. RSS / Atom feed
-Als een zoekmeldingsdienst een RSS/Atom-feed aanbiedt, zet één of meerdere feed-URLs in secret:
-- `DEALHUNTER_RSS_URLS`
-
-Meerdere URLs mogen op aparte regels of gescheiden door `;`.
-
-## Waardering en WhatsApp
-Optionele marktprijsbron:
+## Waardering
+Zonder externe prijsbron gebruikt DealHunter voorlopig lokale referentiewaarden. Optioneel kan actuele eBay-vraagprijsdata worden gebruikt met secret:
 - `EBAY_ACCESS_TOKEN`
 
-WhatsApp via Twilio:
+## WhatsApp via Twilio
+Repository secrets:
 - `TWILIO_ACCOUNT_SID`
 - `TWILIO_AUTH_TOKEN`
 - `TWILIO_FROM`
 - `TWILIO_TO`
 - `TWILIO_CONTENT_SID` (optioneel voor een goedgekeurd production-template)
 
+## Saved-search monitor
+Optionele mailboxbron:
+- `IMAP_HOST`
+- `IMAP_PORT`
+- `IMAP_USERNAME`
+- `IMAP_PASSWORD`
+- `IMAP_FOLDER`
+- `IMAP_SENDER_DOMAINS`
+
+Of RSS/Atom:
+- `DEALHUNTER_RSS_URLS`
+
 ## Workflows
-- **DealHunter saved-search monitor**: automatisch iedere 5 minuten + handmatig starten.
-- **DealHunter API scan (manual)**: alleen handmatig; vereist `MARKTPLAATS_ACCESS_TOKEN`.
+- **DealHunter HTML scraper**: iedere 10 minuten wanneer `SCRAPER_ENABLED=true`, plus handmatig.
+- **DealHunter saved-search monitor**: iedere 5 minuten + handmatig.
+- **DealHunter API scan (manual)**: alleen handmatig.
 
 ## Dashboard
 GitHub Pages: **Settings → Pages → Deploy from a branch → main → /docs**.
 
-## Drempels
-Aanpasbaar in `config/searches.json`:
+## Dealfilter
+`config/searches.json`:
 - Deal Score minimaal 82
 - verwachte winst minimaal €75
 - ROI minimaal 25%
 
-Meldingen waar nog geen betrouwbare prijs uit gehaald kan worden komen in `docs/data/inbox_candidates.json`. Zodra we één echt Marktplaats-alertbericht hebben, kunnen we de parser exact op dat formaat afstellen.
-
-> Let op: lokale cataloguswaarden zijn startwaarden. Koop nooit blind op basis van alleen de Deal Score; controleer staat, verkoper, serienummer en werking altijd zelf.
+> Belangrijk: Marktplaats' huidige voorwaarden beperken het herhaald/systematisch opvragen en hergebruiken van de advertentiedatabase, met een uitzondering voor bepaald persoonlijk gebruik. De scraper is daarom bewust klein en voor persoonlijk experiment opgezet. Controleer de voorwaarden en elke advertentie zelf voordat je koopt.
