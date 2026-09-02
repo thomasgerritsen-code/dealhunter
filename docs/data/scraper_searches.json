@@ -3,19 +3,75 @@
   "max_links_per_run": 98,
   "max_results_per_query": 7,
   "searches": [
-    {"name":"PS5","query":"ps5","category":"Spelcomputers"},
-    {"name":"Switch OLED","query":"nintendo switch oled","category":"Spelcomputers"},
-    {"name":"Steam Deck","query":"steam deck","category":"Spelcomputers"},
-    {"name":"Xbox Series X","query":"xbox series x","category":"Spelcomputers"},
-    {"name":"Festool","query":"festool","category":"Gereedschap"},
-    {"name":"Makita","query":"makita","category":"Gereedschap"},
-    {"name":"Fluke","query":"fluke","category":"Meetapparatuur"},
-    {"name":"Tektronix","query":"tektronix","category":"Meetapparatuur"},
-    {"name":"Shure SM7B","query":"shure sm7b","category":"Audio"},
-    {"name":"Sennheiser MKH","query":"sennheiser mkh","category":"Audio"},
-    {"name":"Vintage JBL","query":"jbl vintage speaker","category":"Audio"},
-    {"name":"Bang & Olufsen","query":"bang olufsen speaker","category":"Audio"},
-    {"name":"Vintage KEF","query":"kef vintage speaker","category":"Audio"},
-    {"name":"Tannoy","query":"tannoy speaker","category":"Audio"}
+    {
+      "name": "PS5",
+      "query": "ps5",
+      "category": "Spelcomputers"
+    },
+    {
+      "name": "Switch OLED",
+      "query": "nintendo switch oled",
+      "category": "Spelcomputers"
+    },
+    {
+      "name": "Steam Deck",
+      "query": "steam deck",
+      "category": "Spelcomputers"
+    },
+    {
+      "name": "Xbox Series X",
+      "query": "xbox series x",
+      "category": "Spelcomputers"
+    },
+    {
+      "name": "Festool",
+      "query": "festool",
+      "category": "Gereedschap"
+    },
+    {
+      "name": "Makita",
+      "query": "makita",
+      "category": "Gereedschap"
+    },
+    {
+      "name": "Fluke",
+      "query": "fluke",
+      "category": "Meetapparatuur"
+    },
+    {
+      "name": "Tektronix",
+      "query": "tektronix",
+      "category": "Meetapparatuur"
+    },
+    {
+      "name": "Shure SM7B",
+      "query": "shure sm7b",
+      "category": "Audio"
+    },
+    {
+      "name": "Sennheiser MKH",
+      "query": "sennheiser mkh",
+      "category": "Audio"
+    },
+    {
+      "name": "Vintage JBL",
+      "query": "jbl vintage speaker",
+      "category": "Audio"
+    },
+    {
+      "name": "Bang & Olufsen",
+      "query": "bang olufsen speaker",
+      "category": "Audio"
+    },
+    {
+      "name": "Vintage KEF",
+      "query": "kef vintage speaker",
+      "category": "Audio"
+    },
+    {
+      "name": "Tannoy",
+      "query": "tannoy speaker",
+      "category": "Audio"
+    }
   ]
 }
