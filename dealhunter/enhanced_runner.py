@@ -48,8 +48,7 @@ def _condition_multiplier(condition: str | None) -> float:
 
 def run() -> dict[str, Any]:
     # Keep the proven Marktplaats pipeline as the primary ingest. This writes
-    # results/profiles/state first and also remains fully usable if every extra
-    # source fails.
+    # results/profiles/state first and remains usable if every extra source fails.
     status = run_marktplaats()
 
     results: list[dict[str, Any]] = read_json(RESULTS, [])
@@ -175,10 +174,10 @@ def run() -> dict[str, Any]:
     if af_observations:
         active_sources.append("Audiofanzine publieke classifieds")
     status["valuation_sources_active"] = active_sources
+    # Extra valuation sources are optional. Their failure must not make the
+    # primary Marktplaats scanner appear broken in the dashboard.
     status["valuation_source_errors"] = source_errors
     status["total_deals"] = len(deals)
-    if source_errors:
-        status["errors"] = list(status.get("errors") or []) + source_errors
 
     write_json(RESULTS, results)
     write_json(DEALS, deals)
