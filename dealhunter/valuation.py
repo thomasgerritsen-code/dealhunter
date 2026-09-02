@@ -7,13 +7,26 @@ from datetime import datetime, timezone
 from typing import Any, Iterable
 
 
+# Asking prices are normally above realized transaction prices.  Keep the
+# conversion deliberately conservative because DealHunter should rather miss a
+# marginal bargain than manufacture one from optimistic seller asks.
 ASK_TO_RESALE = {
-    "Spelcomputers": 0.92,
-    "Gereedschap": 0.90,
-    "Audio": 0.88,
-    "Meetapparatuur": 0.88,
-    "Camera": 0.90,
+    "Spelcomputers": 0.90,
+    "Gereedschap": 0.85,
+    "Audio": 0.82,
+    "Meetapparatuur": 0.82,
+    "Camera": 0.86,
 }
+
+LOW_QUALITY_MARKET_MARKERS = (
+    "online veiling",
+    "bied mee",
+    "veiling loopt af",
+    "startbod",
+    "vanafprijs",
+    "auctim",
+    "auctivo",
+)
 
 
 def _clean_prices(values: Iterable[float]) -> list[float]:
@@ -54,11 +67,25 @@ def robust_prices(values: Iterable[float]) -> list[float]:
     return core if len(core) >= max(3, len(prices) // 2) else prices
 
 
+def _usable_market_sample(row: dict[str, Any]) -> bool:
+    # Topadvertenties are frequently retailers, trade-ins or promoted lead ads.
+    # They remain visible in the dashboard, but they are not allowed to teach
+    # the private-resale price model.
+    if bool(row.get("promoted")):
+        return False
+    if row.get("result_status") == "excluded":
+        return False
+    text = f"{row.get('title', '')} {row.get('description', '')}".lower()
+    if any(marker in text for marker in LOW_QUALITY_MARKET_MARKERS):
+        return False
+    return True
+
+
 def build_market_profiles(results: list[dict[str, Any]]) -> dict[str, dict[str, Any]]:
     grouped: dict[str, list[dict[str, Any]]] = defaultdict(list)
     for row in results:
         model = str(row.get("matched_product") or "").strip()
-        if not model or row.get("result_status") == "excluded":
+        if not model or not _usable_market_sample(row):
             continue
         price = row.get("asking_price")
         try:
@@ -76,12 +103,12 @@ def build_market_profiles(results: list[dict[str, Any]]) -> dict[str, dict[str, 
         if not prices:
             continue
         category = str(rows[0].get("category_hint") or (rows[0].get("analysis") or {}).get("category") or "")
-        factor = ASK_TO_RESALE.get(category, 0.90)
+        factor = ASK_TO_RESALE.get(category, 0.84)
         median_ask = statistics.median(prices)
         low_ask = _quantile(prices, 0.20)
         high_ask = _quantile(prices, 0.80)
         sample_count = len(prices)
-        confidence = min(0.93, 0.45 + sample_count * 0.055)
+        confidence = min(0.91, 0.43 + sample_count * 0.052)
         first_seen = min((str(r.get("found_at") or now) for r in rows), default=now)
         last_seen = max((str(r.get("last_seen_at") or r.get("found_at") or now) for r in rows), default=now)
         profiles[model] = {
@@ -100,7 +127,7 @@ def build_market_profiles(results: list[dict[str, Any]]) -> dict[str, dict[str, 
             "first_seen": first_seen,
             "last_seen": last_seen,
             "updated_at": now,
-            "basis": "Marktplaats actuele vraagprijzen; conservatieve vraagprijs-naar-verkoopcorrectie",
+            "basis": "niet-gepromote Marktplaats-vraagprijzen; veilingen verwijderd; conservatieve verkoopcorrectie",
         }
     return profiles
 
@@ -120,23 +147,25 @@ def choose_market_value(
     highs: list[float] = []
     sample_count = 0
 
-    if profile and int(profile.get("sample_count") or 0) >= 3:
+    profile_samples = int(profile.get("sample_count") or 0) if profile else 0
+    if profile and profile_samples >= 3:
         local = float(profile.get("estimated_resale") or 0)
         if local > 0:
-            confidence = float(profile.get("confidence") or 0.55)
-            weight = 0.62 + min(0.18, max(0, int(profile.get("sample_count") or 0) - 3) * 0.025)
+            weight = 0.70 + min(0.16, max(0, profile_samples - 3) * 0.02)
             estimates.append((local, weight))
             lows.append(float(profile.get("resale_low") or local * 0.85))
             highs.append(float(profile.get("resale_high") or local * 1.15))
-            sample_count += int(profile.get("sample_count") or 0)
-            sources.append(f"Marktplaats profiel ({profile.get('sample_count')} advertenties)")
+            sample_count += profile_samples
+            sources.append(f"Marktplaats profiel ({profile_samples} niet-gepromote advertenties)")
 
     ebay_core = robust_prices(ebay_prices or [])
     if len(ebay_core) >= 5:
-        ebay_med = statistics.median(ebay_core) * 0.88
-        estimates.append((ebay_med, 0.50))
-        lows.append(_quantile(ebay_core, 0.20) * 0.88)
-        highs.append(_quantile(ebay_core, 0.80) * 0.88)
+        # eBay Browse also contains active asks, not sold comps, therefore the
+        # same conservative haircut is applied.
+        ebay_med = statistics.median(ebay_core) * 0.84
+        estimates.append((ebay_med, 0.42))
+        lows.append(_quantile(ebay_core, 0.20) * 0.84)
+        highs.append(_quantile(ebay_core, 0.80) * 0.84)
         sample_count += len(ebay_core)
         sources.append(f"eBay actieve vraagprijzen ({len(ebay_core)})")
 
@@ -145,7 +174,10 @@ def choose_market_value(
     except (TypeError, ValueError):
         ref = 0.0
     if ref > 0:
-        estimates.append((ref, 0.30 if estimates else 1.0))
+        # Once the learned profile has a healthy sample, the old hand-entered
+        # reference is only a weak anchor.
+        ref_weight = 0.16 if profile_samples >= 5 else (0.24 if estimates else 1.0)
+        estimates.append((ref, ref_weight))
         lows.append(ref * 0.88)
         highs.append(ref * 1.12)
         sources.append("lokale referentiecatalogus")
@@ -169,10 +201,9 @@ def choose_market_value(
     if high < value:
         high = value * 1.08
 
-    profile_samples = int(profile.get("sample_count") or 0) if profile else 0
-    confidence = min(0.94, 0.48 + min(0.28, profile_samples * 0.035) + (0.10 if len(ebay_core) >= 5 else 0) + (0.06 if ref > 0 else 0))
+    confidence = min(0.92, 0.46 + min(0.27, profile_samples * 0.033) + (0.09 if len(ebay_core) >= 5 else 0) + (0.05 if ref > 0 else 0))
     if not profile_samples and len(ebay_core) < 5 and ref > 0:
-        confidence = 0.60
+        confidence = 0.58
 
     return {
         "value": round(value, 2),
