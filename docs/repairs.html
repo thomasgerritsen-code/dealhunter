@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#080d12">
+<title>DealHunter · Opknappers</title>
+<link rel="stylesheet" href="./app.css">
+<style>
+body{background:#080d12;color:#e9eef3}.repairShell{max-width:1180px;margin:auto;padding:22px 18px 70px}.repairTop{display:flex;gap:14px;align-items:center;justify-content:space-between;margin-bottom:18px}.repairTop h1{margin:0}.repairTop p{margin:4px 0 0;color:#8f9cab}.repairStats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:18px 0}.rstat,.repairCard,.repairToolbar{background:#101820;border:1px solid #1f2b36;border-radius:16px}.rstat{padding:15px}.rstat small{display:block;color:#8f9cab}.rstat strong{font-size:25px}.repairToolbar{display:grid;grid-template-columns:1fr 190px 190px;gap:10px;padding:12px;margin:12px 0 18px}.repairGrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.repairCard{padding:16px}.rhead{display:flex;justify-content:space-between;gap:12px}.rhead h2{font-size:18px;margin:7px 0}.rbadge{display:inline-flex;padding:4px 9px;border-radius:999px;background:#153829;color:#74e5a5;font-size:12px;font-weight:800}.rbadge.warn{background:#3e3017;color:#ffd36d}.rbadge.bad{background:#3c2025;color:#ff8b98}.rscore{font-size:24px;font-weight:800}.rmodel,.rnote{color:#8f9cab;font-size:13px}.rmetrics{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;margin:14px 0}.rmetric{background:#0b1218;border-radius:11px;padding:9px}.rmetric small{display:block;color:#81909f;font-size:11px}.rmetric b{display:block;margin-top:3px}.issues{margin:10px 0;padding:10px 12px;background:#0b1218;border-radius:10px}.issues b{font-size:12px}.issues div{font-size:13px;margin-top:4px}.warnText{color:#ffbb72}.goodText{color:#75e7a8}.rActions{display:flex;gap:8px;margin-top:12px}.rActions a{flex:1;text-align:center}.empty{padding:32px;text-align:center;color:#8f9cab;background:#101820;border-radius:16px}.input,.select{width:100%}@media(max-width:760px){.repairShell{padding:14px 12px 86px}.repairTop{align-items:flex-start}.repairTop h1{font-size:24px}.repairStats{grid-template-columns:repeat(2,1fr)}.repairToolbar{grid-template-columns:1fr}.repairGrid{grid-template-columns:1fr}.rmetrics{grid-template-columns:repeat(2,1fr)}.desktopBack{display:none}}
+</style>
+</head>
+<body>
+<main class="repairShell">
+  <div class="repairTop">
+    <div><h1>🔧 Opknappers</h1><p>Apparaten met een mogelijk eenvoudig en rendabel defect.</p></div>
+    <a class="btn desktopBack" href="./">← Dashboard</a>
+  </div>
+  <div id="stats" class="repairStats"></div>
+  <div class="repairToolbar">
+    <input id="q" class="input" placeholder="Zoek merk, model of defect…">
+    <select id="classFilter" class="select"><option value="all">Alle klassen</option><option value="makkelijk">Makkelijk</option><option value="redelijk">Redelijk</option><option value="onzeker">Onzeker</option><option value="risicovol">Risicovol</option></select>
+    <select id="sort" class="select"><option value="deal">Beste repair-deal</option><option value="repairability">Makkelijkst te repareren</option><option value="profit">Meeste verwachte winst</option><option value="cost">Laagste reparatiekosten</option><option value="newest">Nieuwste</option></select>
+  </div>
+  <div id="grid" class="repairGrid"></div>
+</main>
+<script>
+let rows=[];
+const euro=n=>n==null||Number.isNaN(Number(n))?'—':new Intl.NumberFormat('nl-NL',{style:'currency',currency:'EUR',maximumFractionDigits:0}).format(Number(n));
+const esc=s=>String(s??'').replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
+const dt=s=>s?new Date(s).toLocaleString('nl-NL',{dateStyle:'short',timeStyle:'short'}):'—';
+function badge(r){const p=r.repair||{};if(p.is_repair_deal)return '<span class="rbadge">REPAIR DEAL</span>';if(p.repair_class==='makkelijk')return '<span class="rbadge">MAKKELIJK</span>';if(p.repair_class==='redelijk')return '<span class="rbadge warn">REDELIJK</span>';return '<span class="rbadge bad">'+esc((p.repair_class||'onzeker').toUpperCase())+'</span>'}
+function card(r){const p=r.repair||{};const issues=(p.likely_issues||[]).join(' · ')||'Defect genoemd, oorzaak nog niet duidelijk';const warnings=(p.warnings||[]).join(' · ');return `<article class="repairCard"><div class="rhead"><div>${badge(r)}<h2>${esc(r.title)}</h2><div class="rmodel">${esc(r.matched_product||r.query||'Niet herkend')} · gevonden ${esc(dt(r.found_at))}</div></div><div class="rscore">${p.repair_deal_score??0}<small>/100</small></div></div><div class="rmetrics"><div class="rmetric"><small>Vraagprijs</small><b>${euro(r.asking_price)}</b></div><div class="rmetric"><small>Reparatie</small><b>${euro(p.estimated_repair_cost_low)}–${euro(p.estimated_repair_cost_high)}</b></div><div class="rmetric"><small>Waarde na herstel</small><b>${euro(p.post_repair_value)}</b></div><div class="rmetric"><small>Verwachte marge</small><b class="${(p.estimated_repair_profit||0)>0?'goodText':''}">${euro(p.estimated_repair_profit)}</b></div></div><div class="issues"><b>Waarschijnlijk defect</b><div>${esc(issues)}</div>${warnings?`<div class="warnText">⚠ ${esc(warnings)}</div>`:''}</div><div class="rnote">Repareerbaarheid ${p.repairability_score??0}/100 · reserve ${euro(p.contingency_reserve)}. Dit is advertentietriage, geen diagnose.</div><div class="rActions"><a class="btn" href="./#results">In dashboard</a>${r.url?`<a class="open" target="_blank" rel="noopener" href="${encodeURI(r.url)}">Marktplaats →</a>`:''}</div></article>`}
+function filtered(){const q=document.querySelector('#q').value.toLowerCase(),cl=document.querySelector('#classFilter').value,sort=document.querySelector('#sort').value;let out=rows.filter(r=>r.repair?.detected);if(q)out=out.filter(r=>[r.title,r.matched_product,...(r.repair?.likely_issues||[]),...(r.repair?.warnings||[])].some(v=>String(v||'').toLowerCase().includes(q)));if(cl!=='all')out=out.filter(r=>r.repair?.repair_class===cl);out=[...out];if(sort==='repairability')out.sort((a,b)=>(b.repair?.repairability_score||0)-(a.repair?.repairability_score||0));else if(sort==='profit')out.sort((a,b)=>(b.repair?.estimated_repair_profit??-99999)-(a.repair?.estimated_repair_profit??-99999));else if(sort==='cost')out.sort((a,b)=>(a.repair?.estimated_repair_cost_mid??99999)-(b.repair?.estimated_repair_cost_mid??99999));else if(sort==='newest')out.sort((a,b)=>String(b.found_at||'').localeCompare(String(a.found_at||'')));else out.sort((a,b)=>(b.repair?.repair_deal_score||0)-(a.repair?.repair_deal_score||0)||((b.repair?.estimated_repair_profit||0)-(a.repair?.estimated_repair_profit||0)));return out}
+function render(){const out=filtered();const deals=rows.filter(r=>r.repair?.is_repair_deal);const easy=rows.filter(r=>r.repair?.detected&&r.repair?.repairability_score>=75);document.querySelector('#stats').innerHTML=`<div class="rstat"><small>Repair-kandidaten</small><strong>${rows.filter(r=>r.repair?.detected).length}</strong></div><div class="rstat"><small>Repair-deals</small><strong>${deals.length}</strong></div><div class="rstat"><small>Makkelijk ≥75</small><strong>${easy.length}</strong></div><div class="rstat"><small>Zichtbaar</small><strong>${out.length}</strong></div>`;document.querySelector('#grid').innerHTML=out.length?out.map(card).join(''):'<div class="empty">Nog geen repair-kandidaten gevonden. De volgende scan zoekt ook gericht op defecte apparaten.</div>'}
+Promise.all([fetch('./data/results.json?'+Date.now()).then(r=>r.json())]).then(([r])=>{rows=r||[];render()}).catch(()=>document.querySelector('#grid').innerHTML='<div class="empty">Kon de resultaten niet laden.</div>');['q','classFilter','sort'].forEach(id=>document.querySelector('#'+id).addEventListener(id==='q'?'input':'change',render));
+</script>
+</body>
+</html>
