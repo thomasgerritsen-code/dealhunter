@@ -13,8 +13,8 @@
     "ask_to_resale_factor": 0.89,
     "confidence": 0.482,
     "first_seen": "2026-09-02T09:15:23.643480+00:00",
-    "last_seen": "2026-09-02T09:52:13.344296+00:00",
-    "updated_at": "2026-09-02T09:52:16.815513+00:00",
+    "last_seen": "2026-09-02T10:00:04.482949+00:00",
+    "updated_at": "2026-09-02T10:00:07.587278+00:00",
     "basis": "niet-gepromote Marktplaats-vraagprijzen; veilingen verwijderd; verkoopcorrectie per categorie"
   },
   "JBL PARTYBOX DEFECT WERKT": {
@@ -31,8 +31,8 @@
     "ask_to_resale_factor": 0.89,
     "confidence": 0.482,
     "first_seen": "2026-09-02T09:15:23.642847+00:00",
-    "last_seen": "2026-09-02T09:52:13.343613+00:00",
-    "updated_at": "2026-09-02T09:52:16.815513+00:00",
+    "last_seen": "2026-09-02T10:00:04.482319+00:00",
+    "updated_at": "2026-09-02T10:00:07.587278+00:00",
     "basis": "niet-gepromote Marktplaats-vraagprijzen; veilingen verwijderd; verkoopcorrectie per categorie"
   },
   "Fluke 345 POWER ANALYSER": {
@@ -49,26 +49,8 @@
     "ask_to_resale_factor": 0.9,
     "confidence": 0.482,
     "first_seen": "2026-09-02T09:15:20.807241+00:00",
-    "last_seen": "2026-09-02T09:52:10.484066+00:00",
-    "updated_at": "2026-09-02T09:52:16.815513+00:00",
-    "basis": "niet-gepromote Marktplaats-vraagprijzen; veilingen verwijderd; verkoopcorrectie per categorie"
-  },
-  "Fluke 51 THERMOMETER": {
-    "model": "Fluke 51 THERMOMETER",
-    "category": "Meetapparatuur",
-    "sample_count": 1,
-    "raw_sample_count": 1,
-    "median_asking": 20.0,
-    "asking_low": 20.0,
-    "asking_high": 20.0,
-    "estimated_resale": 18.0,
-    "resale_low": 18.0,
-    "resale_high": 18.0,
-    "ask_to_resale_factor": 0.9,
-    "confidence": 0.482,
-    "first_seen": "2026-09-02T09:15:20.806694+00:00",
-    "last_seen": "2026-09-02T09:52:10.483485+00:00",
-    "updated_at": "2026-09-02T09:52:16.815513+00:00",
+    "last_seen": "2026-09-02T10:00:01.660437+00:00",
+    "updated_at": "2026-09-02T10:00:07.587278+00:00",
     "basis": "niet-gepromote Marktplaats-vraagprijzen; veilingen verwijderd; verkoopcorrectie per categorie"
   },
   "Valve Steam Deck LCD 512GB": {
@@ -85,8 +67,8 @@
     "ask_to_resale_factor": 0.92,
     "confidence": 0.586,
     "first_seen": "2026-09-01T19:20:02.837880+00:00",
-    "last_seen": "2026-09-02T09:51:29.781647+00:00",
-    "updated_at": "2026-09-02T09:52:16.815513+00:00",
+    "last_seen": "2026-09-02T09:59:21.130733+00:00",
+    "updated_at": "2026-09-02T10:00:07.587278+00:00",
     "basis": "niet-gepromote Marktplaats-vraagprijzen; veilingen verwijderd; verkoopcorrectie per categorie"
   },
   "JBL ON TIME WEKKERRADIO": {
@@ -104,7 +86,7 @@
     "confidence": 0.482,
     "first_seen": "2026-09-02T05:32:09.412887+00:00",
     "last_seen": "2026-09-02T05:32:09.412887+00:00",
-    "updated_at": "2026-09-02T09:52:16.815513+00:00",
+    "updated_at": "2026-09-02T10:00:07.587278+00:00",
     "basis": "niet-gepromote Marktplaats-vraagprijzen; veilingen verwijderd; verkoopcorrectie per categorie"
   },
   "Microsoft Xbox Series X 1TB": {
@@ -121,8 +103,8 @@
     "ask_to_resale_factor": 0.92,
     "confidence": 0.638,
     "first_seen": "2026-09-01T19:20:06.139315+00:00",
-    "last_seen": "2026-09-02T09:51:32.635974+00:00",
-    "updated_at": "2026-09-02T09:52:16.815513+00:00",
+    "last_seen": "2026-09-02T09:59:24.006121+00:00",
+    "updated_at": "2026-09-02T10:00:07.587278+00:00",
     "basis": "niet-gepromote Marktplaats-vraagprijzen; veilingen verwijderd; verkoopcorrectie per categorie"
   },
   "Tannoy EYRIS DC 1": {
@@ -140,7 +122,7 @@
     "confidence": 0.482,
     "first_seen": "2026-09-02T04:51:32.141441+00:00",
     "last_seen": "2026-09-02T08:58:19.635825+00:00",
-    "updated_at": "2026-09-02T09:52:16.815513+00:00",
+    "updated_at": "2026-09-02T10:00:07.587278+00:00",
     "basis": "niet-gepromote Marktplaats-vraagprijzen; veilingen verwijderd; verkoopcorrectie per categorie"
   },
   "Tannoy SRNSYS DCC": {
@@ -158,7 +140,7 @@
     "confidence": 0.482,
     "first_seen": "2026-09-02T04:51:32.140974+00:00",
     "last_seen": "2026-09-02T09:15:12.426759+00:00",
-    "updated_at": "2026-09-02T09:52:16.815513+00:00",
+    "updated_at": "2026-09-02T10:00:07.587278+00:00",
     "basis": "niet-gepromote Marktplaats-vraagprijzen; veilingen verwijderd; verkoopcorrectie per categorie"
   },
   "Tannoy 628": {
@@ -175,8 +157,8 @@
     "ask_to_resale_factor": 0.89,
     "confidence": 0.482,
     "first_seen": "2026-09-02T04:51:32.140716+00:00",
-    "last_seen": "2026-09-02T09:52:01.614168+00:00",
-    "updated_at": "2026-09-02T09:52:16.815513+00:00",
+    "last_seen": "2026-09-02T09:59:53.230518+00:00",
+    "updated_at": "2026-09-02T10:00:07.587278+00:00",
     "basis": "niet-gepromote Marktplaats-vraagprijzen; veilingen verwijderd; verkoopcorrectie per categorie"
   },
   "KEF B110 TYPE SP1003": {
@@ -194,7 +176,7 @@
     "confidence": 0.482,
     "first_seen": "2026-09-02T04:51:28.845450+00:00",
     "last_seen": "2026-09-02T08:58:16.647630+00:00",
-    "updated_at": "2026-09-02T09:52:16.815513+00:00",
+    "updated_at": "2026-09-02T10:00:07.587278+00:00",
     "basis": "niet-gepromote Marktplaats-vraagprijzen; veilingen verwijderd; verkoopcorrectie per categorie"
   },
   "KEF CARLTON 3": {
@@ -212,7 +194,7 @@
     "confidence": 0.482,
     "first_seen": "2026-09-02T04:51:28.845190+00:00",
     "last_seen": "2026-09-02T08:58:16.647378+00:00",
-    "updated_at": "2026-09-02T09:52:16.815513+00:00",
+    "updated_at": "2026-09-02T10:00:07.587278+00:00",
     "basis": "niet-gepromote Marktplaats-vraagprijzen; veilingen verwijderd; verkoopcorrectie per categorie"
   },
   "KEF B139 WOOFER SP1044": {
@@ -229,8 +211,8 @@
     "ask_to_resale_factor": 0.89,
     "confidence": 0.482,
     "first_seen": "2026-09-02T04:51:28.844946+00:00",
-    "last_seen": "2026-09-02T09:51:58.760778+00:00",
-    "updated_at": "2026-09-02T09:52:16.815513+00:00",
+    "last_seen": "2026-09-02T09:59:50.261048+00:00",
+    "updated_at": "2026-09-02T10:00:07.587278+00:00",
     "basis": "niet-gepromote Marktplaats-vraagprijzen; veilingen verwijderd; verkoopcorrectie per categorie"
   },
   "KEF B110 TYPE SP1057": {
@@ -247,8 +229,8 @@
     "ask_to_resale_factor": 0.89,
     "confidence": 0.482,
     "first_seen": "2026-09-02T04:51:28.844665+00:00",
-    "last_seen": "2026-09-02T09:51:58.761132+00:00",
-    "updated_at": "2026-09-02T09:52:16.815513+00:00",
+    "last_seen": "2026-09-02T09:59:50.261367+00:00",
+    "updated_at": "2026-09-02T10:00:07.587278+00:00",
     "basis": "niet-gepromote Marktplaats-vraagprijzen; veilingen verwijderd; verkoopcorrectie per categorie"
   },
   "JBL TLX6 LUIDSPREKERSET": {
@@ -266,7 +248,7 @@
     "confidence": 0.482,
     "first_seen": "2026-09-02T04:51:22.266148+00:00",
     "last_seen": "2026-09-02T08:58:11.380461+00:00",
-    "updated_at": "2026-09-02T09:52:16.815513+00:00",
+    "updated_at": "2026-09-02T10:00:07.587278+00:00",
     "basis": "niet-gepromote Marktplaats-vraagprijzen; veilingen verwijderd; verkoopcorrectie per categorie"
   },
   "JBL AUTHENTICS L16 DRAADLOZE": {
@@ -283,8 +265,8 @@
     "ask_to_resale_factor": 0.89,
     "confidence": 0.482,
     "first_seen": "2026-09-02T04:51:22.265910+00:00",
-    "last_seen": "2026-09-02T09:51:53.340367+00:00",
-    "updated_at": "2026-09-02T09:52:16.815513+00:00",
+    "last_seen": "2026-09-02T09:59:44.696988+00:00",
+    "updated_at": "2026-09-02T10:00:07.587278+00:00",
     "basis": "niet-gepromote Marktplaats-vraagprijzen; veilingen verwijderd; verkoopcorrectie per categorie"
   },
   "JBL LANCER 77": {
@@ -301,8 +283,8 @@
     "ask_to_resale_factor": 0.89,
     "confidence": 0.482,
     "first_seen": "2026-09-02T04:51:22.265146+00:00",
-    "last_seen": "2026-09-02T09:51:53.339983+00:00",
-    "updated_at": "2026-09-02T09:52:16.815513+00:00",
+    "last_seen": "2026-09-02T09:59:44.696636+00:00",
+    "updated_at": "2026-09-02T10:00:07.587278+00:00",
     "basis": "niet-gepromote Marktplaats-vraagprijzen; veilingen verwijderd; verkoopcorrectie per categorie"
   },
   "Sennheiser MKH 416": {
@@ -319,8 +301,8 @@
     "ask_to_resale_factor": 0.89,
     "confidence": 0.69,
     "first_seen": "2026-09-02T04:51:19.073784+00:00",
-    "last_seen": "2026-09-02T09:51:50.394662+00:00",
-    "updated_at": "2026-09-02T09:52:16.815513+00:00",
+    "last_seen": "2026-09-02T09:59:41.888423+00:00",
+    "updated_at": "2026-09-02T10:00:07.587278+00:00",
     "basis": "niet-gepromote Marktplaats-vraagprijzen; veilingen verwijderd; verkoopcorrectie per categorie"
   },
   "Sennheiser MKH 8050": {
@@ -337,8 +319,8 @@
     "ask_to_resale_factor": 0.89,
     "confidence": 0.482,
     "first_seen": "2026-09-02T04:51:19.073462+00:00",
-    "last_seen": "2026-09-02T09:51:50.393323+00:00",
-    "updated_at": "2026-09-02T09:52:16.815513+00:00",
+    "last_seen": "2026-09-02T09:59:41.887170+00:00",
+    "updated_at": "2026-09-02T10:00:07.587278+00:00",
     "basis": "niet-gepromote Marktplaats-vraagprijzen; veilingen verwijderd; verkoopcorrectie per categorie"
   },
   "Tektronix TDS 3012 100": {
@@ -356,7 +338,7 @@
     "confidence": 0.482,
     "first_seen": "2026-09-02T04:51:13.214652+00:00",
     "last_seen": "2026-09-02T08:58:01.719104+00:00",
-    "updated_at": "2026-09-02T09:52:16.815513+00:00",
+    "updated_at": "2026-09-02T10:00:07.587278+00:00",
     "basis": "niet-gepromote Marktplaats-vraagprijzen; veilingen verwijderd; verkoopcorrectie per categorie"
   },
   "Tektronix 2213": {
@@ -374,7 +356,7 @@
     "confidence": 0.482,
     "first_seen": "2026-09-02T04:51:13.214442+00:00",
     "last_seen": "2026-09-02T09:51:44.754556+00:00",
-    "updated_at": "2026-09-02T09:52:16.815513+00:00",
+    "updated_at": "2026-09-02T10:00:07.587278+00:00",
     "basis": "niet-gepromote Marktplaats-vraagprijzen; veilingen verwijderd; verkoopcorrectie per categorie"
   },
   "Tektronix TEKSCOPE THS720P OSCILLOSCOPE": {
@@ -391,8 +373,8 @@
     "ask_to_resale_factor": 0.9,
     "confidence": 0.482,
     "first_seen": "2026-09-02T04:51:13.214223+00:00",
-    "last_seen": "2026-09-02T09:41:40.111232+00:00",
-    "updated_at": "2026-09-02T09:52:16.815513+00:00",
+    "last_seen": "2026-09-02T09:59:36.326829+00:00",
+    "updated_at": "2026-09-02T10:00:07.587278+00:00",
     "basis": "niet-gepromote Marktplaats-vraagprijzen; veilingen verwijderd; verkoopcorrectie per categorie"
   },
   "Tektronix THS710 TEKSCOPE": {
@@ -409,8 +391,8 @@
     "ask_to_resale_factor": 0.9,
     "confidence": 0.482,
     "first_seen": "2026-09-02T04:51:13.214022+00:00",
-    "last_seen": "2026-09-02T09:51:44.754235+00:00",
-    "updated_at": "2026-09-02T09:52:16.815513+00:00",
+    "last_seen": "2026-09-02T09:59:36.326561+00:00",
+    "updated_at": "2026-09-02T10:00:07.587278+00:00",
     "basis": "niet-gepromote Marktplaats-vraagprijzen; veilingen verwijderd; verkoopcorrectie per categorie"
   },
   "Sony LED QLED 80": {
@@ -428,7 +410,7 @@
     "confidence": 0.482,
     "first_seen": "2026-09-02T04:43:46.191151+00:00",
     "last_seen": "2026-09-02T04:43:46.191151+00:00",
-    "updated_at": "2026-09-02T09:52:16.815513+00:00",
+    "updated_at": "2026-09-02T10:00:07.587278+00:00",
     "basis": "niet-gepromote Marktplaats-vraagprijzen; veilingen verwijderd; verkoopcorrectie per categorie"
   },
   "Festool INVALZAAG TS 55": {
@@ -446,7 +428,7 @@
     "confidence": 0.482,
     "first_seen": "2026-09-02T02:36:28.119252+00:00",
     "last_seen": "2026-09-02T02:36:28.119252+00:00",
-    "updated_at": "2026-09-02T09:52:16.815513+00:00",
+    "updated_at": "2026-09-02T10:00:07.587278+00:00",
     "basis": "niet-gepromote Marktplaats-vraagprijzen; veilingen verwijderd; verkoopcorrectie per categorie"
   },
   "Festool INVALZAAG TSC 55": {
@@ -464,7 +446,7 @@
     "confidence": 0.482,
     "first_seen": "2026-09-02T01:32:46.591134+00:00",
     "last_seen": "2026-09-02T01:32:46.591134+00:00",
-    "updated_at": "2026-09-02T09:52:16.815513+00:00",
+    "updated_at": "2026-09-02T10:00:07.587278+00:00",
     "basis": "niet-gepromote Marktplaats-vraagprijzen; veilingen verwijderd; verkoopcorrectie per categorie"
   },
   "Sony LED QLED 55": {
@@ -482,7 +464,7 @@
     "confidence": 0.482,
     "first_seen": "2026-09-02T00:39:39.025110+00:00",
     "last_seen": "2026-09-02T00:39:39.025110+00:00",
-    "updated_at": "2026-09-02T09:52:16.815513+00:00",
+    "updated_at": "2026-09-02T10:00:07.587278+00:00",
     "basis": "niet-gepromote Marktplaats-vraagprijzen; veilingen verwijderd; verkoopcorrectie per categorie"
   },
   "Festool DECOUPEERZAAG 18V CARVEX": {
@@ -500,7 +482,7 @@
     "confidence": 0.482,
     "first_seen": "2026-09-01T21:13:23.362642+00:00",
     "last_seen": "2026-09-01T21:13:23.362642+00:00",
-    "updated_at": "2026-09-02T09:52:16.815513+00:00",
+    "updated_at": "2026-09-02T10:00:07.587278+00:00",
     "basis": "niet-gepromote Marktplaats-vraagprijzen; veilingen verwijderd; verkoopcorrectie per categorie"
   },
   "Sony PlayStation 5 Pro": {
@@ -518,7 +500,7 @@
     "confidence": 0.534,
     "first_seen": "2026-09-01T19:19:56.655229+00:00",
     "last_seen": "2026-09-01T21:13:11.508824+00:00",
-    "updated_at": "2026-09-02T09:52:16.815513+00:00",
+    "updated_at": "2026-09-02T10:00:07.587278+00:00",
     "basis": "niet-gepromote Marktplaats-vraagprijzen; veilingen verwijderd; verkoopcorrectie per categorie"
   },
   "Festool ISC 240 ACCU": {
@@ -536,7 +518,7 @@
     "confidence": 0.482,
     "first_seen": "2026-09-01T19:40:18.039527+00:00",
     "last_seen": "2026-09-01T19:40:18.039527+00:00",
-    "updated_at": "2026-09-02T09:52:16.815513+00:00",
+    "updated_at": "2026-09-02T10:00:07.587278+00:00",
     "basis": "niet-gepromote Marktplaats-vraagprijzen; veilingen verwijderd; verkoopcorrectie per categorie"
   },
   "Shure SM7B": {
@@ -554,7 +536,7 @@
     "confidence": 0.69,
     "first_seen": "2026-09-01T19:20:15.326168+00:00",
     "last_seen": "2026-09-01T19:20:15.326792+00:00",
-    "updated_at": "2026-09-02T09:52:16.815513+00:00",
+    "updated_at": "2026-09-02T10:00:07.587278+00:00",
     "basis": "niet-gepromote Marktplaats-vraagprijzen; veilingen verwijderd; verkoopcorrectie per categorie"
   },
   "RØDE NT1 5TH GEN": {
@@ -572,7 +554,7 @@
     "confidence": 0.482,
     "first_seen": "2026-09-01T19:20:15.326093+00:00",
     "last_seen": "2026-09-02T08:58:04.896457+00:00",
-    "updated_at": "2026-09-02T09:52:16.815513+00:00",
+    "updated_at": "2026-09-02T10:00:07.587278+00:00",
     "basis": "niet-gepromote Marktplaats-vraagprijzen; veilingen verwijderd; verkoopcorrectie per categorie"
   },
   "Fluke I400S STROOMKLEM": {
@@ -590,7 +572,7 @@
     "confidence": 0.482,
     "first_seen": "2026-09-01T19:20:12.426057+00:00",
     "last_seen": "2026-09-02T05:59:19.537250+00:00",
-    "updated_at": "2026-09-02T09:52:16.815513+00:00",
+    "updated_at": "2026-09-02T10:00:07.587278+00:00",
     "basis": "niet-gepromote Marktplaats-vraagprijzen; veilingen verwijderd; verkoopcorrectie per categorie"
   },
   "Microsoft Xbox Series S 512GB": {
@@ -608,7 +590,7 @@
     "confidence": 0.482,
     "first_seen": "2026-09-01T19:20:06.140424+00:00",
     "last_seen": "2026-09-01T19:20:06.140424+00:00",
-    "updated_at": "2026-09-02T09:52:16.815513+00:00",
+    "updated_at": "2026-09-02T10:00:07.587278+00:00",
     "basis": "niet-gepromote Marktplaats-vraagprijzen; veilingen verwijderd; verkoopcorrectie per categorie"
   },
   "Valve Steam Deck OLED 1TB": {
@@ -626,7 +608,7 @@
     "confidence": 0.482,
     "first_seen": "2026-09-01T19:20:02.837512+00:00",
     "last_seen": "2026-09-02T05:42:05.938716+00:00",
-    "updated_at": "2026-09-02T09:52:16.815513+00:00",
+    "updated_at": "2026-09-02T10:00:07.587278+00:00",
     "basis": "niet-gepromote Marktplaats-vraagprijzen; veilingen verwijderd; verkoopcorrectie per categorie"
   },
   "Nintendo Switch OLED": {
@@ -644,7 +626,7 @@
     "confidence": 0.534,
     "first_seen": "2026-09-01T19:20:00.037279+00:00",
     "last_seen": "2026-09-02T07:50:48.653926+00:00",
-    "updated_at": "2026-09-02T09:52:16.815513+00:00",
+    "updated_at": "2026-09-02T10:00:07.587278+00:00",
     "basis": "niet-gepromote Marktplaats-vraagprijzen; veilingen verwijderd; verkoopcorrectie per categorie"
   },
   "Sony PlayStation 5 Disc (original)": {
@@ -662,7 +644,7 @@
     "confidence": 0.482,
     "first_seen": "2026-09-01T19:19:56.654234+00:00",
     "last_seen": "2026-09-01T19:19:56.654234+00:00",
-    "updated_at": "2026-09-02T09:52:16.815513+00:00",
+    "updated_at": "2026-09-02T10:00:07.587278+00:00",
     "basis": "niet-gepromote Marktplaats-vraagprijzen; veilingen verwijderd; verkoopcorrectie per categorie"
   }
 }
