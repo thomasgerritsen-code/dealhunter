@@ -47,7 +47,10 @@ CONSOLE_NON_PRODUCT_TERMS = (
     "media remote", "afstandsbediening",
 )
 CONSOLE_SERVICE_TERMS = ("reparatie", "onderhoud service", "gezocht", "inkoop", "repareren", "ombouwen")
-GENERIC_SERVICE_TERMS = ("gezocht", "inkoop gevraagd", "reparatie service", "repareren wij", "onderhoud service")
+GENERIC_SERVICE_TERMS = (
+    "gezocht", "inkoop gevraagd", "reparatie service", "repareren wij", "onderhoud service",
+    "online veiling", "bied mee", "veiling loopt af", "startbod", "vanafprijs", "auctim", "auctivo",
+)
 
 
 @dataclass
@@ -118,23 +121,32 @@ def _console_is_primary(title: str) -> bool:
     return t.startswith(starts) or re.match(r"^(te koop[: -]+)?(ps5|playstation 5|xbox series [xs]|nintendo switch|steam deck)\b", t) is not None
 
 
-def _exclusion(title: str, product: dict[str, Any]) -> str | None:
+def _exclusion(title: str, product: dict[str, Any], description: str = "") -> str | None:
     t = " ".join(title.lower().split())
+    full = " ".join(f"{title} {description}".lower().split())
     for term in GENERIC_SERVICE_TERMS:
-        if term in t:
-            return f"Dienst/gezocht-advertentie gedetecteerd: {term}"
+        if term in full:
+            label = "Veiling/startprijs" if term in {"online veiling", "bied mee", "veiling loopt af", "startbod", "vanafprijs", "auctim", "auctivo"} else "Dienst/gezocht-advertentie"
+            return f"{label} gedetecteerd: {term}"
     if product.get("category") != "Spelcomputers":
         return None
     for term in CONSOLE_SERVICE_TERMS:
-        if term in t:
+        if term in full:
             return f"Dienst/gezocht-advertentie gedetecteerd: {term}"
+
+    # Controllers often start with the console family name (e.g. 'Microsoft
+    # Xbox Series X & S Controller'), so a title-prefix check alone is unsafe.
+    if "controller" in t:
+        bundle_phrases = ("met controller", "incl controller", "incl. controller", "inclusief controller", "plus controller")
+        console_nouns = ("console", "spelcomputer")
+        if not any(p in t for p in bundle_phrases) and not any(n in t for n in console_nouns):
+            return "Controller/accessoire in plaats van console"
+
     primary = _console_is_primary(title)
     if not primary:
         for term in CONSOLE_NON_PRODUCT_TERMS:
             if term in t:
                 return f"Accessoire/dienst gedetecteerd: {term.strip()}"
-    if "controller" in t and not primary:
-        return "Controller/accessoire in plaats van console"
     if re.search(r"\b(games?|spellen)\b", t) and not primary and "console" not in t:
         return "Game/software in plaats van console"
     return None
@@ -253,7 +265,6 @@ def run() -> dict[str, Any]:
     market_history: dict[str, list[dict[str, Any]]] = read_json(MARKET_HISTORY, {})
 
     new_seen: list[str] = []
-    current_keys: set[str] = set()
     alert_candidate_keys: set[str] = set()
     errors: list[str] = []
     checked = fetched_links = price_changes = price_drops = 0
@@ -285,7 +296,6 @@ def run() -> dict[str, Any]:
             for row in rows:
                 checked += 1
                 key = f"marktplaats-html:{row.id}"
-                current_keys.add(key)
                 now = datetime.now(timezone.utc).isoformat()
                 is_new = key not in seen
                 if is_new:
@@ -302,7 +312,7 @@ def run() -> dict[str, Any]:
 
                 product, confidence = identify_product(row.title, row.description, search.get("category"))
                 matched = f"{product['brand']} {product['model']}" if product and confidence >= 0.60 else None
-                exclusion = _exclusion(row.title, product) if product else None
+                exclusion = _exclusion(row.title, product, row.description) if product else None
                 result: dict[str, Any] = {
                     **previous_result,
                     "id": key,
@@ -319,7 +329,7 @@ def run() -> dict[str, Any]:
                     "price_drop_percent": drop_pct,
                     "promoted": row.promoted,
                     "matched_product": matched,
-                    "recognition_confidence": round(confidence * 100) if matched else round(confidence * 100),
+                    "recognition_confidence": round(confidence * 100),
                     "condition": _condition(row.description),
                     "analysis": previous_result.get("analysis"),
                     "result_status": "new",
@@ -342,10 +352,37 @@ def run() -> dict[str, Any]:
             if idx < len(searches) - 1:
                 time.sleep(delay)
 
-    # Self-learning catalog: build a model profile from all observed asking prices,
-    # then revalue all stored recognized listings. This means old ads can become
-    # interesting later as the market model improves.
+    # First quality pass over ALL saved rows, not only today's search results.
+    # This lets new exclusion rules clean up stale false positives immediately.
     all_results = list(result_map.values())
+    for result in all_results:
+        product, confidence = identify_product(
+            str(result.get("title") or ""),
+            str(result.get("description") or ""),
+            result.get("category_hint"),
+        )
+        if product and confidence >= 0.60:
+            result["matched_product"] = f"{product['brand']} {product['model']}"
+            result["recognition_confidence"] = round(confidence * 100)
+            exclusion = _exclusion(str(result.get("title") or ""), product, str(result.get("description") or ""))
+            if exclusion:
+                result["result_status"] = "excluded"
+                result["analysis"] = None
+                result["is_deal"] = False
+                result["exclusion_reason"] = exclusion
+            elif result.get("result_status") == "excluded":
+                # An older, overly broad rule may have excluded it. Re-open it
+                # only if the current rule set says it is a valid primary item.
+                result["exclusion_reason"] = None
+                result["result_status"] = "recognized_unvalued" if result.get("asking_price") else "unpriced"
+        elif result.get("result_status") != "excluded":
+            result["matched_product"] = None
+            result["analysis"] = None
+            result["is_deal"] = False
+            result["result_status"] = "unrecognized" if result.get("asking_price") else "unpriced"
+
+    # Self-learning catalog: build profiles only AFTER the quality pass. The
+    # valuation module itself also rejects promoted/auction samples.
     profiles = build_market_profiles(all_results)
     market_history = append_profile_history(market_history, profiles)
     ebay = EbayBrowseConnector()
@@ -411,6 +448,7 @@ def run() -> dict[str, Any]:
         result["analysis"] = analysis
         result["result_status"] = "deal" if is_deal else "scored"
         result["is_deal"] = is_deal
+        result["exclusion_reason"] = None
         result["market_profile"] = {
             "sample_count": profiles.get(model, {}).get("sample_count", 0),
             "median_asking": profiles.get(model, {}).get("median_asking"),
@@ -445,7 +483,6 @@ def run() -> dict[str, Any]:
             errors.append(f"WhatsApp '{deal.get('title')}': {type(exc).__name__}: {exc}")
 
     seen.update(new_seen)
-    # Preserve insertion order as much as possible rather than converting the set directly.
     previous_seen = [x for x in state.get("scraper_seen", []) if x in seen]
     combined_seen = previous_seen + [x for x in new_seen if x not in previous_seen]
     state["scraper_seen"] = combined_seen[-5000:]
@@ -464,6 +501,7 @@ def run() -> dict[str, Any]:
     recognized_unvalued_total = sum(1 for r in results if r.get("result_status") == "recognized_unvalued")
     unpriced_total = sum(1 for r in results if r.get("result_status") == "unpriced")
     unrecognized_total = sum(1 for r in results if r.get("result_status") == "unrecognized")
+    excluded_total = sum(1 for r in results if r.get("result_status") == "excluded")
     status = {
         "mode": "marktplaats-html-scraper-v1",
         "last_checked": datetime.now(timezone.utc).isoformat(),
@@ -475,7 +513,8 @@ def run() -> dict[str, Any]:
         "price_changes": price_changes,
         "price_drops": price_drops,
         "new_deals": sum(1 for d in deals if d.get("id") in set(new_seen)),
-        "excluded_results": excluded_run,
+        "excluded_results": excluded_total,
+        "excluded_in_current_scan": excluded_run,
         "recognized_unvalued": recognized_unvalued_total,
         "unpriced_candidates": unpriced_total,
         "unrecognized_results": unrecognized_total,
