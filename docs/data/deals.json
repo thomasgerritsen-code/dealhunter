@@ -1,5 +1,48 @@
 [
   {
+    "id": "marktplaats-html:a1529987679",
+    "found_at": "2026-09-02T00:21:07.717324+00:00",
+    "source": "marktplaats-html",
+    "query": "festool",
+    "category_hint": "Gereedschap",
+    "title": "invalcirkelzaag Festool TS 55 REBQ",
+    "description": "Bewaren in Mijn Favorieten invalcirkelzaag Festool TS 55 REBQ Ontdek deze en 71 gerelateerde items in de online veiling \"gereedschappen\" van auctim. Registreer je gratis op auctim en bied mee. Haast je, want de veiling loopt af op 21.09.2026 13:00. Vol Nieuw Zie omschrijving Vandaag Auctim Heel Nederland Bewaren in Mijn Favorieten invalcirkelzaag Festool TS 55 REBQ Zie omschrijving Ontdek deze en 71 gerelateerde items in de online veiling \"gereedschappen\" van auctim. Registreer je gratis op auctim en bied mee. Haast je, want de veiling loopt af op 21.09.2026 13:00. Vol Nieuw Auctim Heel Nederland Vandaag Bewaren in Mijn Favorieten invalcirkel",
+    "url": "https://www.marktplaats.nl/v/doe-het-zelf-en-verbouw/gereedschap-handgereedschap/a1529987679-invalcirkelzaag-festool-ts-55-rebq",
+    "asking_price": 10.0,
+    "promoted": false,
+    "matched_product": "Festool TS 55 REBQ",
+    "recognition_confidence": 98,
+    "analysis": {
+      "matched_product": "Festool TS 55 REBQ",
+      "category": "Gereedschap",
+      "source": "lokale referentiecatalogus (demo)",
+      "asking_price": 10.0,
+      "expected_resale": 381.3,
+      "market_low": 345.31,
+      "market_high": 417.29,
+      "fees": 0.0,
+      "risk_reserve": 23.24,
+      "travel_cost": 0.0,
+      "expected_profit": 348.06,
+      "roi_percent": 3480.6,
+      "max_buy_price": 289.43,
+      "deal_score": 100,
+      "risk_score": 26,
+      "liquidity_score": 82,
+      "confidence_percent": 98,
+      "verdict": "TOPDEAL",
+      "risk_reasons": [
+        "Vraagprijs is <45% van geschatte waarde: extra fraude-/defectcheck"
+      ],
+      "note": "Referentiewaarden in v0.1 zijn demo-startwaarden en nog geen live gerealiseerde verkoopprijzen.",
+      "valuation_samples": 0,
+      "valuation_basis": "lokale referentiecatalogus (demo)"
+    },
+    "result_status": "deal",
+    "is_deal": true,
+    "exclusion_reason": null
+  },
+  {
     "id": "marktplaats-html:a1530454046",
     "found_at": "2026-09-01T19:20:06.140833+00:00",
     "source": "marktplaats-html",
