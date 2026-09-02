@@ -588,5 +588,15 @@
       "asking_low": 10.0,
       "asking_high": 10.0
     }
+  ],
+  "JBL ON TIME WEKKERRADIO": [
+    {
+      "at": "2026-09-02T05:32:17.715021+00:00",
+      "sample_count": 1,
+      "median_asking": 15.0,
+      "estimated_resale": 13.35,
+      "asking_low": 15.0,
+      "asking_high": 15.0
+    }
   ]
 }
