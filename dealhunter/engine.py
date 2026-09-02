@@ -11,6 +11,7 @@ CATALOG = json.loads((BASE / "catalog.json").read_text(encoding="utf-8"))
 
 CONDITION_MULTIPLIERS = {
     "nieuw": 1.07,
+    "zo goed als nieuw": 1.02,
     "zeer goed": 1.00,
     "goed": 0.93,
     "redelijk": 0.82,
@@ -32,9 +33,16 @@ RISK_FLAGS = {
     "oude_elektronica": (8, 35, "Oudere elektronica: extra defectrisico"),
 }
 
+GENERIC_MODEL_STOP = {
+    "nieuw", "nette", "staat", "te", "koop", "aangeboden", "met", "incl", "inclusief",
+    "microfoon", "speaker", "speakers", "versterker", "receiver", "multimeter", "oscilloscoop",
+    "zaag", "machine", "camera", "body", "lens", "set", "complete", "compleet", "voor",
+    "black", "white", "zwart", "wit", "silver", "zilver", "rood", "blauw", "vintage",
+}
+
 
 def _norm(text: str) -> str:
-    text = text.lower().replace("ø", "o")
+    text = text.lower().replace("ø", "o").replace("&", " and ")
     text = unicodedata.normalize("NFKD", text).encode("ascii", "ignore").decode("ascii")
     text = re.sub(r"[^a-z0-9]+", " ", text)
     return re.sub(r"\s+", " ", text).strip()
@@ -44,7 +52,7 @@ def _recognition_only(category: str, brand: str, model: str, confidence: float =
     return ({
         "category": category,
         "brand": brand,
-        "model": model,
+        "model": model.strip(),
         "aliases": [],
         "reference_value": None,
         "liquidity": 55,
@@ -54,12 +62,35 @@ def _recognition_only(category: str, brand: str, model: str, confidence: float =
 
 
 def _capacity(text: str) -> str | None:
-    m = re.search(r"\b(128|256|512)\s*gb\b", text)
+    m = re.search(r"\b(64|128|256|512)\s*gb\b", text)
     if m:
         return f"{m.group(1)}GB"
-    m = re.search(r"\b([12])\s*tb\b", text)
+    m = re.search(r"\b([1248])\s*tb\b", text)
     if m:
         return f"{m.group(1)}TB"
+    return None
+
+
+def _model_after_brand(tokens: list[str], brand_tokens: tuple[str, ...], max_tokens: int = 3) -> str | None:
+    n = len(brand_tokens)
+    for i in range(0, len(tokens) - n + 1):
+        if tuple(tokens[i:i + n]) != brand_tokens:
+            continue
+        out: list[str] = []
+        for token in tokens[i + n:i + n + 6]:
+            if token in GENERIC_MODEL_STOP:
+                if out:
+                    break
+                continue
+            if len(token) == 1 and not token.isdigit():
+                continue
+            useful = any(c.isdigit() for c in token) or any(c.isalpha() for c in token)
+            if useful:
+                out.append(token)
+            if len(out) >= max_tokens:
+                break
+        if out:
+            return " ".join(out).upper()
     return None
 
 
@@ -72,103 +103,72 @@ def _fallback_identify(title: str, category: str | None) -> tuple[dict[str, Any]
             cap = _capacity(t)
             panel = "OLED" if " oled" in f" {t}" else "LCD" if " lcd" in f" {t}" else None
             suffix = " ".join(x for x in (panel, cap) if x)
-            return _recognition_only("Spelcomputers", "Valve", f"Steam Deck {suffix}".strip(), 0.90)
-
+            return _recognition_only("Spelcomputers", "Valve", f"Steam Deck {suffix}".strip(), 0.92)
         if "nintendo switch" in t or t.startswith("switch "):
-            if " oled" in f" {t}":
-                model = "Switch OLED"
-            elif " lite" in f" {t}":
-                model = "Switch Lite"
-            elif re.search(r"\b(v2|2019)\b", t):
-                model = "Switch V2"
-            elif re.search(r"\b(v1|2017)\b", t):
-                model = "Switch V1"
-            else:
-                model = "Switch (variant onbekend)"
-            return _recognition_only("Spelcomputers", "Nintendo", model, 0.86)
-
+            if " oled" in f" {t}": model = "Switch OLED"
+            elif " lite" in f" {t}": model = "Switch Lite"
+            elif re.search(r"\b(v2|2019)\b", t): model = "Switch V2"
+            elif re.search(r"\b(v1|2017)\b", t): model = "Switch V1"
+            else: model = "Switch (variant onbekend)"
+            return _recognition_only("Spelcomputers", "Nintendo", model, 0.88)
         if re.search(r"\b(ps5|playstation 5)\b", t):
-            if " pro" in f" {t}":
-                model = "PlayStation 5 Pro"
-            elif " slim" in f" {t}" and " digital" in f" {t}":
-                model = "PlayStation 5 Digital Slim"
-            elif " slim" in f" {t}" and re.search(r"\b(disc|disk)\b", t):
-                model = "PlayStation 5 Disc Slim"
-            elif " slim" in f" {t}":
-                model = "PlayStation 5 Slim (variant onbekend)"
-            elif " digital" in f" {t}":
-                model = "PlayStation 5 Digital"
-            elif re.search(r"\b(disc|disk)\b", t):
-                model = "PlayStation 5 Disc"
-            else:
-                model = "PlayStation 5 (variant onbekend)"
-            return _recognition_only("Spelcomputers", "Sony", model, 0.86)
-
+            if " pro" in f" {t}": model = "PlayStation 5 Pro"
+            elif " slim" in f" {t}" and " digital" in f" {t}": model = "PlayStation 5 Digital Slim"
+            elif " slim" in f" {t}" and re.search(r"\b(disc|disk)\b", t): model = "PlayStation 5 Disc Slim"
+            elif " slim" in f" {t}": model = "PlayStation 5 Slim (variant onbekend)"
+            elif " digital" in f" {t}": model = "PlayStation 5 Digital"
+            elif re.search(r"\b(disc|disk)\b", t): model = "PlayStation 5 Disc"
+            else: model = "PlayStation 5 (variant onbekend)"
+            return _recognition_only("Spelcomputers", "Sony", model, 0.88)
         if "playstation 4 pro" in t or re.search(r"\bps4 pro\b", t):
             return _recognition_only("Spelcomputers", "Sony", "PlayStation 4 Pro", 0.88)
-
         if "xbox series x" in t:
-            cap = _capacity(t)
-            return _recognition_only("Spelcomputers", "Microsoft", f"Xbox Series X {cap or ''}".strip(), 0.90)
+            return _recognition_only("Spelcomputers", "Microsoft", f"Xbox Series X {_capacity(t) or ''}".strip(), 0.92)
         if "xbox series s" in t:
-            cap = _capacity(t)
-            return _recognition_only("Spelcomputers", "Microsoft", f"Xbox Series S {cap or ''}".strip(), 0.90)
+            return _recognition_only("Spelcomputers", "Microsoft", f"Xbox Series S {_capacity(t) or ''}".strip(), 0.92)
 
-    if category in (None, "Audio"):
-        if "shure" in tokens:
-            i = tokens.index("shure") + 1
-            after = tokens[i:i + 5]
-            for j, tok in enumerate(after):
-                if any(ch.isdigit() for ch in tok):
-                    start = max(0, j - 1) if j > 0 and after[j - 1] in {"sm", "mv", "beta"} else j
-                    model_tokens = after[start:j + 1]
-                    if j + 1 < len(after) and after[j + 1] in {"db", "a", "x", "ii"}:
-                        model_tokens.append(after[j + 1])
-                    model = "".join(model_tokens).upper()
-                    return _recognition_only("Audio", "Shure", model, 0.88)
+    brand_sets: dict[str, list[tuple[tuple[str, ...], str, str]]] = {
+        "Audio": [
+            (("shure",), "Shure", "Audio"), (("rode",), "RØDE", "Audio"),
+            (("sennheiser",), "Sennheiser", "Audio"), (("jbl",), "JBL", "Audio"),
+            (("kef",), "KEF", "Audio"), (("tannoy",), "Tannoy", "Audio"),
+            (("klipsch",), "Klipsch", "Audio"), (("bang", "olufsen"), "Bang & Olufsen", "Audio"),
+            (("b", "o"), "Bang & Olufsen", "Audio"), (("marantz",), "Marantz", "Audio"),
+            (("denon",), "Denon", "Audio"), (("pioneer",), "Pioneer", "Audio"),
+            (("technics",), "Technics", "Audio"), (("yamaha",), "Yamaha", "Audio"),
+            (("dynaudio",), "Dynaudio", "Audio"), (("focal",), "Focal", "Audio"),
+            (("bowers", "wilkins"), "Bowers & Wilkins", "Audio"),
+        ],
+        "Meetapparatuur": [
+            (("fluke", "networks"), "Fluke Networks", "Meetapparatuur"), (("fluke",), "Fluke", "Meetapparatuur"),
+            (("tektronix",), "Tektronix", "Meetapparatuur"), (("keysight",), "Keysight", "Meetapparatuur"),
+            (("agilent",), "Agilent", "Meetapparatuur"), (("rigol",), "Rigol", "Meetapparatuur"),
+            (("siglent",), "Siglent", "Meetapparatuur"), (("hameg",), "Hameg", "Meetapparatuur"),
+            (("rohde", "schwarz"), "Rohde & Schwarz", "Meetapparatuur"),
+        ],
+        "Gereedschap": [
+            (("festool",), "Festool", "Gereedschap"), (("makita",), "Makita", "Gereedschap"),
+            (("mafell",), "Mafell", "Gereedschap"), (("milwaukee",), "Milwaukee", "Gereedschap"),
+            (("dewalt",), "DeWalt", "Gereedschap"), (("metabo",), "Metabo", "Gereedschap"),
+            (("hilti",), "Hilti", "Gereedschap"), (("bosch", "professional"), "Bosch Professional", "Gereedschap"),
+        ],
+        "Camera": [
+            (("sony",), "Sony", "Camera"), (("canon",), "Canon", "Camera"),
+            (("nikon",), "Nikon", "Camera"), (("fujifilm",), "Fujifilm", "Camera"), (("leica",), "Leica", "Camera"),
+        ],
+    }
 
-        if "rode" in tokens:
-            i = tokens.index("rode") + 1
-            after = tokens[i:i + 4]
-            if after:
-                take = [after[0]]
-                if len(after) > 1 and (any(ch.isdigit() for ch in after[1]) or after[1] in {"pro", "ii", "5th"}):
-                    take.append(after[1])
-                if len(after) > 2 and after[2] in {"gen", "generation", "ii"}:
-                    take.append(after[2])
-                return _recognition_only("Audio", "RØDE", " ".join(take).upper(), 0.84)
-
-    if category in (None, "Meetapparatuur") and "fluke" in tokens:
-        i = tokens.index("fluke") + 1
-        brand = "Fluke"
-        if i < len(tokens) and tokens[i] == "networks":
-            brand = "Fluke Networks"
-            i += 1
-        window = tokens[i:i + 6]
-        for j, tok in enumerate(window):
-            if any(ch.isdigit() for ch in tok):
-                model_tokens = [tok]
-                if j + 1 < len(window) and (window[j + 1] in {"fc", "sm", "ii", "iii", "iv"} or window[j + 1].isdigit()):
-                    model_tokens.append(window[j + 1])
-                return _recognition_only("Meetapparatuur", brand, " ".join(model_tokens).upper(), 0.86)
-
-    if category in (None, "Gereedschap"):
-        if "festool" in tokens:
-            i = tokens.index("festool") + 1
-            window = tokens[i:i + 7]
-            for j, tok in enumerate(window):
-                if any(ch.isdigit() for ch in tok):
-                    start = max(0, j - 1)
-                    model_tokens = window[start:j + 1]
-                    if j + 1 < len(window) and len(window[j + 1]) <= 6 and window[j + 1] not in {"w", "watt", "nieuw", "nette", "staat"}:
-                        model_tokens.append(window[j + 1])
-                    return _recognition_only("Gereedschap", "Festool", " ".join(model_tokens).upper(), 0.82)
-
-        if "makita" in tokens:
-            i = tokens.index("makita") + 1
-            for tok in tokens[i:i + 5]:
-                if any(ch.isdigit() for ch in tok) and any(ch.isalpha() for ch in tok):
-                    return _recognition_only("Gereedschap", "Makita", tok.upper(), 0.84)
+    categories = [category] if category in brand_sets else list(brand_sets)
+    for cat in categories:
+        for brand_tokens, display_brand, display_cat in brand_sets.get(cat, []):
+            model = _model_after_brand(tokens, brand_tokens, max_tokens=3)
+            if not model:
+                continue
+            # Require at least one model-like token for generic brands such as Sony/Yamaha.
+            if not any(c.isdigit() for c in model) and len(model.split()) < 2:
+                continue
+            confidence = 0.88 if any(c.isdigit() for c in model) else 0.78
+            return _recognition_only(display_cat, display_brand, model, confidence)
 
     return None, 0.0
 
@@ -196,9 +196,6 @@ def identify_product(title: str, description: str = "", category: str | None = N
                 best_score = score
                 best = item
 
-    # A strong curated catalog hit wins. For weaker partial hits, try the
-    # structured brand/model fallback first so 'Fluke 805FC' is not mistaken
-    # for another Fluke simply because the brand overlaps.
     if best is not None and best_score >= 0.60:
         return best, round(best_score, 2)
 
@@ -215,6 +212,10 @@ def clamp(value: float, lo: float, hi: float) -> float:
     return max(lo, min(hi, value))
 
 
+def _money(value: float) -> float:
+    return round(max(0.0, value), 2)
+
+
 def analyze_deal(payload: dict[str, Any]) -> dict[str, Any]:
     title = str(payload.get("title", ""))
     description = str(payload.get("description", ""))
@@ -225,18 +226,25 @@ def analyze_deal(payload: dict[str, Any]) -> dict[str, Any]:
     condition = str(payload.get("condition") or "goed").lower()
     fee_rate = float(payload.get("selling_fee_rate") or 0.0)
     flags = list(payload.get("risk_flags") or [])
-    manual_value = payload.get("manual_market_value")
 
     item, id_conf = identify_product(title, description, category)
     reference_value = item.get("reference_value") if item else None
 
-    if manual_value is not None and float(manual_value) > 0:
-        base_value = float(manual_value)
-        source = "handmatige marktwaarde"
-        id_conf = max(id_conf, 0.82)
+    supplied_market = payload.get("market_value")
+    if supplied_market is None:
+        supplied_market = payload.get("manual_market_value")
+    market_conf = float(payload.get("market_confidence") or 0.0)
+    valuation_basis = str(payload.get("valuation_basis") or "")
+    valuation_samples = int(payload.get("valuation_samples") or 0)
+
+    if supplied_market is not None and float(supplied_market) > 0:
+        base_value = float(supplied_market)
+        source = valuation_basis or "geleerde marktwaardering"
+        id_conf = max(id_conf, 0.75)
     elif item and reference_value is not None and float(reference_value) > 0:
         base_value = float(reference_value)
-        source = "lokale referentiecatalogus (demo)"
+        source = "lokale referentiecatalogus"
+        market_conf = max(market_conf, 0.55)
     elif item:
         base_value = 0.0
         source = "product herkend; marktwaarde nog onbekend"
@@ -267,55 +275,97 @@ def analyze_deal(payload: dict[str, Any]) -> dict[str, Any]:
     acquisition = asking + travel
     profit = expected_resale - acquisition - fees - risk_reserve
     roi = (profit / acquisition * 100) if acquisition > 0 else 0.0
+    discount = ((expected_resale - asking) / expected_resale * 100) if expected_resale > 0 else 0.0
 
-    liquidity = float(item.get("liquidity", 50) if item else 45)
+    liquidity = float(item.get("liquidity", 55) if item else 50)
     confidence = id_conf
-    if manual_value is not None and float(manual_value) > 0:
-        confidence = max(confidence, 0.82)
-    if not item and not manual_value:
+    if market_conf > 0:
+        confidence = clamp(id_conf * 0.48 + market_conf * 0.52, 0, 0.98)
+    if not item and not supplied_market:
         confidence = min(confidence, 0.30)
 
-    profit_points = clamp(profit / 250 * 30, 0, 30)
-    roi_points = clamp(roi / 80 * 25, 0, 25)
-    liquidity_points = liquidity / 100 * 18
-    confidence_points = confidence * 17
-    risk_penalty = risk_score / 100 * 22
-    deal_score = clamp(profit_points + roi_points + liquidity_points + confidence_points - risk_penalty + 20, 0, 100)
+    discount_points = clamp(discount / 45 * 28, 0, 28)
+    profit_points = clamp(profit / 250 * 24, 0, 24)
+    roi_points = clamp(roi / 80 * 18, 0, 18)
+    liquidity_points = liquidity / 100 * 12
+    confidence_points = confidence * 18
+    risk_penalty = risk_score / 100 * 20
+    deal_score = clamp(18 + discount_points + profit_points + roi_points + liquidity_points + confidence_points - risk_penalty, 0, 100)
 
-    spread = 0.07 + (1 - confidence) * 0.18 + risk_score / 100 * 0.08
-    low = expected_resale * (1 - spread)
-    high = expected_resale * (1 + spread)
+    supplied_low = payload.get("market_low")
+    supplied_high = payload.get("market_high")
+    if supplied_low and float(supplied_low) > 0:
+        low = float(supplied_low) * multiplier
+    else:
+        spread = 0.08 + (1 - confidence) * 0.18 + risk_score / 100 * 0.08
+        low = expected_resale * (1 - spread)
+    if supplied_high and float(supplied_high) > 0:
+        high = float(supplied_high) * multiplier
+    else:
+        spread = 0.08 + (1 - confidence) * 0.18 + risk_score / 100 * 0.08
+        high = expected_resale * (1 + spread)
 
-    if deal_score >= 85 and profit >= 80 and roi >= 30:
+    if deal_score >= 88 and profit >= 90 and roi >= 30:
         verdict = "TOPDEAL"
-    elif deal_score >= 70 and profit >= 50 and roi >= 20:
+        recommendation = "ZEER INTERESSANT"
+    elif deal_score >= 76 and profit >= 60 and roi >= 22:
         verdict = "INTERESSANT"
-    elif profit > 0:
+        recommendation = "INTERESSANT"
+    elif profit > 0 and deal_score >= 58:
         verdict = "MOGELIJK"
+        recommendation = "VERDER CONTROLEREN"
     else:
         verdict = "OVERSLAAN"
+        recommendation = "NIET INTERESSANT"
 
-    max_buy = max(0.0, expected_resale - fees - risk_reserve - max(60, expected_resale * 0.18))
+    required_margin = max(60.0, expected_resale * 0.18)
+    max_buy = max(0.0, expected_resale - fees - risk_reserve - required_margin)
+    if asking > 0 and max_buy > 0:
+        target = min(max_buy * 0.92, asking * 0.93)
+        opening = min(target * 0.88, asking * 0.82)
+        # Avoid silly bids when the asking price is already well below the target.
+        if asking <= max_buy * 0.82:
+            target = min(max_buy, asking)
+            opening = asking * 0.92
+    else:
+        target = max_buy * 0.92
+        opening = target * 0.85
 
     return {
         "matched_product": f'{item["brand"]} {item["model"]}' if item else None,
         "category": item["category"] if item else category,
         "source": source,
+        "valuation_basis": source,
+        "valuation_samples": valuation_samples,
         "asking_price": round(asking, 2),
         "expected_resale": round(expected_resale, 2),
-        "market_low": round(low, 2),
-        "market_high": round(high, 2),
+        "market_low": round(max(0.0, low), 2),
+        "market_high": round(max(0.0, high), 2),
         "fees": round(fees, 2),
         "risk_reserve": round(risk_reserve, 2),
         "travel_cost": round(travel, 2),
         "expected_profit": round(profit, 2),
         "roi_percent": round(roi, 1),
-        "max_buy_price": round(max_buy, 2),
+        "discount_percent": round(discount, 1),
+        "opening_bid": _money(opening),
+        "target_buy_price": _money(target),
+        "max_buy_price": _money(max_buy),
         "deal_score": round(deal_score),
         "risk_score": round(risk_score),
         "liquidity_score": round(liquidity),
         "confidence_percent": round(confidence * 100),
+        "recognition_confidence_percent": round(id_conf * 100),
+        "market_confidence_percent": round(market_conf * 100),
         "verdict": verdict,
+        "recommendation": recommendation,
         "risk_reasons": risk_reasons,
-        "note": "Referentiewaarden in v0.1 zijn demo-startwaarden en nog geen live gerealiseerde verkoopprijzen." if source.startswith("lokale") else ""
+        "score_breakdown": {
+            "discount": round(discount_points, 1),
+            "profit": round(profit_points, 1),
+            "roi": round(roi_points, 1),
+            "liquidity": round(liquidity_points, 1),
+            "confidence": round(confidence_points, 1),
+            "risk_penalty": round(risk_penalty, 1),
+        },
+        "note": "Marktwaardes op basis van vraagprijzen zijn schattingen, geen gegarandeerde gerealiseerde verkoopprijzen.",
     }
