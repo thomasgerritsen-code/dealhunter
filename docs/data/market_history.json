@@ -638,5 +638,15 @@
       "asking_low": 75.0,
       "asking_high": 75.0
     }
+  ],
+  "JBL TR125": [
+    {
+      "at": "2026-09-02T18:51:21.344693+00:00",
+      "sample_count": 1,
+      "median_asking": 150.0,
+      "estimated_resale": 133.5,
+      "asking_low": 150.0,
+      "asking_high": 150.0
+    }
   ]
 }
