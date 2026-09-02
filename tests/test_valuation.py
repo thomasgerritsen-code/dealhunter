@@ -11,6 +11,9 @@ def rows(model, prices, category="Audio"):
             "category_hint": category,
             "asking_price": price,
             "result_status": "scored",
+            "promoted": False,
+            "title": model,
+            "description": "particuliere advertentie",
         }
         for i, price in enumerate(prices)
     ]
@@ -45,3 +48,23 @@ def test_profile_history_keeps_model_points():
     history = append_profile_history({}, profiles)
     assert "KEF 104/2" in history
     assert len(history["KEF 104/2"]) == 1
+
+
+def test_promoted_listing_does_not_teach_market_value():
+    data = rows("Shure SM7B", [220, 230, 240])
+    promoted = rows("Shure SM7B", [600])[0]
+    promoted["id"] = "promo"
+    promoted["promoted"] = True
+    profile = build_market_profiles(data + [promoted])["Shure SM7B"]
+    assert profile["sample_count"] == 3
+    assert profile["median_asking"] == 230
+
+
+def test_auction_start_price_does_not_teach_market_value():
+    data = rows("Festool TS 55 REBQ", [300, 330, 350], "Gereedschap")
+    auction = rows("Festool TS 55 REBQ", [10], "Gereedschap")[0]
+    auction["id"] = "auction"
+    auction["description"] = "Online veiling van Auctim; bied mee vanaf 10 euro"
+    profile = build_market_profiles(data + [auction])["Festool TS 55 REBQ"]
+    assert profile["sample_count"] == 3
+    assert profile["median_asking"] == 330
