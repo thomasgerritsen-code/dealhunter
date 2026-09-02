@@ -68,3 +68,21 @@ def test_auction_start_price_does_not_teach_market_value():
     profile = build_market_profiles(data + [auction])["Festool TS 55 REBQ"]
     assert profile["sample_count"] == 3
     assert profile["median_asking"] == 330
+
+
+def test_audiofanzine_can_strengthen_audio_valuation():
+    profile = build_market_profiles(rows("Shure SM7B", [300, 310, 320, 330]))["Shure SM7B"]
+    v = choose_market_value(
+        model="Shure SM7B",
+        category="Audio",
+        profile=profile,
+        ebay_prices=[],
+        audiofanzine_prices=[295, 305, 315, 325],
+        reference_value=285,
+    )
+    assert v["value"] is not None
+    assert "Audiofanzine classifieds" in v["basis"]
+    assert v["source_agreement"] is not None
+    assert v["source_agreement"] > 0.7
+    assert len(v["source_estimates"]) >= 3
+    assert v["quick_sale"] < v["optimistic"]
