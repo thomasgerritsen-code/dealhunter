@@ -9,12 +9,14 @@ from .ebay import EbayBrowseConnector
 from .engine import CONDITION_MULTIPLIERS, analyze_deal, identify_product
 from .html_scraper import run as run_marktplaats
 from .public_sources import AudiofanzinePublicConnector
+from .repairability import classify_repair_candidate
 from .scanner import infer_risk_flags
 from .valuation import choose_market_value
 
 ROOT = Path(__file__).resolve().parents[1]
 RESULTS = ROOT / "docs" / "data" / "results.json"
 DEALS = ROOT / "docs" / "data" / "deals.json"
+REPAIR_DEALS = ROOT / "docs" / "data" / "repair_deals.json"
 STATUS = ROOT / "docs" / "data" / "status.json"
 PROFILES = ROOT / "docs" / "data" / "model_profiles.json"
 MAIN_CFG = ROOT / "config" / "searches.json"
@@ -155,15 +157,42 @@ def run() -> dict[str, Any]:
         if analysis["multi_source"]:
             multi_source += 1
 
+    # Repair-deal pass over every result. This is deliberately separate from
+    # the normal Deal Score: a broken device can be a good repair opportunity
+    # even when its as-is valuation looks unattractive.
+    repair_candidates = 0
+    repair_deal_count = 0
+    for result in results:
+        if result.get("result_status") == "excluded":
+            result["repair"] = {"detected": False}
+            result["is_repair_deal"] = False
+            continue
+        repair = classify_repair_candidate(result)
+        result["repair"] = repair
+        result["is_repair_deal"] = bool(repair.get("is_repair_deal"))
+        if repair.get("detected"):
+            repair_candidates += 1
+        if result["is_repair_deal"]:
+            repair_deal_count += 1
+
     results = sorted(results, key=lambda r: r.get("found_at", ""), reverse=True)[:2000]
     deals = sorted(
         [r for r in results if r.get("is_deal")],
         key=lambda r: ((r.get("analysis") or {}).get("deal_score", 0), r.get("found_at", "")),
         reverse=True,
     )[:250]
+    repair_deals = sorted(
+        [r for r in results if r.get("is_repair_deal")],
+        key=lambda r: (
+            (r.get("repair") or {}).get("repair_deal_score", 0),
+            (r.get("repair") or {}).get("estimated_repair_profit", 0),
+            r.get("found_at", ""),
+        ),
+        reverse=True,
+    )[:250]
 
     status = read_json(STATUS, status)
-    status["mode"] = "marktplaats-html-scraper-v1.1-multisource"
+    status["mode"] = "marktplaats-html-scraper-v1.2-repair-hunter"
     status["audiofanzine_observations"] = len(af_observations)
     status["audiofanzine_models_matched"] = len(af_prices)
     status["multi_source_revalued"] = revalued
@@ -174,13 +203,14 @@ def run() -> dict[str, Any]:
     if af_observations:
         active_sources.append("Audiofanzine publieke classifieds")
     status["valuation_sources_active"] = active_sources
-    # Extra valuation sources are optional. Their failure must not make the
-    # primary Marktplaats scanner appear broken in the dashboard.
     status["valuation_source_errors"] = source_errors
     status["total_deals"] = len(deals)
+    status["repair_candidates"] = repair_candidates
+    status["repair_deals"] = len(repair_deals)
 
     write_json(RESULTS, results)
     write_json(DEALS, deals)
+    write_json(REPAIR_DEALS, repair_deals)
     write_json(STATUS, status)
     return status
 
