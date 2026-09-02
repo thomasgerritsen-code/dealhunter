@@ -3,7 +3,6 @@ from __future__ import annotations
 import re
 import time
 from dataclasses import dataclass
-from typing import Any
 from urllib.parse import urljoin
 
 import httpx
@@ -23,18 +22,9 @@ TITLE_RE = re.compile(
     re.I,
 )
 BLOCK_MARKERS = (
-    "captcha",
-    "verify you are human",
-    "access denied",
-    "temporarily blocked",
-    "too many requests",
+    "captcha", "verify you are human", "access denied", "temporarily blocked", "too many requests",
 )
-LOW_QUALITY_MARKERS = (
-    "wanted",
-    "looking for",
-    "purchase wanted",
-    "exchange only",
-)
+LOW_QUALITY_MARKERS = ("wanted", "looking for", "purchase wanted", "exchange only")
 
 
 @dataclass
@@ -50,7 +40,6 @@ def _money(value: str) -> float | None:
     raw = value.replace("\xa0", " ").strip().replace(" ", "")
     if not raw:
         return None
-    # Audiofanzine renders European values such as 1,128.40 as well as 1.500.
     if "," in raw and "." in raw:
         if raw.rfind(".") > raw.rfind(","):
             raw = raw.replace(",", "")
@@ -70,11 +59,9 @@ def _money(value: str) -> float | None:
 
 
 def parse_audiofanzine_html(html: str) -> list[MarketObservation]:
-    """Parse public Audiofanzine classified cards without following ad detail pages."""
     soup = BeautifulSoup(html, "html.parser")
     found: list[MarketObservation] = []
     seen: set[tuple[str, float]] = set()
-
     for a in soup.find_all("a", href=True):
         text = " ".join(a.stripped_strings)
         if "Posted " not in text or "€" not in text or len(text) < 20:
@@ -92,8 +79,6 @@ def parse_audiofanzine_html(html: str) -> list[MarketObservation]:
         if tm:
             title = tm.group(1).strip(" -–—")
         else:
-            # Fallback: everything before the first state/post marker, stripping
-            # the leading result index used by Audiofanzine.
             prefix = re.split(r"\b(?:Posted|As new|Excellent state|Good state|Correct state|Fair state|Poor state|New|Mint|Used)\b", text, maxsplit=1, flags=re.I)[0]
             title = re.sub(r"^\s*\d+\s+", "", prefix).strip(" -–—")
         if len(title) < 3 or len(title) > 220:
@@ -102,25 +87,11 @@ def parse_audiofanzine_html(html: str) -> list[MarketObservation]:
         if key in seen:
             continue
         seen.add(key)
-        found.append(
-            MarketObservation(
-                source="Audiofanzine",
-                title=title,
-                price_eur=round(price, 2),
-                url=urljoin(AUDIOFANZINE_BASE, str(a.get("href") or "")),
-                text=text[:1000],
-            )
-        )
+        found.append(MarketObservation("Audiofanzine", title, round(price, 2), urljoin(AUDIOFANZINE_BASE, str(a.get("href") or "")), text[:1000]))
     return found
 
 
 class AudiofanzinePublicConnector:
-    """Small public-page valuation source for audio gear.
-
-    The connector reads only public classifieds index pages, never logs in,
-    never follows seller/profile/detail pages, and stops on blocking signals.
-    """
-
     def __init__(self, max_pages: int = 3, delay_seconds: float = 1.5):
         self.max_pages = max(1, min(int(max_pages), len(AUDIOFANZINE_PAGES)))
         self.delay_seconds = max(1.0, float(delay_seconds))
@@ -135,13 +106,18 @@ class AudiofanzinePublicConnector:
         with httpx.Client(timeout=25, follow_redirects=True, headers=headers) as client:
             for idx, url in enumerate(AUDIOFANZINE_PAGES[: self.max_pages]):
                 response = client.get(url)
+                if response.status_code == 404:
+                    break
                 if response.status_code in {403, 429}:
                     raise RuntimeError(f"Audiofanzine blokkeert/rate-limit de request ({response.status_code})")
                 response.raise_for_status()
                 lower = response.text.lower()
                 if any(marker in lower for marker in BLOCK_MARKERS):
                     raise RuntimeError("Audiofanzine blokkade/CAPTCHA gedetecteerd; bron wordt overgeslagen")
-                out.extend(parse_audiofanzine_html(response.text))
+                page_rows = parse_audiofanzine_html(response.text)
+                if not page_rows and idx > 0:
+                    break
+                out.extend(page_rows)
                 if idx < self.max_pages - 1:
                     time.sleep(self.delay_seconds)
         return out[:300]
