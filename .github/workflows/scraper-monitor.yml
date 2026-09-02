@@ -10,6 +10,7 @@ on:
       - 'dealhunter/html_scraper.py'
       - 'dealhunter/enhanced_runner.py'
       - 'dealhunter/public_sources.py'
+      - 'dealhunter/repairability.py'
       - 'dealhunter/engine.py'
       - 'dealhunter/valuation.py'
       - 'dealhunter/whatsapp.py'
@@ -62,9 +63,6 @@ jobs:
           git config user.name "dealhunter-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          # Preserve the freshly generated data, then move to the latest main.
-          # This prevents source-code commits made during a run from causing
-          # conflicts in the generated dashboard JSON files.
           mkdir -p /tmp/dealhunter-data
           cp docs/data/*.json /tmp/dealhunter-data/
           git fetch origin main
