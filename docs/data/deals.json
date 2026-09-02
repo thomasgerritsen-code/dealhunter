@@ -79,6 +79,10 @@
     "market_profile": {
       "sample_count": 5,
       "median_asking": 400.0
-    }
+    },
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   }
 ]

@@ -1,8 +1,75 @@
 [
   {
+    "id": "marktplaats-html:m2438043071",
+    "found_at": "2026-09-02T09:13:28.076416+00:00",
+    "last_seen_at": "2026-09-02T09:13:28.076416+00:00",
+    "source": "marktplaats-html",
+    "query": "steam deck",
+    "category_hint": "Spelcomputers",
+    "title": "Steam Deck LCD 512GB Met Extra’s!",
+    "description": "Bewaren in Mijn Favorieten Steam Deck LCD 512GB Met Extra’s! Te koop aangeboden: een steam deck zonder doos “interne geheugen 464gb” “sd 238gb” opslag, met origine oplader en een docking station . De handheld console is in uitstekende staat en is als zo goed al Zo goed als nieuw Ophalen of Verzenden € 370,00 Vandaag theo stobbe Emmen Bewaren in Mijn Favorieten Steam Deck LCD 512GB Met Extra’s! € 370,00 Te koop aangeboden: een steam deck zonder doos “interne geheugen 464gb” “sd 238gb” opslag, met origine oplader en een docking station . De handheld console is in uitstekende staat en is als zo goed al Zo goed als nieuw Ophalen of Verzenden theo stobbe Emmen Vandaag Bewaren in Mijn Favorieten Steam Deck LCD 512GB Met Extra’s! € 370,00 Details Ophalen of Verzenden Valve Zo goed als nieuw Te koop aangeboden: een steam deck zonder doos “interne geheugen 464gb” “sd 238gb” opslag, met origine op",
+    "url": "https://www.marktplaats.nl/v/spelcomputers-en-games/spelcomputers-overige/m2438043071-steam-deck-lcd-512gb-met-extra-s",
+    "asking_price": 370.0,
+    "previous_asking_price": null,
+    "price_drop_percent": 0.0,
+    "promoted": false,
+    "matched_product": "Valve Steam Deck LCD 512GB",
+    "recognition_confidence": 92,
+    "condition": "zo goed als nieuw",
+    "analysis": {
+      "matched_product": "Valve Steam Deck LCD 512GB",
+      "category": "Spelcomputers",
+      "source": "Marktplaats profiel (3 niet-gepromote advertenties)",
+      "valuation_basis": "Marktplaats profiel (3 niet-gepromote advertenties)",
+      "valuation_samples": 3,
+      "asking_price": 370.0,
+      "expected_resale": 394.13,
+      "market_low": 365.98,
+      "market_high": 411.02,
+      "fees": 0.0,
+      "risk_reserve": 13.24,
+      "travel_cost": 0.0,
+      "expected_profit": 10.89,
+      "roi_percent": 2.9,
+      "discount_percent": 6.1,
+      "opening_bid": 250.93,
+      "target_buy_price": 285.15,
+      "max_buy_price": 309.94,
+      "deal_score": 38,
+      "risk_score": 28,
+      "liquidity_score": 55,
+      "confidence_percent": 73,
+      "recognition_confidence_percent": 92,
+      "market_confidence_percent": 56,
+      "verdict": "OVERSLAAN",
+      "recommendation": "NIET INTERESSANT",
+      "risk_reasons": [],
+      "score_breakdown": {
+        "discount": 3.8,
+        "profit": 1.0,
+        "roi": 0.7,
+        "liquidity": 6.6,
+        "confidence": 13.2,
+        "risk_penalty": 5.6
+      },
+      "note": "Marktwaardes op basis van vraagprijzen zijn schattingen, geen gegarandeerde gerealiseerde verkoopprijzen."
+    },
+    "result_status": "scored",
+    "is_deal": false,
+    "exclusion_reason": null,
+    "market_profile": {
+      "sample_count": 3,
+      "median_asking": 420.0
+    },
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
+  },
+  {
     "id": "marktplaats-html:m2438029406",
     "found_at": "2026-09-02T08:33:19.764591+00:00",
-    "last_seen_at": "2026-09-02T08:58:13.986463+00:00",
+    "last_seen_at": "2026-09-02T09:13:55.437657+00:00",
     "source": "marktplaats-html",
     "query": "bang olufsen speaker",
     "category_hint": "Audio",
@@ -19,12 +86,16 @@
     "analysis": null,
     "result_status": "unpriced",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:a1528541948",
     "found_at": "2026-09-02T08:32:59.302860+00:00",
-    "last_seen_at": "2026-09-02T08:57:53.162377+00:00",
+    "last_seen_at": "2026-09-02T09:13:33.894285+00:00",
     "source": "marktplaats-html",
     "query": "festool",
     "category_hint": "Gereedschap",
@@ -41,7 +112,11 @@
     "analysis": null,
     "result_status": "unpriced",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437835457",
@@ -63,7 +138,11 @@
     "analysis": null,
     "result_status": "unrecognized",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437310773",
@@ -85,7 +164,11 @@
     "analysis": null,
     "result_status": "unpriced",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2436432252",
@@ -107,7 +190,25 @@
     "analysis": null,
     "result_status": "unpriced",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": true,
+      "repair_class": "onzeker",
+      "repairability_score": 38,
+      "repair_deal_score": 15,
+      "likely_issues": [],
+      "warnings": [],
+      "estimated_repair_cost_low": 30.0,
+      "estimated_repair_cost_high": 180.0,
+      "estimated_repair_cost_mid": 105.0,
+      "post_repair_value": null,
+      "estimated_repair_profit": null,
+      "estimated_repair_margin_percent": null,
+      "contingency_reserve": 20.0,
+      "is_repair_deal": false,
+      "note": "Heuristische voorselectie op advertentietekst; geen technische diagnose."
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437173251",
@@ -129,12 +230,32 @@
     "analysis": null,
     "result_status": "unpriced",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": true,
+      "repair_class": "risicovol",
+      "repairability_score": 16,
+      "repair_deal_score": 6,
+      "likely_issues": [],
+      "warnings": [
+        "Defect onvoldoende gespecificeerd"
+      ],
+      "estimated_repair_cost_low": 30.0,
+      "estimated_repair_cost_high": 180.0,
+      "estimated_repair_cost_mid": 105.0,
+      "post_repair_value": null,
+      "estimated_repair_profit": null,
+      "estimated_repair_margin_percent": null,
+      "contingency_reserve": 20.0,
+      "is_repair_deal": false,
+      "note": "Heuristische voorselectie op advertentietekst; geen technische diagnose."
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2438010749",
     "found_at": "2026-09-02T07:41:22.995324+00:00",
-    "last_seen_at": "2026-09-02T08:57:56.118082+00:00",
+    "last_seen_at": "2026-09-02T09:13:37.202495+00:00",
     "source": "marktplaats-html",
     "query": "makita",
     "category_hint": "Gereedschap",
@@ -151,12 +272,16 @@
     "analysis": null,
     "result_status": "recognized_unvalued",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:a1511948604",
     "found_at": "2026-09-02T07:26:39.707648+00:00",
-    "last_seen_at": "2026-09-02T08:57:56.117808+00:00",
+    "last_seen_at": "2026-09-02T09:13:37.202290+00:00",
     "source": "marktplaats-html",
     "query": "makita",
     "category_hint": "Gereedschap",
@@ -173,7 +298,11 @@
     "analysis": null,
     "result_status": "unrecognized",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:a1529176214",
@@ -195,12 +324,16 @@
     "analysis": null,
     "result_status": "recognized_unvalued",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437994319",
     "found_at": "2026-09-02T06:40:57.307749+00:00",
-    "last_seen_at": "2026-09-02T08:57:49.685244+00:00",
+    "last_seen_at": "2026-09-02T09:13:30.824162+00:00",
     "source": "marktplaats-html",
     "query": "xbox series x",
     "category_hint": "Spelcomputers",
@@ -217,12 +350,16 @@
     "analysis": null,
     "result_status": "unpriced",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437994987",
     "found_at": "2026-09-02T06:40:57.306473+00:00",
-    "last_seen_at": "2026-09-02T08:57:49.684756+00:00",
+    "last_seen_at": "2026-09-02T09:13:30.823807+00:00",
     "source": "marktplaats-html",
     "query": "xbox series x",
     "category_hint": "Spelcomputers",
@@ -239,7 +376,11 @@
     "analysis": null,
     "result_status": "unpriced",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437910757",
@@ -261,7 +402,11 @@
     "analysis": null,
     "result_status": "recognized_unvalued",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437013641",
@@ -283,7 +428,11 @@
     "analysis": null,
     "result_status": "unpriced",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2436526709",
@@ -305,7 +454,11 @@
     "analysis": null,
     "result_status": "recognized_unvalued",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437630534",
@@ -327,12 +480,16 @@
     "analysis": null,
     "result_status": "recognized_unvalued",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437981663",
     "found_at": "2026-09-02T05:26:29.950386+00:00",
-    "last_seen_at": "2026-09-02T08:57:49.683776+00:00",
+    "last_seen_at": "2026-09-02T09:13:30.823113+00:00",
     "source": "marktplaats-html",
     "query": "xbox series x",
     "category_hint": "Spelcomputers",
@@ -390,12 +547,16 @@
     "market_profile": {
       "sample_count": 4,
       "median_asking": 487.49
-    }
+    },
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:a1529498617",
     "found_at": "2026-09-02T05:26:21.545397+00:00",
-    "last_seen_at": "2026-09-02T08:57:40.674021+00:00",
+    "last_seen_at": "2026-09-02T09:13:22.579497+00:00",
     "source": "marktplaats-html",
     "query": "ps5",
     "category_hint": "Spelcomputers",
@@ -412,7 +573,11 @@
     "analysis": null,
     "result_status": "excluded",
     "is_deal": false,
-    "exclusion_reason": "Game/software in plaats van console"
+    "exclusion_reason": "Game/software in plaats van console",
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:a1529987689",
@@ -434,12 +599,16 @@
     "analysis": null,
     "result_status": "excluded",
     "is_deal": false,
-    "exclusion_reason": "Veiling/startprijs gedetecteerd: online veiling"
+    "exclusion_reason": "Veiling/startprijs gedetecteerd: online veiling",
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437318380",
     "found_at": "2026-09-02T04:51:32.141441+00:00",
-    "last_seen_at": "2026-09-02T08:58:19.635825+00:00",
+    "last_seen_at": "2026-09-02T09:14:00.704441+00:00",
     "source": "marktplaats-html",
     "query": "tannoy speaker",
     "category_hint": "Audio",
@@ -456,12 +625,16 @@
     "analysis": null,
     "result_status": "recognized_unvalued",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2436784135",
     "found_at": "2026-09-02T04:51:32.141234+00:00",
-    "last_seen_at": "2026-09-02T08:58:19.635617+00:00",
+    "last_seen_at": "2026-09-02T09:14:00.704294+00:00",
     "source": "marktplaats-html",
     "query": "tannoy speaker",
     "category_hint": "Audio",
@@ -478,12 +651,16 @@
     "analysis": null,
     "result_status": "unpriced",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437684643",
     "found_at": "2026-09-02T04:51:32.140974+00:00",
-    "last_seen_at": "2026-09-02T08:58:19.635354+00:00",
+    "last_seen_at": "2026-09-02T09:14:00.704109+00:00",
     "source": "marktplaats-html",
     "query": "tannoy speaker",
     "category_hint": "Audio",
@@ -500,12 +677,16 @@
     "analysis": null,
     "result_status": "recognized_unvalued",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437725642",
     "found_at": "2026-09-02T04:51:32.140716+00:00",
-    "last_seen_at": "2026-09-02T08:58:19.635045+00:00",
+    "last_seen_at": "2026-09-02T09:14:00.703916+00:00",
     "source": "marktplaats-html",
     "query": "tannoy speaker",
     "category_hint": "Audio",
@@ -522,12 +703,16 @@
     "analysis": null,
     "result_status": "recognized_unvalued",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437057452",
     "found_at": "2026-09-02T04:51:32.140448+00:00",
-    "last_seen_at": "2026-09-02T08:58:19.634773+00:00",
+    "last_seen_at": "2026-09-02T09:14:00.703730+00:00",
     "source": "marktplaats-html",
     "query": "tannoy speaker",
     "category_hint": "Audio",
@@ -544,12 +729,16 @@
     "analysis": null,
     "result_status": "unpriced",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437674713",
     "found_at": "2026-09-02T04:51:32.140205+00:00",
-    "last_seen_at": "2026-09-02T08:58:19.634549+00:00",
+    "last_seen_at": "2026-09-02T09:14:00.703569+00:00",
     "source": "marktplaats-html",
     "query": "tannoy speaker",
     "category_hint": "Audio",
@@ -566,12 +755,16 @@
     "analysis": null,
     "result_status": "unrecognized",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:a1522759373",
     "found_at": "2026-09-02T04:51:32.139871+00:00",
-    "last_seen_at": "2026-09-02T08:58:19.634248+00:00",
+    "last_seen_at": "2026-09-02T09:14:00.703341+00:00",
     "source": "marktplaats-html",
     "query": "tannoy speaker",
     "category_hint": "Audio",
@@ -588,12 +781,16 @@
     "analysis": null,
     "result_status": "unrecognized",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2433019088",
     "found_at": "2026-09-02T04:51:28.845450+00:00",
-    "last_seen_at": "2026-09-02T08:58:16.647630+00:00",
+    "last_seen_at": "2026-09-02T09:13:57.928495+00:00",
     "source": "marktplaats-html",
     "query": "kef vintage speaker",
     "category_hint": "Audio",
@@ -610,12 +807,16 @@
     "analysis": null,
     "result_status": "recognized_unvalued",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2422069887",
     "found_at": "2026-09-02T04:51:28.845190+00:00",
-    "last_seen_at": "2026-09-02T08:58:16.647378+00:00",
+    "last_seen_at": "2026-09-02T09:13:57.928320+00:00",
     "source": "marktplaats-html",
     "query": "kef vintage speaker",
     "category_hint": "Audio",
@@ -632,12 +833,16 @@
     "analysis": null,
     "result_status": "recognized_unvalued",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2422717192",
     "found_at": "2026-09-02T04:51:28.844946+00:00",
-    "last_seen_at": "2026-09-02T08:58:16.646852+00:00",
+    "last_seen_at": "2026-09-02T09:13:57.927941+00:00",
     "source": "marktplaats-html",
     "query": "kef vintage speaker",
     "category_hint": "Audio",
@@ -654,12 +859,16 @@
     "analysis": null,
     "result_status": "recognized_unvalued",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2436192988",
     "found_at": "2026-09-02T04:51:28.844665+00:00",
-    "last_seen_at": "2026-09-02T08:58:16.647103+00:00",
+    "last_seen_at": "2026-09-02T09:13:57.928130+00:00",
     "source": "marktplaats-html",
     "query": "kef vintage speaker",
     "category_hint": "Audio",
@@ -676,12 +885,16 @@
     "analysis": null,
     "result_status": "recognized_unvalued",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2399899075",
     "found_at": "2026-09-02T04:51:28.844422+00:00",
-    "last_seen_at": "2026-09-02T08:58:16.646410+00:00",
+    "last_seen_at": "2026-09-02T09:13:57.927630+00:00",
     "source": "marktplaats-html",
     "query": "kef vintage speaker",
     "category_hint": "Audio",
@@ -698,12 +911,16 @@
     "analysis": null,
     "result_status": "unpriced",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2436171588",
     "found_at": "2026-09-02T04:51:28.844180+00:00",
-    "last_seen_at": "2026-09-02T08:58:16.646628+00:00",
+    "last_seen_at": "2026-09-02T09:13:57.927782+00:00",
     "source": "marktplaats-html",
     "query": "kef vintage speaker",
     "category_hint": "Audio",
@@ -720,12 +937,16 @@
     "analysis": null,
     "result_status": "unpriced",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2436602542",
     "found_at": "2026-09-02T04:51:28.843879+00:00",
-    "last_seen_at": "2026-09-02T08:58:16.646119+00:00",
+    "last_seen_at": "2026-09-02T09:13:57.927428+00:00",
     "source": "marktplaats-html",
     "query": "kef vintage speaker",
     "category_hint": "Audio",
@@ -742,7 +963,11 @@
     "analysis": null,
     "result_status": "unpriced",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2431051415",
@@ -764,12 +989,16 @@
     "analysis": null,
     "result_status": "unrecognized",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437195166",
     "found_at": "2026-09-02T04:51:25.636881+00:00",
-    "last_seen_at": "2026-09-02T08:58:13.986190+00:00",
+    "last_seen_at": "2026-09-02T09:13:55.437491+00:00",
     "source": "marktplaats-html",
     "query": "bang olufsen speaker",
     "category_hint": "Audio",
@@ -786,12 +1015,16 @@
     "analysis": null,
     "result_status": "recognized_unvalued",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437196121",
     "found_at": "2026-09-02T04:51:25.636622+00:00",
-    "last_seen_at": "2026-09-02T08:58:13.985937+00:00",
+    "last_seen_at": "2026-09-02T09:13:55.437316+00:00",
     "source": "marktplaats-html",
     "query": "bang olufsen speaker",
     "category_hint": "Audio",
@@ -808,12 +1041,16 @@
     "analysis": null,
     "result_status": "recognized_unvalued",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437200922",
     "found_at": "2026-09-02T04:51:25.636350+00:00",
-    "last_seen_at": "2026-09-02T08:58:13.985710+00:00",
+    "last_seen_at": "2026-09-02T09:13:55.437156+00:00",
     "source": "marktplaats-html",
     "query": "bang olufsen speaker",
     "category_hint": "Audio",
@@ -830,12 +1067,16 @@
     "analysis": null,
     "result_status": "unrecognized",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437207235",
     "found_at": "2026-09-02T04:51:25.636071+00:00",
-    "last_seen_at": "2026-09-02T08:58:13.985473+00:00",
+    "last_seen_at": "2026-09-02T09:13:55.436981+00:00",
     "source": "marktplaats-html",
     "query": "bang olufsen speaker",
     "category_hint": "Audio",
@@ -852,12 +1093,16 @@
     "analysis": null,
     "result_status": "unrecognized",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2436727130",
     "found_at": "2026-09-02T04:51:25.635768+00:00",
-    "last_seen_at": "2026-09-02T08:58:13.985213+00:00",
+    "last_seen_at": "2026-09-02T09:13:55.436795+00:00",
     "source": "marktplaats-html",
     "query": "bang olufsen speaker",
     "category_hint": "Audio",
@@ -874,12 +1119,16 @@
     "analysis": null,
     "result_status": "unrecognized",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:a1215170017",
     "found_at": "2026-09-02T04:51:25.635436+00:00",
-    "last_seen_at": "2026-09-02T08:58:13.984928+00:00",
+    "last_seen_at": "2026-09-02T09:13:55.436594+00:00",
     "source": "marktplaats-html",
     "query": "bang olufsen speaker",
     "category_hint": "Audio",
@@ -896,12 +1145,16 @@
     "analysis": null,
     "result_status": "unpriced",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:a1530395658",
     "found_at": "2026-09-02T04:51:22.266148+00:00",
-    "last_seen_at": "2026-09-02T08:58:11.380461+00:00",
+    "last_seen_at": "2026-09-02T09:13:52.409381+00:00",
     "source": "marktplaats-html",
     "query": "jbl vintage speaker",
     "category_hint": "Audio",
@@ -918,12 +1171,16 @@
     "analysis": null,
     "result_status": "recognized_unvalued",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2434539049",
     "found_at": "2026-09-02T04:51:22.265910+00:00",
-    "last_seen_at": "2026-09-02T08:58:11.379975+00:00",
+    "last_seen_at": "2026-09-02T09:13:52.409047+00:00",
     "source": "marktplaats-html",
     "query": "jbl vintage speaker",
     "category_hint": "Audio",
@@ -940,12 +1197,16 @@
     "analysis": null,
     "result_status": "recognized_unvalued",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437098873",
     "found_at": "2026-09-02T04:51:22.265660+00:00",
-    "last_seen_at": "2026-09-02T08:58:11.380216+00:00",
+    "last_seen_at": "2026-09-02T09:13:52.409212+00:00",
     "source": "marktplaats-html",
     "query": "jbl vintage speaker",
     "category_hint": "Audio",
@@ -962,12 +1223,16 @@
     "analysis": null,
     "result_status": "unpriced",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2436534383",
     "found_at": "2026-09-02T04:51:22.265410+00:00",
-    "last_seen_at": "2026-09-02T08:58:11.379735+00:00",
+    "last_seen_at": "2026-09-02T09:13:52.408875+00:00",
     "source": "marktplaats-html",
     "query": "jbl vintage speaker",
     "category_hint": "Audio",
@@ -984,12 +1249,16 @@
     "analysis": null,
     "result_status": "unpriced",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2436785310",
     "found_at": "2026-09-02T04:51:22.265146+00:00",
-    "last_seen_at": "2026-09-02T08:58:11.379472+00:00",
+    "last_seen_at": "2026-09-02T09:13:52.408689+00:00",
     "source": "marktplaats-html",
     "query": "jbl vintage speaker",
     "category_hint": "Audio",
@@ -1006,12 +1275,16 @@
     "analysis": null,
     "result_status": "recognized_unvalued",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437442439",
     "found_at": "2026-09-02T04:51:22.264901+00:00",
-    "last_seen_at": "2026-09-02T08:58:11.379229+00:00",
+    "last_seen_at": "2026-09-02T09:13:52.408517+00:00",
     "source": "marktplaats-html",
     "query": "jbl vintage speaker",
     "category_hint": "Audio",
@@ -1028,12 +1301,16 @@
     "analysis": null,
     "result_status": "unpriced",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:a1530432403",
     "found_at": "2026-09-02T04:51:22.264581+00:00",
-    "last_seen_at": "2026-09-02T08:58:11.378945+00:00",
+    "last_seen_at": "2026-09-02T09:13:52.408328+00:00",
     "source": "marktplaats-html",
     "query": "jbl vintage speaker",
     "category_hint": "Audio",
@@ -1050,12 +1327,16 @@
     "analysis": null,
     "result_status": "unrecognized",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2425767945",
     "found_at": "2026-09-02T04:51:19.074948+00:00",
-    "last_seen_at": "2026-09-02T08:58:08.671069+00:00",
+    "last_seen_at": "2026-09-02T09:13:49.679712+00:00",
     "source": "marktplaats-html",
     "query": "sennheiser mkh",
     "category_hint": "Audio",
@@ -1136,12 +1417,16 @@
     "market_profile": {
       "sample_count": 5,
       "median_asking": 475.0
-    }
+    },
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2428069238",
     "found_at": "2026-09-02T04:51:19.074723+00:00",
-    "last_seen_at": "2026-09-02T08:58:08.670849+00:00",
+    "last_seen_at": "2026-09-02T09:13:49.679563+00:00",
     "source": "marktplaats-html",
     "query": "sennheiser mkh",
     "category_hint": "Audio",
@@ -1222,12 +1507,16 @@
     "market_profile": {
       "sample_count": 5,
       "median_asking": 475.0
-    }
+    },
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2436107999",
     "found_at": "2026-09-02T04:51:19.074494+00:00",
-    "last_seen_at": "2026-09-02T08:58:08.670640+00:00",
+    "last_seen_at": "2026-09-02T09:13:49.679421+00:00",
     "source": "marktplaats-html",
     "query": "sennheiser mkh",
     "category_hint": "Audio",
@@ -1308,12 +1597,16 @@
     "market_profile": {
       "sample_count": 5,
       "median_asking": 475.0
-    }
+    },
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2435043594",
     "found_at": "2026-09-02T04:51:19.074280+00:00",
-    "last_seen_at": "2026-09-02T08:58:08.670420+00:00",
+    "last_seen_at": "2026-09-02T09:13:49.679273+00:00",
     "source": "marktplaats-html",
     "query": "sennheiser mkh",
     "category_hint": "Audio",
@@ -1394,12 +1687,16 @@
     "market_profile": {
       "sample_count": 5,
       "median_asking": 475.0
-    }
+    },
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2422384554",
     "found_at": "2026-09-02T04:51:19.074021+00:00",
-    "last_seen_at": "2026-09-02T08:58:08.670156+00:00",
+    "last_seen_at": "2026-09-02T09:13:49.679092+00:00",
     "source": "marktplaats-html",
     "query": "sennheiser mkh",
     "category_hint": "Audio",
@@ -1416,12 +1713,16 @@
     "analysis": null,
     "result_status": "unpriced",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2434415000",
     "found_at": "2026-09-02T04:51:19.073784+00:00",
-    "last_seen_at": "2026-09-02T08:58:08.669924+00:00",
+    "last_seen_at": "2026-09-02T09:13:49.678917+00:00",
     "source": "marktplaats-html",
     "query": "sennheiser mkh",
     "category_hint": "Audio",
@@ -1502,12 +1803,16 @@
     "market_profile": {
       "sample_count": 5,
       "median_asking": 475.0
-    }
+    },
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2434251249",
     "found_at": "2026-09-02T04:51:19.073462+00:00",
-    "last_seen_at": "2026-09-02T08:58:08.669617+00:00",
+    "last_seen_at": "2026-09-02T09:13:49.678703+00:00",
     "source": "marktplaats-html",
     "query": "sennheiser mkh",
     "category_hint": "Audio",
@@ -1524,12 +1829,16 @@
     "analysis": null,
     "result_status": "recognized_unvalued",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2434699504",
     "found_at": "2026-09-02T04:51:13.214652+00:00",
-    "last_seen_at": "2026-09-02T08:58:01.719104+00:00",
+    "last_seen_at": "2026-09-02T09:13:42.555468+00:00",
     "source": "marktplaats-html",
     "query": "tektronix",
     "category_hint": "Meetapparatuur",
@@ -1546,12 +1855,16 @@
     "analysis": null,
     "result_status": "recognized_unvalued",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437850001",
     "found_at": "2026-09-02T04:51:13.214442+00:00",
-    "last_seen_at": "2026-09-02T08:58:01.718903+00:00",
+    "last_seen_at": "2026-09-02T09:13:42.555325+00:00",
     "source": "marktplaats-html",
     "query": "tektronix",
     "category_hint": "Meetapparatuur",
@@ -1568,12 +1881,30 @@
     "analysis": null,
     "result_status": "recognized_unvalued",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": true,
+      "repair_class": "onzeker",
+      "repairability_score": 38,
+      "repair_deal_score": 19,
+      "likely_issues": [],
+      "warnings": [],
+      "estimated_repair_cost_low": 30.0,
+      "estimated_repair_cost_high": 180.0,
+      "estimated_repair_cost_mid": 105.0,
+      "post_repair_value": null,
+      "estimated_repair_profit": null,
+      "estimated_repair_margin_percent": null,
+      "contingency_reserve": 20.0,
+      "is_repair_deal": false,
+      "note": "Heuristische voorselectie op advertentietekst; geen technische diagnose."
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437518410",
     "found_at": "2026-09-02T04:51:13.214223+00:00",
-    "last_seen_at": "2026-09-02T08:58:01.718689+00:00",
+    "last_seen_at": "2026-09-02T09:13:42.555171+00:00",
     "source": "marktplaats-html",
     "query": "tektronix",
     "category_hint": "Meetapparatuur",
@@ -1590,12 +1921,16 @@
     "analysis": null,
     "result_status": "recognized_unvalued",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437806860",
     "found_at": "2026-09-02T04:51:13.214022+00:00",
-    "last_seen_at": "2026-09-02T08:58:01.718482+00:00",
+    "last_seen_at": "2026-09-02T09:13:42.555014+00:00",
     "source": "marktplaats-html",
     "query": "tektronix",
     "category_hint": "Meetapparatuur",
@@ -1612,12 +1947,16 @@
     "analysis": null,
     "result_status": "recognized_unvalued",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2430149350",
     "found_at": "2026-09-02T04:51:13.213813+00:00",
-    "last_seen_at": "2026-09-02T08:58:01.718274+00:00",
+    "last_seen_at": "2026-09-02T09:13:42.554866+00:00",
     "source": "marktplaats-html",
     "query": "tektronix",
     "category_hint": "Meetapparatuur",
@@ -1634,12 +1973,16 @@
     "analysis": null,
     "result_status": "unpriced",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437093045",
     "found_at": "2026-09-02T04:51:13.213566+00:00",
-    "last_seen_at": "2026-09-02T08:58:01.718027+00:00",
+    "last_seen_at": "2026-09-02T09:13:42.554704+00:00",
     "source": "marktplaats-html",
     "query": "tektronix",
     "category_hint": "Meetapparatuur",
@@ -1656,12 +1999,16 @@
     "analysis": null,
     "result_status": "recognized_unvalued",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:a1530258785",
     "found_at": "2026-09-02T04:51:13.213270+00:00",
-    "last_seen_at": "2026-09-02T08:58:01.717739+00:00",
+    "last_seen_at": "2026-09-02T09:13:42.554505+00:00",
     "source": "marktplaats-html",
     "query": "tektronix",
     "category_hint": "Meetapparatuur",
@@ -1678,12 +2025,16 @@
     "analysis": null,
     "result_status": "recognized_unvalued",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437794373",
     "found_at": "2026-09-02T04:51:06.660653+00:00",
-    "last_seen_at": "2026-09-02T08:57:56.119261+00:00",
+    "last_seen_at": "2026-09-02T09:13:37.203356+00:00",
     "source": "marktplaats-html",
     "query": "makita",
     "category_hint": "Gereedschap",
@@ -1700,12 +2051,16 @@
     "analysis": null,
     "result_status": "recognized_unvalued",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437630389",
     "found_at": "2026-09-02T04:51:06.660390+00:00",
-    "last_seen_at": "2026-09-02T08:57:56.119015+00:00",
+    "last_seen_at": "2026-09-02T09:13:37.203185+00:00",
     "source": "marktplaats-html",
     "query": "makita",
     "category_hint": "Gereedschap",
@@ -1722,7 +2077,11 @@
     "analysis": null,
     "result_status": "recognized_unvalued",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:a1517550950",
@@ -1744,12 +2103,16 @@
     "analysis": null,
     "result_status": "unrecognized",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2435870351",
     "found_at": "2026-09-02T04:51:06.659868+00:00",
-    "last_seen_at": "2026-09-02T08:57:56.118778+00:00",
+    "last_seen_at": "2026-09-02T09:13:37.203009+00:00",
     "source": "marktplaats-html",
     "query": "makita",
     "category_hint": "Gereedschap",
@@ -1766,12 +2129,16 @@
     "analysis": null,
     "result_status": "unrecognized",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437485357",
     "found_at": "2026-09-02T04:51:06.659596+00:00",
-    "last_seen_at": "2026-09-02T08:57:56.118547+00:00",
+    "last_seen_at": "2026-09-02T09:13:37.202838+00:00",
     "source": "marktplaats-html",
     "query": "makita",
     "category_hint": "Gereedschap",
@@ -1788,12 +2155,16 @@
     "analysis": null,
     "result_status": "recognized_unvalued",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437701182",
     "found_at": "2026-09-02T04:51:06.659341+00:00",
-    "last_seen_at": "2026-09-02T08:57:56.118338+00:00",
+    "last_seen_at": "2026-09-02T09:13:37.202681+00:00",
     "source": "marktplaats-html",
     "query": "makita",
     "category_hint": "Gereedschap",
@@ -1810,7 +2181,11 @@
     "analysis": null,
     "result_status": "unpriced",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:a1530214491",
@@ -1832,7 +2207,11 @@
     "analysis": null,
     "result_status": "unrecognized",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:a1529500453",
@@ -1851,7 +2230,11 @@
     "result_status": "recognized_unvalued",
     "is_deal": false,
     "exclusion_reason": null,
-    "valuation_samples": 0
+    "valuation_samples": 0,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437978725",
@@ -1871,10 +2254,14 @@
     "is_deal": false,
     "exclusion_reason": null,
     "valuation_samples": 0,
-    "last_seen_at": "2026-09-02T08:57:40.676498+00:00",
+    "last_seen_at": "2026-09-02T09:13:22.581484+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
-    "condition": "zo goed als nieuw"
+    "condition": "zo goed als nieuw",
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437968486",
@@ -1893,7 +2280,11 @@
     "result_status": "recognized_unvalued",
     "is_deal": false,
     "exclusion_reason": null,
-    "valuation_samples": 0
+    "valuation_samples": 0,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437967429",
@@ -1912,7 +2303,11 @@
     "result_status": "recognized_unvalued",
     "is_deal": false,
     "exclusion_reason": null,
-    "valuation_samples": 0
+    "valuation_samples": 0,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2436751094",
@@ -1930,7 +2325,11 @@
     "analysis": null,
     "result_status": "unpriced",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2436751333",
@@ -1949,10 +2348,14 @@
     "result_status": "unpriced",
     "is_deal": false,
     "exclusion_reason": null,
-    "last_seen_at": "2026-09-02T08:57:49.683282+00:00",
+    "last_seen_at": "2026-09-02T09:13:30.822754+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
-    "condition": "nieuw"
+    "condition": "nieuw",
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:a1528990619",
@@ -1970,7 +2373,11 @@
     "analysis": null,
     "result_status": "unrecognized",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:a1529987679",
@@ -1989,14 +2396,18 @@
     "result_status": "excluded",
     "is_deal": false,
     "exclusion_reason": "Veiling/startprijs gedetecteerd: online veiling",
-    "last_seen_at": "2026-09-02T08:57:53.161410+00:00",
+    "last_seen_at": "2026-09-02T09:13:33.893563+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
     "condition": "nieuw",
     "market_profile": {
       "sample_count": 2,
       "median_asking": 72.5
-    }
+    },
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:a1530198596",
@@ -2022,7 +2433,11 @@
     "market_profile": {
       "sample_count": 2,
       "median_asking": 72.5
-    }
+    },
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:a1523611411",
@@ -2040,7 +2455,11 @@
     "analysis": null,
     "result_status": "unpriced",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:a1523595300",
@@ -2059,10 +2478,14 @@
     "result_status": "excluded",
     "is_deal": false,
     "exclusion_reason": "Dienst/gezocht-advertentie gedetecteerd: gezocht",
-    "last_seen_at": "2026-09-02T08:57:40.675507+00:00",
+    "last_seen_at": "2026-09-02T09:13:22.580756+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
-    "condition": "zo goed als nieuw"
+    "condition": "zo goed als nieuw",
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:a1522050648",
@@ -2085,7 +2508,11 @@
     "last_seen_at": "2026-09-02T05:31:45.258387+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
-    "condition": "nieuw"
+    "condition": "nieuw",
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2436878094",
@@ -2107,7 +2534,11 @@
     "last_seen_at": "2026-09-02T08:57:46.954051+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
-    "condition": "zo goed als nieuw"
+    "condition": "zo goed als nieuw",
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437468080",
@@ -2129,7 +2560,11 @@
     "market_profile": {
       "sample_count": 5,
       "median_asking": 540.0
-    }
+    },
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:a1527758917",
@@ -2147,7 +2582,11 @@
     "analysis": null,
     "result_status": "unrecognized",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437950835",
@@ -2210,7 +2649,11 @@
     "market_profile": {
       "sample_count": 4,
       "median_asking": 487.49
-    }
+    },
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437951894",
@@ -2273,7 +2716,11 @@
     "market_profile": {
       "sample_count": 4,
       "median_asking": 487.49
-    }
+    },
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437702383",
@@ -2292,7 +2739,11 @@
     "result_status": "recognized_unvalued",
     "is_deal": false,
     "exclusion_reason": null,
-    "valuation_samples": 0
+    "valuation_samples": 0,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437815929",
@@ -2314,7 +2765,11 @@
     "market_profile": {
       "sample_count": 3,
       "median_asking": 250.0
-    }
+    },
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437357799",
@@ -2332,7 +2787,11 @@
     "analysis": null,
     "result_status": "excluded",
     "is_deal": false,
-    "exclusion_reason": "Controller/accessoire in plaats van console"
+    "exclusion_reason": "Controller/accessoire in plaats van console",
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437343305",
@@ -2391,7 +2850,11 @@
     "market_profile": {
       "sample_count": 2,
       "median_asking": 905.0
-    }
+    },
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2430006674",
@@ -2414,7 +2877,11 @@
     "last_seen_at": "2026-09-02T05:59:19.536367+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
-    "condition": "zo goed als nieuw"
+    "condition": "zo goed als nieuw",
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:a1518652571",
@@ -2432,7 +2899,11 @@
     "analysis": null,
     "result_status": "excluded",
     "is_deal": false,
-    "exclusion_reason": "Dienst/gezocht-advertentie gedetecteerd: reparatie"
+    "exclusion_reason": "Dienst/gezocht-advertentie gedetecteerd: reparatie",
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437794830",
@@ -2455,7 +2926,11 @@
     "market_profile": {
       "sample_count": 3,
       "median_asking": 45.0
-    }
+    },
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437916566",
@@ -2474,7 +2949,11 @@
     "result_status": "recognized_unvalued",
     "is_deal": false,
     "exclusion_reason": null,
-    "valuation_samples": 0
+    "valuation_samples": 0,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2418377175",
@@ -2556,7 +3035,11 @@
     "market_profile": {
       "sample_count": 5,
       "median_asking": 400.0
-    }
+    },
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2432943655",
@@ -2638,7 +3121,11 @@
     "market_profile": {
       "sample_count": 5,
       "median_asking": 400.0
-    }
+    },
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437176760",
@@ -2720,7 +3207,11 @@
     "market_profile": {
       "sample_count": 5,
       "median_asking": 400.0
-    }
+    },
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2436850531",
@@ -2802,7 +3293,11 @@
     "market_profile": {
       "sample_count": 5,
       "median_asking": 400.0
-    }
+    },
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2435176459",
@@ -2884,7 +3379,11 @@
     "market_profile": {
       "sample_count": 5,
       "median_asking": 400.0
-    }
+    },
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2435855999",
@@ -2903,10 +3402,14 @@
     "result_status": "unpriced",
     "is_deal": false,
     "exclusion_reason": null,
-    "last_seen_at": "2026-09-02T08:58:04.896263+00:00",
+    "last_seen_at": "2026-09-02T09:13:45.343870+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
-    "condition": "zo goed als nieuw"
+    "condition": "zo goed als nieuw",
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437881218",
@@ -2926,10 +3429,14 @@
     "is_deal": false,
     "exclusion_reason": null,
     "valuation_samples": 0,
-    "last_seen_at": "2026-09-02T08:58:04.896457+00:00",
+    "last_seen_at": "2026-09-02T09:13:45.343985+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
-    "condition": "zo goed als nieuw"
+    "condition": "zo goed als nieuw",
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437352874",
@@ -2948,10 +3455,14 @@
     "result_status": "unpriced",
     "is_deal": false,
     "exclusion_reason": null,
-    "last_seen_at": "2026-09-02T08:58:04.896053+00:00",
+    "last_seen_at": "2026-09-02T09:13:45.343748+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
-    "condition": "zo goed als nieuw"
+    "condition": "zo goed als nieuw",
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:a1493395450",
@@ -2971,10 +3482,14 @@
     "is_deal": false,
     "exclusion_reason": null,
     "valuation_samples": 0,
-    "last_seen_at": "2026-09-02T08:58:04.895762+00:00",
+    "last_seen_at": "2026-09-02T09:13:45.343571+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
-    "condition": "nieuw"
+    "condition": "nieuw",
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:a1527566053",
@@ -3053,14 +3568,18 @@
     "result_status": "scored",
     "is_deal": false,
     "exclusion_reason": null,
-    "last_seen_at": "2026-09-02T08:58:04.895523+00:00",
+    "last_seen_at": "2026-09-02T09:13:45.343432+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
     "condition": "nieuw",
     "market_profile": {
       "sample_count": 5,
       "median_asking": 400.0
-    }
+    },
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:a1528677250",
@@ -3139,14 +3658,18 @@
     "result_status": "scored",
     "is_deal": false,
     "exclusion_reason": null,
-    "last_seen_at": "2026-09-02T08:58:04.895265+00:00",
+    "last_seen_at": "2026-09-02T09:13:45.343278+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
     "condition": "nieuw",
     "market_profile": {
       "sample_count": 5,
       "median_asking": 400.0
-    }
+    },
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:a1430080515",
@@ -3225,14 +3748,18 @@
     "result_status": "scored",
     "is_deal": false,
     "exclusion_reason": null,
-    "last_seen_at": "2026-09-02T08:58:04.894934+00:00",
+    "last_seen_at": "2026-09-02T09:13:45.343056+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
     "condition": "nieuw",
     "market_profile": {
       "sample_count": 5,
       "median_asking": 400.0
-    }
+    },
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:a1530430782",
@@ -3255,7 +3782,11 @@
     "last_seen_at": "2026-09-02T05:59:19.537250+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
-    "condition": "nieuw"
+    "condition": "nieuw",
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437888421",
@@ -3273,7 +3804,11 @@
     "analysis": null,
     "result_status": "unpriced",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437856741",
@@ -3291,7 +3826,11 @@
     "analysis": null,
     "result_status": "unpriced",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437676973",
@@ -3313,7 +3852,11 @@
     "last_seen_at": "2026-09-02T05:59:19.537068+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
-    "condition": "zo goed als nieuw"
+    "condition": "zo goed als nieuw",
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2436899709",
@@ -3335,7 +3878,11 @@
     "last_seen_at": "2026-09-02T05:59:19.536822+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
-    "condition": "zo goed als nieuw"
+    "condition": "zo goed als nieuw",
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2418374820",
@@ -3355,10 +3902,14 @@
     "is_deal": false,
     "exclusion_reason": null,
     "valuation_samples": 0,
-    "last_seen_at": "2026-09-02T08:57:58.913709+00:00",
+    "last_seen_at": "2026-09-02T09:13:39.940868+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
-    "condition": "goed"
+    "condition": "goed",
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437909136",
@@ -3377,10 +3928,14 @@
     "result_status": "recognized_unvalued",
     "is_deal": false,
     "exclusion_reason": null,
-    "last_seen_at": "2026-09-02T08:57:58.913487+00:00",
+    "last_seen_at": "2026-09-02T09:13:39.940718+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
-    "condition": "zo goed als nieuw"
+    "condition": "zo goed als nieuw",
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:a1496156816",
@@ -3399,10 +3954,14 @@
     "result_status": "unrecognized",
     "is_deal": false,
     "exclusion_reason": null,
-    "last_seen_at": "2026-09-02T08:57:58.913295+00:00",
+    "last_seen_at": "2026-09-02T09:13:39.940591+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
-    "condition": "nieuw"
+    "condition": "nieuw",
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:a1529588467",
@@ -3422,10 +3981,14 @@
     "is_deal": false,
     "exclusion_reason": null,
     "valuation_samples": 0,
-    "last_seen_at": "2026-09-02T08:57:58.913062+00:00",
+    "last_seen_at": "2026-09-02T09:13:39.940438+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
-    "condition": "nieuw"
+    "condition": "nieuw",
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:a1530197773",
@@ -3445,10 +4008,14 @@
     "is_deal": false,
     "exclusion_reason": null,
     "valuation_samples": 0,
-    "last_seen_at": "2026-09-02T08:57:58.912855+00:00",
+    "last_seen_at": "2026-09-02T09:13:39.940292+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
-    "condition": "nieuw"
+    "condition": "nieuw",
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:a1508657806",
@@ -3468,10 +4035,14 @@
     "is_deal": false,
     "exclusion_reason": null,
     "valuation_samples": 0,
-    "last_seen_at": "2026-09-02T08:57:58.912629+00:00",
+    "last_seen_at": "2026-09-02T09:13:39.940131+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
-    "condition": "nieuw"
+    "condition": "nieuw",
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:a1530430784",
@@ -3491,10 +4062,14 @@
     "is_deal": false,
     "exclusion_reason": null,
     "valuation_samples": 0,
-    "last_seen_at": "2026-09-02T08:57:58.912337+00:00",
+    "last_seen_at": "2026-09-02T09:13:39.939911+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
-    "condition": "nieuw"
+    "condition": "nieuw",
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:a1528541919",
@@ -3512,7 +4087,11 @@
     "analysis": null,
     "result_status": "unpriced",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:a1528541863",
@@ -3530,7 +4109,11 @@
     "analysis": null,
     "result_status": "unpriced",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:a1528541908",
@@ -3548,7 +4131,11 @@
     "analysis": null,
     "result_status": "unpriced",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:a1528541889",
@@ -3566,7 +4153,11 @@
     "analysis": null,
     "result_status": "unpriced",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:a1528119739",
@@ -3585,7 +4176,11 @@
     "result_status": "recognized_unvalued",
     "is_deal": false,
     "exclusion_reason": null,
-    "valuation_samples": 0
+    "valuation_samples": 0,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:a1518333320",
@@ -3604,10 +4199,14 @@
     "result_status": "unrecognized",
     "is_deal": false,
     "exclusion_reason": null,
-    "last_seen_at": "2026-09-02T08:57:53.162845+00:00",
+    "last_seen_at": "2026-09-02T09:13:33.894626+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
-    "condition": "nieuw"
+    "condition": "nieuw",
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2421624771",
@@ -3627,10 +4226,14 @@
     "is_deal": false,
     "exclusion_reason": null,
     "valuation_samples": 0,
-    "last_seen_at": "2026-09-02T08:57:53.162615+00:00",
+    "last_seen_at": "2026-09-02T09:13:33.894461+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
-    "condition": "nieuw"
+    "condition": "nieuw",
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:a1528541862",
@@ -3648,7 +4251,11 @@
     "analysis": null,
     "result_status": "unpriced",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:a1523757178",
@@ -3668,10 +4275,14 @@
     "is_deal": false,
     "exclusion_reason": null,
     "valuation_samples": 0,
-    "last_seen_at": "2026-09-02T08:57:53.162128+00:00",
+    "last_seen_at": "2026-09-02T09:13:33.894112+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
-    "condition": "nieuw"
+    "condition": "nieuw",
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:a1530473634",
@@ -3691,10 +4302,14 @@
     "is_deal": false,
     "exclusion_reason": null,
     "valuation_samples": 0,
-    "last_seen_at": "2026-09-02T08:57:53.161646+00:00",
+    "last_seen_at": "2026-09-02T09:13:33.893746+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
-    "condition": "nieuw"
+    "condition": "nieuw",
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:a1521272345",
@@ -3713,10 +4328,14 @@
     "result_status": "unrecognized",
     "is_deal": false,
     "exclusion_reason": null,
-    "last_seen_at": "2026-09-02T08:57:53.161907+00:00",
+    "last_seen_at": "2026-09-02T09:13:33.893942+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
-    "condition": "nieuw"
+    "condition": "nieuw",
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:a1530198602",
@@ -3738,7 +4357,11 @@
     "last_seen_at": "2026-09-02T08:15:02.228809+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
-    "condition": "nieuw"
+    "condition": "nieuw",
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:a1530454046",
@@ -3760,7 +4383,11 @@
     "market_profile": {
       "sample_count": 5,
       "median_asking": 540.0
-    }
+    },
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437890044",
@@ -3819,7 +4446,11 @@
     "market_profile": {
       "sample_count": 1,
       "median_asking": 215.0
-    }
+    },
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437659317",
@@ -3837,7 +4468,11 @@
     "analysis": null,
     "result_status": "unpriced",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:a1477862745",
@@ -3855,7 +4490,11 @@
     "analysis": null,
     "result_status": "excluded",
     "is_deal": false,
-    "exclusion_reason": "Dienst/gezocht-advertentie gedetecteerd: onderhoud service"
+    "exclusion_reason": "Dienst/gezocht-advertentie gedetecteerd: onderhoud service",
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437860704",
@@ -3877,7 +4516,11 @@
     "market_profile": {
       "sample_count": 5,
       "median_asking": 540.0
-    }
+    },
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:a1530454567",
@@ -3936,7 +4579,11 @@
     "market_profile": {
       "sample_count": 4,
       "median_asking": 487.49
-    }
+    },
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437302691",
@@ -3954,7 +4601,11 @@
     "analysis": null,
     "result_status": "excluded",
     "is_deal": false,
-    "exclusion_reason": "Game/software in plaats van console"
+    "exclusion_reason": "Game/software in plaats van console",
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437803417",
@@ -3972,7 +4623,11 @@
     "analysis": null,
     "result_status": "unpriced",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:a1484746591",
@@ -3991,10 +4646,14 @@
     "result_status": "excluded",
     "is_deal": false,
     "exclusion_reason": "Controller/accessoire in plaats van console",
-    "last_seen_at": "2026-09-02T08:57:49.684275+00:00",
+    "last_seen_at": "2026-09-02T09:13:30.823457+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
-    "condition": "zo goed als nieuw"
+    "condition": "zo goed als nieuw",
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437895598",
@@ -4016,7 +4675,11 @@
     "last_seen_at": "2026-09-02T06:22:29.644901+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
-    "condition": "zo goed als nieuw"
+    "condition": "zo goed als nieuw",
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437779874",
@@ -4035,10 +4698,14 @@
     "result_status": "excluded",
     "is_deal": false,
     "exclusion_reason": "Controller/accessoire in plaats van console",
-    "last_seen_at": "2026-09-02T08:57:49.682790+00:00",
+    "last_seen_at": "2026-09-02T09:13:30.822398+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
-    "condition": "zo goed als nieuw"
+    "condition": "zo goed als nieuw",
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:a1519475455",
@@ -4096,14 +4763,18 @@
     "result_status": "scored",
     "is_deal": false,
     "exclusion_reason": null,
-    "last_seen_at": "2026-09-02T08:57:49.682187+00:00",
+    "last_seen_at": "2026-09-02T09:13:30.821959+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
     "condition": "zo goed als nieuw",
     "market_profile": {
       "sample_count": 1,
       "median_asking": 215.0
-    }
+    },
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437459698",
@@ -4121,7 +4792,11 @@
     "analysis": null,
     "result_status": "excluded",
     "is_deal": false,
-    "exclusion_reason": "Accessoire/dienst gedetecteerd: dock"
+    "exclusion_reason": "Accessoire/dienst gedetecteerd: dock",
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437349602",
@@ -4136,15 +4811,60 @@
     "promoted": false,
     "matched_product": "Valve Steam Deck LCD 512GB",
     "recognition_confidence": 92,
-    "analysis": null,
-    "result_status": "recognized_unvalued",
+    "analysis": {
+      "matched_product": "Valve Steam Deck LCD 512GB",
+      "category": "Spelcomputers",
+      "source": "Marktplaats profiel (3 niet-gepromote advertenties)",
+      "valuation_basis": "Marktplaats profiel (3 niet-gepromote advertenties)",
+      "valuation_samples": 3,
+      "asking_price": 450.0,
+      "expected_resale": 394.13,
+      "market_low": 365.98,
+      "market_high": 411.02,
+      "fees": 0.0,
+      "risk_reserve": 13.24,
+      "travel_cost": 0.0,
+      "expected_profit": -69.11,
+      "roi_percent": -15.4,
+      "discount_percent": -14.2,
+      "opening_bid": 250.93,
+      "target_buy_price": 285.15,
+      "max_buy_price": 309.94,
+      "deal_score": 32,
+      "risk_score": 28,
+      "liquidity_score": 55,
+      "confidence_percent": 73,
+      "recognition_confidence_percent": 92,
+      "market_confidence_percent": 56,
+      "verdict": "OVERSLAAN",
+      "recommendation": "NIET INTERESSANT",
+      "risk_reasons": [],
+      "score_breakdown": {
+        "discount": 0,
+        "profit": 0,
+        "roi": 0,
+        "liquidity": 6.6,
+        "confidence": 13.2,
+        "risk_penalty": 5.6
+      },
+      "note": "Marktwaardes op basis van vraagprijzen zijn schattingen, geen gegarandeerde gerealiseerde verkoopprijzen."
+    },
+    "result_status": "scored",
     "is_deal": false,
     "exclusion_reason": null,
     "valuation_samples": 0,
-    "last_seen_at": "2026-09-02T08:57:46.952545+00:00",
+    "last_seen_at": "2026-09-02T09:13:28.076799+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
-    "condition": "zo goed als nieuw"
+    "condition": "zo goed als nieuw",
+    "market_profile": {
+      "sample_count": 3,
+      "median_asking": 420.0
+    },
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:a1528577849",
@@ -4162,7 +4882,11 @@
     "analysis": null,
     "result_status": "excluded",
     "is_deal": false,
-    "exclusion_reason": "Accessoire/dienst gedetecteerd: hoes"
+    "exclusion_reason": "Accessoire/dienst gedetecteerd: hoes",
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2436202093",
@@ -4181,10 +4905,14 @@
     "result_status": "unpriced",
     "is_deal": false,
     "exclusion_reason": null,
-    "last_seen_at": "2026-09-02T08:57:46.953047+00:00",
+    "last_seen_at": "2026-09-02T09:13:28.077540+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
-    "condition": "zo goed als nieuw"
+    "condition": "zo goed als nieuw",
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437889812",
@@ -4199,15 +4927,60 @@
     "promoted": false,
     "matched_product": "Valve Steam Deck LCD 512GB",
     "recognition_confidence": 92,
-    "analysis": null,
-    "result_status": "recognized_unvalued",
+    "analysis": {
+      "matched_product": "Valve Steam Deck LCD 512GB",
+      "category": "Spelcomputers",
+      "source": "Marktplaats profiel (3 niet-gepromote advertenties)",
+      "valuation_basis": "Marktplaats profiel (3 niet-gepromote advertenties)",
+      "valuation_samples": 3,
+      "asking_price": 420.0,
+      "expected_resale": 394.13,
+      "market_low": 365.98,
+      "market_high": 411.02,
+      "fees": 0.0,
+      "risk_reserve": 13.24,
+      "travel_cost": 0.0,
+      "expected_profit": -39.11,
+      "roi_percent": -9.3,
+      "discount_percent": -6.6,
+      "opening_bid": 250.93,
+      "target_buy_price": 285.15,
+      "max_buy_price": 309.94,
+      "deal_score": 32,
+      "risk_score": 28,
+      "liquidity_score": 55,
+      "confidence_percent": 73,
+      "recognition_confidence_percent": 92,
+      "market_confidence_percent": 56,
+      "verdict": "OVERSLAAN",
+      "recommendation": "NIET INTERESSANT",
+      "risk_reasons": [],
+      "score_breakdown": {
+        "discount": 0,
+        "profit": 0,
+        "roi": 0,
+        "liquidity": 6.6,
+        "confidence": 13.2,
+        "risk_penalty": 5.6
+      },
+      "note": "Marktwaardes op basis van vraagprijzen zijn schattingen, geen gegarandeerde gerealiseerde verkoopprijzen."
+    },
+    "result_status": "scored",
     "is_deal": false,
     "exclusion_reason": null,
     "valuation_samples": 0,
     "last_seen_at": "2026-09-02T06:54:26.857832+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
-    "condition": "zo goed als nieuw"
+    "condition": "zo goed als nieuw",
+    "market_profile": {
+      "sample_count": 3,
+      "median_asking": 420.0
+    },
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:a1530188610",
@@ -4216,7 +4989,7 @@
     "query": "steam deck",
     "category_hint": "Spelcomputers",
     "title": "UGREEN 6-in-1 Docking Station voor Steam Deck",
-    "description": "Bewaren in Mijn Favorieten Beoordeeld met 9+ UGREEN 6-in-1 Docking Station voor Steam Deck, ROG Ally & Le Voor 22:00 besteld, vandaag verzonden! Dit artikel is nieuw en uit voorraad leverbaar. Standaard gratis verzending vanaf €75 retourneren: mogelijk tot 14 dagen na ontvangst garantie: twee jaar ga Nieuw Verzenden € 55,95 28 aug 26 SediaXL Heel Nederland Bewaren in Mijn Favorieten Beoordeeld met 9+ UGREEN 6-in-1 Docking Station voor Steam Deck, ROG Ally & Le € 55,95 Voor 22:00 besteld, vandaag verzonden! Dit artikel is nieuw en uit voorraad leverbaar. Standaard gratis verzending vanaf €75 retourneren: mogelijk tot 14 dagen na ontvangst garantie: twee jaar ga Nieuw Verzenden SediaXL Heel Nederland 28 aug 26 Bewaren in Mijn Favorieten Beoordeeld met 9+ UGREEN 6-in-1 Docking Station voor Steam Deck, ROG Ally & Le € 55,95 Details Verzenden Nieuw Voor 22:00 besteld, vandaag verzonden! Dit a",
+    "description": "Bewaren in Mijn Favorieten Beoordeeld met 9+ UGREEN 6-in-1 Docking Station voor Steam Deck, ROG Ally & Le Voor 22:00 besteld, vandaag verzonden! Dit artikel is nieuw en uit voorraad leverbaar. Standaard gratis verzending vanaf €75 retourneren: mogelijk tot 14 dagen na ontvangst garantie: twee jaar ga Nieuw Verzenden € 55,95 Eergisteren SediaXL Heel Nederland Bewaren in Mijn Favorieten Beoordeeld met 9+ UGREEN 6-in-1 Docking Station voor Steam Deck, ROG Ally & Le € 55,95 Voor 22:00 besteld, vandaag verzonden! Dit artikel is nieuw en uit voorraad leverbaar. Standaard gratis verzending vanaf €75 retourneren: mogelijk tot 14 dagen na ontvangst garantie: twee jaar ga Nieuw Verzenden SediaXL Heel Nederland Eergisteren Bewaren in Mijn Favorieten Beoordeeld met 9+ UGREEN 6-in-1 Docking Station voor Steam Deck, ROG Ally & Le € 55,95 Details Verzenden Nieuw Voor 22:00 besteld, vandaag verzonden! D",
     "url": "https://www.marktplaats.nl/v/computers-en-software/dockingstations/a1530188610-ugreen-6-in-1-docking-station-voor-steam-deck-rog-ally-le",
     "asking_price": 55.95,
     "promoted": false,
@@ -4226,10 +4999,14 @@
     "result_status": "excluded",
     "is_deal": false,
     "exclusion_reason": "Accessoire/dienst gedetecteerd: dock",
-    "last_seen_at": "2026-09-02T08:57:46.953537+00:00",
+    "last_seen_at": "2026-09-02T09:13:28.077172+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
-    "condition": "nieuw"
+    "condition": "nieuw",
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437852124",
@@ -4251,7 +5028,11 @@
     "last_seen_at": "2026-09-02T05:42:05.938050+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
-    "condition": "zo goed als nieuw"
+    "condition": "zo goed als nieuw",
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437817826",
@@ -4274,7 +5055,11 @@
     "last_seen_at": "2026-09-02T05:42:05.938716+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
-    "condition": "zo goed als nieuw"
+    "condition": "zo goed als nieuw",
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2436046655",
@@ -4294,10 +5079,14 @@
     "is_deal": false,
     "exclusion_reason": null,
     "valuation_samples": 0,
-    "last_seen_at": "2026-09-02T08:57:46.951999+00:00",
+    "last_seen_at": "2026-09-02T09:13:28.076005+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
-    "condition": "zo goed als nieuw"
+    "condition": "zo goed als nieuw",
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2436014794",
@@ -4316,10 +5105,14 @@
     "result_status": "unpriced",
     "is_deal": false,
     "exclusion_reason": null,
-    "last_seen_at": "2026-09-02T08:57:46.951487+00:00",
+    "last_seen_at": "2026-09-02T09:13:28.075616+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
-    "condition": "goed"
+    "condition": "goed",
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437808458",
@@ -4382,7 +5175,11 @@
     "market_profile": {
       "sample_count": 0,
       "median_asking": null
-    }
+    },
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:a1530188540",
@@ -4401,10 +5198,14 @@
     "result_status": "excluded",
     "is_deal": false,
     "exclusion_reason": "Accessoire/dienst gedetecteerd: dock",
-    "last_seen_at": "2026-09-02T08:57:46.950709+00:00",
+    "last_seen_at": "2026-09-02T09:13:28.075037+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
-    "condition": "nieuw"
+    "condition": "nieuw",
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2434569702",
@@ -4422,7 +5223,11 @@
     "analysis": null,
     "result_status": "excluded",
     "is_deal": false,
-    "exclusion_reason": "Game/software in plaats van console"
+    "exclusion_reason": "Game/software in plaats van console",
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:a1527334456",
@@ -4481,7 +5286,11 @@
     "market_profile": {
       "sample_count": 2,
       "median_asking": 222.49
-    }
+    },
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2436759646",
@@ -4540,7 +5349,11 @@
     "market_profile": {
       "sample_count": 2,
       "median_asking": 222.49
-    }
+    },
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2433438417",
@@ -4559,10 +5372,14 @@
     "result_status": "unpriced",
     "is_deal": false,
     "exclusion_reason": null,
-    "last_seen_at": "2026-09-02T08:57:43.346233+00:00",
+    "last_seen_at": "2026-09-02T09:13:25.437807+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
-    "condition": "zo goed als nieuw"
+    "condition": "zo goed als nieuw",
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437301248",
@@ -4618,14 +5435,18 @@
     "result_status": "scored",
     "is_deal": false,
     "exclusion_reason": null,
-    "last_seen_at": "2026-09-02T08:57:43.345752+00:00",
+    "last_seen_at": "2026-09-02T09:13:25.437341+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
     "condition": "zo goed als nieuw",
     "market_profile": {
       "sample_count": 2,
       "median_asking": 222.49
-    }
+    },
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:a1515866993",
@@ -4689,7 +5510,11 @@
     "market_profile": {
       "sample_count": 2,
       "median_asking": 222.49
-    }
+    },
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437653289",
@@ -4749,7 +5574,11 @@
     "market_profile": {
       "sample_count": 2,
       "median_asking": 222.49
-    }
+    },
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437044402",
@@ -4768,10 +5597,14 @@
     "result_status": "excluded",
     "is_deal": false,
     "exclusion_reason": "Controller/accessoire in plaats van console",
-    "last_seen_at": "2026-09-02T08:57:43.345301+00:00",
+    "last_seen_at": "2026-09-02T09:13:25.436903+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
-    "condition": "zo goed als nieuw"
+    "condition": "zo goed als nieuw",
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437554479",
@@ -4827,14 +5660,18 @@
     "result_status": "scored",
     "is_deal": false,
     "exclusion_reason": null,
-    "last_seen_at": "2026-09-02T08:57:43.344829+00:00",
+    "last_seen_at": "2026-09-02T09:13:25.436441+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
     "condition": "zo goed als nieuw",
     "market_profile": {
       "sample_count": 2,
       "median_asking": 222.49
-    }
+    },
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437438687",
@@ -4890,14 +5727,18 @@
     "result_status": "scored",
     "is_deal": false,
     "exclusion_reason": null,
-    "last_seen_at": "2026-09-02T08:57:43.344354+00:00",
+    "last_seen_at": "2026-09-02T09:13:25.435974+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
     "condition": "zo goed als nieuw",
     "market_profile": {
       "sample_count": 2,
       "median_asking": 222.49
-    }
+    },
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437280176",
@@ -4916,10 +5757,14 @@
     "result_status": "unpriced",
     "is_deal": false,
     "exclusion_reason": null,
-    "last_seen_at": "2026-09-02T08:57:43.343893+00:00",
+    "last_seen_at": "2026-09-02T09:13:25.435536+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
-    "condition": "zo goed als nieuw"
+    "condition": "zo goed als nieuw",
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:a1504361788",
@@ -4976,14 +5821,18 @@
     "is_deal": false,
     "exclusion_reason": null,
     "valuation_samples": 0,
-    "last_seen_at": "2026-09-02T08:57:43.343404+00:00",
+    "last_seen_at": "2026-09-02T09:13:25.435060+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
     "condition": "zo goed als nieuw",
     "market_profile": {
       "sample_count": 2,
       "median_asking": 222.49
-    }
+    },
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437881178",
@@ -5001,7 +5850,11 @@
     "analysis": null,
     "result_status": "excluded",
     "is_deal": false,
-    "exclusion_reason": "Controller/accessoire in plaats van console"
+    "exclusion_reason": "Controller/accessoire in plaats van console",
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437837185",
@@ -5060,7 +5913,11 @@
     "market_profile": {
       "sample_count": 2,
       "median_asking": 905.0
-    }
+    },
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437771505",
@@ -5078,7 +5935,11 @@
     "analysis": null,
     "result_status": "unrecognized",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437911348",
@@ -5100,7 +5961,11 @@
     "market_profile": {
       "sample_count": 5,
       "median_asking": 910.0
-    }
+    },
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437900465",
@@ -5159,7 +6024,11 @@
     "market_profile": {
       "sample_count": 1,
       "median_asking": 1049.0
-    }
+    },
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2435392142",
@@ -5177,7 +6046,11 @@
     "analysis": null,
     "result_status": "excluded",
     "is_deal": false,
-    "exclusion_reason": "Controller/accessoire in plaats van console"
+    "exclusion_reason": "Controller/accessoire in plaats van console",
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437776129",
@@ -5236,7 +6109,11 @@
     "market_profile": {
       "sample_count": 2,
       "median_asking": 905.0
-    }
+    },
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:a1530157953",
@@ -5254,7 +6131,11 @@
     "analysis": null,
     "result_status": "excluded",
     "is_deal": false,
-    "exclusion_reason": "Accessoire/dienst gedetecteerd: capture card"
+    "exclusion_reason": "Accessoire/dienst gedetecteerd: capture card",
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:a1518102196",
@@ -5272,7 +6153,11 @@
     "analysis": null,
     "result_status": "excluded",
     "is_deal": false,
-    "exclusion_reason": "Accessoire/dienst gedetecteerd: pootjes"
+    "exclusion_reason": "Accessoire/dienst gedetecteerd: pootjes",
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:a1530174255",
@@ -5290,7 +6175,11 @@
     "analysis": null,
     "result_status": "unpriced",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:a1530155417",
@@ -5308,7 +6197,11 @@
     "analysis": null,
     "result_status": "excluded",
     "is_deal": false,
-    "exclusion_reason": "Accessoire/dienst gedetecteerd: standaard"
+    "exclusion_reason": "Accessoire/dienst gedetecteerd: standaard",
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:a1522505172",
@@ -5326,7 +6219,11 @@
     "analysis": null,
     "result_status": "excluded",
     "is_deal": false,
-    "exclusion_reason": "Controller/accessoire in plaats van console"
+    "exclusion_reason": "Controller/accessoire in plaats van console",
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437333480",
@@ -5344,7 +6241,11 @@
     "analysis": null,
     "result_status": "unrecognized",
     "is_deal": false,
-    "exclusion_reason": null
+    "exclusion_reason": null,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2434118007",
@@ -5362,7 +6263,11 @@
     "analysis": null,
     "result_status": "excluded",
     "is_deal": false,
-    "exclusion_reason": "Game/software in plaats van console"
+    "exclusion_reason": "Game/software in plaats van console",
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437902474",
@@ -5381,7 +6286,11 @@
     "result_status": "excluded",
     "is_deal": false,
     "exclusion_reason": "Controller/accessoire in plaats van console",
-    "valuation_samples": 0
+    "valuation_samples": 0,
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2436695259",
@@ -5445,7 +6354,11 @@
     "market_profile": {
       "sample_count": 1,
       "median_asking": 1049.0
-    }
+    },
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437782707",
@@ -5463,7 +6376,11 @@
     "analysis": null,
     "result_status": "excluded",
     "is_deal": false,
-    "exclusion_reason": "Controller/accessoire in plaats van console"
+    "exclusion_reason": "Controller/accessoire in plaats van console",
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:m2437854472",
@@ -5483,14 +6400,18 @@
     "is_deal": false,
     "exclusion_reason": null,
     "valuation_samples": 0,
-    "last_seen_at": "2026-09-02T08:57:40.677012+00:00",
+    "last_seen_at": "2026-09-02T09:13:22.581858+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
     "condition": "goed",
     "market_profile": {
       "sample_count": 3,
       "median_asking": 45.0
-    }
+    },
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:a1530480074",
@@ -5512,7 +6433,11 @@
     "last_seen_at": "2026-09-02T05:31:32.358827+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
-    "condition": "nieuw"
+    "condition": "nieuw",
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:a1519147698",
@@ -5532,14 +6457,18 @@
     "is_deal": false,
     "exclusion_reason": null,
     "valuation_samples": 0,
-    "last_seen_at": "2026-09-02T08:57:40.675983+00:00",
+    "last_seen_at": "2026-09-02T09:13:22.581111+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
     "condition": "zo goed als nieuw",
     "market_profile": {
       "sample_count": 3,
       "median_asking": 45.0
-    }
+    },
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:a1520167443",
@@ -5558,10 +6487,14 @@
     "result_status": "excluded",
     "is_deal": false,
     "exclusion_reason": "Game/software in plaats van console",
-    "last_seen_at": "2026-09-02T08:57:40.675044+00:00",
+    "last_seen_at": "2026-09-02T09:13:22.580424+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
-    "condition": "nieuw"
+    "condition": "nieuw",
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:a1527419843",
@@ -5583,7 +6516,11 @@
     "last_seen_at": "2026-09-02T05:31:32.357515+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
-    "condition": "nieuw"
+    "condition": "nieuw",
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   },
   {
     "id": "marktplaats-html:a1475755534",
@@ -5602,9 +6539,13 @@
     "result_status": "excluded",
     "is_deal": false,
     "exclusion_reason": "Dienst/gezocht-advertentie gedetecteerd: onderhoud service",
-    "last_seen_at": "2026-09-02T08:57:40.673264+00:00",
+    "last_seen_at": "2026-09-02T09:13:22.578936+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
-    "condition": "goed"
+    "condition": "goed",
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   }
 ]
