@@ -1,10 +1,10 @@
 {
   "Sony LED QLED 80": [
     {
-      "at": "2026-09-02T04:56:14.653912+00:00",
+      "at": "2026-09-02T05:26:59.278862+00:00",
       "sample_count": 1,
       "median_asking": 2099.0,
-      "estimated_resale": 1889.1,
+      "estimated_resale": 1931.08,
       "asking_low": 2099.0,
       "asking_high": 2099.0
     }
@@ -61,40 +61,40 @@
   ],
   "Microsoft Xbox Series X 1TB": [
     {
-      "at": "2026-09-02T04:56:14.653912+00:00",
-      "sample_count": 3,
-      "median_asking": 400.0,
-      "estimated_resale": 360.0,
-      "asking_low": 385.0,
-      "asking_high": 504.99
+      "at": "2026-09-02T05:26:59.278862+00:00",
+      "sample_count": 4,
+      "median_asking": 487.49,
+      "estimated_resale": 448.49,
+      "asking_low": 390.0,
+      "asking_high": 584.99
     }
   ],
   "Festool DECOUPEERZAAG 18V CARVEX": [
     {
-      "at": "2026-09-02T04:56:14.653912+00:00",
+      "at": "2026-09-02T05:26:59.278862+00:00",
       "sample_count": 1,
       "median_asking": 275.0,
-      "estimated_resale": 233.75,
+      "estimated_resale": 244.75,
       "asking_low": 275.0,
       "asking_high": 275.0
     }
   ],
   "Microsoft Xbox Series S 512GB": [
     {
-      "at": "2026-09-02T04:56:14.653912+00:00",
+      "at": "2026-09-02T05:26:59.278862+00:00",
       "sample_count": 1,
       "median_asking": 215.0,
-      "estimated_resale": 193.5,
+      "estimated_resale": 197.8,
       "asking_low": 215.0,
       "asking_high": 215.0
     }
   ],
   "Sony PlayStation 5 Pro": [
     {
-      "at": "2026-09-02T04:56:14.653912+00:00",
+      "at": "2026-09-02T05:26:59.278862+00:00",
       "sample_count": 2,
       "median_asking": 905.0,
-      "estimated_resale": 814.5,
+      "estimated_resale": 832.6,
       "asking_low": 902.0,
       "asking_high": 908.0
     }
@@ -121,30 +121,30 @@
   ],
   "Festool ISC 240 ACCU": [
     {
-      "at": "2026-09-02T04:56:14.653912+00:00",
+      "at": "2026-09-02T05:26:59.278862+00:00",
       "sample_count": 1,
       "median_asking": 450.0,
-      "estimated_resale": 382.5,
+      "estimated_resale": 400.5,
       "asking_low": 450.0,
       "asking_high": 450.0
     }
   ],
   "Shure SM7B": [
     {
-      "at": "2026-09-02T04:56:14.653912+00:00",
+      "at": "2026-09-02T05:26:59.278862+00:00",
       "sample_count": 5,
       "median_asking": 400.0,
-      "estimated_resale": 328.0,
+      "estimated_resale": 356.0,
       "asking_low": 261.2,
       "asking_high": 496.0
     }
   ],
   "RØDE NT1 5TH GEN": [
     {
-      "at": "2026-09-02T04:56:14.653912+00:00",
+      "at": "2026-09-02T05:26:59.278862+00:00",
       "sample_count": 1,
       "median_asking": 160.0,
-      "estimated_resale": 131.2,
+      "estimated_resale": 142.4,
       "asking_low": 160.0,
       "asking_high": 160.0
     }
@@ -221,10 +221,10 @@
   ],
   "Festool TS 75 EBQ": [
     {
-      "at": "2026-09-02T04:56:14.653912+00:00",
+      "at": "2026-09-02T05:26:59.278862+00:00",
       "sample_count": 1,
       "median_asking": 399.99,
-      "estimated_resale": 339.99,
+      "estimated_resale": 355.99,
       "asking_low": 399.99,
       "asking_high": 399.99
     }
@@ -251,20 +251,20 @@
   ],
   "Valve Steam Deck LCD 512GB": [
     {
-      "at": "2026-09-02T04:56:14.653912+00:00",
+      "at": "2026-09-02T05:26:59.278862+00:00",
       "sample_count": 2,
       "median_asking": 435.0,
-      "estimated_resale": 391.5,
+      "estimated_resale": 400.2,
       "asking_low": 426.0,
       "asking_high": 444.0
     }
   ],
   "Valve Steam Deck OLED 1TB": [
     {
-      "at": "2026-09-02T04:56:14.653912+00:00",
+      "at": "2026-09-02T05:26:59.278862+00:00",
       "sample_count": 1,
       "median_asking": 600.0,
-      "estimated_resale": 540.0,
+      "estimated_resale": 552.0,
       "asking_low": 600.0,
       "asking_high": 600.0
     }
@@ -291,10 +291,10 @@
   ],
   "Nintendo Switch OLED": [
     {
-      "at": "2026-09-02T04:56:14.653912+00:00",
+      "at": "2026-09-02T05:26:59.278862+00:00",
       "sample_count": 2,
       "median_asking": 222.49,
-      "estimated_resale": 200.24,
+      "estimated_resale": 204.69,
       "asking_low": 194.0,
       "asking_high": 250.98
     }
@@ -311,10 +311,10 @@
   ],
   "Sony PlayStation 5 Disc (original)": [
     {
-      "at": "2026-09-02T04:56:14.653912+00:00",
+      "at": "2026-09-02T05:26:59.278862+00:00",
       "sample_count": 1,
       "median_asking": 1049.0,
-      "estimated_resale": 944.1,
+      "estimated_resale": 965.08,
       "asking_low": 1049.0,
       "asking_high": 1049.0
     }
@@ -371,90 +371,90 @@
   ],
   "Tektronix THS710 TEKSCOPE": [
     {
-      "at": "2026-09-02T04:56:14.653912+00:00",
+      "at": "2026-09-02T05:26:59.278862+00:00",
       "sample_count": 1,
       "median_asking": 400.0,
-      "estimated_resale": 328.0,
+      "estimated_resale": 360.0,
       "asking_low": 400.0,
       "asking_high": 400.0
     }
   ],
   "Tektronix TEKSCOPE THS720P OSCILLOSCOPE": [
     {
-      "at": "2026-09-02T04:56:14.653912+00:00",
+      "at": "2026-09-02T05:26:59.278862+00:00",
       "sample_count": 1,
       "median_asking": 200.0,
-      "estimated_resale": 164.0,
+      "estimated_resale": 180.0,
       "asking_low": 200.0,
       "asking_high": 200.0
     }
   ],
   "Tektronix 2213": [
     {
-      "at": "2026-09-02T04:56:14.653912+00:00",
+      "at": "2026-09-02T05:26:59.278862+00:00",
       "sample_count": 1,
       "median_asking": 25.0,
-      "estimated_resale": 20.5,
+      "estimated_resale": 22.5,
       "asking_low": 25.0,
       "asking_high": 25.0
     }
   ],
   "Tektronix TDS 3012 100": [
     {
-      "at": "2026-09-02T04:56:14.653912+00:00",
+      "at": "2026-09-02T05:26:59.278862+00:00",
       "sample_count": 1,
       "median_asking": 375.0,
-      "estimated_resale": 307.5,
+      "estimated_resale": 337.5,
       "asking_low": 375.0,
       "asking_high": 375.0
     }
   ],
   "Sennheiser MKH 8050": [
     {
-      "at": "2026-09-02T04:56:14.653912+00:00",
+      "at": "2026-09-02T05:26:59.278862+00:00",
       "sample_count": 1,
       "median_asking": 1000.0,
-      "estimated_resale": 820.0,
+      "estimated_resale": 890.0,
       "asking_low": 1000.0,
       "asking_high": 1000.0
     }
   ],
   "Sennheiser MKH 416": [
     {
-      "at": "2026-09-02T04:56:14.653912+00:00",
+      "at": "2026-09-02T05:26:59.278862+00:00",
       "sample_count": 5,
       "median_asking": 475.0,
-      "estimated_resale": 389.5,
+      "estimated_resale": 422.75,
       "asking_low": 365.0,
       "asking_high": 650.0
     }
   ],
   "JBL LANCER 77": [
     {
-      "at": "2026-09-02T04:56:14.653912+00:00",
+      "at": "2026-09-02T05:26:59.278862+00:00",
       "sample_count": 1,
       "median_asking": 750.0,
-      "estimated_resale": 615.0,
+      "estimated_resale": 667.5,
       "asking_low": 750.0,
       "asking_high": 750.0
     }
   ],
   "JBL AUTHENTICS L16 DRAADLOZE": [
     {
-      "at": "2026-09-02T04:56:14.653912+00:00",
+      "at": "2026-09-02T05:26:59.278862+00:00",
       "sample_count": 1,
       "median_asking": 700.0,
-      "estimated_resale": 574.0,
+      "estimated_resale": 623.0,
       "asking_low": 700.0,
       "asking_high": 700.0
     }
   ],
   "JBL TLX6 LUIDSPREKERSET": [
     {
-      "at": "2026-09-02T04:56:14.653912+00:00",
+      "at": "2026-09-02T05:26:59.278862+00:00",
       "sample_count": 1,
       "median_asking": 110.0,
-      "estimated_resale": 90.2,
+      "estimated_resale": 97.9,
       "asking_low": 110.0,
       "asking_high": 110.0
     }
@@ -481,100 +481,100 @@
   ],
   "KEF B110 TYPE SP1057": [
     {
-      "at": "2026-09-02T04:56:14.653912+00:00",
+      "at": "2026-09-02T05:26:59.278862+00:00",
       "sample_count": 1,
       "median_asking": 125.0,
-      "estimated_resale": 102.5,
+      "estimated_resale": 111.25,
       "asking_low": 125.0,
       "asking_high": 125.0
     }
   ],
   "KEF B139 WOOFER SP1044": [
     {
-      "at": "2026-09-02T04:56:14.653912+00:00",
+      "at": "2026-09-02T05:26:59.278862+00:00",
       "sample_count": 1,
       "median_asking": 50.0,
-      "estimated_resale": 41.0,
+      "estimated_resale": 44.5,
       "asking_low": 50.0,
       "asking_high": 50.0
     }
   ],
   "KEF CARLTON 3": [
     {
-      "at": "2026-09-02T04:56:14.653912+00:00",
+      "at": "2026-09-02T05:26:59.278862+00:00",
       "sample_count": 1,
       "median_asking": 250.0,
-      "estimated_resale": 205.0,
+      "estimated_resale": 222.5,
       "asking_low": 250.0,
       "asking_high": 250.0
     }
   ],
   "KEF B110 TYPE SP1003": [
     {
-      "at": "2026-09-02T04:56:14.653912+00:00",
+      "at": "2026-09-02T05:26:59.278862+00:00",
       "sample_count": 1,
       "median_asking": 125.0,
-      "estimated_resale": 102.5,
+      "estimated_resale": 111.25,
       "asking_low": 125.0,
       "asking_high": 125.0
     }
   ],
   "Tannoy 628": [
     {
-      "at": "2026-09-02T04:56:14.653912+00:00",
+      "at": "2026-09-02T05:26:59.278862+00:00",
       "sample_count": 1,
       "median_asking": 115.0,
-      "estimated_resale": 94.3,
+      "estimated_resale": 102.35,
       "asking_low": 115.0,
       "asking_high": 115.0
     }
   ],
   "Tannoy SRNSYS DCC": [
     {
-      "at": "2026-09-02T04:56:14.653912+00:00",
+      "at": "2026-09-02T05:26:59.278862+00:00",
       "sample_count": 1,
       "median_asking": 25.0,
-      "estimated_resale": 20.5,
+      "estimated_resale": 22.25,
       "asking_low": 25.0,
       "asking_high": 25.0
     }
   ],
   "Tannoy EYRIS DC 1": [
     {
-      "at": "2026-09-02T04:56:14.653912+00:00",
+      "at": "2026-09-02T05:26:59.278862+00:00",
       "sample_count": 1,
       "median_asking": 300.0,
-      "estimated_resale": 246.0,
+      "estimated_resale": 267.0,
       "asking_low": 300.0,
       "asking_high": 300.0
     }
   ],
   "Festool INVALZAAG TS 55": [
     {
-      "at": "2026-09-02T04:56:14.653912+00:00",
+      "at": "2026-09-02T05:26:59.278862+00:00",
       "sample_count": 1,
       "median_asking": 260.0,
-      "estimated_resale": 221.0,
+      "estimated_resale": 231.4,
       "asking_low": 260.0,
       "asking_high": 260.0
     }
   ],
   "Festool INVALZAAG TSC 55": [
     {
-      "at": "2026-09-02T04:56:14.653912+00:00",
+      "at": "2026-09-02T05:26:59.278862+00:00",
       "sample_count": 1,
       "median_asking": 240.0,
-      "estimated_resale": 204.0,
+      "estimated_resale": 213.6,
       "asking_low": 240.0,
       "asking_high": 240.0
     }
   ],
   "Sony LED QLED 55": [
     {
-      "at": "2026-09-02T04:56:14.653912+00:00",
+      "at": "2026-09-02T05:26:59.278862+00:00",
       "sample_count": 1,
       "median_asking": 829.0,
-      "estimated_resale": 746.1,
+      "estimated_resale": 762.68,
       "asking_low": 829.0,
       "asking_high": 829.0
     }
