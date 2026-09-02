@@ -13,9 +13,10 @@ from urllib.parse import quote_plus, urljoin
 import httpx
 from bs4 import BeautifulSoup, Tag
 
-from .ebay import EbayBrowseConnector, conservative_active_market_value
+from .ebay import EbayBrowseConnector
 from .engine import analyze_deal, identify_product
 from .scanner import infer_risk_flags
+from .valuation import append_profile_history, build_market_profiles, choose_market_value
 from .whatsapp import send_twilio_whatsapp
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -26,56 +27,27 @@ DEALS = ROOT / "docs" / "data" / "deals.json"
 RESULTS = ROOT / "docs" / "data" / "results.json"
 STATUS = ROOT / "docs" / "data" / "status.json"
 CANDIDATES = ROOT / "docs" / "data" / "scraper_candidates.json"
+PROFILES = ROOT / "docs" / "data" / "model_profiles.json"
+PRICE_HISTORY = ROOT / "docs" / "data" / "price_history.json"
+MARKET_HISTORY = ROOT / "docs" / "data" / "market_history.json"
+SEARCH_PUBLIC = ROOT / "docs" / "data" / "scraper_searches.json"
 
 BASE = "https://www.marktplaats.nl"
 ITEM_ID_RE = re.compile(r"(?:^|/)([ma]\d{6,})(?:[-/?#]|$)", re.I)
 PRICE_RE = re.compile(r"€\s*([0-9][0-9.]*)(?:,([0-9]{2}))?")
 BLOCK_MARKERS = (
-    "captcha",
-    "hcaptcha",
-    "recaptcha",
-    "te veel verzoeken",
-    "access denied",
-    "temporarily blocked",
-    "ben je een robot",
-    "verify you are human",
+    "captcha", "hcaptcha", "recaptcha", "te veel verzoeken", "access denied",
+    "temporarily blocked", "ben je een robot", "verify you are human",
 )
 
 CONSOLE_NON_PRODUCT_TERMS = (
-    "standaard",
-    "pootjes",
-    "capture card",
-    "game capture",
-    "headset",
-    "koptelefoon",
-    "hoes",
-    "case",
-    "cover",
-    "skin",
-    "faceplate",
-    "kabel",
-    "adapter",
-    "oplader",
-    "charger",
-    "dock",
-    "houder",
-    "mount",
-    "koeler",
-    "cooler",
-    "fan ",
-    "camera",
-    "media remote",
-    "afstandsbediening",
+    "standaard", "pootjes", "capture card", "game capture", "headset", "koptelefoon",
+    "hoes", "case", "cover", "skin", "faceplate", "kabel", "adapter", "oplader",
+    "charger", "dock", "houder", "mount", "koeler", "cooler", "fan ", "camera",
+    "media remote", "afstandsbediening",
 )
-
-CONSOLE_SERVICE_TERMS = (
-    "reparatie",
-    "onderhoud service",
-    "gezocht",
-    "inkoop",
-    "repareren",
-    "ombouwen",
-)
+CONSOLE_SERVICE_TERMS = ("reparatie", "onderhoud service", "gezocht", "inkoop", "repareren", "ombouwen")
+GENERIC_SERVICE_TERMS = ("gezocht", "inkoop gevraagd", "reparatie service", "repareren wij", "onderhoud service")
 
 
 @dataclass
@@ -101,8 +73,7 @@ def write_json(path: Path, value: Any) -> None:
 
 
 def search_url(query: str) -> str:
-    slug = quote_plus(query.strip())
-    return f"{BASE}/q/{slug}/?sortBy=SORT_INDEX&sortOrder=DECREASING"
+    return f"{BASE}/q/{quote_plus(query.strip())}/?sortBy=SORT_INDEX&sortOrder=DECREASING"
 
 
 def parse_price(text: str) -> float | None:
@@ -141,53 +112,50 @@ def _item_id(href: str) -> str | None:
 def _console_is_primary(title: str) -> bool:
     t = " ".join(title.lower().split())
     starts = (
-        "ps5",
-        "playstation 5",
-        "sony playstation 5",
-        "xbox series x",
-        "xbox series s",
-        "microsoft xbox series",
-        "nintendo switch",
-        "switch oled",
-        "steam deck",
-        "valve steam deck",
+        "ps5", "playstation 5", "sony playstation 5", "xbox series x", "xbox series s",
+        "microsoft xbox series", "nintendo switch", "switch oled", "steam deck", "valve steam deck",
     )
     return t.startswith(starts) or re.match(r"^(te koop[: -]+)?(ps5|playstation 5|xbox series [xs]|nintendo switch|steam deck)\b", t) is not None
 
 
-def _console_exclusion(title: str, product: dict[str, Any]) -> str | None:
+def _exclusion(title: str, product: dict[str, Any]) -> str | None:
+    t = " ".join(title.lower().split())
+    for term in GENERIC_SERVICE_TERMS:
+        if term in t:
+            return f"Dienst/gezocht-advertentie gedetecteerd: {term}"
     if product.get("category") != "Spelcomputers":
         return None
-    t = " ".join(title.lower().split())
-
     for term in CONSOLE_SERVICE_TERMS:
         if term in t:
             return f"Dienst/gezocht-advertentie gedetecteerd: {term}"
-
     primary = _console_is_primary(title)
-
-    # Accessory words are allowed when the title clearly starts with the
-    # console itself, e.g. 'Steam Deck 512GB + case' or 'PS5 met controller'.
     if not primary:
         for term in CONSOLE_NON_PRODUCT_TERMS:
             if term in t:
                 return f"Accessoire/dienst gedetecteerd: {term.strip()}"
-
     if "controller" in t and not primary:
         return "Controller/accessoire in plaats van console"
-
-    # Pure game listings are not consoles, but console bundles containing games
-    # are valid results.
     if re.search(r"\b(games?|spellen)\b", t) and not primary and "console" not in t:
         return "Game/software in plaats van console"
-
     return None
+
+
+def _condition(text: str) -> str:
+    t = text.lower()
+    if "onderdelen" in t or "defect" in t:
+        return "onderdelen/defect"
+    if "zo goed als nieuw" in t:
+        return "zo goed als nieuw"
+    if re.search(r"\bnieuw\b", t):
+        return "nieuw"
+    if "redelijk" in t:
+        return "redelijk"
+    return "goed"
 
 
 def parse_search_html(html: str, max_results: int = 12) -> list[ScrapedListing]:
     soup = BeautifulSoup(html, "html.parser")
     by_id: dict[str, ScrapedListing] = {}
-
     for a in soup.find_all("a", href=True):
         href = str(a.get("href") or "")
         item_id = _item_id(href)
@@ -200,7 +168,6 @@ def parse_search_html(html: str, max_results: int = 12) -> list[ScrapedListing]:
         card_text = " ".join(card.stripped_strings)
         if not card_text:
             continue
-
         title_candidates: list[str] = []
         for link in card.find_all("a", href=True):
             if _item_id(str(link.get("href") or "")) != item_id:
@@ -217,17 +184,15 @@ def parse_search_html(html: str, max_results: int = 12) -> list[ScrapedListing]:
                 alt = str(img.get("alt") or "").strip()
                 if alt:
                     title_candidates.append(alt.split(",")[0].strip())
-
         title = min(title_candidates, key=len) if title_candidates else card_text[:160]
         price = parse_card_price(card, card_text)
         promoted = "topadvertentie" in card_text.lower() or "dagtopper" in card_text.lower()
-        listing = ScrapedListing(item_id, title, url, price, card_text[:650], promoted)
+        listing = ScrapedListing(item_id, title, url, price, card_text[:900], promoted)
         existing = by_id.get(item_id)
         if existing is None or len(listing.title) < len(existing.title):
             by_id[item_id] = listing
         if len(by_id) >= max_results:
             break
-
     return list(by_id.values())[:max_results]
 
 
@@ -246,6 +211,28 @@ def _twilio_ready() -> bool:
     return all(os.getenv(k) for k in ("TWILIO_ACCOUNT_SID", "TWILIO_AUTH_TOKEN", "TWILIO_FROM", "TWILIO_TO"))
 
 
+def _record_price(history: dict[str, list[dict[str, Any]]], key: str, price: float | None, at: str) -> tuple[float | None, float]:
+    if price is None or price <= 0:
+        return None, 0.0
+    points = list(history.get(key, []))
+    previous = float(points[-1]["price"]) if points and points[-1].get("price") else None
+    if previous is None or abs(previous - price) >= 0.01:
+        points.append({"at": at, "price": round(price, 2)})
+        history[key] = points[-30:]
+    drop = ((previous - price) / previous * 100) if previous and price < previous else 0.0
+    return previous, round(drop, 1)
+
+
+def _catalog_reference(product: dict[str, Any] | None) -> float | None:
+    if not product:
+        return None
+    try:
+        value = float(product.get("reference_value") or 0)
+    except (TypeError, ValueError):
+        return None
+    return value if value > 0 else None
+
+
 def run() -> dict[str, Any]:
     scfg = read_json(SEARCH_CFG, {})
     cfg = read_json(MAIN_CFG, {})
@@ -253,31 +240,28 @@ def run() -> dict[str, Any]:
     min_score = float(thresholds.get("min_deal_score", 82))
     min_profit = float(thresholds.get("min_expected_profit", 75))
     min_roi = float(thresholds.get("min_roi_percent", 25))
-    max_links = min(100, int(scfg.get("max_links_per_run", 96)))
-    max_results = int(scfg.get("max_results_per_query", 12))
+    max_links = min(100, int(scfg.get("max_links_per_run", 98)))
+    max_results = int(scfg.get("max_results_per_query", 7))
     delay = max(1.0, float(scfg.get("poll_seconds_between_queries", 2.0)))
-    requested_whatsapp = os.getenv("SEND_WHATSAPP", "true").lower() in {"1", "true", "yes"}
-    send_alerts = requested_whatsapp and _twilio_ready()
+    send_alerts = os.getenv("SEND_WHATSAPP", "true").lower() in {"1", "true", "yes"} and _twilio_ready()
 
     state = read_json(STATE, {"seen": [], "source_seen": [], "scraper_seen": []})
     seen = set(state.get("scraper_seen", []))
-    old_deals = read_json(DEALS, [])
     old_results = read_json(RESULTS, [])
-    old_candidates = read_json(CANDIDATES, [])
+    result_map = {r.get("id"): r for r in old_results if r.get("id")}
+    price_history: dict[str, list[dict[str, Any]]] = read_json(PRICE_HISTORY, {})
+    market_history: dict[str, list[dict[str, Any]]] = read_json(MARKET_HISTORY, {})
 
     new_seen: list[str] = []
-    new_deals: list[dict[str, Any]] = []
-    new_results: list[dict[str, Any]] = []
-    new_candidates: list[dict[str, Any]] = []
+    current_keys: set[str] = set()
+    alert_candidate_keys: set[str] = set()
     errors: list[str] = []
-    checked = 0
-    fetched_links = 0
-    excluded = 0
-    recognized_unvalued = 0
-    ebay = EbayBrowseConnector()
+    checked = fetched_links = price_changes = price_drops = 0
+    excluded_run = 0
+    now_run = datetime.now(timezone.utc).isoformat()
 
     headers = {
-        "User-Agent": "DealHunterPersonalMonitor/0.7 (+https://github.com/thomasgerritsen-code/dealhunter)",
+        "User-Agent": "DealHunterPersonalMonitor/1.0 (+https://github.com/thomasgerritsen-code/dealhunter)",
         "Accept-Language": "nl-NL,nl;q=0.9,en;q=0.5",
         "Accept": "text/html,application/xhtml+xml",
     }
@@ -297,18 +281,33 @@ def run() -> dict[str, Any]:
                 if any(s in str(exc).lower() for s in ("blok", "captcha", "rate-limit")):
                     break
                 continue
-
             fetched_links += len(rows)
             for row in rows:
                 checked += 1
                 key = f"marktplaats-html:{row.id}"
-                if key in seen:
-                    continue
+                current_keys.add(key)
                 now = datetime.now(timezone.utc).isoformat()
-                new_seen.append(key)
+                is_new = key not in seen
+                if is_new:
+                    new_seen.append(key)
+                    alert_candidate_keys.add(key)
+                previous_result = result_map.get(key, {})
+                previous_price, drop_pct = _record_price(price_history, key, row.asking_price, now)
+                if previous_price is not None and row.asking_price is not None and abs(previous_price - row.asking_price) >= 0.01:
+                    price_changes += 1
+                    if drop_pct > 0:
+                        price_drops += 1
+                    if drop_pct >= 8:
+                        alert_candidate_keys.add(key)
+
+                product, confidence = identify_product(row.title, row.description, search.get("category"))
+                matched = f"{product['brand']} {product['model']}" if product and confidence >= 0.60 else None
+                exclusion = _exclusion(row.title, product) if product else None
                 result: dict[str, Any] = {
+                    **previous_result,
                     "id": key,
-                    "found_at": now,
+                    "found_at": previous_result.get("found_at") or now,
+                    "last_seen_at": now,
                     "source": "marktplaats-html",
                     "query": query,
                     "category_hint": search.get("category"),
@@ -316,147 +315,174 @@ def run() -> dict[str, Any]:
                     "description": row.description,
                     "url": row.url,
                     "asking_price": row.asking_price,
+                    "previous_asking_price": previous_price if previous_price != row.asking_price else previous_result.get("previous_asking_price"),
+                    "price_drop_percent": drop_pct,
                     "promoted": row.promoted,
-                    "matched_product": None,
-                    "recognition_confidence": None,
-                    "analysis": None,
+                    "matched_product": matched,
+                    "recognition_confidence": round(confidence * 100) if matched else round(confidence * 100),
+                    "condition": _condition(row.description),
+                    "analysis": previous_result.get("analysis"),
                     "result_status": "new",
                     "is_deal": False,
-                    "exclusion_reason": None,
+                    "exclusion_reason": exclusion,
                 }
-
-                # Recognition happens before price handling, so 'Bieden' ads can
-                # still be classified and shown with a useful product name.
-                product, confidence = identify_product(row.title, "", search.get("category"))
-                if product and confidence >= 0.60:
-                    result["matched_product"] = f"{product['brand']} {product['model']}"
-                    result["recognition_confidence"] = round(confidence * 100)
-                    exclusion = _console_exclusion(row.title, product)
-                    if exclusion:
-                        result["result_status"] = "excluded"
-                        result["exclusion_reason"] = exclusion
-                        new_results.append(result)
-                        excluded += 1
-                        continue
-
-                if row.asking_price is None or row.asking_price <= 0:
+                if exclusion:
+                    result["result_status"] = "excluded"
+                    result["analysis"] = None
+                    excluded_run += 1
+                elif row.asking_price is None or row.asking_price <= 0:
                     result["result_status"] = "unpriced"
-                    new_results.append(result)
-                    new_candidates.append({
-                        "id": key,
-                        "found_at": now,
-                        "title": row.title,
-                        "matched_product": result.get("matched_product"),
-                        "url": row.url,
-                        "reason": "Geen vaste vraagprijs (bijv. Bieden/Zie omschrijving)",
-                    })
-                    continue
-
-                if not product or confidence < 0.60:
+                    result["analysis"] = None
+                elif not matched:
                     result["result_status"] = "unrecognized"
-                    new_results.append(result)
-                    continue
-
-                matched = result["matched_product"]
-                reference = product.get("reference_value")
-                live_value = None
-                samples = 0
-                try:
-                    prices = ebay.active_prices_eur(matched)
-                    live_value, samples = conservative_active_market_value(prices, float(reference or 0))
-                except Exception:
-                    pass
-
-                # Brand/model can be recognized without inventing a market value.
-                if not live_value and (reference is None or float(reference or 0) <= 0):
+                    result["analysis"] = None
+                else:
                     result["result_status"] = "recognized_unvalued"
-                    result["valuation_samples"] = samples
-                    new_results.append(result)
-                    recognized_unvalued += 1
-                    continue
-
-                analysis = analyze_deal({
-                    "title": row.title,
-                    "description": row.description,
-                    "category": product["category"],
-                    "asking_price": row.asking_price,
-                    "condition": "goed",
-                    "travel_cost": 0,
-                    "accessory_value": 0,
-                    "selling_fee_rate": float(cfg.get("assumptions", {}).get("selling_fee_rate", 0)),
-                    "risk_flags": infer_risk_flags(f"{row.title} {row.description}"),
-                    "manual_market_value": live_value,
-                })
-                analysis["valuation_samples"] = samples
-                analysis["valuation_basis"] = "eBay actieve vraagprijzen" if live_value and not reference else "eBay actieve vraagprijzen + referentie" if live_value else "lokale referentiecatalogus (demo)"
-                is_deal = (
-                    analysis["deal_score"] >= min_score
-                    and analysis["expected_profit"] >= min_profit
-                    and analysis["roi_percent"] >= min_roi
-                )
-                result.update({
-                    "analysis": analysis,
-                    "result_status": "deal" if is_deal else "scored",
-                    "is_deal": is_deal,
-                })
-                new_results.append(result)
-
-                if is_deal:
-                    deal = dict(result)
-                    new_deals.append(deal)
-                    if send_alerts:
-                        try:
-                            sid = send_twilio_whatsapp(deal)
-                            deal["whatsapp"] = {"sent": True, "sid": sid}
-                        except Exception as exc:
-                            deal["whatsapp"] = {"sent": False, "error": f"{type(exc).__name__}: {exc}"}
-                            errors.append(f"WhatsApp '{row.title}': {type(exc).__name__}: {exc}")
-
+                result_map[key] = result
             if idx < len(searches) - 1:
                 time.sleep(delay)
 
-    deal_map = {d.get("id"): d for d in old_deals if d.get("id")}
-    for deal in new_deals:
-        deal_map[deal["id"]] = deal
+    # Self-learning catalog: build a model profile from all observed asking prices,
+    # then revalue all stored recognized listings. This means old ads can become
+    # interesting later as the market model improves.
+    all_results = list(result_map.values())
+    profiles = build_market_profiles(all_results)
+    market_history = append_profile_history(market_history, profiles)
+    ebay = EbayBrowseConnector()
+    ebay_cache: dict[str, list[float]] = {}
+
+    for result in all_results:
+        if result.get("result_status") in {"excluded", "unpriced", "unrecognized"}:
+            result["is_deal"] = False
+            continue
+        if not result.get("matched_product") or not result.get("asking_price"):
+            continue
+        product, confidence = identify_product(
+            str(result.get("title") or ""),
+            str(result.get("description") or ""),
+            result.get("category_hint"),
+        )
+        if not product or confidence < 0.60:
+            result["result_status"] = "unrecognized"
+            result["analysis"] = None
+            result["is_deal"] = False
+            continue
+        model = str(result["matched_product"])
+        if model not in ebay_cache:
+            try:
+                ebay_cache[model] = ebay.active_prices_eur(model)
+            except Exception:
+                ebay_cache[model] = []
+        valuation = choose_market_value(
+            model=model,
+            category=product.get("category"),
+            profile=profiles.get(model),
+            ebay_prices=ebay_cache[model],
+            reference_value=_catalog_reference(product),
+        )
+        if not valuation.get("value"):
+            result["result_status"] = "recognized_unvalued"
+            result["analysis"] = None
+            result["is_deal"] = False
+            continue
+
+        analysis = analyze_deal({
+            "title": result.get("title"),
+            "description": result.get("description"),
+            "category": product["category"],
+            "asking_price": result.get("asking_price"),
+            "condition": result.get("condition") or "goed",
+            "travel_cost": 0,
+            "accessory_value": 0,
+            "selling_fee_rate": float(cfg.get("assumptions", {}).get("selling_fee_rate", 0)),
+            "risk_flags": infer_risk_flags(f"{result.get('title','')} {result.get('description','')}"),
+            "market_value": valuation["value"],
+            "market_low": valuation["low"],
+            "market_high": valuation["high"],
+            "market_confidence": valuation["confidence"],
+            "valuation_samples": valuation["sample_count"],
+            "valuation_basis": valuation["basis"],
+        })
+        is_deal = (
+            analysis["deal_score"] >= min_score
+            and analysis["expected_profit"] >= min_profit
+            and analysis["roi_percent"] >= min_roi
+        )
+        result["analysis"] = analysis
+        result["result_status"] = "deal" if is_deal else "scored"
+        result["is_deal"] = is_deal
+        result["market_profile"] = {
+            "sample_count": profiles.get(model, {}).get("sample_count", 0),
+            "median_asking": profiles.get(model, {}).get("median_asking"),
+        }
+
+    results = sorted(all_results, key=lambda r: r.get("found_at", ""), reverse=True)[:2000]
     deals = sorted(
-        deal_map.values(),
-        key=lambda d: (d.get("analysis", {}).get("deal_score", 0), d.get("found_at", "")),
+        [r for r in results if r.get("is_deal")],
+        key=lambda r: ((r.get("analysis") or {}).get("deal_score", 0), r.get("found_at", "")),
         reverse=True,
     )[:250]
+    candidates = [
+        {"id": r.get("id"), "found_at": r.get("found_at"), "title": r.get("title"),
+         "matched_product": r.get("matched_product"), "url": r.get("url"),
+         "reason": "Geen vaste vraagprijs (bijv. Bieden/Zie omschrijving)"}
+        for r in results if r.get("result_status") == "unpriced"
+    ][:250]
 
-    result_map = {r.get("id"): r for r in old_results if r.get("id")}
-    for result in new_results:
-        result_map[result["id"]] = result
-    results = sorted(result_map.values(), key=lambda r: r.get("found_at", ""), reverse=True)[:2000]
-
-    candidate_map = {c.get("id"): c for c in old_candidates if c.get("id")}
-    for candidate in new_candidates:
-        candidate_map[candidate["id"]] = candidate
-    candidates = sorted(candidate_map.values(), key=lambda c: c.get("found_at", ""), reverse=True)[:250]
+    # Smart alerts: only newly found strong deals or a material price drop that
+    # has turned an existing listing into a strong deal. No repetitive alerts.
+    alerts_sent = 0
+    for deal in deals:
+        if deal.get("id") not in alert_candidate_keys:
+            continue
+        if not send_alerts:
+            continue
+        try:
+            sid = send_twilio_whatsapp(deal)
+            deal["whatsapp"] = {"sent": True, "sid": sid, "at": now_run}
+            alerts_sent += 1
+        except Exception as exc:
+            errors.append(f"WhatsApp '{deal.get('title')}': {type(exc).__name__}: {exc}")
 
     seen.update(new_seen)
-    state["scraper_seen"] = list(seen)[-5000:]
-    if new_seen:
-        state["updated_at"] = datetime.now(timezone.utc).isoformat()
+    # Preserve insertion order as much as possible rather than converting the set directly.
+    previous_seen = [x for x in state.get("scraper_seen", []) if x in seen]
+    combined_seen = previous_seen + [x for x in new_seen if x not in previous_seen]
+    state["scraper_seen"] = combined_seen[-5000:]
+    if new_seen or price_changes:
+        state["updated_at"] = now_run
+
     write_json(STATE, state)
     write_json(DEALS, deals)
     write_json(RESULTS, results)
     write_json(CANDIDATES, candidates)
+    write_json(PROFILES, profiles)
+    write_json(PRICE_HISTORY, price_history)
+    write_json(MARKET_HISTORY, market_history)
+    write_json(SEARCH_PUBLIC, scfg)
 
+    recognized_unvalued_total = sum(1 for r in results if r.get("result_status") == "recognized_unvalued")
+    unpriced_total = sum(1 for r in results if r.get("result_status") == "unpriced")
+    unrecognized_total = sum(1 for r in results if r.get("result_status") == "unrecognized")
     status = {
-        "mode": "marktplaats-html-scraper",
+        "mode": "marktplaats-html-scraper-v1",
         "last_checked": datetime.now(timezone.utc).isoformat(),
         "queries_configured": len(scfg.get("searches", [])),
         "links_fetched": fetched_links,
         "checked_ads": checked,
         "new_ads_seen": len(new_seen),
-        "new_results_saved": len(new_results),
-        "new_deals": len(new_deals),
-        "excluded_results": excluded,
-        "recognized_unvalued": recognized_unvalued,
-        "unpriced_candidates": len(new_candidates),
+        "new_results_saved": len(new_seen),
+        "price_changes": price_changes,
+        "price_drops": price_drops,
+        "new_deals": sum(1 for d in deals if d.get("id") in set(new_seen)),
+        "excluded_results": excluded_run,
+        "recognized_unvalued": recognized_unvalued_total,
+        "unpriced_candidates": unpriced_total,
+        "unrecognized_results": unrecognized_total,
+        "learned_models": len(profiles),
         "total_results": len(results),
         "total_deals": len(deals),
+        "smart_alerts_sent": alerts_sent,
         "errors": errors[-10:],
         "whatsapp_enabled": send_alerts,
     }
