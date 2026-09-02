@@ -113,3 +113,27 @@ def test_console_accessory_is_excluded():
     assert product is not None
     reason = _exclusion("Verticale standaard voor PS5 Pro", product)
     assert reason is not None
+
+
+def test_xbox_controller_named_after_console_family_is_excluded():
+    title = "Microsoft Xbox Series X & S Controller Carbon Black"
+    product, _ = identify_product(title, "", "Spelcomputers")
+    assert product is not None
+    assert _exclusion(title, product) == "Controller/accessoire in plaats van console"
+
+
+def test_real_console_with_controller_is_not_excluded():
+    title = "Xbox Series X console inclusief controller"
+    product, _ = identify_product(title, "", "Spelcomputers")
+    assert product is not None
+    assert _exclusion(title, product) is None
+
+
+def test_online_auction_start_price_is_excluded():
+    title = "invalcirkelzaag Festool TS 55 REBQ"
+    description = "Ontdek dit item in de online veiling van Auctim. Registreer je en bied mee."
+    product, _ = identify_product(title, description, "Gereedschap")
+    assert product is not None
+    reason = _exclusion(title, product, description)
+    assert reason is not None
+    assert "Veiling/startprijs" in reason
