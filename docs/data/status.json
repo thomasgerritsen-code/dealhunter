@@ -1,6 +1,6 @@
 {
   "mode": "marktplaats-html-scraper-v1.1-multisource",
-  "last_checked": "2026-09-02T05:42:40.834859+00:00",
+  "last_checked": "2026-09-02T05:52:10.089672+00:00",
   "queries_configured": 14,
   "links_fetched": 98,
   "checked_ads": 98,
@@ -14,7 +14,7 @@
   "recognized_unvalued": 52,
   "unpriced_candidates": 34,
   "unrecognized_results": 20,
-  "learned_models": 35,
+  "learned_models": 34,
   "total_results": 174,
   "total_deals": 1,
   "smart_alerts_sent": 0,
