@@ -1,7 +1,7 @@
 {
   "poll_seconds_between_queries": 2.0,
   "max_links_per_run": 98,
-  "max_results_per_query": 7,
+  "max_results_per_query": 5,
   "searches": [
     {
       "name": "PS5",
@@ -71,6 +71,31 @@
     {
       "name": "Tannoy",
       "query": "tannoy speaker",
+      "category": "Audio"
+    },
+    {
+      "name": "Repair PS5",
+      "query": "ps5 defect",
+      "category": "Spelcomputers"
+    },
+    {
+      "name": "Repair Festool",
+      "query": "festool defect",
+      "category": "Gereedschap"
+    },
+    {
+      "name": "Repair Fluke",
+      "query": "fluke defect",
+      "category": "Meetapparatuur"
+    },
+    {
+      "name": "Repair Vintage JBL",
+      "query": "jbl speaker defect",
+      "category": "Audio"
+    },
+    {
+      "name": "Repair B&O",
+      "query": "bang olufsen defect",
       "category": "Audio"
     }
   ]

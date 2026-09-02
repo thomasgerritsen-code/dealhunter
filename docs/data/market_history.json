@@ -251,7 +251,7 @@
   ],
   "Valve Steam Deck LCD 512GB": [
     {
-      "at": "2026-09-02T09:14:00.745393+00:00",
+      "at": "2026-09-02T09:15:26.780339+00:00",
       "sample_count": 3,
       "median_asking": 420.0,
       "estimated_resale": 386.4,
@@ -597,6 +597,46 @@
       "estimated_resale": 13.35,
       "asking_low": 15.0,
       "asking_high": 15.0
+    }
+  ],
+  "Fluke 51 THERMOMETER": [
+    {
+      "at": "2026-09-02T09:15:26.780339+00:00",
+      "sample_count": 1,
+      "median_asking": 20.0,
+      "estimated_resale": 18.0,
+      "asking_low": 20.0,
+      "asking_high": 20.0
+    }
+  ],
+  "Fluke 345 POWER ANALYSER": [
+    {
+      "at": "2026-09-02T09:15:26.780339+00:00",
+      "sample_count": 1,
+      "median_asking": 100.0,
+      "estimated_resale": 90.0,
+      "asking_low": 100.0,
+      "asking_high": 100.0
+    }
+  ],
+  "JBL PARTYBOX DEFECT WERKT": [
+    {
+      "at": "2026-09-02T09:15:26.780339+00:00",
+      "sample_count": 1,
+      "median_asking": 75.0,
+      "estimated_resale": 66.75,
+      "asking_low": 75.0,
+      "asking_high": 75.0
+    }
+  ],
+  "JBL XTREME 2 CAMOUFLAGE": [
+    {
+      "at": "2026-09-02T09:15:26.780339+00:00",
+      "sample_count": 1,
+      "median_asking": 75.0,
+      "estimated_resale": 66.75,
+      "asking_low": 75.0,
+      "asking_high": 75.0
     }
   ]
 }
