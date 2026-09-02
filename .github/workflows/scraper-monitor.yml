@@ -9,7 +9,12 @@ on:
       - '.github/workflows/scraper-monitor.yml'
       - 'dealhunter/html_scraper.py'
       - 'dealhunter/engine.py'
+      - 'dealhunter/valuation.py'
+      - 'dealhunter/whatsapp.py'
+      - 'dealhunter/catalog.json'
       - 'config/scraper_searches.json'
+      - 'config/searches.json'
+      - 'tests/**'
   schedule:
     - cron: '4-59/10 * * * *'
 
@@ -25,7 +30,7 @@ concurrency:
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    timeout-minutes: 8
+    timeout-minutes: 10
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -37,7 +42,7 @@ jobs:
           cache: pip
       - name: Install dependencies
         run: pip install -r requirements.txt
-      - name: Run recognition tests
+      - name: Run recognition and valuation tests
         run: python -m pytest -q
       - name: Scrape public Marktplaats search pages
         env:
@@ -55,8 +60,8 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           # Preserve the freshly generated data, then move to the latest main.
-          # This prevents a concurrent source-code commit from causing a rebase
-          # conflict in state.json/results.json.
+          # This prevents source-code commits made during a run from causing
+          # conflicts in the generated dashboard JSON files.
           mkdir -p /tmp/dealhunter-data
           cp docs/data/*.json /tmp/dealhunter-data/
           git fetch origin main
