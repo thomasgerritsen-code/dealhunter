@@ -8,13 +8,17 @@ import httpx
 
 def format_message(deal: dict[str, Any]) -> str:
     a = deal["analysis"]
+    drop = float(deal.get("price_drop_percent") or 0)
+    reason = f"📉 Prijsdaling {drop:.0f}%" if drop >= 8 else "🆕 Nieuwe sterke koopkans"
     return (
-        f"🔥 DealHunter {a['deal_score']}/100\n"
+        f"🔥 DealHunter {a['deal_score']}/100 — {a.get('recommendation', a['verdict'])}\n"
+        f"{reason}\n"
         f"{deal['title']}\n"
         f"Vraagprijs: €{deal['asking_price']:.0f}\n"
-        f"Waarde: ±€{a['expected_resale']:.0f}\n"
-        f"Verwachte winst: €{a['expected_profit']:.0f} ({a['roi_percent']:.0f}% ROI)\n"
-        f"Risico: {a['risk_score']}/100 | {a['verdict']}\n"
+        f"Marktwaarde: ±€{a['expected_resale']:.0f} ({a.get('discount_percent', 0):.0f}% eronder)\n"
+        f"Verwachte marge: €{a['expected_profit']:.0f} | ROI {a['roi_percent']:.0f}%\n"
+        f"Bod: start €{a.get('opening_bid', 0):.0f} · doel €{a.get('target_buy_price', 0):.0f} · max €{a.get('max_buy_price', 0):.0f}\n"
+        f"Risico: {a['risk_score']}/100 · zekerheid {a.get('confidence_percent', 0)}%\n"
         f"{deal.get('url') or ''}"
     ).strip()
 
