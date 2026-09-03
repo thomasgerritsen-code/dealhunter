@@ -944,5 +944,15 @@
       "asking_low": 150.0,
       "asking_high": 150.0
     }
+  ],
+  "JBL XTREME 3 ACCU": [
+    {
+      "at": "2026-09-03T09:45:32.274617+00:00",
+      "sample_count": 1,
+      "median_asking": 60.0,
+      "estimated_resale": 53.4,
+      "asking_low": 60.0,
+      "asking_high": 60.0
+    }
   ]
 }
