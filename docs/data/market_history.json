@@ -77,11 +77,11 @@
       "asking_high": 600.0
     },
     {
-      "at": "2026-09-03T10:15:21.257137+00:00",
+      "at": "2026-09-03T16:34:45.249126+00:00",
       "sample_count": 7,
-      "median_asking": 400.0,
-      "estimated_resale": 368.0,
-      "asking_low": 327.0,
+      "median_asking": 500.0,
+      "estimated_resale": 460.0,
+      "asking_low": 380.0,
       "asking_high": 595.0
     }
   ],

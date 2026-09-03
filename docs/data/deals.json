@@ -23,18 +23,18 @@
       "valuation_basis": "Marktplaats profiel (7 niet-gepromote advertenties) + lokale referentiecatalogus",
       "valuation_samples": 7,
       "asking_price": 20.0,
-      "expected_resale": 368.24,
-      "market_low": 304.9,
+      "expected_resale": 444.84,
+      "market_low": 329.77,
       "market_high": 464.3,
       "fees": 0.0,
-      "risk_reserve": 22.95,
+      "risk_reserve": 24.61,
       "travel_cost": 0.0,
-      "expected_profit": 325.29,
-      "roi_percent": 1626.4,
-      "discount_percent": 94.6,
+      "expected_profit": 400.23,
+      "roi_percent": 2001.2,
+      "discount_percent": 95.5,
       "opening_bid": 18.4,
       "target_buy_price": 20.0,
-      "max_buy_price": 279.0,
+      "max_buy_price": 340.16,
       "deal_score": 100,
       "risk_score": 26,
       "liquidity_score": 87,
@@ -61,7 +61,7 @@
     "exclusion_reason": null,
     "market_profile": {
       "sample_count": 7,
-      "median_asking": 400.0
+      "median_asking": 500.0
     },
     "repair": {
       "detected": false
