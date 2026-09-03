@@ -954,5 +954,15 @@
       "asking_low": 60.0,
       "asking_high": 60.0
     }
+  ],
+  "KEF REFERENCE SERIES MODEL": [
+    {
+      "at": "2026-09-03T17:27:13.436003+00:00",
+      "sample_count": 1,
+      "median_asking": 175.0,
+      "estimated_resale": 155.75,
+      "asking_low": 175.0,
+      "asking_high": 175.0
+    }
   ]
 }
