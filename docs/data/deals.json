@@ -1,5 +1,74 @@
 [
   {
+    "id": "marktplaats-html:m2438373378",
+    "found_at": "2026-09-03T10:14:36.918675+00:00",
+    "last_seen_at": "2026-09-03T10:14:36.918675+00:00",
+    "source": "marktplaats-html",
+    "query": "xbox series x",
+    "category_hint": "Spelcomputers",
+    "title": "A Plague Tale: Requiem - Xbox Series X",
+    "description": "Bewaren in Mijn Favorieten A Plague Tale: Requiem - Xbox Series X Verkoop a plague tale: requiem voor de xbox series x. De game is in uitstekende staat en werkt perfect. Duik in een meeslepend verhaal vol avontuur en gevaar. Geschikt voor spelers van 18 jaar en oude Zo goed als nieuw Verzenden € 20,00 Vandaag Mies Wilsum Bewaren in Mijn Favorieten A Plague Tale: Requiem - Xbox Series X € 20,00 Verkoop a plague tale: requiem voor de xbox series x. De game is in uitstekende staat en werkt perfect. Duik in een meeslepend verhaal vol avontuur en gevaar. Geschikt voor spelers van 18 jaar en oude Zo goed als nieuw Verzenden Mies Wilsum Vandaag Bewaren in Mijn Favorieten A Plague Tale: Requiem - Xbox Series X € 20,00 Details Verzenden Zo goed als nieuw Xbox Series X Verkoop a plague tale: requiem voor de xbox series x. De game is in uitstekende staat en werkt perfect. Duik in een meeslepend ver",
+    "url": "https://www.marktplaats.nl/v/spelcomputers-en-games/spelcomputers-xbox-series-x-en-s/m2438373378-a-plague-tale-requiem-xbox-series-x",
+    "asking_price": 20.0,
+    "previous_asking_price": null,
+    "price_drop_percent": 0.0,
+    "promoted": false,
+    "matched_product": "Microsoft Xbox Series X 1TB",
+    "recognition_confidence": 93,
+    "condition": "zo goed als nieuw",
+    "analysis": {
+      "matched_product": "Microsoft Xbox Series X 1TB",
+      "category": "Spelcomputers",
+      "source": "Marktplaats profiel (7 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (7 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 7,
+      "asking_price": 20.0,
+      "expected_resale": 368.24,
+      "market_low": 304.9,
+      "market_high": 464.3,
+      "fees": 0.0,
+      "risk_reserve": 22.95,
+      "travel_cost": 0.0,
+      "expected_profit": 325.29,
+      "roi_percent": 1626.4,
+      "discount_percent": 94.6,
+      "opening_bid": 18.4,
+      "target_buy_price": 20.0,
+      "max_buy_price": 279.0,
+      "deal_score": 100,
+      "risk_score": 26,
+      "liquidity_score": 87,
+      "confidence_percent": 83,
+      "recognition_confidence_percent": 93,
+      "market_confidence_percent": 73,
+      "verdict": "TOPDEAL",
+      "recommendation": "ZEER INTERESSANT",
+      "risk_reasons": [
+        "Vraagprijs is <45% van geschatte waarde: extra fraude-/defectcheck"
+      ],
+      "score_breakdown": {
+        "discount": 28,
+        "profit": 24,
+        "roi": 18,
+        "liquidity": 10.4,
+        "confidence": 14.9,
+        "risk_penalty": 5.2
+      },
+      "note": "Marktwaardes op basis van vraagprijzen zijn schattingen, geen gegarandeerde gerealiseerde verkoopprijzen."
+    },
+    "result_status": "deal",
+    "is_deal": true,
+    "exclusion_reason": null,
+    "market_profile": {
+      "sample_count": 7,
+      "median_asking": 400.0
+    },
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
+  },
+  {
     "id": "marktplaats-html:m2418377175",
     "found_at": "2026-09-01T19:20:15.326792+00:00",
     "source": "marktplaats-html",
