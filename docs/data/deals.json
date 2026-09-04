@@ -1,5 +1,74 @@
 [
   {
+    "id": "marktplaats-html:a1530607625",
+    "found_at": "2026-09-04T10:16:33.310685+00:00",
+    "last_seen_at": "2026-09-04T10:16:33.310685+00:00",
+    "source": "marktplaats-html",
+    "query": "ps5",
+    "category_hint": "Spelcomputers",
+    "title": "PS5 Koelventilator & Houder - 33% Korting",
+    "description": "Bewaren in Mijn Favorieten PS5 Koelventilator & Houder - 33% Korting Tokluck ps5 wandhouder met koeling & laadstation - 33% korting! Gecontroleerd retourproduct - 100% functioneel. Compatibel met: ps5, ps5 slim en ps5 pro (zowel disc als digital) koeling: actief sy Zo goed als nieuw Ophalen of Verzenden € 20,05 Vandaag Topadvertentie Retoertje Arnhem Bewaren in Mijn Favorieten PS5 Koelventilator & Houder - 33% Korting € 20,05 Tokluck ps5 wandhouder met koeling & laadstation - 33% korting! Gecontroleerd retourproduct - 100% functioneel. Compatibel met: ps5, ps5 slim en ps5 pro (zowel disc als digital) koeling: actief sy Zo goed als nieuw Ophalen of Verzenden Retoertje Arnhem Vandaag Topadvertentie Bewaren in Mijn Favorieten PS5 Koelventilator & Houder - 33% Korting € 20,05 Details Ophalen of Verzenden Zo goed als nieuw Overige typen PlayStation 5 Tokluck ps5 wandhouder met koeling & laads",
+    "url": "https://www.marktplaats.nl/v/spelcomputers-en-games/spelcomputers-sony-playstation-consoles-accessoires/a1530607625-ps5-koelventilator-houder-33-korting",
+    "asking_price": 20.05,
+    "previous_asking_price": null,
+    "price_drop_percent": 0.0,
+    "promoted": true,
+    "matched_product": "Sony PlayStation 5 Pro",
+    "recognition_confidence": 86,
+    "condition": "zo goed als nieuw",
+    "analysis": {
+      "matched_product": "Sony PlayStation 5 Pro",
+      "category": "Spelcomputers",
+      "source": "lokale referentiecatalogus",
+      "valuation_basis": "lokale referentiecatalogus",
+      "valuation_samples": 0,
+      "asking_price": 20.05,
+      "expected_resale": 663.0,
+      "market_low": 596.7,
+      "market_high": 729.3,
+      "fees": 0.0,
+      "risk_reserve": 29.32,
+      "travel_cost": 0.0,
+      "expected_profit": 613.63,
+      "roi_percent": 3060.5,
+      "discount_percent": 97.0,
+      "opening_bid": 18.45,
+      "target_buy_price": 20.05,
+      "max_buy_price": 514.34,
+      "deal_score": 100,
+      "risk_score": 26,
+      "liquidity_score": 92,
+      "confidence_percent": 71,
+      "recognition_confidence_percent": 86,
+      "market_confidence_percent": 58,
+      "verdict": "TOPDEAL",
+      "recommendation": "ZEER INTERESSANT",
+      "risk_reasons": [
+        "Vraagprijs is <45% van geschatte waarde: extra fraude-/defectcheck"
+      ],
+      "score_breakdown": {
+        "discount": 28,
+        "profit": 24,
+        "roi": 18,
+        "liquidity": 11.0,
+        "confidence": 12.9,
+        "risk_penalty": 5.2
+      },
+      "note": "Marktwaardes op basis van vraagprijzen zijn schattingen, geen gegarandeerde gerealiseerde verkoopprijzen."
+    },
+    "result_status": "deal",
+    "is_deal": true,
+    "exclusion_reason": null,
+    "market_profile": {
+      "sample_count": 2,
+      "median_asking": 905.0
+    },
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
+  },
+  {
     "id": "marktplaats-html:a1530601454",
     "found_at": "2026-09-04T08:33:25.523649+00:00",
     "last_seen_at": "2026-09-04T10:00:11.903259+00:00",
