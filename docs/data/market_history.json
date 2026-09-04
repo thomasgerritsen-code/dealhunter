@@ -1374,5 +1374,15 @@
       "asking_low": 75.0,
       "asking_high": 75.0
     }
+  ],
+  "Tannoy MERCURY M1 BOEKENPLANK": [
+    {
+      "at": "2026-09-04T13:58:55.076867+00:00",
+      "sample_count": 1,
+      "median_asking": 75.0,
+      "estimated_resale": 66.75,
+      "asking_low": 75.0,
+      "asking_high": 75.0
+    }
   ]
 }
