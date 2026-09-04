@@ -1394,5 +1394,15 @@
       "asking_low": 8.0,
       "asking_high": 8.0
     }
+  ],
+  "Sony PlayStation 5 Digital Slim": [
+    {
+      "at": "2026-09-04T15:01:09.299729+00:00",
+      "sample_count": 1,
+      "median_asking": 450.0,
+      "estimated_resale": 414.0,
+      "asking_low": 450.0,
+      "asking_high": 450.0
+    }
   ]
 }
