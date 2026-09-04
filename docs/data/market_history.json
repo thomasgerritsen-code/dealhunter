@@ -1316,5 +1316,15 @@
       "asking_low": 100.0,
       "asking_high": 100.0
     }
+  ],
+  "Makita HS011G XGT CIRKELZAAG": [
+    {
+      "at": "2026-09-04T07:32:22.847926+00:00",
+      "sample_count": 1,
+      "median_asking": 36.3,
+      "estimated_resale": 32.31,
+      "asking_low": 36.3,
+      "asking_high": 36.3
+    }
   ]
 }
