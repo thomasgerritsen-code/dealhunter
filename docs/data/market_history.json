@@ -145,12 +145,12 @@
       "asking_high": 215.0
     },
     {
-      "at": "2026-09-04T00:20:37.635155+00:00",
-      "sample_count": 1,
-      "median_asking": 215.0,
-      "estimated_resale": 197.8,
-      "asking_low": 215.0,
-      "asking_high": 215.0
+      "at": "2026-09-04T07:02:46.103551+00:00",
+      "sample_count": 2,
+      "median_asking": 237.5,
+      "estimated_resale": 218.5,
+      "asking_low": 224.0,
+      "asking_high": 251.0
     }
   ],
   "Sony PlayStation 5 Pro": [
@@ -1305,6 +1305,16 @@
       "estimated_resale": 293.7,
       "asking_low": 330.0,
       "asking_high": 330.0
+    }
+  ],
+  "JBL SB2210A 10 INCH": [
+    {
+      "at": "2026-09-04T07:02:46.103551+00:00",
+      "sample_count": 1,
+      "median_asking": 100.0,
+      "estimated_resale": 89.0,
+      "asking_low": 100.0,
+      "asking_high": 100.0
     }
   ]
 }
