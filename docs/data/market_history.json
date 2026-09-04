@@ -1384,5 +1384,15 @@
       "asking_low": 75.0,
       "asking_high": 75.0
     }
+  ],
+  "JBL TLX 8 LUIDSPREKERSET": [
+    {
+      "at": "2026-09-04T14:14:20.039610+00:00",
+      "sample_count": 1,
+      "median_asking": 8.0,
+      "estimated_resale": 7.12,
+      "asking_low": 8.0,
+      "asking_high": 8.0
+    }
   ]
 }
