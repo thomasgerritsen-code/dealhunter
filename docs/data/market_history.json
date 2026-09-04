@@ -1356,5 +1356,15 @@
       "asking_low": 600.0,
       "asking_high": 600.0
     }
+  ],
+  "Tannoy J30 VLOERSTAANDE LUIDSPREKERS": [
+    {
+      "at": "2026-09-04T10:45:15.494271+00:00",
+      "sample_count": 1,
+      "median_asking": 75.0,
+      "estimated_resale": 66.75,
+      "asking_low": 75.0,
+      "asking_high": 75.0
+    }
   ]
 }
