@@ -1,11 +1,11 @@
 {
   "mode": "marktplaats-html-scraper-v1.2-repair-hunter",
-  "last_checked": "2026-09-04T07:02:46.194423+00:00",
+  "last_checked": "2026-09-04T07:17:54.703401+00:00",
   "queries_configured": 19,
-  "links_fetched": 90,
-  "checked_ads": 90,
-  "new_ads_seen": 4,
-  "new_results_saved": 4,
+  "links_fetched": 95,
+  "checked_ads": 95,
+  "new_ads_seen": 0,
+  "new_results_saved": 0,
   "price_changes": 0,
   "price_drops": 0,
   "new_deals": 0,
@@ -18,9 +18,7 @@
   "total_results": 275,
   "total_deals": 1,
   "smart_alerts_sent": 0,
-  "errors": [
-    "fluke: HTTPStatusError: Server error '500 Internal Server Error' for url 'https://www.marktplaats.nl/q/fluke/?sortBy=SORT_INDEX&sortOrder=DECREASING'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500"
-  ],
+  "errors": [],
   "whatsapp_enabled": false,
   "audiofanzine_observations": 87,
   "audiofanzine_models_matched": 7,
