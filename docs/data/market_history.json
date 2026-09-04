@@ -1326,5 +1326,25 @@
       "asking_low": 36.3,
       "asking_high": 36.3
     }
+  ],
+  "Makita DBM131 DIAMANTBOORMACHINE 1700W": [
+    {
+      "at": "2026-09-04T08:15:44.880419+00:00",
+      "sample_count": 1,
+      "median_asking": 55.66,
+      "estimated_resale": 49.54,
+      "asking_low": 55.66,
+      "asking_high": 55.66
+    }
+  ],
+  "Makita VC004GL XGT BOUWSTOFZUIGER": [
+    {
+      "at": "2026-09-04T08:15:44.880419+00:00",
+      "sample_count": 1,
+      "median_asking": 27.23,
+      "estimated_resale": 24.23,
+      "asking_low": 27.23,
+      "asking_high": 27.23
+    }
   ]
 }
