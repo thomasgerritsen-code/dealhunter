@@ -1424,5 +1424,15 @@
       "asking_low": 30.0,
       "asking_high": 30.0
     }
+  ],
+  "Tannoy REVOLUTION XT 8F": [
+    {
+      "at": "2026-09-04T17:24:22.689844+00:00",
+      "sample_count": 1,
+      "median_asking": 925.0,
+      "estimated_resale": 823.25,
+      "asking_low": 925.0,
+      "asking_high": 925.0
+    }
   ]
 }
