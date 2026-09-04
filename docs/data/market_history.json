@@ -1296,5 +1296,15 @@
       "asking_low": 180.0,
       "asking_high": 180.0
     }
+  ],
+  "JBL PARTYBOX 720": [
+    {
+      "at": "2026-09-04T06:18:06.425451+00:00",
+      "sample_count": 1,
+      "median_asking": 330.0,
+      "estimated_resale": 293.7,
+      "asking_low": 330.0,
+      "asking_high": 330.0
+    }
   ]
 }
