@@ -1,6 +1,6 @@
 {
   "mode": "marktplaats-html-scraper-v1.2-repair-hunter",
-  "last_checked": "2026-09-04T22:51:05.208063+00:00",
+  "last_checked": "2026-09-04T22:58:51.594084+00:00",
   "queries_configured": 19,
   "links_fetched": 95,
   "checked_ads": 95,
@@ -10,7 +10,7 @@
   "price_drops": 0,
   "new_deals": 0,
   "excluded_results": 60,
-  "excluded_in_current_scan": 8,
+  "excluded_in_current_scan": 7,
   "recognized_unvalued": 97,
   "unpriced_candidates": 74,
   "unrecognized_results": 31,
