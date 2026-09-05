@@ -343,5 +343,91 @@
       "detected": false
     },
     "is_repair_deal": false
+  },
+  {
+    "id": "marktplaats-html:m2418377175",
+    "found_at": "2026-09-01T19:20:15.326792+00:00",
+    "source": "marktplaats-html",
+    "query": "shure sm7b",
+    "category_hint": "Audio",
+    "title": "Zo goed als nieuwe Shure SM7B microfoon",
+    "description": "Bewaren in Mijn Favorieten Zo goed als nieuwe Shure SM7B microfoon Deze shure sm7b microfoon is bijna niet gebruikt en verkeert in uitstekende staat. De microfoon is ideaal voor zang, spraak en instrumenten, en staat bekend om zijn warme en heldere geluidskwaliteit. Zo goed als nieuw Verzenden € 190,00 8 jul 26 Bert Haan Drachten Bewaren in Mijn Favorieten Zo goed als nieuwe Shure SM7B microfoon € 190,00 Deze shure sm7b microfoon is bijna niet gebruikt en verkeert in uitstekende staat. De microfoon is ideaal voor zang, spraak en instrumenten, en staat bekend om zijn warme en heldere geluidskwaliteit. Zo goed als nieuw Verzenden Bert Haan Drac",
+    "url": "https://www.marktplaats.nl/v/muziek-en-instrumenten/microfoons/m2418377175-zo-goed-als-nieuwe-shure-sm7b-microfoon",
+    "asking_price": 190.0,
+    "promoted": false,
+    "matched_product": "Shure SM7B",
+    "recognition_confidence": 86,
+    "analysis": {
+      "matched_product": "Shure SM7B",
+      "category": "Audio",
+      "source": "Marktplaats profiel (7 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (7 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 7,
+      "asking_price": 190.0,
+      "expected_resale": 302.06,
+      "market_low": 233.41,
+      "market_high": 310.07,
+      "fees": 0.0,
+      "risk_reserve": 5.8,
+      "travel_cost": 0.0,
+      "expected_profit": 106.26,
+      "roi_percent": 55.9,
+      "discount_percent": 37.1,
+      "opening_bid": 174.8,
+      "target_buy_price": 190.0,
+      "max_buy_price": 236.26,
+      "deal_score": 86,
+      "risk_score": 16,
+      "liquidity_score": 88,
+      "confidence_percent": 79,
+      "recognition_confidence_percent": 86,
+      "market_confidence_percent": 73,
+      "verdict": "INTERESSANT",
+      "recommendation": "INTERESSANT",
+      "risk_reasons": [],
+      "score_breakdown": {
+        "discount": 23.1,
+        "profit": 10.2,
+        "roi": 12.6,
+        "liquidity": 10.6,
+        "confidence": 14.3,
+        "risk_penalty": 3.2
+      },
+      "note": "Marktwaardes op basis van vraagprijzen zijn schattingen, geen gegarandeerde gerealiseerde verkoopprijzen.",
+      "quick_sale_value": 233.41,
+      "realistic_market_value": 302.06,
+      "optimistic_value": 310.07,
+      "source_agreement_percent": null,
+      "valuation_sources": [
+        {
+          "source": "Marktplaats",
+          "value": 333.75,
+          "low": 245.46,
+          "high": 353.33,
+          "samples": 7,
+          "kind": "actieve vraagprijzen"
+        },
+        {
+          "source": "Referentiecatalogus",
+          "value": 285.0,
+          "low": 256.5,
+          "high": 313.5,
+          "samples": 0,
+          "kind": "lokale handmatige referentie"
+        }
+      ],
+      "multi_source": true
+    },
+    "result_status": "deal",
+    "is_deal": true,
+    "exclusion_reason": null,
+    "market_profile": {
+      "sample_count": 7,
+      "median_asking": 375.0
+    },
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   }
 ]
