@@ -1968,5 +1968,15 @@
       "asking_low": 400.0,
       "asking_high": 400.0
     }
+  ],
+  "Technics SU V2A": [
+    {
+      "at": "2026-09-05T21:57:30.986437+00:00",
+      "sample_count": 1,
+      "median_asking": 200.0,
+      "estimated_resale": 178.0,
+      "asking_low": 200.0,
+      "asking_high": 200.0
+    }
   ]
 }
