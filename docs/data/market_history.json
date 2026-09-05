@@ -1940,5 +1940,15 @@
       "asking_low": 399.0,
       "asking_high": 399.0
     }
+  ],
+  "JBL SONY BOSE BLUETOOTH": [
+    {
+      "at": "2026-09-05T09:24:24.696934+00:00",
+      "sample_count": 1,
+      "median_asking": 25.0,
+      "estimated_resale": 22.25,
+      "asking_low": 25.0,
+      "asking_high": 25.0
+    }
   ]
 }
