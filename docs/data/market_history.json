@@ -299,12 +299,12 @@
       "asking_high": 400.0
     },
     {
-      "at": "2026-09-05T11:31:55.141240+00:00",
-      "sample_count": 7,
-      "median_asking": 375.0,
-      "estimated_resale": 333.75,
-      "asking_low": 275.8,
-      "asking_high": 397.0
+      "at": "2026-09-05T14:12:33.524469+00:00",
+      "sample_count": 8,
+      "median_asking": 327.0,
+      "estimated_resale": 291.03,
+      "asking_low": 224.0,
+      "asking_high": 394.0
     }
   ],
   "RØDE NT1 5TH GEN": [
@@ -964,6 +964,14 @@
     },
     {
       "at": "2026-09-04T13:45:36.233311+00:00",
+      "sample_count": 1,
+      "median_asking": 130.0,
+      "estimated_resale": 115.7,
+      "asking_low": 130.0,
+      "asking_high": 130.0
+    },
+    {
+      "at": "2026-09-05T14:12:33.524469+00:00",
       "sample_count": 1,
       "median_asking": 130.0,
       "estimated_resale": 115.7,
