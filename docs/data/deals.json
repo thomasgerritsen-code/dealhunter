@@ -205,5 +205,74 @@
       "detected": false
     },
     "is_repair_deal": false
+  },
+  {
+    "id": "marktplaats-html:a1530454566",
+    "found_at": "2026-09-05T05:32:53.702430+00:00",
+    "last_seen_at": "2026-09-05T05:32:53.702430+00:00",
+    "source": "marktplaats-html",
+    "query": "nintendo switch oled",
+    "category_hint": "Spelcomputers",
+    "title": "Nintendo Switch OLED Dock Origineel (Klepje Zijkant Ontbr...",
+    "description": "Bewaren in Mijn Favorieten Nintendo Switch OLED Dock Origineel (Klepje Zijkant Ontbr... Nintendo switch oled dock origineel (klepje zijkant ontbreekt) www.justingames.nl koop al jouw games, accessoires en consoles veilig en snel via onze webshop met ideal of klarna achteraf betalen . Gro Zo goed als nieuw Ophalen of Verzenden € 29,98 Vandaag JustinGames.nl Voorschoten Bewaren in Mijn Favorieten Nintendo Switch OLED Dock Origineel (Klepje Zijkant Ontbr... € 29,98 Nintendo switch oled dock origineel (klepje zijkant ontbreekt) www.justingames.nl koop al jouw games, accessoires en consoles veilig en snel via onze webshop met ideal of klarna achteraf betalen . Gro Zo goed als nieuw Ophalen of Verzenden JustinGames.nl Voorschoten Vandaag Bewaren in Mijn Favorieten Nintendo Switch OLED Dock Origineel (Klepje Zijkant Ontbr... € 29,98 Details Ophalen of Verzenden Zo goed als nieuw Nintendo switch",
+    "url": "https://www.marktplaats.nl/v/spelcomputers-en-games/spelcomputers-nintendo-switch/a1530454566-nintendo-switch-oled-dock-origineel-klepje-zijkant-ontbr",
+    "asking_price": 29.98,
+    "previous_asking_price": null,
+    "price_drop_percent": 0.0,
+    "promoted": false,
+    "matched_product": "Nintendo Switch OLED",
+    "recognition_confidence": 93,
+    "condition": "zo goed als nieuw",
+    "analysis": {
+      "matched_product": "Nintendo Switch OLED",
+      "category": "Spelcomputers",
+      "source": "Marktplaats profiel (3 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (3 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 3,
+      "asking_price": 29.98,
+      "expected_resale": 190.13,
+      "market_low": 178.72,
+      "market_high": 242.57,
+      "fees": 0.0,
+      "risk_reserve": 18.65,
+      "travel_cost": 0.0,
+      "expected_profit": 141.5,
+      "roi_percent": 472.0,
+      "discount_percent": 84.2,
+      "opening_bid": 27.58,
+      "target_buy_price": 29.98,
+      "max_buy_price": 111.48,
+      "deal_score": 98,
+      "risk_score": 24,
+      "liquidity_score": 94,
+      "confidence_percent": 76,
+      "recognition_confidence_percent": 93,
+      "market_confidence_percent": 60,
+      "verdict": "TOPDEAL",
+      "recommendation": "ZEER INTERESSANT",
+      "risk_reasons": [
+        "Vraagprijs is <45% van geschatte waarde: extra fraude-/defectcheck"
+      ],
+      "score_breakdown": {
+        "discount": 28,
+        "profit": 13.6,
+        "roi": 18,
+        "liquidity": 11.3,
+        "confidence": 13.6,
+        "risk_penalty": 4.8
+      },
+      "note": "Marktwaardes op basis van vraagprijzen zijn schattingen, geen gegarandeerde gerealiseerde verkoopprijzen."
+    },
+    "result_status": "deal",
+    "is_deal": true,
+    "exclusion_reason": null,
+    "market_profile": {
+      "sample_count": 3,
+      "median_asking": 185.0
+    },
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
   }
 ]
