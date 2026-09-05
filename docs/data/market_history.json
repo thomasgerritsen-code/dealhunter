@@ -447,6 +447,14 @@
       "estimated_resale": 195.79,
       "asking_low": 219.99,
       "asking_high": 219.99
+    },
+    {
+      "at": "2026-09-05T06:35:23.882950+00:00",
+      "sample_count": 1,
+      "median_asking": 219.99,
+      "estimated_resale": 195.79,
+      "asking_low": 219.99,
+      "asking_high": 219.99
     }
   ],
   "Valve Steam Deck LCD 512GB": [
@@ -1871,6 +1879,46 @@
       "estimated_resale": 127.88,
       "asking_low": 139.0,
       "asking_high": 139.0
+    }
+  ],
+  "Festool DECOUPEERZAAGMACHINE PS 200": [
+    {
+      "at": "2026-09-05T06:35:23.882950+00:00",
+      "sample_count": 1,
+      "median_asking": 119.99,
+      "estimated_resale": 106.79,
+      "asking_low": 119.99,
+      "asking_high": 119.99
+    }
+  ],
+  "Festool C12 ACCU BOOR": [
+    {
+      "at": "2026-09-05T06:35:23.882950+00:00",
+      "sample_count": 1,
+      "median_asking": 189.99,
+      "estimated_resale": 169.09,
+      "asking_low": 189.99,
+      "asking_high": 189.99
+    }
+  ],
+  "Festool T18 3 SCHROEFMACHINE": [
+    {
+      "at": "2026-09-05T06:35:23.882950+00:00",
+      "sample_count": 1,
+      "median_asking": 175.0,
+      "estimated_resale": 155.75,
+      "asking_low": 175.0,
+      "asking_high": 175.0
+    }
+  ],
+  "Festool BP 18V LI": [
+    {
+      "at": "2026-09-05T06:35:23.882950+00:00",
+      "sample_count": 1,
+      "median_asking": 89.99,
+      "estimated_resale": 80.09,
+      "asking_low": 89.99,
+      "asking_high": 89.99
     }
   ]
 }
