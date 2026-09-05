@@ -1958,5 +1958,15 @@
       "asking_low": 25.0,
       "asking_high": 25.0
     }
+  ],
+  "Valve Steam Deck LCD 256GB": [
+    {
+      "at": "2026-09-05T16:13:45.222347+00:00",
+      "sample_count": 1,
+      "median_asking": 400.0,
+      "estimated_resale": 368.0,
+      "asking_low": 400.0,
+      "asking_high": 400.0
+    }
   ]
 }
