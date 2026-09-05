@@ -1920,5 +1920,15 @@
       "asking_low": 89.99,
       "asking_high": 89.99
     }
+  ],
+  "Makita DF457D 18V": [
+    {
+      "at": "2026-09-05T06:58:17.256283+00:00",
+      "sample_count": 1,
+      "median_asking": 105.0,
+      "estimated_resale": 93.45,
+      "asking_low": 105.0,
+      "asking_high": 105.0
+    }
   ]
 }
