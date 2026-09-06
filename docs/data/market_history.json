@@ -2444,5 +2444,15 @@
       "asking_low": 620.0,
       "asking_high": 620.0
     }
+  ],
+  "Sony PlayStation 5 Disc Slim": [
+    {
+      "at": "2026-09-06T05:43:36.849885+00:00",
+      "sample_count": 1,
+      "median_asking": 430.0,
+      "estimated_resale": 395.6,
+      "asking_low": 430.0,
+      "asking_high": 430.0
+    }
   ]
 }
