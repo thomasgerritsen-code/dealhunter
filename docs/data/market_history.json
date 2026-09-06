@@ -2482,5 +2482,15 @@
       "asking_low": 120.0,
       "asking_high": 120.0
     }
+  ],
+  "Makita BETONBOOR O13X160MM 35396": [
+    {
+      "at": "2026-09-06T13:25:07.882549+00:00",
+      "sample_count": 1,
+      "median_asking": 15.0,
+      "estimated_resale": 13.35,
+      "asking_low": 15.0,
+      "asking_high": 15.0
+    }
   ]
 }
