@@ -2516,5 +2516,15 @@
       "asking_low": 15.0,
       "asking_high": 15.0
     }
+  ],
+  "Tannoy LIVE MINI DRAAGBARE": [
+    {
+      "at": "2026-09-06T17:57:44.582039+00:00",
+      "sample_count": 1,
+      "median_asking": 30.0,
+      "estimated_resale": 26.7,
+      "asking_low": 30.0,
+      "asking_high": 30.0
+    }
   ]
 }
