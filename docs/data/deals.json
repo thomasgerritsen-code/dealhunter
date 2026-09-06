@@ -345,6 +345,96 @@
     "is_repair_deal": false
   },
   {
+    "id": "marktplaats-html:m2439334743",
+    "found_at": "2026-09-05T14:12:04.188095+00:00",
+    "last_seen_at": "2026-09-05T14:12:04.188095+00:00",
+    "source": "marktplaats-html",
+    "query": "shure sm7b",
+    "category_hint": "Audio",
+    "title": "Shure SM7B microfoon met originele verpakking",
+    "description": "Bewaren in Mijn Favorieten Shure SM7B microfoon met originele verpakking Mijn shure sm7b microfoon is te koop, in gloednieuwe staat. Hij is slechts een paar keer gebruikt en zit uiteraard nog in de originele verpakking. Iedereen die hem gebruikt heeft of er wat onderzoek n Zo goed als nieuw Ophalen of Verzenden € 180,00 Vandaag efogix Maastricht Bewaren in Mijn Favorieten Shure SM7B microfoon met originele verpakking € 180,00 Mijn shure sm7b microfoon is te koop, in gloednieuwe staat. Hij is slechts een paar keer gebruikt en zit uiteraard nog in de originele verpakking. Iedereen die hem gebruikt heeft of er wat onderzoek n Zo goed als nieuw Ophalen of Verzenden efogix Maastricht Vandaag Bewaren in Mijn Favorieten Shure SM7B microfoon met originele verpakking € 180,00 Details Ophalen of Verzenden Zo goed als nieuw Studiomicrofoon Mijn shure sm7b microfoon is te koop, in gloednieuwe staat.",
+    "url": "https://www.marktplaats.nl/v/muziek-en-instrumenten/microfoons/m2439334743-shure-sm7b-microfoon-met-originele-verpakking",
+    "asking_price": 180.0,
+    "previous_asking_price": null,
+    "price_drop_percent": 0.0,
+    "promoted": false,
+    "matched_product": "Shure SM7B",
+    "recognition_confidence": 86,
+    "condition": "zo goed als nieuw",
+    "analysis": {
+      "matched_product": "Shure SM7B",
+      "category": "Audio",
+      "source": "Marktplaats profiel (11 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (11 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 11,
+      "asking_price": 180.0,
+      "expected_resale": 316.9,
+      "market_low": 255.63,
+      "market_high": 339.17,
+      "fees": 0.0,
+      "risk_reserve": 6.08,
+      "travel_cost": 0.0,
+      "expected_profit": 130.82,
+      "roi_percent": 72.7,
+      "discount_percent": 43.2,
+      "opening_bid": 165.6,
+      "target_buy_price": 180.0,
+      "max_buy_price": 250.82,
+      "deal_score": 96,
+      "risk_score": 16,
+      "liquidity_score": 88,
+      "confidence_percent": 81,
+      "recognition_confidence_percent": 86,
+      "market_confidence_percent": 77,
+      "verdict": "TOPDEAL",
+      "recommendation": "ZEER INTERESSANT",
+      "risk_reasons": [],
+      "score_breakdown": {
+        "discount": 26.9,
+        "profit": 12.6,
+        "roi": 16.4,
+        "liquidity": 10.6,
+        "confidence": 14.6,
+        "risk_penalty": 3.2
+      },
+      "note": "Marktwaardes op basis van vraagprijzen zijn schattingen, geen gegarandeerde gerealiseerde verkoopprijzen.",
+      "quick_sale_value": 255.63,
+      "realistic_market_value": 316.9,
+      "optimistic_value": 339.17,
+      "source_agreement_percent": null,
+      "valuation_sources": [
+        {
+          "source": "Marktplaats",
+          "value": 315.95,
+          "low": 244.75,
+          "high": 351.55,
+          "samples": 11,
+          "kind": "actieve vraagprijzen"
+        },
+        {
+          "source": "Referentiecatalogus",
+          "value": 285.0,
+          "low": 256.5,
+          "high": 313.5,
+          "samples": 0,
+          "kind": "lokale handmatige referentie"
+        }
+      ],
+      "multi_source": true
+    },
+    "result_status": "deal",
+    "is_deal": true,
+    "exclusion_reason": null,
+    "market_profile": {
+      "sample_count": 11,
+      "median_asking": 355.0
+    },
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
+  },
+  {
     "id": "marktplaats-html:m2439267715",
     "found_at": "2026-09-05T11:57:13.183733+00:00",
     "last_seen_at": "2026-09-05T13:47:42.760436+00:00",
@@ -405,96 +495,6 @@
     "market_profile": {
       "sample_count": 3,
       "median_asking": 595.0
-    },
-    "repair": {
-      "detected": false
-    },
-    "is_repair_deal": false
-  },
-  {
-    "id": "marktplaats-html:m2439334743",
-    "found_at": "2026-09-05T14:12:04.188095+00:00",
-    "last_seen_at": "2026-09-05T14:12:04.188095+00:00",
-    "source": "marktplaats-html",
-    "query": "shure sm7b",
-    "category_hint": "Audio",
-    "title": "Shure SM7B microfoon met originele verpakking",
-    "description": "Bewaren in Mijn Favorieten Shure SM7B microfoon met originele verpakking Mijn shure sm7b microfoon is te koop, in gloednieuwe staat. Hij is slechts een paar keer gebruikt en zit uiteraard nog in de originele verpakking. Iedereen die hem gebruikt heeft of er wat onderzoek n Zo goed als nieuw Ophalen of Verzenden € 180,00 Vandaag efogix Maastricht Bewaren in Mijn Favorieten Shure SM7B microfoon met originele verpakking € 180,00 Mijn shure sm7b microfoon is te koop, in gloednieuwe staat. Hij is slechts een paar keer gebruikt en zit uiteraard nog in de originele verpakking. Iedereen die hem gebruikt heeft of er wat onderzoek n Zo goed als nieuw Ophalen of Verzenden efogix Maastricht Vandaag Bewaren in Mijn Favorieten Shure SM7B microfoon met originele verpakking € 180,00 Details Ophalen of Verzenden Zo goed als nieuw Studiomicrofoon Mijn shure sm7b microfoon is te koop, in gloednieuwe staat.",
-    "url": "https://www.marktplaats.nl/v/muziek-en-instrumenten/microfoons/m2439334743-shure-sm7b-microfoon-met-originele-verpakking",
-    "asking_price": 180.0,
-    "previous_asking_price": null,
-    "price_drop_percent": 0.0,
-    "promoted": false,
-    "matched_product": "Shure SM7B",
-    "recognition_confidence": 86,
-    "condition": "zo goed als nieuw",
-    "analysis": {
-      "matched_product": "Shure SM7B",
-      "category": "Audio",
-      "source": "Marktplaats profiel (10 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (10 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 10,
-      "asking_price": 180.0,
-      "expected_resale": 303.3,
-      "market_low": 247.92,
-      "market_high": 339.63,
-      "fees": 0.0,
-      "risk_reserve": 5.82,
-      "travel_cost": 0.0,
-      "expected_profit": 117.47,
-      "roi_percent": 65.3,
-      "discount_percent": 40.7,
-      "opening_bid": 165.6,
-      "target_buy_price": 180.0,
-      "max_buy_price": 237.47,
-      "deal_score": 91,
-      "risk_score": 16,
-      "liquidity_score": 88,
-      "confidence_percent": 81,
-      "recognition_confidence_percent": 86,
-      "market_confidence_percent": 77,
-      "verdict": "TOPDEAL",
-      "recommendation": "ZEER INTERESSANT",
-      "risk_reasons": [],
-      "score_breakdown": {
-        "discount": 25.3,
-        "profit": 11.3,
-        "roi": 14.7,
-        "liquidity": 10.6,
-        "confidence": 14.6,
-        "risk_penalty": 3.2
-      },
-      "note": "Marktwaardes op basis van vraagprijzen zijn schattingen, geen gegarandeerde gerealiseerde verkoopprijzen.",
-      "quick_sale_value": 247.92,
-      "realistic_market_value": 303.3,
-      "optimistic_value": 339.63,
-      "source_agreement_percent": null,
-      "valuation_sources": [
-        {
-          "source": "Marktplaats",
-          "value": 299.93,
-          "low": 229.62,
-          "high": 352.44,
-          "samples": 10,
-          "kind": "actieve vraagprijzen"
-        },
-        {
-          "source": "Referentiecatalogus",
-          "value": 285.0,
-          "low": 256.5,
-          "high": 313.5,
-          "samples": 0,
-          "kind": "lokale handmatige referentie"
-        }
-      ],
-      "multi_source": true
-    },
-    "result_status": "deal",
-    "is_deal": true,
-    "exclusion_reason": null,
-    "market_profile": {
-      "sample_count": 10,
-      "median_asking": 337.0
     },
     "repair": {
       "detected": false
