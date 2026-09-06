@@ -2434,5 +2434,15 @@
       "asking_low": 200.0,
       "asking_high": 200.0
     }
+  ],
+  "Valve Steam Deck": [
+    {
+      "at": "2026-09-06T02:27:32.621188+00:00",
+      "sample_count": 1,
+      "median_asking": 620.0,
+      "estimated_resale": 570.4,
+      "asking_low": 620.0,
+      "asking_high": 620.0
+    }
   ]
 }
