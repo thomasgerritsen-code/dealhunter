@@ -2454,5 +2454,15 @@
       "asking_low": 430.0,
       "asking_high": 430.0
     }
+  ],
+  "JBL XPL 90": [
+    {
+      "at": "2026-09-06T06:36:23.295076+00:00",
+      "sample_count": 1,
+      "median_asking": 450.0,
+      "estimated_resale": 400.5,
+      "asking_low": 450.0,
+      "asking_high": 450.0
+    }
   ]
 }
