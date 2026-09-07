@@ -3098,5 +3098,15 @@
       "asking_low": 180.0,
       "asking_high": 180.0
     }
+  ],
+  "Makita BOOR O5": [
+    {
+      "at": "2026-09-07T16:46:15.650449+00:00",
+      "sample_count": 1,
+      "median_asking": 32.0,
+      "estimated_resale": 28.48,
+      "asking_low": 32.0,
+      "asking_high": 32.0
+    }
   ]
 }
