@@ -3088,5 +3088,15 @@
       "asking_low": 79.99,
       "asking_high": 79.99
     }
+  ],
+  "Tannoy OCV6 70 100V": [
+    {
+      "at": "2026-09-07T16:33:36.503106+00:00",
+      "sample_count": 1,
+      "median_asking": 180.0,
+      "estimated_resale": 160.2,
+      "asking_low": 180.0,
+      "asking_high": 180.0
+    }
   ]
 }
