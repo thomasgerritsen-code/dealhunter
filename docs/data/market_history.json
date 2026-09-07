@@ -3078,5 +3078,15 @@
       "asking_low": 125.0,
       "asking_high": 125.0
     }
+  ],
+  "JBL CHARGE 5 BLUETOOTH": [
+    {
+      "at": "2026-09-07T12:23:57.790311+00:00",
+      "sample_count": 1,
+      "median_asking": 79.99,
+      "estimated_resale": 71.19,
+      "asking_low": 79.99,
+      "asking_high": 79.99
+    }
   ]
 }
