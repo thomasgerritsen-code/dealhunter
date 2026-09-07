@@ -3068,5 +3068,15 @@
       "asking_low": 70.0,
       "asking_high": 70.0
     }
+  ],
+  "Tektronix 455": [
+    {
+      "at": "2026-09-07T09:52:48.548555+00:00",
+      "sample_count": 1,
+      "median_asking": 125.0,
+      "estimated_resale": 112.5,
+      "asking_low": 125.0,
+      "asking_high": 125.0
+    }
   ]
 }
