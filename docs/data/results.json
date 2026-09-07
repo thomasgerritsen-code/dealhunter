@@ -1,5 +1,31 @@
 [
   {
+    "id": "marktplaats-html:m2440193748",
+    "found_at": "2026-09-07T18:51:59.953781+00:00",
+    "last_seen_at": "2026-09-07T18:51:59.953781+00:00",
+    "source": "marktplaats-html",
+    "query": "xbox series x",
+    "category_hint": "Spelcomputers",
+    "title": "Gezocht: Xbox Series X met controller",
+    "description": "Bewaren in Mijn Favorieten Gezocht: Xbox Series X met controller Ik ben op zoek naar een xbox series x in de omgeving van rotterdam +/35 km. Ik kom de console graag zelf ophalen. Mijn budget ligt tussen de €350 en €400 euro. (Afhankelijk wat er bij zit 😀 Zo goed als nieuw Ophalen € 375,00 Vandaag Visa Rotterdam Bewaren in Mijn Favorieten Gezocht: Xbox Series X met controller € 375,00 Ik ben op zoek naar een xbox series x in de omgeving van rotterdam +/35 km. Ik kom de console graag zelf ophalen. Mijn budget ligt tussen de €350 en €400 euro. (Afhankelijk wat er bij zit 😀 Zo goed als nieuw Ophalen Visa Rotterdam Vandaag Bewaren in Mijn Favorieten Gezocht: Xbox Series X met controller € 375,00 Details Ophalen Zo goed als nieuw Xbox Series X Ik ben op zoek naar een xbox series x in de omgeving van rotterdam +/35 km. Ik kom de console graag zelf ophalen. Mijn budget ligt tussen de €350 en €40",
+    "url": "https://www.marktplaats.nl/v/spelcomputers-en-games/spelcomputers-xbox-series-x-en-s/m2440193748-gezocht-xbox-series-x-met-controller",
+    "asking_price": 375.0,
+    "previous_asking_price": null,
+    "price_drop_percent": 0.0,
+    "promoted": false,
+    "matched_product": "Microsoft Xbox Series X 1TB",
+    "recognition_confidence": 93,
+    "condition": "zo goed als nieuw",
+    "analysis": null,
+    "result_status": "excluded",
+    "is_deal": false,
+    "exclusion_reason": "Dienst/gezocht-advertentie gedetecteerd: gezocht",
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
+  },
+  {
     "id": "marktplaats-html:m2440097535",
     "found_at": "2026-09-07T18:15:49.907813+00:00",
     "last_seen_at": "2026-09-07T18:35:45.577746+00:00",
@@ -28,7 +54,7 @@
   {
     "id": "marktplaats-html:m2440087884",
     "found_at": "2026-09-07T17:51:46.613615+00:00",
-    "last_seen_at": "2026-09-07T18:35:51.871454+00:00",
+    "last_seen_at": "2026-09-07T18:52:06.337001+00:00",
     "source": "marktplaats-html",
     "query": "makita",
     "category_hint": "Gereedschap",
@@ -54,7 +80,7 @@
   {
     "id": "marktplaats-html:m2440171846",
     "found_at": "2026-09-07T17:51:34.502048+00:00",
-    "last_seen_at": "2026-09-07T18:35:39.902261+00:00",
+    "last_seen_at": "2026-09-07T18:51:53.254984+00:00",
     "source": "marktplaats-html",
     "query": "nintendo switch oled",
     "category_hint": "Spelcomputers",
@@ -121,7 +147,7 @@
   {
     "id": "marktplaats-html:m2440163366",
     "found_at": "2026-09-07T17:42:00.974932+00:00",
-    "last_seen_at": "2026-09-07T18:36:11.995192+00:00",
+    "last_seen_at": "2026-09-07T18:52:27.322730+00:00",
     "source": "marktplaats-html",
     "query": "kef vintage speaker",
     "category_hint": "Audio",
@@ -147,7 +173,7 @@
   {
     "id": "marktplaats-html:m2440149393",
     "found_at": "2026-09-07T16:57:53.745301+00:00",
-    "last_seen_at": "2026-09-07T18:35:39.901598+00:00",
+    "last_seen_at": "2026-09-07T18:51:53.254486+00:00",
     "source": "marktplaats-html",
     "query": "nintendo switch oled",
     "category_hint": "Spelcomputers",
@@ -214,7 +240,7 @@
   {
     "id": "marktplaats-html:a1520640334",
     "found_at": "2026-09-07T16:46:15.496091+00:00",
-    "last_seen_at": "2026-09-07T18:36:29.451610+00:00",
+    "last_seen_at": "2026-09-07T18:52:47.221213+00:00",
     "source": "marktplaats-html",
     "query": "bang olufsen defect",
     "category_hint": "Audio",
@@ -266,7 +292,7 @@
   {
     "id": "marktplaats-html:m2440140289",
     "found_at": "2026-09-07T16:33:21.158404+00:00",
-    "last_seen_at": "2026-09-07T18:36:14.856808+00:00",
+    "last_seen_at": "2026-09-07T18:52:30.858178+00:00",
     "source": "marktplaats-html",
     "query": "tannoy speaker",
     "category_hint": "Audio",
@@ -292,7 +318,7 @@
   {
     "id": "marktplaats-html:m2433564718",
     "found_at": "2026-09-07T16:00:48.701945+00:00",
-    "last_seen_at": "2026-09-07T18:36:09.101628+00:00",
+    "last_seen_at": "2026-09-07T18:52:24.155600+00:00",
     "source": "marktplaats-html",
     "query": "bang olufsen speaker",
     "category_hint": "Audio",
@@ -385,7 +411,7 @@
   {
     "id": "marktplaats-html:m2438090789",
     "found_at": "2026-09-07T14:58:53.704083+00:00",
-    "last_seen_at": "2026-09-07T18:35:39.903578+00:00",
+    "last_seen_at": "2026-09-07T18:51:53.255972+00:00",
     "source": "marktplaats-html",
     "query": "nintendo switch oled",
     "category_hint": "Spelcomputers",
@@ -556,7 +582,7 @@
   {
     "id": "marktplaats-html:m2440064993",
     "found_at": "2026-09-07T13:15:05.324606+00:00",
-    "last_seen_at": "2026-09-07T18:35:45.576410+00:00",
+    "last_seen_at": "2026-09-07T18:51:59.955322+00:00",
     "source": "marktplaats-html",
     "query": "xbox series x",
     "category_hint": "Spelcomputers",
@@ -623,7 +649,7 @@
   {
     "id": "marktplaats-html:m2440061527",
     "found_at": "2026-09-07T13:15:05.324041+00:00",
-    "last_seen_at": "2026-09-07T18:35:45.575714+00:00",
+    "last_seen_at": "2026-09-07T18:51:59.954322+00:00",
     "source": "marktplaats-html",
     "query": "xbox series x",
     "category_hint": "Spelcomputers",
@@ -701,7 +727,7 @@
   {
     "id": "marktplaats-html:a1530721381",
     "found_at": "2026-09-07T12:23:54.464138+00:00",
-    "last_seen_at": "2026-09-07T18:36:26.532392+00:00",
+    "last_seen_at": "2026-09-07T18:52:43.458258+00:00",
     "source": "marktplaats-html",
     "query": "jbl speaker defect",
     "category_hint": "Audio",
@@ -753,7 +779,7 @@
   {
     "id": "marktplaats-html:a1529680480",
     "found_at": "2026-09-07T11:13:42.998383+00:00",
-    "last_seen_at": "2026-09-07T18:35:36.514018+00:00",
+    "last_seen_at": "2026-09-07T18:51:49.988213+00:00",
     "source": "marktplaats-html",
     "query": "ps5",
     "category_hint": "Spelcomputers",
@@ -779,7 +805,7 @@
   {
     "id": "marktplaats-html:m2434524336",
     "found_at": "2026-09-07T10:33:04.303124+00:00",
-    "last_seen_at": "2026-09-07T18:35:42.799175+00:00",
+    "last_seen_at": "2026-09-07T18:51:56.601105+00:00",
     "source": "marktplaats-html",
     "query": "steam deck",
     "category_hint": "Spelcomputers",
@@ -846,7 +872,7 @@
   {
     "id": "marktplaats-html:m2439990883",
     "found_at": "2026-09-07T09:52:14.993284+00:00",
-    "last_seen_at": "2026-09-07T18:35:57.129702+00:00",
+    "last_seen_at": "2026-09-07T18:52:11.843434+00:00",
     "source": "marktplaats-html",
     "query": "tektronix",
     "category_hint": "Meetapparatuur",
@@ -898,7 +924,7 @@
   {
     "id": "marktplaats-html:m2439975074",
     "found_at": "2026-09-07T09:17:45.560173+00:00",
-    "last_seen_at": "2026-09-07T18:36:09.102514+00:00",
+    "last_seen_at": "2026-09-07T18:52:24.156305+00:00",
     "source": "marktplaats-html",
     "query": "bang olufsen speaker",
     "category_hint": "Audio",
@@ -976,7 +1002,7 @@
   {
     "id": "marktplaats-html:m2439902562",
     "found_at": "2026-09-07T08:35:30.702924+00:00",
-    "last_seen_at": "2026-09-07T18:35:51.870806+00:00",
+    "last_seen_at": "2026-09-07T18:52:06.336523+00:00",
     "source": "marktplaats-html",
     "query": "makita",
     "category_hint": "Gereedschap",
@@ -1028,7 +1054,7 @@
   {
     "id": "marktplaats-html:m2439954093",
     "found_at": "2026-09-07T08:15:54.571992+00:00",
-    "last_seen_at": "2026-09-07T18:36:03.632567+00:00",
+    "last_seen_at": "2026-09-07T18:52:17.432175+00:00",
     "source": "marktplaats-html",
     "query": "sennheiser mkh",
     "category_hint": "Audio",
@@ -1240,7 +1266,7 @@
   {
     "id": "marktplaats-html:a1530517250",
     "found_at": "2026-09-07T06:56:28.924196+00:00",
-    "last_seen_at": "2026-09-07T18:35:36.511236+00:00",
+    "last_seen_at": "2026-09-07T18:51:49.986062+00:00",
     "source": "marktplaats-html",
     "query": "ps5",
     "category_hint": "Spelcomputers",
@@ -1318,7 +1344,7 @@
   {
     "id": "marktplaats-html:a1530701871",
     "found_at": "2026-09-07T03:54:31.397545+00:00",
-    "last_seen_at": "2026-09-07T18:35:45.577110+00:00",
+    "last_seen_at": "2026-09-07T18:51:59.954826+00:00",
     "source": "marktplaats-html",
     "query": "xbox series x",
     "category_hint": "Spelcomputers",
@@ -1751,7 +1777,7 @@
   {
     "id": "marktplaats-html:m2439806364",
     "found_at": "2026-09-06T16:57:18.114812+00:00",
-    "last_seen_at": "2026-09-07T18:36:00.377994+00:00",
+    "last_seen_at": "2026-09-07T18:52:14.676924+00:00",
     "source": "marktplaats-html",
     "query": "shure sm7b",
     "category_hint": "Audio",
@@ -1867,7 +1893,7 @@
   {
     "id": "marktplaats-html:m2439779203",
     "found_at": "2026-09-06T15:48:38.395844+00:00",
-    "last_seen_at": "2026-09-07T18:36:11.994879+00:00",
+    "last_seen_at": "2026-09-07T18:52:27.322507+00:00",
     "source": "marktplaats-html",
     "query": "kef vintage speaker",
     "category_hint": "Audio",
@@ -1893,7 +1919,7 @@
   {
     "id": "marktplaats-html:m2439772578",
     "found_at": "2026-09-06T15:40:45.648821+00:00",
-    "last_seen_at": "2026-09-07T18:36:14.857746+00:00",
+    "last_seen_at": "2026-09-07T18:52:30.858865+00:00",
     "source": "marktplaats-html",
     "query": "tannoy speaker",
     "category_hint": "Audio",
@@ -2023,7 +2049,7 @@
   {
     "id": "marktplaats-html:m2439721702",
     "found_at": "2026-09-06T13:48:30.908181+00:00",
-    "last_seen_at": "2026-09-07T18:36:23.568480+00:00",
+    "last_seen_at": "2026-09-07T18:52:40.567321+00:00",
     "source": "marktplaats-html",
     "query": "fluke defect",
     "category_hint": "Meetapparatuur",
@@ -2261,7 +2287,7 @@
   {
     "id": "marktplaats-html:a1530702027",
     "found_at": "2026-09-06T12:59:15.745279+00:00",
-    "last_seen_at": "2026-09-07T18:35:54.593910+00:00",
+    "last_seen_at": "2026-09-07T18:52:09.197494+00:00",
     "source": "marktplaats-html",
     "query": "fluke",
     "category_hint": "Meetapparatuur",
@@ -2458,7 +2484,7 @@
   {
     "id": "marktplaats-html:m2390220538",
     "found_at": "2026-09-06T12:16:21.992273+00:00",
-    "last_seen_at": "2026-09-07T18:35:51.870499+00:00",
+    "last_seen_at": "2026-09-07T18:52:06.336279+00:00",
     "source": "marktplaats-html",
     "query": "makita",
     "category_hint": "Gereedschap",
@@ -2618,7 +2644,7 @@
   {
     "id": "marktplaats-html:m2439571984",
     "found_at": "2026-09-06T09:13:35.519441+00:00",
-    "last_seen_at": "2026-09-07T18:36:11.994542+00:00",
+    "last_seen_at": "2026-09-07T18:52:27.322248+00:00",
     "source": "marktplaats-html",
     "query": "kef vintage speaker",
     "category_hint": "Audio",
@@ -2945,7 +2971,7 @@
   {
     "id": "marktplaats-html:m2439500205",
     "found_at": "2026-09-06T04:41:16.409560+00:00",
-    "last_seen_at": "2026-09-07T18:36:14.857430+00:00",
+    "last_seen_at": "2026-09-07T18:52:30.858628+00:00",
     "source": "marktplaats-html",
     "query": "tannoy speaker",
     "category_hint": "Audio",
@@ -2997,7 +3023,7 @@
   {
     "id": "marktplaats-html:m2439492288",
     "found_at": "2026-09-06T00:23:01.232882+00:00",
-    "last_seen_at": "2026-09-07T18:35:57.130649+00:00",
+    "last_seen_at": "2026-09-07T18:52:11.844192+00:00",
     "source": "marktplaats-html",
     "query": "tektronix",
     "category_hint": "Meetapparatuur",
@@ -3127,7 +3153,7 @@
   {
     "id": "marktplaats-html:m2421807162",
     "found_at": "2026-09-05T19:12:54.739182+00:00",
-    "last_seen_at": "2026-09-07T18:36:09.102231+00:00",
+    "last_seen_at": "2026-09-07T18:52:24.156067+00:00",
     "source": "marktplaats-html",
     "query": "bang olufsen speaker",
     "category_hint": "Audio",
@@ -3153,7 +3179,7 @@
   {
     "id": "marktplaats-html:m2420330906",
     "found_at": "2026-09-05T19:12:54.738916+00:00",
-    "last_seen_at": "2026-09-07T18:36:09.101948+00:00",
+    "last_seen_at": "2026-09-07T18:52:24.155856+00:00",
     "source": "marktplaats-html",
     "query": "bang olufsen speaker",
     "category_hint": "Audio",
@@ -3274,7 +3300,7 @@
   {
     "id": "marktplaats-html:m2439437785",
     "found_at": "2026-09-05T18:42:56.407160+00:00",
-    "last_seen_at": "2026-09-07T18:36:14.857169+00:00",
+    "last_seen_at": "2026-09-07T18:52:30.858428+00:00",
     "source": "marktplaats-html",
     "query": "tannoy speaker",
     "category_hint": "Audio",
@@ -3654,7 +3680,7 @@
   {
     "id": "marktplaats-html:m2439326132",
     "found_at": "2026-09-05T13:57:12.412732+00:00",
-    "last_seen_at": "2026-09-07T18:35:42.797126+00:00",
+    "last_seen_at": "2026-09-07T18:51:56.599556+00:00",
     "source": "marktplaats-html",
     "query": "steam deck",
     "category_hint": "Spelcomputers",
@@ -4343,7 +4369,7 @@
   {
     "id": "marktplaats-html:m2436975681",
     "found_at": "2026-09-05T09:32:46.336342+00:00",
-    "last_seen_at": "2026-09-07T18:35:42.797809+00:00",
+    "last_seen_at": "2026-09-07T18:51:56.600075+00:00",
     "source": "marktplaats-html",
     "query": "steam deck",
     "category_hint": "Spelcomputers",
@@ -4410,7 +4436,7 @@
   {
     "id": "marktplaats-html:m2438970194",
     "found_at": "2026-09-05T09:24:21.814867+00:00",
-    "last_seen_at": "2026-09-07T18:36:26.531489+00:00",
+    "last_seen_at": "2026-09-07T18:52:43.457576+00:00",
     "source": "marktplaats-html",
     "query": "jbl speaker defect",
     "category_hint": "Audio",
@@ -4530,7 +4556,7 @@
   {
     "id": "marktplaats-html:m2439169566",
     "found_at": "2026-09-05T08:40:59.011633+00:00",
-    "last_seen_at": "2026-09-07T18:36:06.254094+00:00",
+    "last_seen_at": "2026-09-07T18:52:20.848055+00:00",
     "source": "marktplaats-html",
     "query": "jbl vintage speaker",
     "category_hint": "Audio",
@@ -4889,7 +4915,7 @@
   {
     "id": "marktplaats-html:a1513757969",
     "found_at": "2026-09-05T07:12:38.886823+00:00",
-    "last_seen_at": "2026-09-07T18:36:20.819221+00:00",
+    "last_seen_at": "2026-09-07T18:52:37.016635+00:00",
     "source": "marktplaats-html",
     "query": "festool defect",
     "category_hint": "Gereedschap",
@@ -5341,7 +5367,7 @@
   {
     "id": "marktplaats-html:a1530198599",
     "found_at": "2026-09-05T03:57:13.054614+00:00",
-    "last_seen_at": "2026-09-07T18:35:51.870179+00:00",
+    "last_seen_at": "2026-09-07T18:52:06.336004+00:00",
     "source": "marktplaats-html",
     "query": "makita",
     "category_hint": "Gereedschap",
@@ -5471,7 +5497,7 @@
   {
     "id": "marktplaats-html:m2439057357",
     "found_at": "2026-09-04T19:01:16.639423+00:00",
-    "last_seen_at": "2026-09-07T18:36:26.532126+00:00",
+    "last_seen_at": "2026-09-07T18:52:43.458049+00:00",
     "source": "marktplaats-html",
     "query": "jbl speaker defect",
     "category_hint": "Audio",
@@ -5762,7 +5788,7 @@
   {
     "id": "marktplaats-html:a1514569431",
     "found_at": "2026-09-04T16:31:53.489480+00:00",
-    "last_seen_at": "2026-09-07T18:35:51.871146+00:00",
+    "last_seen_at": "2026-09-07T18:52:06.336763+00:00",
     "source": "marktplaats-html",
     "query": "makita",
     "category_hint": "Gereedschap",
@@ -6011,7 +6037,7 @@
   {
     "id": "marktplaats-html:a1530627639",
     "found_at": "2026-09-04T13:45:11.953577+00:00",
-    "last_seen_at": "2026-09-07T18:36:06.253705+00:00",
+    "last_seen_at": "2026-09-07T18:52:20.847756+00:00",
     "source": "marktplaats-html",
     "query": "jbl vintage speaker",
     "category_hint": "Audio",
@@ -6650,7 +6676,7 @@
   {
     "id": "marktplaats-html:m2438782260",
     "found_at": "2026-09-04T08:15:10.650868+00:00",
-    "last_seen_at": "2026-09-07T18:35:57.130073+00:00",
+    "last_seen_at": "2026-09-07T18:52:11.843729+00:00",
     "source": "marktplaats-html",
     "query": "tektronix",
     "category_hint": "Meetapparatuur",
@@ -7360,7 +7386,7 @@
   {
     "id": "marktplaats-html:m2429911125",
     "found_at": "2026-09-03T21:13:24.253348+00:00",
-    "last_seen_at": "2026-09-07T18:35:57.130904+00:00",
+    "last_seen_at": "2026-09-07T18:52:11.844391+00:00",
     "source": "marktplaats-html",
     "query": "tektronix",
     "category_hint": "Meetapparatuur",
@@ -7438,7 +7464,7 @@
   {
     "id": "marktplaats-html:a1526931644",
     "found_at": "2026-09-03T20:12:51.928252+00:00",
-    "last_seen_at": "2026-09-07T18:35:54.595065+00:00",
+    "last_seen_at": "2026-09-07T18:52:09.198385+00:00",
     "source": "marktplaats-html",
     "query": "fluke",
     "category_hint": "Meetapparatuur",
@@ -7557,7 +7583,7 @@
   {
     "id": "marktplaats-html:m2438643613",
     "found_at": "2026-09-03T17:26:53.295103+00:00",
-    "last_seen_at": "2026-09-07T18:36:11.994149+00:00",
+    "last_seen_at": "2026-09-07T18:52:27.321914+00:00",
     "source": "marktplaats-html",
     "query": "kef vintage speaker",
     "category_hint": "Audio",
@@ -7732,7 +7758,7 @@
   {
     "id": "marktplaats-html:m2437234338",
     "found_at": "2026-09-03T15:34:01.527228+00:00",
-    "last_seen_at": "2026-09-07T18:36:26.531824+00:00",
+    "last_seen_at": "2026-09-07T18:52:43.457837+00:00",
     "source": "marktplaats-html",
     "query": "jbl speaker defect",
     "category_hint": "Audio",
@@ -7891,7 +7917,7 @@
   {
     "id": "marktplaats-html:a1530556224",
     "found_at": "2026-09-03T13:32:59.943925+00:00",
-    "last_seen_at": "2026-09-07T18:36:14.856442+00:00",
+    "last_seen_at": "2026-09-07T18:52:30.857873+00:00",
     "source": "marktplaats-html",
     "query": "tannoy speaker",
     "category_hint": "Audio",
@@ -8303,7 +8329,7 @@
   {
     "id": "marktplaats-html:a1519018233",
     "found_at": "2026-09-03T07:15:11.948609+00:00",
-    "last_seen_at": "2026-09-07T18:35:48.696143+00:00",
+    "last_seen_at": "2026-09-07T18:52:03.204063+00:00",
     "source": "marktplaats-html",
     "query": "festool",
     "category_hint": "Gereedschap",
@@ -8856,7 +8882,7 @@
   {
     "id": "marktplaats-html:m2438244127",
     "found_at": "2026-09-02T17:25:08.339452+00:00",
-    "last_seen_at": "2026-09-07T18:35:42.798504+00:00",
+    "last_seen_at": "2026-09-07T18:51:56.600596+00:00",
     "source": "marktplaats-html",
     "query": "steam deck",
     "category_hint": "Spelcomputers",
@@ -8989,7 +9015,7 @@
   {
     "id": "marktplaats-html:m2438200815",
     "found_at": "2026-09-02T15:36:06.493890+00:00",
-    "last_seen_at": "2026-09-07T18:35:39.902873+00:00",
+    "last_seen_at": "2026-09-07T18:51:53.255470+00:00",
     "source": "marktplaats-html",
     "query": "nintendo switch oled",
     "category_hint": "Spelcomputers",
@@ -9215,7 +9241,7 @@
   {
     "id": "marktplaats-html:a1371577433",
     "found_at": "2026-09-02T13:32:49.221785+00:00",
-    "last_seen_at": "2026-09-07T18:35:48.697175+00:00",
+    "last_seen_at": "2026-09-07T18:52:03.204884+00:00",
     "source": "marktplaats-html",
     "query": "festool",
     "category_hint": "Gereedschap",
@@ -9360,7 +9386,7 @@
   {
     "id": "marktplaats-html:a1512620259",
     "found_at": "2026-09-02T09:15:26.696036+00:00",
-    "last_seen_at": "2026-09-07T18:36:29.452505+00:00",
+    "last_seen_at": "2026-09-07T18:52:47.221883+00:00",
     "source": "marktplaats-html",
     "query": "bang olufsen defect",
     "category_hint": "Audio",
@@ -9386,7 +9412,7 @@
   {
     "id": "marktplaats-html:a1045761226",
     "found_at": "2026-09-02T09:15:26.695698+00:00",
-    "last_seen_at": "2026-09-07T18:36:29.451242+00:00",
+    "last_seen_at": "2026-09-07T18:52:47.220897+00:00",
     "source": "marktplaats-html",
     "query": "bang olufsen defect",
     "category_hint": "Audio",
@@ -9412,7 +9438,7 @@
   {
     "id": "marktplaats-html:a1512619081",
     "found_at": "2026-09-02T09:15:26.695407+00:00",
-    "last_seen_at": "2026-09-07T18:36:29.452233+00:00",
+    "last_seen_at": "2026-09-07T18:52:47.221677+00:00",
     "source": "marktplaats-html",
     "query": "bang olufsen defect",
     "category_hint": "Audio",
@@ -9438,7 +9464,7 @@
   {
     "id": "marktplaats-html:a1512681175",
     "found_at": "2026-09-02T09:15:26.695050+00:00",
-    "last_seen_at": "2026-09-07T18:36:29.451932+00:00",
+    "last_seen_at": "2026-09-07T18:52:47.221464+00:00",
     "source": "marktplaats-html",
     "query": "bang olufsen defect",
     "category_hint": "Audio",
@@ -9586,7 +9612,7 @@
   {
     "id": "marktplaats-html:a1519149645",
     "found_at": "2026-09-02T09:15:23.642176+00:00",
-    "last_seen_at": "2026-09-07T18:36:26.531104+00:00",
+    "last_seen_at": "2026-09-07T18:52:43.457252+00:00",
     "source": "marktplaats-html",
     "query": "jbl speaker defect",
     "category_hint": "Audio",
@@ -9612,7 +9638,7 @@
   {
     "id": "marktplaats-html:m2436474820",
     "found_at": "2026-09-02T09:15:20.807241+00:00",
-    "last_seen_at": "2026-09-07T18:36:23.568965+00:00",
+    "last_seen_at": "2026-09-07T18:52:40.567697+00:00",
     "source": "marktplaats-html",
     "query": "fluke defect",
     "category_hint": "Meetapparatuur",
@@ -9664,7 +9690,7 @@
   {
     "id": "marktplaats-html:m2432981115",
     "found_at": "2026-09-02T09:15:20.806694+00:00",
-    "last_seen_at": "2026-09-07T18:36:23.568741+00:00",
+    "last_seen_at": "2026-09-07T18:52:40.567520+00:00",
     "source": "marktplaats-html",
     "query": "fluke defect",
     "category_hint": "Meetapparatuur",
@@ -9706,7 +9732,7 @@
   {
     "id": "marktplaats-html:a1524865551",
     "found_at": "2026-09-02T09:15:20.806402+00:00",
-    "last_seen_at": "2026-09-07T18:36:23.568189+00:00",
+    "last_seen_at": "2026-09-07T18:52:40.567085+00:00",
     "source": "marktplaats-html",
     "query": "fluke defect",
     "category_hint": "Meetapparatuur",
@@ -9732,7 +9758,7 @@
   {
     "id": "marktplaats-html:a1517574015",
     "found_at": "2026-09-02T09:15:18.276079+00:00",
-    "last_seen_at": "2026-09-07T18:36:20.818887+00:00",
+    "last_seen_at": "2026-09-07T18:52:37.016410+00:00",
     "source": "marktplaats-html",
     "query": "festool defect",
     "category_hint": "Gereedschap",
@@ -9758,7 +9784,7 @@
   {
     "id": "marktplaats-html:a1514475919",
     "found_at": "2026-09-02T09:15:18.275076+00:00",
-    "last_seen_at": "2026-09-07T18:36:20.818245+00:00",
+    "last_seen_at": "2026-09-07T18:52:37.015909+00:00",
     "source": "marktplaats-html",
     "query": "festool defect",
     "category_hint": "Gereedschap",
@@ -9784,7 +9810,7 @@
   {
     "id": "marktplaats-html:a1521778985",
     "found_at": "2026-09-02T09:15:18.274671+00:00",
-    "last_seen_at": "2026-09-07T18:36:20.817858+00:00",
+    "last_seen_at": "2026-09-07T18:52:37.015612+00:00",
     "source": "marktplaats-html",
     "query": "festool defect",
     "category_hint": "Gereedschap",
@@ -9810,7 +9836,7 @@
   {
     "id": "marktplaats-html:a1522094802",
     "found_at": "2026-09-02T09:15:15.272997+00:00",
-    "last_seen_at": "2026-09-07T18:36:17.895160+00:00",
+    "last_seen_at": "2026-09-07T18:52:33.529973+00:00",
     "source": "marktplaats-html",
     "query": "ps5 defect",
     "category_hint": "Spelcomputers",
@@ -9850,7 +9876,7 @@
   {
     "id": "marktplaats-html:a1516895454",
     "found_at": "2026-09-02T09:15:15.271652+00:00",
-    "last_seen_at": "2026-09-07T18:36:17.893848+00:00",
+    "last_seen_at": "2026-09-07T18:52:33.528955+00:00",
     "source": "marktplaats-html",
     "query": "ps5 defect",
     "category_hint": "Spelcomputers",
@@ -9876,7 +9902,7 @@
   {
     "id": "marktplaats-html:a1527407285",
     "found_at": "2026-09-02T09:15:15.270903+00:00",
-    "last_seen_at": "2026-09-07T18:36:17.893167+00:00",
+    "last_seen_at": "2026-09-07T18:52:33.528358+00:00",
     "source": "marktplaats-html",
     "query": "ps5 defect",
     "category_hint": "Spelcomputers",
@@ -10846,7 +10872,7 @@
   {
     "id": "marktplaats-html:m2436602542",
     "found_at": "2026-09-02T04:51:28.843879+00:00",
-    "last_seen_at": "2026-09-07T18:36:11.995467+00:00",
+    "last_seen_at": "2026-09-07T18:52:27.322942+00:00",
     "source": "marktplaats-html",
     "query": "kef vintage speaker",
     "category_hint": "Audio",
@@ -11028,7 +11054,7 @@
   {
     "id": "marktplaats-html:a1215170017",
     "found_at": "2026-09-02T04:51:25.635436+00:00",
-    "last_seen_at": "2026-09-07T18:36:09.101290+00:00",
+    "last_seen_at": "2026-09-07T18:52:24.155311+00:00",
     "source": "marktplaats-html",
     "query": "bang olufsen speaker",
     "category_hint": "Audio",
@@ -11080,7 +11106,7 @@
   {
     "id": "marktplaats-html:m2434539049",
     "found_at": "2026-09-02T04:51:22.265910+00:00",
-    "last_seen_at": "2026-09-07T18:36:06.254710+00:00",
+    "last_seen_at": "2026-09-07T18:52:20.848539+00:00",
     "source": "marktplaats-html",
     "query": "jbl vintage speaker",
     "category_hint": "Audio",
@@ -11132,7 +11158,7 @@
   {
     "id": "marktplaats-html:m2436534383",
     "found_at": "2026-09-02T04:51:22.265410+00:00",
-    "last_seen_at": "2026-09-07T18:36:06.255032+00:00",
+    "last_seen_at": "2026-09-07T18:52:20.848776+00:00",
     "source": "marktplaats-html",
     "query": "jbl vintage speaker",
     "category_hint": "Audio",
@@ -11158,7 +11184,7 @@
   {
     "id": "marktplaats-html:m2436785310",
     "found_at": "2026-09-02T04:51:22.265146+00:00",
-    "last_seen_at": "2026-09-07T18:36:06.254383+00:00",
+    "last_seen_at": "2026-09-07T18:52:20.848287+00:00",
     "source": "marktplaats-html",
     "query": "jbl vintage speaker",
     "category_hint": "Audio",
@@ -11506,7 +11532,7 @@
   {
     "id": "marktplaats-html:m2435043594",
     "found_at": "2026-09-02T04:51:19.074280+00:00",
-    "last_seen_at": "2026-09-07T18:36:03.633794+00:00",
+    "last_seen_at": "2026-09-07T18:52:17.433149+00:00",
     "source": "marktplaats-html",
     "query": "sennheiser mkh",
     "category_hint": "Audio",
@@ -11596,7 +11622,7 @@
   {
     "id": "marktplaats-html:m2422384554",
     "found_at": "2026-09-02T04:51:19.074021+00:00",
-    "last_seen_at": "2026-09-07T18:36:03.633477+00:00",
+    "last_seen_at": "2026-09-07T18:52:17.432868+00:00",
     "source": "marktplaats-html",
     "query": "sennheiser mkh",
     "category_hint": "Audio",
@@ -11622,7 +11648,7 @@
   {
     "id": "marktplaats-html:m2434415000",
     "found_at": "2026-09-02T04:51:19.073784+00:00",
-    "last_seen_at": "2026-09-07T18:36:03.633192+00:00",
+    "last_seen_at": "2026-09-07T18:52:17.432650+00:00",
     "source": "marktplaats-html",
     "query": "sennheiser mkh",
     "category_hint": "Audio",
@@ -11712,7 +11738,7 @@
   {
     "id": "marktplaats-html:m2434251249",
     "found_at": "2026-09-02T04:51:19.073462+00:00",
-    "last_seen_at": "2026-09-07T18:36:03.632859+00:00",
+    "last_seen_at": "2026-09-07T18:52:17.432411+00:00",
     "source": "marktplaats-html",
     "query": "sennheiser mkh",
     "category_hint": "Audio",
@@ -11804,7 +11830,7 @@
   {
     "id": "marktplaats-html:m2437518410",
     "found_at": "2026-09-02T04:51:13.214223+00:00",
-    "last_seen_at": "2026-09-07T18:35:57.130363+00:00",
+    "last_seen_at": "2026-09-07T18:52:11.843952+00:00",
     "source": "marktplaats-html",
     "query": "tektronix",
     "category_hint": "Meetapparatuur",
@@ -12487,7 +12513,7 @@
       "detected": false
     },
     "is_repair_deal": false,
-    "last_seen_at": "2026-09-07T18:35:54.594816+00:00",
+    "last_seen_at": "2026-09-07T18:52:09.198211+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
     "condition": "zo goed als nieuw"
@@ -12804,7 +12830,7 @@
     "result_status": "excluded",
     "is_deal": false,
     "exclusion_reason": "Dienst/gezocht-advertentie gedetecteerd: reparatie",
-    "last_seen_at": "2026-09-07T18:36:17.892462+00:00",
+    "last_seen_at": "2026-09-07T18:52:33.527806+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
     "condition": "onderdelen/defect",
@@ -13314,7 +13340,7 @@
     "result_status": "unpriced",
     "is_deal": false,
     "exclusion_reason": null,
-    "last_seen_at": "2026-09-07T18:36:00.378503+00:00",
+    "last_seen_at": "2026-09-07T18:52:14.677312+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
     "condition": "zo goed als nieuw",
@@ -13427,7 +13453,7 @@
     "result_status": "scored",
     "is_deal": false,
     "exclusion_reason": null,
-    "last_seen_at": "2026-09-07T18:36:00.378264+00:00",
+    "last_seen_at": "2026-09-07T18:52:14.677127+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
     "condition": "zo goed als nieuw",
@@ -13458,7 +13484,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "valuation_samples": 0,
-    "last_seen_at": "2026-09-07T18:36:00.377676+00:00",
+    "last_seen_at": "2026-09-07T18:52:14.676676+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
     "condition": "nieuw",
@@ -13724,7 +13750,7 @@
     "result_status": "scored",
     "is_deal": false,
     "exclusion_reason": null,
-    "last_seen_at": "2026-09-07T18:36:00.377327+00:00",
+    "last_seen_at": "2026-09-07T18:52:14.676395+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
     "condition": "nieuw",
@@ -13930,7 +13956,7 @@
     "result_status": "unrecognized",
     "is_deal": false,
     "exclusion_reason": null,
-    "last_seen_at": "2026-09-07T18:35:54.594574+00:00",
+    "last_seen_at": "2026-09-07T18:52:09.198011+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
     "condition": "nieuw",
@@ -14011,7 +14037,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "valuation_samples": 0,
-    "last_seen_at": "2026-09-07T18:36:23.567790+00:00",
+    "last_seen_at": "2026-09-07T18:52:40.566798+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
     "condition": "nieuw",
@@ -14134,7 +14160,7 @@
       "detected": false
     },
     "is_repair_deal": false,
-    "last_seen_at": "2026-09-07T18:35:48.697492+00:00",
+    "last_seen_at": "2026-09-07T18:52:03.205127+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
     "condition": "nieuw"
@@ -14157,7 +14183,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "valuation_samples": 0,
-    "last_seen_at": "2026-09-07T18:36:20.818583+00:00",
+    "last_seen_at": "2026-09-07T18:52:37.016177+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
     "condition": "nieuw",
@@ -14312,7 +14338,7 @@
     "result_status": "unrecognized",
     "is_deal": false,
     "exclusion_reason": null,
-    "last_seen_at": "2026-09-07T18:35:48.696540+00:00",
+    "last_seen_at": "2026-09-07T18:52:03.204420+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
     "condition": "nieuw",
@@ -14747,7 +14773,7 @@
     "result_status": "scored",
     "is_deal": false,
     "exclusion_reason": null,
-    "last_seen_at": "2026-09-07T18:35:45.574939+00:00",
+    "last_seen_at": "2026-09-07T18:51:59.953199+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
     "condition": "zo goed als nieuw",
@@ -14983,7 +15009,7 @@
     "result_status": "excluded",
     "is_deal": false,
     "exclusion_reason": "Accessoire/dienst gedetecteerd: dock",
-    "last_seen_at": "2026-09-07T18:35:42.795976+00:00",
+    "last_seen_at": "2026-09-07T18:51:56.598803+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
     "condition": "nieuw",
@@ -15850,7 +15876,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "valuation_samples": 0,
-    "last_seen_at": "2026-09-07T18:35:39.900958+00:00",
+    "last_seen_at": "2026-09-07T18:51:53.253976+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
     "condition": "zo goed als nieuw",
@@ -16205,7 +16231,7 @@
     "result_status": "excluded",
     "is_deal": false,
     "exclusion_reason": "Dienst/gezocht-advertentie gedetecteerd: gezocht",
-    "last_seen_at": "2026-09-07T18:36:17.894535+00:00",
+    "last_seen_at": "2026-09-07T18:52:33.529496+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
     "condition": "nieuw",
@@ -16463,7 +16489,7 @@
     "result_status": "excluded",
     "is_deal": false,
     "exclusion_reason": "Controller/accessoire in plaats van console",
-    "last_seen_at": "2026-09-07T18:35:36.512778+00:00",
+    "last_seen_at": "2026-09-07T18:51:49.987255+00:00",
     "previous_asking_price": 260.0,
     "price_drop_percent": 0.0,
     "condition": "nieuw",
@@ -16520,7 +16546,7 @@
     "result_status": "excluded",
     "is_deal": false,
     "exclusion_reason": "Game/software in plaats van console",
-    "last_seen_at": "2026-09-07T18:35:36.513427+00:00",
+    "last_seen_at": "2026-09-07T18:51:49.987749+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
     "condition": "nieuw",
