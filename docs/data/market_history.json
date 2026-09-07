@@ -3118,5 +3118,15 @@
       "asking_low": 1200.0,
       "asking_high": 1200.0
     }
+  ],
+  "Makita DHP489 18V SCHROEF": [
+    {
+      "at": "2026-09-07T22:40:44.054968+00:00",
+      "sample_count": 1,
+      "median_asking": 120.0,
+      "estimated_resale": 106.8,
+      "asking_low": 120.0,
+      "asking_high": 120.0
+    }
   ]
 }
