@@ -1,6 +1,6 @@
 {
   "mode": "marktplaats-html-scraper-v1.2-repair-hunter",
-  "last_checked": "2026-09-08T01:27:06.959071+00:00",
+  "last_checked": "2026-09-08T01:42:55.717765+00:00",
   "queries_configured": 19,
   "links_fetched": 95,
   "checked_ads": 95,
@@ -20,16 +20,17 @@
   "smart_alerts_sent": 0,
   "errors": [],
   "whatsapp_enabled": false,
-  "audiofanzine_observations": 86,
-  "audiofanzine_models_matched": 7,
+  "audiofanzine_observations": 0,
+  "audiofanzine_models_matched": 0,
   "multi_source_revalued": 18,
   "multi_source_results": 18,
   "valuation_sources_active": [
     "Marktplaats",
-    "lokale referentiecatalogus",
-    "Audiofanzine publieke classifieds"
+    "lokale referentiecatalogus"
   ],
-  "valuation_source_errors": [],
+  "valuation_source_errors": [
+    "Audiofanzine: HTTPStatusError: Server error '500 Internal Server Error' for url 'https://en.audiofanzine.com/classifieds/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500"
+  ],
   "repair_candidates": 23,
   "repair_deals": 0
 }
