@@ -3724,5 +3724,15 @@
       "asking_low": 1200.0,
       "asking_high": 1200.0
     }
+  ],
+  "Makita HP1300S KLOPBOORMACHINE GEBRUIKT": [
+    {
+      "at": "2026-09-08T09:48:07.606991+00:00",
+      "sample_count": 1,
+      "median_asking": 50.0,
+      "estimated_resale": 44.5,
+      "asking_low": 50.0,
+      "asking_high": 50.0
+    }
   ]
 }
