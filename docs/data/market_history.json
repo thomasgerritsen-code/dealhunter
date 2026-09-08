@@ -3762,5 +3762,15 @@
       "asking_low": 950.0,
       "asking_high": 950.0
     }
+  ],
+  "KEF 304 SERIES II": [
+    {
+      "at": "2026-09-08T17:57:58.069704+00:00",
+      "sample_count": 1,
+      "median_asking": 50.0,
+      "estimated_resale": 44.5,
+      "asking_low": 50.0,
+      "asking_high": 50.0
+    }
   ]
 }
