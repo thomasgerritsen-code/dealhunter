@@ -19,13 +19,13 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series X 1TB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (14 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (14 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 14,
+      "source": "Marktplaats profiel (15 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (15 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 15,
       "asking_price": 25.0,
       "expected_resale": 368.78,
-      "market_low": 289.41,
-      "market_high": 459.61,
+      "market_low": 290.82,
+      "market_high": 466.65,
       "fees": 0.0,
       "risk_reserve": 22.97,
       "travel_cost": 0.0,
@@ -60,7 +60,7 @@
     "is_deal": true,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 14,
+      "sample_count": 15,
       "median_asking": 400.0
     },
     "repair": {
@@ -226,13 +226,13 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series X 1TB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (14 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (14 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 14,
+      "source": "Marktplaats profiel (15 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (15 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 15,
       "asking_price": 20.0,
       "expected_resale": 368.78,
-      "market_low": 289.41,
-      "market_high": 459.61,
+      "market_low": 290.82,
+      "market_high": 466.65,
       "fees": 0.0,
       "risk_reserve": 22.97,
       "travel_cost": 0.0,
@@ -267,7 +267,7 @@
     "is_deal": true,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 14,
+      "sample_count": 15,
       "median_asking": 400.0
     },
     "repair": {
