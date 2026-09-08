@@ -273,12 +273,12 @@
       "asking_high": 296.98
     },
     {
-      "at": "2026-09-08T00:22:55.906828+00:00",
-      "sample_count": 6,
-      "median_asking": 278.49,
-      "estimated_resale": 256.21,
+      "at": "2026-09-08T06:39:56.758071+00:00",
+      "sample_count": 7,
+      "median_asking": 296.98,
+      "estimated_resale": 273.22,
       "asking_low": 260.0,
-      "asking_high": 296.98
+      "asking_high": 331.38
     }
   ],
   "Sony PlayStation 5 Pro": [
@@ -3713,6 +3713,16 @@
       "estimated_resale": 28.48,
       "asking_low": 32.0,
       "asking_high": 32.0
+    }
+  ],
+  "JBL L96": [
+    {
+      "at": "2026-09-08T06:39:56.758071+00:00",
+      "sample_count": 1,
+      "median_asking": 1200.0,
+      "estimated_resale": 1068.0,
+      "asking_low": 1200.0,
+      "asking_high": 1200.0
     }
   ]
 }
