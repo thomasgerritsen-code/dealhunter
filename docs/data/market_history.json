@@ -3734,5 +3734,15 @@
       "asking_low": 50.0,
       "asking_high": 50.0
     }
+  ],
+  "Tektronix 2445A 4 KANALEN": [
+    {
+      "at": "2026-09-08T10:58:28.508553+00:00",
+      "sample_count": 1,
+      "median_asking": 350.0,
+      "estimated_resale": 315.0,
+      "asking_low": 350.0,
+      "asking_high": 350.0
+    }
   ]
 }
