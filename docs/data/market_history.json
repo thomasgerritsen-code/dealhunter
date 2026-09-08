@@ -3704,5 +3704,15 @@
       "asking_low": 120.0,
       "asking_high": 120.0
     }
+  ],
+  "Makita METAALBOOR 37649 O4": [
+    {
+      "at": "2026-09-08T01:13:46.795309+00:00",
+      "sample_count": 1,
+      "median_asking": 32.0,
+      "estimated_resale": 28.48,
+      "asking_low": 32.0,
+      "asking_high": 32.0
+    }
   ]
 }
