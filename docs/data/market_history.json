@@ -3752,5 +3752,15 @@
       "asking_low": 350.0,
       "asking_high": 350.0
     }
+  ],
+  "Fluke DS701 VIDEOSCOPE": [
+    {
+      "at": "2026-09-08T17:41:16.404698+00:00",
+      "sample_count": 1,
+      "median_asking": 950.0,
+      "estimated_resale": 855.0,
+      "asking_low": 950.0,
+      "asking_high": 950.0
+    }
   ]
 }
