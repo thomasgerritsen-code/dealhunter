@@ -19,12 +19,12 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series X 1TB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (20 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (20 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 20,
+      "source": "Marktplaats profiel (21 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (21 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 21,
       "asking_price": 10.0,
       "expected_resale": 427.21,
-      "market_low": 290.82,
+      "market_low": 292.23,
       "market_high": 466.65,
       "fees": 0.0,
       "risk_reserve": 24.23,
@@ -60,7 +60,7 @@
     "is_deal": true,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 20,
+      "sample_count": 21,
       "median_asking": 475.0
     },
     "repair": {
@@ -88,12 +88,12 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series X 1TB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (20 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (20 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 20,
+      "source": "Marktplaats profiel (21 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (21 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 21,
       "asking_price": 25.0,
       "expected_resale": 427.21,
-      "market_low": 290.82,
+      "market_low": 292.23,
       "market_high": 466.65,
       "fees": 0.0,
       "risk_reserve": 24.23,
@@ -129,7 +129,7 @@
     "is_deal": true,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 20,
+      "sample_count": 21,
       "median_asking": 475.0
     },
     "repair": {
@@ -295,12 +295,12 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series X 1TB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (20 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (20 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 20,
+      "source": "Marktplaats profiel (21 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (21 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 21,
       "asking_price": 20.0,
       "expected_resale": 427.21,
-      "market_low": 290.82,
+      "market_low": 292.23,
       "market_high": 466.65,
       "fees": 0.0,
       "risk_reserve": 24.23,
@@ -336,7 +336,7 @@
     "is_deal": true,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 20,
+      "sample_count": 21,
       "median_asking": 475.0
     },
     "repair": {
@@ -590,12 +590,12 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series X 1TB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (20 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (20 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 20,
+      "source": "Marktplaats profiel (21 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (21 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 21,
       "asking_price": 285.0,
       "expected_resale": 427.21,
-      "market_low": 290.82,
+      "market_low": 292.23,
       "market_high": 466.65,
       "fees": 0.0,
       "risk_reserve": 9.23,
@@ -629,7 +629,7 @@
     "is_deal": true,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 20,
+      "sample_count": 21,
       "median_asking": 475.0
     },
     "repair": {
