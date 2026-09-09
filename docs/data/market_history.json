@@ -625,6 +625,14 @@
       "estimated_resale": 175.12,
       "asking_low": 199.0,
       "asking_high": 199.0
+    },
+    {
+      "at": "2026-09-09T06:21:00.846862+00:00",
+      "sample_count": 1,
+      "median_asking": 225.0,
+      "estimated_resale": 202.5,
+      "asking_low": 225.0,
+      "asking_high": 225.0
     }
   ],
   "Fluke INDUSTRIELE LUCHT GAS": [
@@ -4379,6 +4387,36 @@
       "estimated_resale": 44.5,
       "asking_low": 50.0,
       "asking_high": 50.0
+    }
+  ],
+  "Fluke 325 TRUE RMS": [
+    {
+      "at": "2026-09-09T06:21:00.846862+00:00",
+      "sample_count": 1,
+      "median_asking": 200.0,
+      "estimated_resale": 180.0,
+      "asking_low": 200.0,
+      "asking_high": 200.0
+    }
+  ],
+  "Fluke 8050A DIGITALE": [
+    {
+      "at": "2026-09-09T06:21:00.846862+00:00",
+      "sample_count": 1,
+      "median_asking": 125.0,
+      "estimated_resale": 112.5,
+      "asking_low": 125.0,
+      "asking_high": 125.0
+    }
+  ],
+  "Fluke 6500 05 INSTALLATIETESTER": [
+    {
+      "at": "2026-09-09T06:21:00.846862+00:00",
+      "sample_count": 1,
+      "median_asking": 1100.0,
+      "estimated_resale": 990.0,
+      "asking_low": 1100.0,
+      "asking_high": 1100.0
     }
   ]
 }
