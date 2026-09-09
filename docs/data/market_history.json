@@ -4428,5 +4428,15 @@
       "asking_low": 375.0,
       "asking_high": 375.0
     }
+  ],
+  "JBL PARTYBOX 310 DEFECT": [
+    {
+      "at": "2026-09-09T18:37:14.203151+00:00",
+      "sample_count": 1,
+      "median_asking": 100.0,
+      "estimated_resale": 89.0,
+      "asking_low": 100.0,
+      "asking_high": 100.0
+    }
   ]
 }
