@@ -305,12 +305,12 @@
       "asking_high": 296.98
     },
     {
-      "at": "2026-09-09T00:23:11.976156+00:00",
-      "sample_count": 7,
-      "median_asking": 260.0,
-      "estimated_resale": 239.2,
-      "asking_low": 252.0,
-      "asking_high": 296.98
+      "at": "2026-09-09T06:40:02.276021+00:00",
+      "sample_count": 9,
+      "median_asking": 296.98,
+      "estimated_resale": 273.22,
+      "asking_low": 256.0,
+      "asking_high": 347.98
     }
   ],
   "Sony PlayStation 5 Pro": [
@@ -4417,6 +4417,16 @@
       "estimated_resale": 990.0,
       "asking_low": 1100.0,
       "asking_high": 1100.0
+    }
+  ],
+  "JBL PARTYBOX ULTIMATE DEFECT": [
+    {
+      "at": "2026-09-09T06:40:02.276021+00:00",
+      "sample_count": 1,
+      "median_asking": 375.0,
+      "estimated_resale": 333.75,
+      "asking_low": 375.0,
+      "asking_high": 375.0
     }
   ]
 }
