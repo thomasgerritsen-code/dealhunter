@@ -5102,5 +5102,15 @@
       "asking_low": 100.0,
       "asking_high": 100.0
     }
+  ],
+  "JBL TLX2 LUIDSPREKERSET": [
+    {
+      "at": "2026-09-10T06:19:57.715317+00:00",
+      "sample_count": 1,
+      "median_asking": 70.0,
+      "estimated_resale": 62.3,
+      "asking_low": 70.0,
+      "asking_high": 70.0
+    }
   ]
 }
