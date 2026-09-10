@@ -5172,5 +5172,15 @@
       "asking_low": 30.0,
       "asking_high": 30.0
     }
+  ],
+  "Tannoy 603 LUIDSPREKERS": [
+    {
+      "at": "2026-09-10T13:19:03.431670+00:00",
+      "sample_count": 1,
+      "median_asking": 70.0,
+      "estimated_resale": 62.3,
+      "asking_low": 70.0,
+      "asking_high": 70.0
+    }
   ]
 }
