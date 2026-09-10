@@ -5142,5 +5142,15 @@
       "asking_low": 850.0,
       "asking_high": 850.0
     }
+  ],
+  "Tannoy 607 LUIDSPREKERS 2X": [
+    {
+      "at": "2026-09-10T09:58:57.355063+00:00",
+      "sample_count": 1,
+      "median_asking": 150.0,
+      "estimated_resale": 133.5,
+      "asking_low": 150.0,
+      "asking_high": 150.0
+    }
   ]
 }
