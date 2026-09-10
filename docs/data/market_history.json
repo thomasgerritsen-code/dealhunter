@@ -5192,5 +5192,15 @@
       "asking_low": 450.0,
       "asking_high": 450.0
     }
+  ],
+  "Tannoy MERCURY M2": [
+    {
+      "at": "2026-09-10T16:58:22.440719+00:00",
+      "sample_count": 1,
+      "median_asking": 40.0,
+      "estimated_resale": 35.6,
+      "asking_low": 40.0,
+      "asking_high": 40.0
+    }
   ]
 }
