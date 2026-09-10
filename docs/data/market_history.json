@@ -189,12 +189,12 @@
       "asking_high": 595.0
     },
     {
-      "at": "2026-09-10T00:00:13.244015+00:00",
-      "sample_count": 22,
-      "median_asking": 462.5,
-      "estimated_resale": 425.5,
-      "asking_low": 303.0,
-      "asking_high": 595.0
+      "at": "2026-09-10T08:35:28.320347+00:00",
+      "sample_count": 23,
+      "median_asking": 450.0,
+      "estimated_resale": 414.0,
+      "asking_low": 291.0,
+      "asking_high": 589.99
     }
   ],
   "Festool DECOUPEERZAAG 18V CARVEX": [
@@ -653,12 +653,12 @@
       "asking_high": 160.0
     },
     {
-      "at": "2026-09-10T00:00:13.244015+00:00",
+      "at": "2026-09-10T08:35:28.320347+00:00",
       "sample_count": 1,
-      "median_asking": 160.0,
-      "estimated_resale": 142.4,
-      "asking_low": 160.0,
-      "asking_high": 160.0
+      "median_asking": 140.0,
+      "estimated_resale": 124.6,
+      "asking_low": 140.0,
+      "asking_high": 140.0
     }
   ],
   "Shure SM7DB DYNAMISCHE VOCAL": [
@@ -5111,6 +5111,36 @@
       "estimated_resale": 62.3,
       "asking_low": 70.0,
       "asking_high": 70.0
+    }
+  ],
+  "Tektronix WVR 7000 VIDEO": [
+    {
+      "at": "2026-09-10T08:35:28.320347+00:00",
+      "sample_count": 1,
+      "median_asking": 150.0,
+      "estimated_resale": 135.0,
+      "asking_low": 150.0,
+      "asking_high": 150.0
+    }
+  ],
+  "Yamaha S201 STEREO": [
+    {
+      "at": "2026-09-10T08:35:28.320347+00:00",
+      "sample_count": 1,
+      "median_asking": 95.0,
+      "estimated_resale": 84.55,
+      "asking_low": 95.0,
+      "asking_high": 95.0
+    }
+  ],
+  "KEF LUIDSPREKERS Q5": [
+    {
+      "at": "2026-09-10T08:35:28.320347+00:00",
+      "sample_count": 1,
+      "median_asking": 850.0,
+      "estimated_resale": 756.5,
+      "asking_low": 850.0,
+      "asking_high": 850.0
     }
   ]
 }
