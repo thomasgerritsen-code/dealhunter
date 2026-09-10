@@ -5202,5 +5202,15 @@
       "asking_low": 40.0,
       "asking_high": 40.0
     }
+  ],
+  "JBL PARTYBOX 200": [
+    {
+      "at": "2026-09-10T17:58:50.395052+00:00",
+      "sample_count": 1,
+      "median_asking": 70.0,
+      "estimated_resale": 62.3,
+      "asking_low": 70.0,
+      "asking_high": 70.0
+    }
   ]
 }
