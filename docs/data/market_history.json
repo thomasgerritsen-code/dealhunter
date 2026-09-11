@@ -369,12 +369,12 @@
       "asking_high": 347.98
     },
     {
-      "at": "2026-09-11T10:33:40.233223+00:00",
-      "sample_count": 10,
-      "median_asking": 278.49,
-      "estimated_resale": 256.21,
-      "asking_low": 243.0,
-      "asking_high": 343.98
+      "at": "2026-09-11T13:58:41.319899+00:00",
+      "sample_count": 11,
+      "median_asking": 260.0,
+      "estimated_resale": 239.2,
+      "asking_low": 250.0,
+      "asking_high": 339.98
     }
   ],
   "Sony PlayStation 5 Pro": [
@@ -1131,12 +1131,12 @@
       "asking_high": 231.99
     },
     {
-      "at": "2026-09-11T00:20:31.468791+00:00",
-      "sample_count": 3,
-      "median_asking": 175.0,
-      "estimated_resale": 161.0,
-      "asking_low": 87.99,
-      "asking_high": 231.99
+      "at": "2026-09-11T13:58:41.319899+00:00",
+      "sample_count": 4,
+      "median_asking": 214.99,
+      "estimated_resale": 197.79,
+      "asking_low": 116.99,
+      "asking_high": 260.98
     }
   ],
   "Nintendo Switch (variant onbekend)": [
@@ -5965,6 +5965,126 @@
       "estimated_resale": 44.5,
       "asking_low": 50.0,
       "asking_high": 50.0
+    }
+  ],
+  "JBL XL 1000 LUIDSPREKERSET": [
+    {
+      "at": "2026-09-11T13:58:41.319899+00:00",
+      "sample_count": 1,
+      "median_asking": 8.0,
+      "estimated_resale": 7.12,
+      "asking_low": 8.0,
+      "asking_high": 8.0
+    }
+  ],
+  "Makita 197172 1 SLOOPSTOF": [
+    {
+      "at": "2026-09-11T13:58:41.319899+00:00",
+      "sample_count": 1,
+      "median_asking": 20.0,
+      "estimated_resale": 17.8,
+      "asking_low": 20.0,
+      "asking_high": 20.0
+    }
+  ],
+  "Agilent DIFFERENTIAL PROBE N2790A": [
+    {
+      "at": "2026-09-11T13:58:41.319899+00:00",
+      "sample_count": 1,
+      "median_asking": 550.0,
+      "estimated_resale": 495.0,
+      "asking_low": 550.0,
+      "asking_high": 550.0
+    }
+  ],
+  "Shure MV7X": [
+    {
+      "at": "2026-09-11T13:58:41.319899+00:00",
+      "sample_count": 3,
+      "median_asking": 169.0,
+      "estimated_resale": 150.41,
+      "asking_low": 157.6,
+      "asking_high": 169.0
+    }
+  ],
+  "Sennheiser MKE 40 MICROFOONS": [
+    {
+      "at": "2026-09-11T13:58:41.319899+00:00",
+      "sample_count": 1,
+      "median_asking": 800.0,
+      "estimated_resale": 712.0,
+      "asking_low": 800.0,
+      "asking_high": 800.0
+    }
+  ],
+  "Sennheiser MKE 300": [
+    {
+      "at": "2026-09-11T13:58:41.319899+00:00",
+      "sample_count": 1,
+      "median_asking": 50.0,
+      "estimated_resale": 44.5,
+      "asking_low": 50.0,
+      "asking_high": 50.0
+    }
+  ],
+  "Sennheiser K3": [
+    {
+      "at": "2026-09-11T13:58:41.319899+00:00",
+      "sample_count": 1,
+      "median_asking": 100.0,
+      "estimated_resale": 89.0,
+      "asking_low": 100.0,
+      "asking_high": 100.0
+    }
+  ],
+  "JBL TLX 9 GI": [
+    {
+      "at": "2026-09-11T13:58:41.319899+00:00",
+      "sample_count": 1,
+      "median_asking": 8.0,
+      "estimated_resale": 7.12,
+      "asking_low": 8.0,
+      "asking_high": 8.0
+    }
+  ],
+  "JBL TLX 7 GI": [
+    {
+      "at": "2026-09-11T13:58:41.319899+00:00",
+      "sample_count": 1,
+      "median_asking": 33.0,
+      "estimated_resale": 29.37,
+      "asking_low": 33.0,
+      "asking_high": 33.0
+    }
+  ],
+  "KEF CHORALE SP1016": [
+    {
+      "at": "2026-09-11T13:58:41.319899+00:00",
+      "sample_count": 1,
+      "median_asking": 85.0,
+      "estimated_resale": 75.65,
+      "asking_low": 85.0,
+      "asking_high": 85.0
+    }
+  ],
+  "KEF CANTATA SP1056 VLOERSTAANDE": [
+    {
+      "at": "2026-09-11T13:58:41.319899+00:00",
+      "sample_count": 1,
+      "median_asking": 500.0,
+      "estimated_resale": 445.0,
+      "asking_low": 500.0,
+      "asking_high": 500.0
+    }
+  ],
+  "Tannoy SATURN S6LCR MATCHING": [
+    {
+      "at": "2026-09-11T13:58:41.319899+00:00",
+      "sample_count": 1,
+      "median_asking": 8.0,
+      "estimated_resale": 7.12,
+      "asking_low": 8.0,
+      "asking_high": 8.0
     }
   ]
 }
