@@ -6126,5 +6126,15 @@
       "asking_low": 25.0,
       "asking_high": 25.0
     }
+  ],
+  "Tannoy MERCURY F1 LUIDSPREKERS": [
+    {
+      "at": "2026-09-11T16:57:52.563036+00:00",
+      "sample_count": 1,
+      "median_asking": 22.0,
+      "estimated_resale": 19.58,
+      "asking_low": 22.0,
+      "asking_high": 22.0
+    }
   ]
 }
