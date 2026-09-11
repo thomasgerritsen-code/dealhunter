@@ -4331,6 +4331,14 @@
       "estimated_resale": 22.61,
       "asking_low": 25.41,
       "asking_high": 25.41
+    },
+    {
+      "at": "2026-09-11T09:54:06.866063+00:00",
+      "sample_count": 1,
+      "median_asking": 18.0,
+      "estimated_resale": 16.02,
+      "asking_low": 18.0,
+      "asking_high": 18.0
     }
   ],
   "Fluke 80PK 22 DOMPELSENSOR": [
@@ -5947,6 +5955,16 @@
       "estimated_resale": 62.3,
       "asking_low": 70.0,
       "asking_high": 70.0
+    }
+  ],
+  "Makita DTD152 18V SLAGSCHROEVENDRAAIER": [
+    {
+      "at": "2026-09-11T09:54:06.866063+00:00",
+      "sample_count": 1,
+      "median_asking": 50.0,
+      "estimated_resale": 44.5,
+      "asking_low": 50.0,
+      "asking_high": 50.0
     }
   ]
 }
