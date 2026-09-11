@@ -6116,5 +6116,15 @@
       "asking_low": 15.0,
       "asking_high": 15.0
     }
+  ],
+  "Tektronix P6006": [
+    {
+      "at": "2026-09-11T16:15:16.914832+00:00",
+      "sample_count": 1,
+      "median_asking": 25.0,
+      "estimated_resale": 22.5,
+      "asking_low": 25.0,
+      "asking_high": 25.0
+    }
   ]
 }
