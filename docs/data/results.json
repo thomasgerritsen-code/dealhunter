@@ -1,8 +1,75 @@
 [
   {
+    "id": "marktplaats-html:m2441991783",
+    "found_at": "2026-09-12T20:43:48.080241+00:00",
+    "last_seen_at": "2026-09-12T20:43:48.080241+00:00",
+    "source": "marktplaats-html",
+    "query": "xbox series x",
+    "category_hint": "Spelcomputers",
+    "title": "xbox series s",
+    "description": "Bewaren in Mijn Favorieten xbox series s Bij deze bied ik mijn xbox series s aan. De console zelf is nog zo goed als nieuw en werkt 100% naar behoren, maar let op: van de meegeleverde controller werkt de lb-knop niet. Verder is de console vo Zo goed als nieuw Ophalen of Verzenden € 275,00 Vandaag Robert Burgum Bewaren in Mijn Favorieten xbox series s € 275,00 Bij deze bied ik mijn xbox series s aan. De console zelf is nog zo goed als nieuw en werkt 100% naar behoren, maar let op: van de meegeleverde controller werkt de lb-knop niet. Verder is de console vo Zo goed als nieuw Ophalen of Verzenden Robert Burgum Vandaag Bewaren in Mijn Favorieten xbox series s € 275,00 Details Ophalen of Verzenden Zo goed als nieuw Xbox Series S Bij deze bied ik mijn xbox series s aan. De console zelf is nog zo goed als nieuw en werkt 100% naar behoren, maar let op: van de meegeleverde controller werkt de lb",
+    "url": "https://www.marktplaats.nl/v/spelcomputers-en-games/spelcomputers-xbox-series-x-en-s/m2441991783-xbox-series-s",
+    "asking_price": 275.0,
+    "previous_asking_price": null,
+    "price_drop_percent": 0.0,
+    "promoted": false,
+    "matched_product": "Microsoft Xbox Series S 512GB",
+    "recognition_confidence": 93,
+    "condition": "zo goed als nieuw",
+    "analysis": {
+      "matched_product": "Microsoft Xbox Series S 512GB",
+      "category": "Spelcomputers",
+      "source": "Marktplaats profiel (13 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (13 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 13,
+      "asking_price": 275.0,
+      "expected_resale": 234.6,
+      "market_low": 202.22,
+      "market_high": 255.23,
+      "fees": 0.0,
+      "risk_reserve": 5.07,
+      "travel_cost": 0.0,
+      "expected_profit": -45.47,
+      "roi_percent": -16.5,
+      "discount_percent": -17.2,
+      "opening_bid": 137.25,
+      "target_buy_price": 155.97,
+      "max_buy_price": 169.53,
+      "deal_score": 40,
+      "risk_score": 18,
+      "liquidity_score": 84,
+      "confidence_percent": 85,
+      "recognition_confidence_percent": 93,
+      "market_confidence_percent": 77,
+      "verdict": "OVERSLAAN",
+      "recommendation": "NIET INTERESSANT",
+      "risk_reasons": [],
+      "score_breakdown": {
+        "discount": 0,
+        "profit": 0,
+        "roi": 0,
+        "liquidity": 10.1,
+        "confidence": 15.2,
+        "risk_penalty": 3.6
+      },
+      "note": "Marktwaardes op basis van vraagprijzen zijn schattingen, geen gegarandeerde gerealiseerde verkoopprijzen."
+    },
+    "result_status": "scored",
+    "is_deal": false,
+    "exclusion_reason": null,
+    "market_profile": {
+      "sample_count": 13,
+      "median_asking": 260.0
+    },
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
+  },
+  {
     "id": "marktplaats-html:m2442021948",
     "found_at": "2026-09-12T20:13:13.771063+00:00",
-    "last_seen_at": "2026-09-12T20:27:11.062188+00:00",
+    "last_seen_at": "2026-09-12T20:43:59.959858+00:00",
     "source": "marktplaats-html",
     "query": "tektronix",
     "category_hint": "Meetapparatuur",
@@ -28,7 +95,7 @@
   {
     "id": "marktplaats-html:m2442019169",
     "found_at": "2026-09-12T19:56:53.893044+00:00",
-    "last_seen_at": "2026-09-12T20:26:52.132318+00:00",
+    "last_seen_at": "2026-09-12T20:43:42.277703+00:00",
     "source": "marktplaats-html",
     "query": "nintendo switch oled",
     "category_hint": "Spelcomputers",
@@ -95,7 +162,7 @@
   {
     "id": "marktplaats-html:m2442008261",
     "found_at": "2026-09-12T19:11:40.974219+00:00",
-    "last_seen_at": "2026-09-12T20:27:29.796524+00:00",
+    "last_seen_at": "2026-09-12T20:44:17.328229+00:00",
     "source": "marktplaats-html",
     "query": "tannoy speaker",
     "category_hint": "Audio",
@@ -121,7 +188,7 @@
   {
     "id": "marktplaats-html:m2441994198",
     "found_at": "2026-09-12T18:15:03.897957+00:00",
-    "last_seen_at": "2026-09-12T20:27:29.795909+00:00",
+    "last_seen_at": "2026-09-12T20:44:17.327589+00:00",
     "source": "marktplaats-html",
     "query": "tannoy speaker",
     "category_hint": "Audio",
@@ -147,7 +214,7 @@
   {
     "id": "marktplaats-html:m2441987576",
     "found_at": "2026-09-12T17:48:42.611277+00:00",
-    "last_seen_at": "2026-09-12T20:27:23.109940+00:00",
+    "last_seen_at": "2026-09-12T20:44:11.502812+00:00",
     "source": "marktplaats-html",
     "query": "bang olufsen speaker",
     "category_hint": "Audio",
@@ -303,7 +370,7 @@
   {
     "id": "marktplaats-html:m2441979387",
     "found_at": "2026-09-12T17:23:32.928358+00:00",
-    "last_seen_at": "2026-09-12T20:27:29.796223+00:00",
+    "last_seen_at": "2026-09-12T20:44:17.327907+00:00",
     "source": "marktplaats-html",
     "query": "tannoy speaker",
     "category_hint": "Audio",
@@ -329,7 +396,7 @@
   {
     "id": "marktplaats-html:m2441960300",
     "found_at": "2026-09-12T16:26:51.602043+00:00",
-    "last_seen_at": "2026-09-12T20:27:23.110846+00:00",
+    "last_seen_at": "2026-09-12T20:44:11.503745+00:00",
     "source": "marktplaats-html",
     "query": "bang olufsen speaker",
     "category_hint": "Audio",
@@ -381,7 +448,7 @@
   {
     "id": "marktplaats-html:m2441954798",
     "found_at": "2026-09-12T16:13:43.736662+00:00",
-    "last_seen_at": "2026-09-12T20:27:14.388065+00:00",
+    "last_seen_at": "2026-09-12T20:44:02.875412+00:00",
     "source": "marktplaats-html",
     "query": "shure sm7b",
     "category_hint": "Audio",
@@ -497,7 +564,7 @@
   {
     "id": "marktplaats-html:m2441953084",
     "found_at": "2026-09-12T16:13:24.213035+00:00",
-    "last_seen_at": "2026-09-12T20:26:55.343308+00:00",
+    "last_seen_at": "2026-09-12T20:43:45.166638+00:00",
     "source": "marktplaats-html",
     "query": "steam deck",
     "category_hint": "Spelcomputers",
@@ -659,13 +726,13 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series S 512GB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (12 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (12 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 12,
+      "source": "Marktplaats profiel (13 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (13 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 13,
       "asking_price": 480.99,
       "expected_resale": 246.1,
       "market_low": 212.13,
-      "market_high": 271.98,
+      "market_high": 267.75,
       "fees": 0.0,
       "risk_reserve": 5.32,
       "travel_cost": 0.0,
@@ -698,7 +765,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 12,
+      "sample_count": 13,
       "median_asking": 260.0
     },
     "repair": {
@@ -802,7 +869,7 @@
   {
     "id": "marktplaats-html:m2441932605",
     "found_at": "2026-09-12T15:12:37.405407+00:00",
-    "last_seen_at": "2026-09-12T20:26:58.605278+00:00",
+    "last_seen_at": "2026-09-12T20:43:48.079557+00:00",
     "source": "marktplaats-html",
     "query": "xbox series x",
     "category_hint": "Spelcomputers",
@@ -895,7 +962,7 @@
   {
     "id": "marktplaats-html:a1530925899",
     "found_at": "2026-09-12T14:25:58.302527+00:00",
-    "last_seen_at": "2026-09-12T20:27:26.424945+00:00",
+    "last_seen_at": "2026-09-12T20:44:14.139402+00:00",
     "source": "marktplaats-html",
     "query": "kef vintage speaker",
     "category_hint": "Audio",
@@ -1081,7 +1148,7 @@
   {
     "id": "marktplaats-html:m2441866491",
     "found_at": "2026-09-12T12:51:47.175983+00:00",
-    "last_seen_at": "2026-09-12T20:27:39.610040+00:00",
+    "last_seen_at": "2026-09-12T20:44:26.383615+00:00",
     "source": "marktplaats-html",
     "query": "fluke defect",
     "category_hint": "Meetapparatuur",
@@ -1121,7 +1188,7 @@
   {
     "id": "marktplaats-html:m2441770969",
     "found_at": "2026-09-12T12:35:45.884569+00:00",
-    "last_seen_at": "2026-09-12T20:27:04.957864+00:00",
+    "last_seen_at": "2026-09-12T20:43:54.137347+00:00",
     "source": "marktplaats-html",
     "query": "makita",
     "category_hint": "Gereedschap",
@@ -1147,7 +1214,7 @@
   {
     "id": "marktplaats-html:a1530885921",
     "found_at": "2026-09-12T12:35:40.075842+00:00",
-    "last_seen_at": "2026-09-12T20:26:58.605960+00:00",
+    "last_seen_at": "2026-09-12T20:43:48.078900+00:00",
     "source": "marktplaats-html",
     "query": "xbox series x",
     "category_hint": "Spelcomputers",
@@ -1173,7 +1240,7 @@
   {
     "id": "marktplaats-html:m2441847116",
     "found_at": "2026-09-12T12:16:50.653653+00:00",
-    "last_seen_at": "2026-09-12T20:27:26.425308+00:00",
+    "last_seen_at": "2026-09-12T20:44:14.139758+00:00",
     "source": "marktplaats-html",
     "query": "kef vintage speaker",
     "category_hint": "Audio",
@@ -1411,12 +1478,12 @@
   {
     "id": "marktplaats-html:a1530908538",
     "found_at": "2026-09-12T10:57:40.307062+00:00",
-    "last_seen_at": "2026-09-12T20:27:36.720156+00:00",
+    "last_seen_at": "2026-09-12T20:44:23.237084+00:00",
     "source": "marktplaats-html",
     "query": "festool defect",
     "category_hint": "Gereedschap",
     "title": "Festool DTS 400 REQ-Plus Delta Schuurmachine | Nieuwstaat",
-    "description": "Bewaren in Mijn Favorieten Festool DTS 400 REQ-Plus Delta Schuurmachine | Nieuwstaat Festool dts 400 req-plus delta schuurmachine | nieuwstaat - nieuwstaat - incl. Systainer - incl. Schuurvellen - 3 maanden garantie - let op! Achteraf betalen via riverty en klarna ook mogelijk!!! (Ned Nieuw Ophalen of Verzenden € 329,99 Vandaag Topadvertentie Used Products Nijmegen Nijmegen Bewaren in Mijn Favorieten Festool DTS 400 REQ-Plus Delta Schuurmachine | Nieuwstaat € 329,99 Festool dts 400 req-plus delta schuurmachine | nieuwstaat - nieuwstaat - incl. Systainer - incl. Schuurvellen - 3 maanden garantie - let op! Achteraf betalen via riverty en klarna ook mogelijk!!! (Ned Nieuw Ophalen of Verzenden Used Products Nijmegen Nijmegen Vandaag Topadvertentie Bewaren in Mijn Favorieten Festool DTS 400 REQ-Plus Delta Schuurmachine | Nieuwstaat € 329,99 Details Ophalen of Verzenden Nieuw Festool dts 400 r",
+    "description": "Bewaren in Mijn Favorieten Festool DTS 400 REQ-Plus Delta Schuurmachine | Nieuwstaat Festool dts 400 req-plus delta schuurmachine | nieuwstaat - nieuwstaat - incl. Systainer - incl. Schuurvellen - 3 maanden garantie - let op! Achteraf betalen via riverty en klarna ook mogelijk!!! (Ned Nieuw Ophalen of Verzenden € 329,99 9 sep 26 Topadvertentie Used Products Nijmegen Nijmegen Bewaren in Mijn Favorieten Festool DTS 400 REQ-Plus Delta Schuurmachine | Nieuwstaat € 329,99 Festool dts 400 req-plus delta schuurmachine | nieuwstaat - nieuwstaat - incl. Systainer - incl. Schuurvellen - 3 maanden garantie - let op! Achteraf betalen via riverty en klarna ook mogelijk!!! (Ned Nieuw Ophalen of Verzenden Used Products Nijmegen Nijmegen 9 sep 26 Topadvertentie Bewaren in Mijn Favorieten Festool DTS 400 REQ-Plus Delta Schuurmachine | Nieuwstaat € 329,99 Details Ophalen of Verzenden Nieuw Festool dts 400",
     "url": "https://www.marktplaats.nl/v/doe-het-zelf-en-verbouw/gereedschap-schuurmachines/a1530908538-festool-dts-400-req-plus-delta-schuurmachine-nieuwstaat",
     "asking_price": 329.99,
     "previous_asking_price": null,
@@ -1437,7 +1504,7 @@
   {
     "id": "marktplaats-html:m2441801873",
     "found_at": "2026-09-12T10:40:25.266130+00:00",
-    "last_seen_at": "2026-09-12T20:27:42.643770+00:00",
+    "last_seen_at": "2026-09-12T20:44:29.193707+00:00",
     "source": "marktplaats-html",
     "query": "jbl speaker defect",
     "category_hint": "Audio",
@@ -1505,7 +1572,7 @@
   {
     "id": "marktplaats-html:m2441795526",
     "found_at": "2026-09-12T10:13:02.161733+00:00",
-    "last_seen_at": "2026-09-12T20:27:20.330980+00:00",
+    "last_seen_at": "2026-09-12T20:44:08.774922+00:00",
     "source": "marktplaats-html",
     "query": "jbl vintage speaker",
     "category_hint": "Audio",
@@ -1531,7 +1598,7 @@
   {
     "id": "marktplaats-html:m2441783731",
     "found_at": "2026-09-12T09:48:10.753637+00:00",
-    "last_seen_at": "2026-09-12T20:26:52.132968+00:00",
+    "last_seen_at": "2026-09-12T20:43:42.278374+00:00",
     "source": "marktplaats-html",
     "query": "nintendo switch oled",
     "category_hint": "Spelcomputers",
@@ -1624,7 +1691,7 @@
   {
     "id": "marktplaats-html:m2440825518",
     "found_at": "2026-09-12T09:40:08.187801+00:00",
-    "last_seen_at": "2026-09-12T20:26:52.134203+00:00",
+    "last_seen_at": "2026-09-12T20:43:42.279616+00:00",
     "source": "marktplaats-html",
     "query": "nintendo switch oled",
     "category_hint": "Spelcomputers",
@@ -1650,7 +1717,7 @@
   {
     "id": "marktplaats-html:m2441772473",
     "found_at": "2026-09-12T09:25:53.999667+00:00",
-    "last_seen_at": "2026-09-12T20:27:29.795547+00:00",
+    "last_seen_at": "2026-09-12T20:44:17.327251+00:00",
     "source": "marktplaats-html",
     "query": "tannoy speaker",
     "category_hint": "Audio",
@@ -1702,7 +1769,7 @@
   {
     "id": "marktplaats-html:m2441742629",
     "found_at": "2026-09-12T08:27:11.325884+00:00",
-    "last_seen_at": "2026-09-12T20:27:20.330621+00:00",
+    "last_seen_at": "2026-09-12T20:44:08.774589+00:00",
     "source": "marktplaats-html",
     "query": "jbl vintage speaker",
     "category_hint": "Audio",
@@ -1754,7 +1821,7 @@
   {
     "id": "marktplaats-html:m2440700675",
     "found_at": "2026-09-12T06:35:39.151348+00:00",
-    "last_seen_at": "2026-09-12T20:26:58.604602+00:00",
+    "last_seen_at": "2026-09-12T20:43:48.078229+00:00",
     "source": "marktplaats-html",
     "query": "xbox series x",
     "category_hint": "Spelcomputers",
@@ -1875,7 +1942,7 @@
   {
     "id": "marktplaats-html:a1530505974",
     "found_at": "2026-09-12T05:34:13.189158+00:00",
-    "last_seen_at": "2026-09-12T20:26:49.070325+00:00",
+    "last_seen_at": "2026-09-12T20:43:39.363683+00:00",
     "source": "marktplaats-html",
     "query": "ps5",
     "category_hint": "Spelcomputers",
@@ -2318,7 +2385,7 @@
   {
     "id": "marktplaats-html:m2441588727",
     "found_at": "2026-09-11T16:33:25.921219+00:00",
-    "last_seen_at": "2026-09-12T20:27:11.062799+00:00",
+    "last_seen_at": "2026-09-12T20:43:59.959568+00:00",
     "source": "marktplaats-html",
     "query": "tektronix",
     "category_hint": "Meetapparatuur",
@@ -2396,7 +2463,7 @@
   {
     "id": "marktplaats-html:a1530884881",
     "found_at": "2026-09-11T16:33:05.051670+00:00",
-    "last_seen_at": "2026-09-12T20:26:49.079448+00:00",
+    "last_seen_at": "2026-09-12T20:43:39.365818+00:00",
     "source": "marktplaats-html",
     "query": "ps5",
     "category_hint": "Spelcomputers",
@@ -2500,7 +2567,7 @@
   {
     "id": "marktplaats-html:m2441580979",
     "found_at": "2026-09-11T15:58:09.908324+00:00",
-    "last_seen_at": "2026-09-12T20:27:11.063075+00:00",
+    "last_seen_at": "2026-09-12T20:43:59.960117+00:00",
     "source": "marktplaats-html",
     "query": "tektronix",
     "category_hint": "Meetapparatuur",
@@ -2526,7 +2593,7 @@
   {
     "id": "marktplaats-html:m2441582208",
     "found_at": "2026-09-11T15:58:09.908037+00:00",
-    "last_seen_at": "2026-09-12T20:27:11.062501+00:00",
+    "last_seen_at": "2026-09-12T20:43:59.959250+00:00",
     "source": "marktplaats-html",
     "query": "tektronix",
     "category_hint": "Meetapparatuur",
@@ -2609,13 +2676,13 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series S 512GB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (12 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (12 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 12,
+      "source": "Marktplaats profiel (13 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (13 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 13,
       "asking_price": 220.0,
       "expected_resale": 234.6,
       "market_low": 202.22,
-      "market_high": 259.27,
+      "market_high": 255.23,
       "fees": 0.0,
       "risk_reserve": 5.07,
       "travel_cost": 0.0,
@@ -2648,7 +2715,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 12,
+      "sample_count": 13,
       "median_asking": 260.0
     },
     "repair": {
@@ -2685,7 +2752,7 @@
   {
     "id": "marktplaats-html:m2440664058",
     "found_at": "2026-09-11T14:14:17.978030+00:00",
-    "last_seen_at": "2026-09-12T20:27:08.282798+00:00",
+    "last_seen_at": "2026-09-12T20:43:56.929924+00:00",
     "source": "marktplaats-html",
     "query": "fluke",
     "category_hint": "Meetapparatuur",
@@ -3720,13 +3787,13 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series S 512GB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (12 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (12 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 12,
+      "source": "Marktplaats profiel (13 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (13 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 13,
       "asking_price": 250.0,
       "expected_resale": 213.9,
       "market_low": 184.37,
-      "market_high": 236.4,
+      "market_high": 232.71,
       "fees": 0.0,
       "risk_reserve": 4.62,
       "travel_cost": 0.0,
@@ -3759,7 +3826,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 12,
+      "sample_count": 13,
       "median_asking": 260.0
     },
     "repair": {
@@ -4045,7 +4112,7 @@
   {
     "id": "marktplaats-html:a1530783692",
     "found_at": "2026-09-11T12:38:35.207275+00:00",
-    "last_seen_at": "2026-09-12T20:27:04.957494+00:00",
+    "last_seen_at": "2026-09-12T20:43:54.136967+00:00",
     "source": "marktplaats-html",
     "query": "makita",
     "category_hint": "Gereedschap",
@@ -4097,7 +4164,7 @@
   {
     "id": "marktplaats-html:a1530706115",
     "found_at": "2026-09-11T11:41:18.640211+00:00",
-    "last_seen_at": "2026-09-12T20:27:01.928076+00:00",
+    "last_seen_at": "2026-09-12T20:43:51.240098+00:00",
     "source": "marktplaats-html",
     "query": "festool",
     "category_hint": "Gereedschap",
@@ -4166,13 +4233,13 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series S 512GB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (12 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (12 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 12,
+      "source": "Marktplaats profiel (13 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (13 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 13,
       "asking_price": 250.0,
       "expected_resale": 234.6,
       "market_low": 202.22,
-      "market_high": 259.27,
+      "market_high": 255.23,
       "fees": 0.0,
       "risk_reserve": 5.07,
       "travel_cost": 0.0,
@@ -4205,7 +4272,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 12,
+      "sample_count": 13,
       "median_asking": 260.0
     },
     "repair": {
@@ -4636,7 +4703,7 @@
   {
     "id": "marktplaats-html:m2441330224",
     "found_at": "2026-09-11T06:17:16.765157+00:00",
-    "last_seen_at": "2026-09-12T20:27:04.958509+00:00",
+    "last_seen_at": "2026-09-12T20:43:54.138336+00:00",
     "source": "marktplaats-html",
     "query": "makita",
     "category_hint": "Gereedschap",
@@ -4662,7 +4729,7 @@
   {
     "id": "marktplaats-html:m2441336393",
     "found_at": "2026-09-11T06:17:16.764839+00:00",
-    "last_seen_at": "2026-09-12T20:27:04.958841+00:00",
+    "last_seen_at": "2026-09-12T20:43:54.138000+00:00",
     "source": "marktplaats-html",
     "query": "makita",
     "category_hint": "Gereedschap",
@@ -4688,7 +4755,7 @@
   {
     "id": "marktplaats-html:m2441336193",
     "found_at": "2026-09-11T06:17:16.764490+00:00",
-    "last_seen_at": "2026-09-12T20:27:04.958190+00:00",
+    "last_seen_at": "2026-09-12T20:43:54.137679+00:00",
     "source": "marktplaats-html",
     "query": "makita",
     "category_hint": "Gereedschap",
@@ -4766,7 +4833,7 @@
   {
     "id": "marktplaats-html:a1530613117",
     "found_at": "2026-09-11T04:57:33.381569+00:00",
-    "last_seen_at": "2026-09-12T20:26:49.078801+00:00",
+    "last_seen_at": "2026-09-12T20:43:39.365105+00:00",
     "source": "marktplaats-html",
     "query": "ps5",
     "category_hint": "Spelcomputers",
@@ -4844,7 +4911,7 @@
   {
     "id": "marktplaats-html:m2441309140",
     "found_at": "2026-09-10T22:13:09.971877+00:00",
-    "last_seen_at": "2026-09-12T20:26:55.344037+00:00",
+    "last_seen_at": "2026-09-12T20:43:45.167371+00:00",
     "source": "marktplaats-html",
     "query": "steam deck",
     "category_hint": "Spelcomputers",
@@ -5241,7 +5308,7 @@
   {
     "id": "marktplaats-html:m2441246038",
     "found_at": "2026-09-10T17:25:33.883148+00:00",
-    "last_seen_at": "2026-09-12T20:26:52.133566+00:00",
+    "last_seen_at": "2026-09-12T20:43:42.278977+00:00",
     "source": "marktplaats-html",
     "query": "nintendo switch oled",
     "category_hint": "Spelcomputers",
@@ -5374,7 +5441,7 @@
   {
     "id": "marktplaats-html:m2437184269",
     "found_at": "2026-09-10T15:43:33.113607+00:00",
-    "last_seen_at": "2026-09-12T20:27:23.110546+00:00",
+    "last_seen_at": "2026-09-12T20:44:11.503454+00:00",
     "source": "marktplaats-html",
     "query": "bang olufsen speaker",
     "category_hint": "Audio",
@@ -5467,7 +5534,7 @@
   {
     "id": "marktplaats-html:m2441203708",
     "found_at": "2026-09-10T15:14:17.078243+00:00",
-    "last_seen_at": "2026-09-12T20:27:42.644054+00:00",
+    "last_seen_at": "2026-09-12T20:44:29.193988+00:00",
     "source": "marktplaats-html",
     "query": "jbl speaker defect",
     "category_hint": "Audio",
@@ -5559,7 +5626,7 @@
   {
     "id": "marktplaats-html:m2441174877",
     "found_at": "2026-09-10T13:58:32.935797+00:00",
-    "last_seen_at": "2026-09-12T20:27:26.425924+00:00",
+    "last_seen_at": "2026-09-12T20:44:14.140371+00:00",
     "source": "marktplaats-html",
     "query": "kef vintage speaker",
     "category_hint": "Audio",
@@ -6150,7 +6217,7 @@
   {
     "id": "marktplaats-html:a1530818041",
     "found_at": "2026-09-10T09:00:03.171476+00:00",
-    "last_seen_at": "2026-09-12T20:27:01.928403+00:00",
+    "last_seen_at": "2026-09-12T20:43:51.240454+00:00",
     "source": "marktplaats-html",
     "query": "festool",
     "category_hint": "Gereedschap",
@@ -6346,7 +6413,7 @@
   {
     "id": "marktplaats-html:m2439476231",
     "found_at": "2026-09-10T08:35:02.095121+00:00",
-    "last_seen_at": "2026-09-12T20:27:20.331582+00:00",
+    "last_seen_at": "2026-09-12T20:44:08.775554+00:00",
     "source": "marktplaats-html",
     "query": "jbl vintage speaker",
     "category_hint": "Audio",
@@ -6372,7 +6439,7 @@
   {
     "id": "marktplaats-html:m2433752328",
     "found_at": "2026-09-10T08:34:58.869242+00:00",
-    "last_seen_at": "2026-09-12T20:27:16.978692+00:00",
+    "last_seen_at": "2026-09-12T20:44:05.835010+00:00",
     "source": "marktplaats-html",
     "query": "sennheiser mkh",
     "category_hint": "Audio",
@@ -6779,7 +6846,7 @@
   {
     "id": "marktplaats-html:a1530795066",
     "found_at": "2026-09-10T03:19:39.721242+00:00",
-    "last_seen_at": "2026-09-12T20:27:29.795185+00:00",
+    "last_seen_at": "2026-09-12T20:44:17.326867+00:00",
     "source": "marktplaats-html",
     "query": "tannoy speaker",
     "category_hint": "Audio",
@@ -7399,7 +7466,7 @@
   {
     "id": "marktplaats-html:m2440850507",
     "found_at": "2026-09-09T15:15:22.810313+00:00",
-    "last_seen_at": "2026-09-12T20:27:26.425603+00:00",
+    "last_seen_at": "2026-09-12T20:44:14.140050+00:00",
     "source": "marktplaats-html",
     "query": "kef vintage speaker",
     "category_hint": "Audio",
@@ -8356,13 +8423,13 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series S 512GB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (12 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (12 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 12,
+      "source": "Marktplaats profiel (13 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (13 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 13,
       "asking_price": 359.98,
       "expected_resale": 234.6,
       "market_low": 202.22,
-      "market_high": 259.27,
+      "market_high": 255.23,
       "fees": 0.0,
       "risk_reserve": 5.07,
       "travel_cost": 0.0,
@@ -8395,7 +8462,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 12,
+      "sample_count": 13,
       "median_asking": 260.0
     },
     "repair": {
@@ -8707,7 +8774,7 @@
   {
     "id": "marktplaats-html:m2440582457",
     "found_at": "2026-09-08T20:42:16.255926+00:00",
-    "last_seen_at": "2026-09-12T20:26:55.344705+00:00",
+    "last_seen_at": "2026-09-12T20:43:45.168015+00:00",
     "source": "marktplaats-html",
     "query": "steam deck",
     "category_hint": "Spelcomputers",
@@ -8841,7 +8908,7 @@
   {
     "id": "marktplaats-html:m2440534433",
     "found_at": "2026-09-08T17:57:38.034491+00:00",
-    "last_seen_at": "2026-09-12T20:27:26.426217+00:00",
+    "last_seen_at": "2026-09-12T20:44:14.140664+00:00",
     "source": "marktplaats-html",
     "query": "kef vintage speaker",
     "category_hint": "Audio",
@@ -9174,13 +9241,13 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series S 512GB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (12 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (12 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 12,
+      "source": "Marktplaats profiel (13 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (13 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 13,
       "asking_price": 250.0,
       "expected_resale": 234.6,
       "market_low": 202.22,
-      "market_high": 259.27,
+      "market_high": 255.23,
       "fees": 0.0,
       "risk_reserve": 5.07,
       "travel_cost": 0.0,
@@ -9213,7 +9280,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 12,
+      "sample_count": 13,
       "median_asking": 260.0
     },
     "repair": {
@@ -9302,7 +9369,7 @@
   {
     "id": "marktplaats-html:m2440465484",
     "found_at": "2026-09-08T15:03:26.811242+00:00",
-    "last_seen_at": "2026-09-12T20:27:16.978106+00:00",
+    "last_seen_at": "2026-09-12T20:44:05.834437+00:00",
     "source": "marktplaats-html",
     "query": "sennheiser mkh",
     "category_hint": "Audio",
@@ -9354,7 +9421,7 @@
   {
     "id": "marktplaats-html:a1530757650",
     "found_at": "2026-09-08T14:20:19.430338+00:00",
-    "last_seen_at": "2026-09-12T20:27:08.281716+00:00",
+    "last_seen_at": "2026-09-12T20:43:56.928831+00:00",
     "source": "marktplaats-html",
     "query": "fluke",
     "category_hint": "Meetapparatuur",
@@ -9380,7 +9447,7 @@
   {
     "id": "marktplaats-html:a1530753202",
     "found_at": "2026-09-08T14:02:15.458679+00:00",
-    "last_seen_at": "2026-09-12T20:27:45.900537+00:00",
+    "last_seen_at": "2026-09-12T20:44:31.896364+00:00",
     "source": "marktplaats-html",
     "query": "bang olufsen defect",
     "category_hint": "Audio",
@@ -9406,7 +9473,7 @@
   {
     "id": "marktplaats-html:a1530753200",
     "found_at": "2026-09-08T14:02:15.457830+00:00",
-    "last_seen_at": "2026-09-12T20:27:45.901521+00:00",
+    "last_seen_at": "2026-09-12T20:44:31.897329+00:00",
     "source": "marktplaats-html",
     "query": "bang olufsen defect",
     "category_hint": "Audio",
@@ -9458,7 +9525,7 @@
   {
     "id": "marktplaats-html:a1530703741",
     "found_at": "2026-09-08T13:53:02.243414+00:00",
-    "last_seen_at": "2026-09-12T20:27:20.330263+00:00",
+    "last_seen_at": "2026-09-12T20:44:08.774229+00:00",
     "source": "marktplaats-html",
     "query": "jbl vintage speaker",
     "category_hint": "Audio",
@@ -9510,7 +9577,7 @@
   {
     "id": "marktplaats-html:m2440418284",
     "found_at": "2026-09-08T13:16:26.588658+00:00",
-    "last_seen_at": "2026-09-12T20:27:42.644322+00:00",
+    "last_seen_at": "2026-09-12T20:44:29.194278+00:00",
     "source": "marktplaats-html",
     "query": "jbl speaker defect",
     "category_hint": "Audio",
@@ -9986,7 +10053,7 @@
   {
     "id": "marktplaats-html:m2440267939",
     "found_at": "2026-09-08T06:39:33.552226+00:00",
-    "last_seen_at": "2026-09-12T20:27:20.331282+00:00",
+    "last_seen_at": "2026-09-12T20:44:08.775251+00:00",
     "source": "marktplaats-html",
     "query": "jbl vintage speaker",
     "category_hint": "Audio",
@@ -10029,13 +10096,13 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series S 512GB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (12 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (12 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 12,
+      "source": "Marktplaats profiel (13 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (13 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 13,
       "asking_price": 399.95,
       "expected_resale": 234.6,
       "market_low": 202.22,
-      "market_high": 259.27,
+      "market_high": 255.23,
       "fees": 0.0,
       "risk_reserve": 5.07,
       "travel_cost": 0.0,
@@ -10068,7 +10135,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 12,
+      "sample_count": 13,
       "median_asking": 260.0
     },
     "repair": {
@@ -10226,13 +10293,13 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series S 512GB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (12 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (12 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 12,
+      "source": "Marktplaats profiel (13 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (13 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 13,
       "asking_price": 296.98,
       "expected_resale": 234.6,
       "market_low": 202.22,
-      "market_high": 259.27,
+      "market_high": 255.23,
       "fees": 0.0,
       "risk_reserve": 5.07,
       "travel_cost": 0.0,
@@ -10265,7 +10332,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 12,
+      "sample_count": 13,
       "median_asking": 260.0
     },
     "repair": {
@@ -10676,7 +10743,7 @@
   {
     "id": "marktplaats-html:a1520640334",
     "found_at": "2026-09-07T16:46:15.496091+00:00",
-    "last_seen_at": "2026-09-12T20:27:45.900888+00:00",
+    "last_seen_at": "2026-09-12T20:44:31.896703+00:00",
     "source": "marktplaats-html",
     "query": "bang olufsen defect",
     "category_hint": "Audio",
@@ -11490,7 +11557,7 @@
   {
     "id": "marktplaats-html:m2439954093",
     "found_at": "2026-09-07T08:15:54.571992+00:00",
-    "last_seen_at": "2026-09-12T20:27:16.978431+00:00",
+    "last_seen_at": "2026-09-12T20:44:05.834765+00:00",
     "source": "marktplaats-html",
     "query": "sennheiser mkh",
     "category_hint": "Audio",
@@ -11585,13 +11652,13 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series S 512GB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (12 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (12 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 12,
+      "source": "Marktplaats profiel (13 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (13 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 13,
       "asking_price": 339.98,
       "expected_resale": 234.6,
       "market_low": 202.22,
-      "market_high": 259.27,
+      "market_high": 255.23,
       "fees": 0.0,
       "risk_reserve": 5.07,
       "travel_cost": 0.0,
@@ -11624,7 +11691,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 12,
+      "sample_count": 13,
       "median_asking": 260.0
     },
     "repair": {
@@ -12028,7 +12095,7 @@
   {
     "id": "marktplaats-html:a1009380153",
     "found_at": "2026-09-06T18:14:56.020164+00:00",
-    "last_seen_at": "2026-09-12T17:31:45.450945+00:00",
+    "last_seen_at": "2026-09-12T20:43:39.366513+00:00",
     "source": "marktplaats-html",
     "query": "ps5",
     "category_hint": "Spelcomputers",
@@ -12485,7 +12552,7 @@
   {
     "id": "marktplaats-html:m2439721702",
     "found_at": "2026-09-06T13:48:30.908181+00:00",
-    "last_seen_at": "2026-09-12T20:27:39.610327+00:00",
+    "last_seen_at": "2026-09-12T20:44:26.383901+00:00",
     "source": "marktplaats-html",
     "query": "fluke defect",
     "category_hint": "Meetapparatuur",
@@ -12511,7 +12578,7 @@
   {
     "id": "marktplaats-html:m2439723395",
     "found_at": "2026-09-06T13:48:02.579980+00:00",
-    "last_seen_at": "2026-09-12T20:27:11.063356+00:00",
+    "last_seen_at": "2026-09-12T20:43:59.960418+00:00",
     "source": "marktplaats-html",
     "query": "tektronix",
     "category_hint": "Meetapparatuur",
@@ -13589,7 +13656,7 @@
   {
     "id": "marktplaats-html:m2421807162",
     "found_at": "2026-09-05T19:12:54.739182+00:00",
-    "last_seen_at": "2026-09-12T20:27:23.110260+00:00",
+    "last_seen_at": "2026-09-12T20:44:11.503137+00:00",
     "source": "marktplaats-html",
     "query": "bang olufsen speaker",
     "category_hint": "Audio",
@@ -13658,13 +13725,13 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series S 512GB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (12 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (12 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 12,
+      "source": "Marktplaats profiel (13 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (13 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 13,
       "asking_price": 225.0,
       "expected_resale": 234.6,
       "market_low": 202.22,
-      "market_high": 259.27,
+      "market_high": 255.23,
       "fees": 0.0,
       "risk_reserve": 30.07,
       "travel_cost": 0.0,
@@ -13699,7 +13766,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 12,
+      "sample_count": 13,
       "median_asking": 260.0
     },
     "repair": {
@@ -14226,13 +14293,13 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series S 512GB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (12 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (12 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 12,
+      "source": "Marktplaats profiel (13 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (13 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 13,
       "asking_price": 250.0,
       "expected_resale": 234.6,
       "market_low": 202.22,
-      "market_high": 259.27,
+      "market_high": 255.23,
       "fees": 0.0,
       "risk_reserve": 5.07,
       "travel_cost": 0.0,
@@ -14265,7 +14332,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 12,
+      "sample_count": 13,
       "median_asking": 260.0
     },
     "repair": {
@@ -14293,13 +14360,13 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series S 512GB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (12 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (12 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 12,
+      "source": "Marktplaats profiel (13 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (13 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 13,
       "asking_price": 250.0,
       "expected_resale": 234.6,
       "market_low": 202.22,
-      "market_high": 259.27,
+      "market_high": 255.23,
       "fees": 0.0,
       "risk_reserve": 5.07,
       "travel_cost": 0.0,
@@ -14332,7 +14399,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 12,
+      "sample_count": 13,
       "median_asking": 260.0
     },
     "repair": {
@@ -14662,13 +14729,13 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series S 512GB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (12 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (12 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 12,
+      "source": "Marktplaats profiel (13 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (13 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 13,
       "asking_price": 296.98,
       "expected_resale": 234.6,
       "market_low": 202.22,
-      "market_high": 259.27,
+      "market_high": 255.23,
       "fees": 0.0,
       "risk_reserve": 5.07,
       "travel_cost": 0.0,
@@ -14701,7 +14768,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 12,
+      "sample_count": 13,
       "median_asking": 260.0
     },
     "repair": {
@@ -14872,7 +14939,7 @@
   {
     "id": "marktplaats-html:m2438970194",
     "found_at": "2026-09-05T09:24:21.814867+00:00",
-    "last_seen_at": "2026-09-12T20:27:42.644601+00:00",
+    "last_seen_at": "2026-09-12T20:44:29.194559+00:00",
     "source": "marktplaats-html",
     "query": "jbl speaker defect",
     "category_hint": "Audio",
@@ -15087,13 +15154,13 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series S 512GB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (12 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (12 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 12,
+      "source": "Marktplaats profiel (13 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (13 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 13,
       "asking_price": 260.0,
       "expected_resale": 234.6,
       "market_low": 202.22,
-      "market_high": 259.27,
+      "market_high": 255.23,
       "fees": 0.0,
       "risk_reserve": 5.07,
       "travel_cost": 0.0,
@@ -15126,7 +15193,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 12,
+      "sample_count": 13,
       "median_asking": 260.0
     },
     "repair": {
@@ -17455,13 +17522,13 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series S 512GB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (12 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (12 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 12,
+      "source": "Marktplaats profiel (13 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (13 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 13,
       "asking_price": 260.0,
       "expected_resale": 234.6,
       "market_low": 202.22,
-      "market_high": 259.27,
+      "market_high": 255.23,
       "fees": 0.0,
       "risk_reserve": 5.07,
       "travel_cost": 0.0,
@@ -17494,7 +17561,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 12,
+      "sample_count": 13,
       "median_asking": 260.0
     },
     "repair": {
@@ -19055,7 +19122,7 @@
   {
     "id": "marktplaats-html:a1517551423",
     "found_at": "2026-09-02T19:40:41.502513+00:00",
-    "last_seen_at": "2026-09-12T20:27:33.635009+00:00",
+    "last_seen_at": "2026-09-12T20:44:20.084075+00:00",
     "source": "marktplaats-html",
     "query": "ps5 defect",
     "category_hint": "Spelcomputers",
@@ -19318,7 +19385,7 @@
   {
     "id": "marktplaats-html:m2438244127",
     "found_at": "2026-09-02T17:25:08.339452+00:00",
-    "last_seen_at": "2026-09-12T20:26:55.345397+00:00",
+    "last_seen_at": "2026-09-12T20:43:45.168712+00:00",
     "source": "marktplaats-html",
     "query": "steam deck",
     "category_hint": "Spelcomputers",
@@ -19564,13 +19631,13 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series S 512GB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (12 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (12 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 12,
+      "source": "Marktplaats profiel (13 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (13 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 13,
       "asking_price": 200.0,
       "expected_resale": 213.9,
       "market_low": 184.37,
-      "market_high": 236.4,
+      "market_high": 232.71,
       "fees": 0.0,
       "risk_reserve": 4.62,
       "travel_cost": 0.0,
@@ -19603,7 +19670,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 12,
+      "sample_count": 13,
       "median_asking": 260.0
     },
     "repair": {
@@ -19837,7 +19904,7 @@
   {
     "id": "marktplaats-html:a1512619081",
     "found_at": "2026-09-02T09:15:26.695407+00:00",
-    "last_seen_at": "2026-09-12T20:27:45.901818+00:00",
+    "last_seen_at": "2026-09-12T20:44:31.897605+00:00",
     "source": "marktplaats-html",
     "query": "bang olufsen defect",
     "category_hint": "Audio",
@@ -19863,7 +19930,7 @@
   {
     "id": "marktplaats-html:a1512681175",
     "found_at": "2026-09-02T09:15:26.695050+00:00",
-    "last_seen_at": "2026-09-12T20:27:45.901210+00:00",
+    "last_seen_at": "2026-09-12T20:44:31.897029+00:00",
     "source": "marktplaats-html",
     "query": "bang olufsen defect",
     "category_hint": "Audio",
@@ -20011,7 +20078,7 @@
   {
     "id": "marktplaats-html:a1519149645",
     "found_at": "2026-09-02T09:15:23.642176+00:00",
-    "last_seen_at": "2026-09-12T20:27:42.643371+00:00",
+    "last_seen_at": "2026-09-12T20:44:29.193331+00:00",
     "source": "marktplaats-html",
     "query": "jbl speaker defect",
     "category_hint": "Audio",
@@ -20037,7 +20104,7 @@
   {
     "id": "marktplaats-html:m2436474820",
     "found_at": "2026-09-02T09:15:20.807241+00:00",
-    "last_seen_at": "2026-09-12T20:27:39.610583+00:00",
+    "last_seen_at": "2026-09-12T20:44:26.384180+00:00",
     "source": "marktplaats-html",
     "query": "fluke defect",
     "category_hint": "Meetapparatuur",
@@ -20131,7 +20198,7 @@
   {
     "id": "marktplaats-html:a1524865551",
     "found_at": "2026-09-02T09:15:20.806402+00:00",
-    "last_seen_at": "2026-09-12T20:27:39.609748+00:00",
+    "last_seen_at": "2026-09-12T20:44:26.383325+00:00",
     "source": "marktplaats-html",
     "query": "fluke defect",
     "category_hint": "Meetapparatuur",
@@ -20157,12 +20224,12 @@
   {
     "id": "marktplaats-html:a1517574015",
     "found_at": "2026-09-02T09:15:18.276079+00:00",
-    "last_seen_at": "2026-09-12T20:27:36.721476+00:00",
+    "last_seen_at": "2026-09-12T20:44:23.238459+00:00",
     "source": "marktplaats-html",
     "query": "festool defect",
     "category_hint": "Gereedschap",
     "title": "Festool Decoupeerzaagmachine PS 200 E 500W | Nette Staat",
-    "description": "Bewaren in Mijn Favorieten Festool Decoupeerzaagmachine PS 200 E 500W | Nette Staat Festool decoupeerzaagmachine ps 200 e 500w | nette staat - nette staat - 500w - 1999 - excl. Koffer - 3 maanden garantie - let op! Achteraf betalen via riverty en klarna ook mogelijk!!! (Nederland en Nieuw Ophalen of Verzenden € 119,99 Vandaag Topadvertentie Used Products Nijmegen Nijmegen Bewaren in Mijn Favorieten Festool Decoupeerzaagmachine PS 200 E 500W | Nette Staat € 119,99 Festool decoupeerzaagmachine ps 200 e 500w | nette staat - nette staat - 500w - 1999 - excl. Koffer - 3 maanden garantie - let op! Achteraf betalen via riverty en klarna ook mogelijk!!! (Nederland en Nieuw Ophalen of Verzenden Used Products Nijmegen Nijmegen Vandaag Topadvertentie Bewaren in Mijn Favorieten Festool Decoupeerzaagmachine PS 200 E 500W | Nette Staat € 119,99 Details Ophalen of Verzenden Nieuw Festool decoupeerzaagm",
+    "description": "Bewaren in Mijn Favorieten Festool Decoupeerzaagmachine PS 200 E 500W | Nette Staat Festool decoupeerzaagmachine ps 200 e 500w | nette staat - nette staat - 500w - 1999 - excl. Koffer - 3 maanden garantie - let op! Achteraf betalen via riverty en klarna ook mogelijk!!! (Nederland en Nieuw Ophalen of Verzenden € 119,99 9 sep 26 Topadvertentie Used Products Nijmegen Nijmegen Bewaren in Mijn Favorieten Festool Decoupeerzaagmachine PS 200 E 500W | Nette Staat € 119,99 Festool decoupeerzaagmachine ps 200 e 500w | nette staat - nette staat - 500w - 1999 - excl. Koffer - 3 maanden garantie - let op! Achteraf betalen via riverty en klarna ook mogelijk!!! (Nederland en Nieuw Ophalen of Verzenden Used Products Nijmegen Nijmegen 9 sep 26 Topadvertentie Bewaren in Mijn Favorieten Festool Decoupeerzaagmachine PS 200 E 500W | Nette Staat € 119,99 Details Ophalen of Verzenden Nieuw Festool decoupeerzaa",
     "url": "https://www.marktplaats.nl/v/doe-het-zelf-en-verbouw/gereedschap-zaagmachines/a1517574015-festool-decoupeerzaagmachine-ps-200-e-500w-nette-staat",
     "asking_price": 119.99,
     "previous_asking_price": null,
@@ -20183,12 +20250,12 @@
   {
     "id": "marktplaats-html:a1514475919",
     "found_at": "2026-09-02T09:15:18.275076+00:00",
-    "last_seen_at": "2026-09-12T20:27:36.720517+00:00",
+    "last_seen_at": "2026-09-12T20:44:23.237479+00:00",
     "source": "marktplaats-html",
     "query": "festool defect",
     "category_hint": "Gereedschap",
     "title": "Festool 14.4V Ni-MH accu 4000mAh – vervangt 494832",
-    "description": "Bewaren in Mijn Favorieten Festool 14.4V Ni-MH accu 4000mAh – vervangt 494832, 498340, Festool 14.4V ni-mh upgrade – 4.0Ah high performance maximale runtime voor uw klassieke festool tdd 14.4 En c12/15 serie. 4000Mah (4.0Ah) capaciteit de hoogst beschikbare capaciteit voor dit platform. Nieuw Ophalen of Verzenden € 51,95 Vandaag Topadvertentie Accu-Machine.nl Loenen Bewaren in Mijn Favorieten Festool 14.4V Ni-MH accu 4000mAh – vervangt 494832, 498340, € 51,95 Festool 14.4V ni-mh upgrade – 4.0Ah high performance maximale runtime voor uw klassieke festool tdd 14.4 En c12/15 serie. 4000Mah (4.0Ah) capaciteit de hoogst beschikbare capaciteit voor dit platform. Nieuw Ophalen of Verzenden Accu-Machine.nl Loenen Vandaag Topadvertentie Bewaren in Mijn Favorieten Festool 14.4V Ni-MH accu 4000mAh – vervangt 494832, 498340, € 51,95 Details Ophalen of Verzenden Nieuw Festool 14.4V ni-mh upgrade – 4.",
+    "description": "Bewaren in Mijn Favorieten Festool 14.4V Ni-MH accu 4000mAh – vervangt 494832, 498340, Festool 14.4V ni-mh upgrade – 4.0Ah high performance maximale runtime voor uw klassieke festool tdd 14.4 En c12/15 serie. 4000Mah (4.0Ah) capaciteit de hoogst beschikbare capaciteit voor dit platform. Nieuw Ophalen of Verzenden € 51,95 9 sep 26 Topadvertentie Accu-Machine.nl Loenen Bewaren in Mijn Favorieten Festool 14.4V Ni-MH accu 4000mAh – vervangt 494832, 498340, € 51,95 Festool 14.4V ni-mh upgrade – 4.0Ah high performance maximale runtime voor uw klassieke festool tdd 14.4 En c12/15 serie. 4000Mah (4.0Ah) capaciteit de hoogst beschikbare capaciteit voor dit platform. Nieuw Ophalen of Verzenden Accu-Machine.nl Loenen 9 sep 26 Topadvertentie Bewaren in Mijn Favorieten Festool 14.4V Ni-MH accu 4000mAh – vervangt 494832, 498340, € 51,95 Details Ophalen of Verzenden Nieuw Festool 14.4V ni-mh upgrade – ",
     "url": "https://www.marktplaats.nl/v/doe-het-zelf-en-verbouw/gereedschap-overige-machines/a1514475919-festool-14-4v-ni-mh-accu-4000mah-vervangt-494832-498340",
     "asking_price": 51.95,
     "previous_asking_price": null,
@@ -20209,12 +20276,12 @@
   {
     "id": "marktplaats-html:a1521778985",
     "found_at": "2026-09-02T09:15:18.274671+00:00",
-    "last_seen_at": "2026-09-12T20:27:36.720877+00:00",
+    "last_seen_at": "2026-09-12T20:44:23.237821+00:00",
     "source": "marktplaats-html",
     "query": "festool defect",
     "category_hint": "Gereedschap",
     "title": "Festool C12 Accu Boor/schroefmachine Set Compleet",
-    "description": "Bewaren in Mijn Favorieten Festool C12 Accu Boor/schroefmachine Set Compleet Festool c12 accu boor/schroefmachine set compleet - gebruikte staat - incl. 2 Accu/s + lader - incl. Snelspankop - incl. Haakse schroefkop - incl. Systainer - 3 maanden garantie - let op! Achteraf bet Nieuw Ophalen of Verzenden € 189,99 Vandaag Topadvertentie Used Products Nijmegen Nijmegen Bewaren in Mijn Favorieten Festool C12 Accu Boor/schroefmachine Set Compleet € 189,99 Festool c12 accu boor/schroefmachine set compleet - gebruikte staat - incl. 2 Accu/s + lader - incl. Snelspankop - incl. Haakse schroefkop - incl. Systainer - 3 maanden garantie - let op! Achteraf bet Nieuw Ophalen of Verzenden Used Products Nijmegen Nijmegen Vandaag Topadvertentie Bewaren in Mijn Favorieten Festool C12 Accu Boor/schroefmachine Set Compleet € 189,99 Details Ophalen of Verzenden Nieuw Festool c12 accu boor/schroefmachine set ",
+    "description": "Bewaren in Mijn Favorieten Festool C12 Accu Boor/schroefmachine Set Compleet Festool c12 accu boor/schroefmachine set compleet - gebruikte staat - incl. 2 Accu/s + lader - incl. Snelspankop - incl. Haakse schroefkop - incl. Systainer - 3 maanden garantie - let op! Achteraf bet Nieuw Ophalen of Verzenden € 189,99 9 sep 26 Topadvertentie Used Products Nijmegen Nijmegen Bewaren in Mijn Favorieten Festool C12 Accu Boor/schroefmachine Set Compleet € 189,99 Festool c12 accu boor/schroefmachine set compleet - gebruikte staat - incl. 2 Accu/s + lader - incl. Snelspankop - incl. Haakse schroefkop - incl. Systainer - 3 maanden garantie - let op! Achteraf bet Nieuw Ophalen of Verzenden Used Products Nijmegen Nijmegen 9 sep 26 Topadvertentie Bewaren in Mijn Favorieten Festool C12 Accu Boor/schroefmachine Set Compleet € 189,99 Details Ophalen of Verzenden Nieuw Festool c12 accu boor/schroefmachine se",
     "url": "https://www.marktplaats.nl/v/doe-het-zelf-en-verbouw/gereedschap-boormachines/a1521778985-festool-c12-accu-boor-schroefmachine-set-compleet",
     "asking_price": 189.99,
     "previous_asking_price": null,
@@ -20235,7 +20302,7 @@
   {
     "id": "marktplaats-html:a1522094802",
     "found_at": "2026-09-02T09:15:15.272997+00:00",
-    "last_seen_at": "2026-09-12T20:27:33.634302+00:00",
+    "last_seen_at": "2026-09-12T20:44:20.083396+00:00",
     "source": "marktplaats-html",
     "query": "ps5 defect",
     "category_hint": "Spelcomputers",
@@ -20275,7 +20342,7 @@
   {
     "id": "marktplaats-html:a1516895454",
     "found_at": "2026-09-02T09:15:15.271652+00:00",
-    "last_seen_at": "2026-09-12T20:27:33.632119+00:00",
+    "last_seen_at": "2026-09-12T20:44:20.081239+00:00",
     "source": "marktplaats-html",
     "query": "ps5 defect",
     "category_hint": "Spelcomputers",
@@ -20301,7 +20368,7 @@
   {
     "id": "marktplaats-html:a1527407285",
     "found_at": "2026-09-02T09:15:15.270903+00:00",
-    "last_seen_at": "2026-09-12T20:27:33.632950+00:00",
+    "last_seen_at": "2026-09-12T20:44:20.082039+00:00",
     "source": "marktplaats-html",
     "query": "ps5 defect",
     "category_hint": "Spelcomputers",
@@ -21453,7 +21520,7 @@
   {
     "id": "marktplaats-html:a1215170017",
     "found_at": "2026-09-02T04:51:25.635436+00:00",
-    "last_seen_at": "2026-09-12T20:27:23.109585+00:00",
+    "last_seen_at": "2026-09-12T20:44:11.502468+00:00",
     "source": "marktplaats-html",
     "query": "bang olufsen speaker",
     "category_hint": "Audio",
@@ -22047,7 +22114,7 @@
   {
     "id": "marktplaats-html:m2434415000",
     "found_at": "2026-09-02T04:51:19.073784+00:00",
-    "last_seen_at": "2026-09-12T20:27:16.979340+00:00",
+    "last_seen_at": "2026-09-12T20:44:05.835680+00:00",
     "source": "marktplaats-html",
     "query": "sennheiser mkh",
     "category_hint": "Audio",
@@ -22137,7 +22204,7 @@
   {
     "id": "marktplaats-html:m2434251249",
     "found_at": "2026-09-02T04:51:19.073462+00:00",
-    "last_seen_at": "2026-09-12T20:27:16.979053+00:00",
+    "last_seen_at": "2026-09-12T20:44:05.835383+00:00",
     "source": "marktplaats-html",
     "query": "sennheiser mkh",
     "category_hint": "Audio",
@@ -22912,7 +22979,7 @@
       "detected": false
     },
     "is_repair_deal": false,
-    "last_seen_at": "2026-09-12T20:27:08.282549+00:00",
+    "last_seen_at": "2026-09-12T20:43:56.929699+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
     "condition": "zo goed als nieuw"
@@ -23766,7 +23833,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "valuation_samples": 0,
-    "last_seen_at": "2026-09-12T20:27:14.388322+00:00",
+    "last_seen_at": "2026-09-12T20:44:02.875670+00:00",
     "previous_asking_price": 160.0,
     "price_drop_percent": 0.0,
     "condition": "zo goed als nieuw",
@@ -23852,7 +23919,7 @@
     "result_status": "scored",
     "is_deal": false,
     "exclusion_reason": null,
-    "last_seen_at": "2026-09-12T20:27:14.388641+00:00",
+    "last_seen_at": "2026-09-12T20:44:02.875993+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
     "condition": "zo goed als nieuw",
@@ -23883,7 +23950,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "valuation_samples": 0,
-    "last_seen_at": "2026-09-12T20:27:14.387726+00:00",
+    "last_seen_at": "2026-09-12T20:44:02.875057+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
     "condition": "nieuw",
@@ -24149,7 +24216,7 @@
     "result_status": "scored",
     "is_deal": false,
     "exclusion_reason": null,
-    "last_seen_at": "2026-09-12T20:27:14.387360+00:00",
+    "last_seen_at": "2026-09-12T20:44:02.874635+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
     "condition": "nieuw",
@@ -24355,7 +24422,7 @@
     "result_status": "unrecognized",
     "is_deal": false,
     "exclusion_reason": null,
-    "last_seen_at": "2026-09-12T20:27:08.282306+00:00",
+    "last_seen_at": "2026-09-12T20:43:56.929454+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
     "condition": "nieuw",
@@ -24436,7 +24503,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "valuation_samples": 0,
-    "last_seen_at": "2026-09-12T20:27:39.609383+00:00",
+    "last_seen_at": "2026-09-12T20:44:26.382959+00:00",
     "previous_asking_price": 1799.99,
     "price_drop_percent": 0.0,
     "condition": "nieuw",
@@ -24571,7 +24638,7 @@
     "query": "festool defect",
     "category_hint": "Gereedschap",
     "title": "Festool TS 75 EBQ Invalcirkelzaagmachine 1600W | Nette Staat",
-    "description": "Bewaren in Mijn Favorieten Festool TS 75 EBQ Invalcirkelzaagmachine 1600W | Nette Staat Festool ts 75 ebq invalcirkelzaagmachine 1600w | nette staat - nette staat - 1600w - excl. Koffer - 3 maanden garantie - let op! Achteraf betalen via riverty en klarna ook mogelijk!!! (Nederland en be Nieuw Ophalen of Verzenden € 399,99 Vandaag Topadvertentie Used Products Nijmegen Nijmegen Bewaren in Mijn Favorieten Festool TS 75 EBQ Invalcirkelzaagmachine 1600W | Nette Staat € 399,99 Festool ts 75 ebq invalcirkelzaagmachine 1600w | nette staat - nette staat - 1600w - excl. Koffer - 3 maanden garantie - let op! Achteraf betalen via riverty en klarna ook mogelijk!!! (Nederland en be Nieuw Ophalen of Verzenden Used Products Nijmegen Nijmegen Vandaag Topadvertentie Bewaren in Mijn Favorieten Festool TS 75 EBQ Invalcirkelzaagmachine 1600W | Nette Staat € 399,99 Details Ophalen of Verzenden Nieuw Festool ",
+    "description": "Bewaren in Mijn Favorieten Festool TS 75 EBQ Invalcirkelzaagmachine 1600W | Nette Staat Festool ts 75 ebq invalcirkelzaagmachine 1600w | nette staat - nette staat - 1600w - excl. Koffer - 3 maanden garantie - let op! Achteraf betalen via riverty en klarna ook mogelijk!!! (Nederland en be Nieuw Ophalen of Verzenden € 399,99 9 sep 26 Topadvertentie Used Products Nijmegen Nijmegen Bewaren in Mijn Favorieten Festool TS 75 EBQ Invalcirkelzaagmachine 1600W | Nette Staat € 399,99 Festool ts 75 ebq invalcirkelzaagmachine 1600w | nette staat - nette staat - 1600w - excl. Koffer - 3 maanden garantie - let op! Achteraf betalen via riverty en klarna ook mogelijk!!! (Nederland en be Nieuw Ophalen of Verzenden Used Products Nijmegen Nijmegen 9 sep 26 Topadvertentie Bewaren in Mijn Favorieten Festool TS 75 EBQ Invalcirkelzaagmachine 1600W | Nette Staat € 399,99 Details Ophalen of Verzenden Nieuw Festoo",
     "url": "https://www.marktplaats.nl/v/doe-het-zelf-en-verbouw/gereedschap-zaagmachines/a1528119739-festool-ts-75-ebq-invalcirkelzaagmachine-1600w-nette-staat",
     "asking_price": 399.99,
     "promoted": true,
@@ -24582,7 +24649,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "valuation_samples": 0,
-    "last_seen_at": "2026-09-12T20:27:36.721181+00:00",
+    "last_seen_at": "2026-09-12T20:44:23.238123+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
     "condition": "nieuw",
@@ -24608,7 +24675,7 @@
     "result_status": "unrecognized",
     "is_deal": false,
     "exclusion_reason": null,
-    "last_seen_at": "2026-09-12T20:27:01.928758+00:00",
+    "last_seen_at": "2026-09-12T20:43:51.240796+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
     "condition": "nieuw",
@@ -24688,7 +24755,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "valuation_samples": 0,
-    "last_seen_at": "2026-09-12T20:27:01.929329+00:00",
+    "last_seen_at": "2026-09-12T20:43:51.241419+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
     "condition": "nieuw",
@@ -24818,13 +24885,13 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series S 512GB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (12 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (12 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 12,
+      "source": "Marktplaats profiel (13 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (13 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 13,
       "asking_price": 215.0,
       "expected_resale": 213.9,
       "market_low": 184.37,
-      "market_high": 236.4,
+      "market_high": 232.71,
       "fees": 0.0,
       "risk_reserve": 4.62,
       "travel_cost": 0.0,
@@ -24857,7 +24924,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 12,
+      "sample_count": 13,
       "median_asking": 260.0
     },
     "repair": {
@@ -25140,13 +25207,13 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series S 512GB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (12 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (12 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 12,
+      "source": "Marktplaats profiel (13 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (13 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 13,
       "asking_price": 300.0,
       "expected_resale": 234.6,
       "market_low": 202.22,
-      "market_high": 259.27,
+      "market_high": 255.23,
       "fees": 0.0,
       "risk_reserve": 30.07,
       "travel_cost": 0.0,
@@ -25180,12 +25247,12 @@
     "result_status": "scored",
     "is_deal": false,
     "exclusion_reason": null,
-    "last_seen_at": "2026-09-12T20:26:58.603867+00:00",
+    "last_seen_at": "2026-09-12T20:43:48.077470+00:00",
     "previous_asking_price": 250.0,
     "price_drop_percent": 0.0,
     "condition": "zo goed als nieuw",
     "market_profile": {
-      "sample_count": 12,
+      "sample_count": 13,
       "median_asking": 260.0
     },
     "repair": {
@@ -25304,7 +25371,7 @@
       "detected": false
     },
     "is_repair_deal": false,
-    "last_seen_at": "2026-09-12T20:26:55.342362+00:00",
+    "last_seen_at": "2026-09-12T20:43:45.165681+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
     "condition": "nieuw"
@@ -26287,7 +26354,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "valuation_samples": 0,
-    "last_seen_at": "2026-09-12T20:26:52.131699+00:00",
+    "last_seen_at": "2026-09-12T20:43:42.277059+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
     "condition": "zo goed als nieuw",
@@ -26642,7 +26709,7 @@
     "result_status": "excluded",
     "is_deal": false,
     "exclusion_reason": "Dienst/gezocht-advertentie gedetecteerd: gezocht",
-    "last_seen_at": "2026-09-12T20:27:33.633654+00:00",
+    "last_seen_at": "2026-09-12T20:44:20.082751+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
     "condition": "nieuw",
@@ -27009,7 +27076,7 @@
     "result_status": "excluded",
     "is_deal": false,
     "exclusion_reason": "Dienst/gezocht-advertentie gedetecteerd: onderhoud service",
-    "last_seen_at": "2026-09-12T20:26:49.069373+00:00",
+    "last_seen_at": "2026-09-12T20:43:39.362710+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
     "condition": "goed",
