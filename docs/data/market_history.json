@@ -7055,12 +7055,12 @@
   ],
   "Fluke 91 SCOPEMETER SERIES": [
     {
-      "at": "2026-09-12T12:51:53.900257+00:00",
+      "at": "2026-09-12T18:44:18.289050+00:00",
       "sample_count": 1,
-      "median_asking": 120.0,
-      "estimated_resale": 108.0,
-      "asking_low": 120.0,
-      "asking_high": 120.0
+      "median_asking": 100.0,
+      "estimated_resale": 90.0,
+      "asking_low": 100.0,
+      "asking_high": 100.0
     }
   ],
   "Tannoy SYSTEM DMT 15": [
