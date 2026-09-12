@@ -7092,5 +7092,15 @@
       "asking_low": 100.0,
       "asking_high": 100.0
     }
+  ],
+  "Tannoy MERCURY M2 BOEKENPLANK": [
+    {
+      "at": "2026-09-12T19:11:57.294127+00:00",
+      "sample_count": 1,
+      "median_asking": 50.0,
+      "estimated_resale": 44.5,
+      "asking_low": 50.0,
+      "asking_high": 50.0
+    }
   ]
 }
