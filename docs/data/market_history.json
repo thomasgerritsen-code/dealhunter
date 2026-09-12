@@ -7072,5 +7072,25 @@
       "asking_low": 3500.0,
       "asking_high": 3500.0
     }
+  ],
+  "JBL TLX 5000 MATCHING": [
+    {
+      "at": "2026-09-12T17:41:27.152321+00:00",
+      "sample_count": 1,
+      "median_asking": 100.0,
+      "estimated_resale": 89.0,
+      "asking_low": 100.0,
+      "asking_high": 100.0
+    }
+  ],
+  "Technics SU V40 SOLID": [
+    {
+      "at": "2026-09-12T17:41:27.152321+00:00",
+      "sample_count": 1,
+      "median_asking": 100.0,
+      "estimated_resale": 89.0,
+      "asking_low": 100.0,
+      "asking_high": 100.0
+    }
   ]
 }
