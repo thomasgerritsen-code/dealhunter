@@ -7062,5 +7062,15 @@
       "asking_low": 120.0,
       "asking_high": 120.0
     }
+  ],
+  "Tannoy SYSTEM DMT 15": [
+    {
+      "at": "2026-09-12T17:23:49.561549+00:00",
+      "sample_count": 1,
+      "median_asking": 3500.0,
+      "estimated_resale": 3115.0,
+      "asking_low": 3500.0,
+      "asking_high": 3500.0
+    }
   ]
 }
