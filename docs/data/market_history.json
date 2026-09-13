@@ -8048,5 +8048,15 @@
       "asking_low": 100.0,
       "asking_high": 100.0
     }
+  ],
+  "Tannoy D300 LUIDSPREKERS DUAL": [
+    {
+      "at": "2026-09-13T14:49:16.548564+00:00",
+      "sample_count": 1,
+      "median_asking": 475.0,
+      "estimated_resale": 422.75,
+      "asking_low": 475.0,
+      "asking_high": 475.0
+    }
   ]
 }
