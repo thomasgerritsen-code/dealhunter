@@ -237,11 +237,11 @@
       "asking_high": 600.0
     },
     {
-      "at": "2026-09-13T09:46:53.861913+00:00",
-      "sample_count": 31,
-      "median_asking": 475.0,
-      "estimated_resale": 437.0,
-      "asking_low": 300.0,
+      "at": "2026-09-13T14:26:07.368970+00:00",
+      "sample_count": 32,
+      "median_asking": 487.5,
+      "estimated_resale": 448.5,
+      "asking_low": 303.0,
       "asking_high": 600.0
     }
   ],
@@ -8037,6 +8037,16 @@
       "estimated_resale": 44.5,
       "asking_low": 50.0,
       "asking_high": 50.0
+    }
+  ],
+  "JBL LX22": [
+    {
+      "at": "2026-09-13T14:26:07.368970+00:00",
+      "sample_count": 1,
+      "median_asking": 100.0,
+      "estimated_resale": 89.0,
+      "asking_low": 100.0,
+      "asking_high": 100.0
     }
   ]
 }
