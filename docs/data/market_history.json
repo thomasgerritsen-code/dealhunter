@@ -803,12 +803,12 @@
       "asking_high": 397.0
     },
     {
-      "at": "2026-09-14T00:20:56.708306+00:00",
-      "sample_count": 14,
-      "median_asking": 337.0,
-      "estimated_resale": 299.93,
-      "asking_low": 241.0,
-      "asking_high": 397.0
+      "at": "2026-09-14T20:45:20.378837+00:00",
+      "sample_count": 15,
+      "median_asking": 375.0,
+      "estimated_resale": 333.75,
+      "asking_low": 258.0,
+      "asking_high": 405.0
     }
   ],
   "RØDE NT1 5TH GEN": [
@@ -9023,12 +9023,12 @@
   ],
   "Festool TOOLBOX 204843": [
     {
-      "at": "2026-09-14T15:58:52.627791+00:00",
+      "at": "2026-09-14T20:45:20.378837+00:00",
       "sample_count": 1,
-      "median_asking": 12.5,
-      "estimated_resale": 11.12,
-      "asking_low": 12.5,
-      "asking_high": 12.5
+      "median_asking": 14.0,
+      "estimated_resale": 12.46,
+      "asking_low": 14.0,
+      "asking_high": 14.0
     }
   ],
   "Tektronix TDS2014C DIGITALE OPSLAGOSCILLOSCOOP": [
