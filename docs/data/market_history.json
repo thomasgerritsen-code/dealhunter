@@ -9040,5 +9040,15 @@
       "asking_low": 300.0,
       "asking_high": 300.0
     }
+  ],
+  "Tannoy MERCURY MX 1": [
+    {
+      "at": "2026-09-14T20:58:58.843948+00:00",
+      "sample_count": 1,
+      "median_asking": 150.0,
+      "estimated_resale": 133.5,
+      "asking_low": 150.0,
+      "asking_high": 150.0
+    }
   ]
 }
