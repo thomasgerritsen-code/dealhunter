@@ -9030,5 +9030,15 @@
       "asking_low": 12.5,
       "asking_high": 12.5
     }
+  ],
+  "Tektronix TDS2014C DIGITALE OPSLAGOSCILLOSCOOP": [
+    {
+      "at": "2026-09-14T18:38:24.663973+00:00",
+      "sample_count": 1,
+      "median_asking": 300.0,
+      "estimated_resale": 270.0,
+      "asking_low": 300.0,
+      "asking_high": 300.0
+    }
   ]
 }
