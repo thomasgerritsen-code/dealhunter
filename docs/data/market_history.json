@@ -7677,12 +7677,12 @@
       "asking_high": 375.0
     },
     {
-      "at": "2026-09-14T00:20:56.708306+00:00",
+      "at": "2026-09-14T15:58:52.627791+00:00",
       "sample_count": 1,
-      "median_asking": 375.0,
-      "estimated_resale": 333.75,
-      "asking_low": 375.0,
-      "asking_high": 375.0
+      "median_asking": 350.0,
+      "estimated_resale": 311.5,
+      "asking_low": 350.0,
+      "asking_high": 350.0
     }
   ],
   "JBL PARTYBOX 310 DEFECT": [
@@ -9019,6 +9019,16 @@
       "estimated_resale": 355.11,
       "asking_low": 399.0,
       "asking_high": 399.0
+    }
+  ],
+  "Festool TOOLBOX 204843": [
+    {
+      "at": "2026-09-14T15:58:52.627791+00:00",
+      "sample_count": 1,
+      "median_asking": 12.5,
+      "estimated_resale": 11.12,
+      "asking_low": 12.5,
+      "asking_high": 12.5
     }
   ]
 }
