@@ -9975,12 +9975,12 @@
       "asking_high": 14.0
     },
     {
-      "at": "2026-09-15T10:59:18.710378+00:00",
+      "at": "2026-09-15T12:38:46.733301+00:00",
       "sample_count": 1,
-      "median_asking": 20.0,
-      "estimated_resale": 17.8,
-      "asking_low": 20.0,
-      "asking_high": 20.0
+      "median_asking": 23.0,
+      "estimated_resale": 20.47,
+      "asking_low": 23.0,
+      "asking_high": 23.0
     }
   ],
   "Tektronix TDS2014C DIGITALE OPSLAGOSCILLOSCOOP": [
@@ -10027,6 +10027,26 @@
       "estimated_resale": 6.23,
       "asking_low": 7.0,
       "asking_high": 7.0
+    }
+  ],
+  "Makita METAALBOOR O10": [
+    {
+      "at": "2026-09-15T12:38:46.733301+00:00",
+      "sample_count": 1,
+      "median_asking": 15.0,
+      "estimated_resale": 13.35,
+      "asking_low": 15.0,
+      "asking_high": 15.0
+    }
+  ],
+  "Makita BOOR SCHROEFMACHINE": [
+    {
+      "at": "2026-09-15T12:38:46.733301+00:00",
+      "sample_count": 1,
+      "median_asking": 49.99,
+      "estimated_resale": 44.49,
+      "asking_low": 49.99,
+      "asking_high": 49.99
     }
   ]
 }
