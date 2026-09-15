@@ -10048,5 +10048,15 @@
       "asking_low": 49.99,
       "asking_high": 49.99
     }
+  ],
+  "Makita ACCUBOOR 1X 18V": [
+    {
+      "at": "2026-09-15T13:48:27.497620+00:00",
+      "sample_count": 1,
+      "median_asking": 80.0,
+      "estimated_resale": 71.2,
+      "asking_low": 80.0,
+      "asking_high": 80.0
+    }
   ]
 }
