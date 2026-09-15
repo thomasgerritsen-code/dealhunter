@@ -1,6 +1,6 @@
 {
   "mode": "marktplaats-html-scraper-v1.2-repair-hunter",
-  "last_checked": "2026-09-15T06:55:58.657218+00:00",
+  "last_checked": "2026-09-15T07:16:34.969582+00:00",
   "queries_configured": 19,
   "links_fetched": 95,
   "checked_ads": 95,
@@ -15,7 +15,7 @@
   "unpriced_candidates": 197,
   "unrecognized_results": 106,
   "learned_models": 121,
-  "total_results": 867,
+  "total_results": 868,
   "total_deals": 13,
   "smart_alerts_sent": 0,
   "errors": [],
