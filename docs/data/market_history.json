@@ -10068,5 +10068,15 @@
       "asking_low": 20.0,
       "asking_high": 20.0
     }
+  ],
+  "Makita DDF484Z 18V BOOR": [
+    {
+      "at": "2026-09-15T21:26:13.999342+00:00",
+      "sample_count": 1,
+      "median_asking": 99.99,
+      "estimated_resale": 88.99,
+      "asking_low": 99.99,
+      "asking_high": 99.99
+    }
   ]
 }
