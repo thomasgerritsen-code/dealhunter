@@ -10058,5 +10058,15 @@
       "asking_low": 80.0,
       "asking_high": 80.0
     }
+  ],
+  "JBL CHARGE 3 KLEINE": [
+    {
+      "at": "2026-09-15T19:13:21.387444+00:00",
+      "sample_count": 1,
+      "median_asking": 20.0,
+      "estimated_resale": 17.8,
+      "asking_low": 20.0,
+      "asking_high": 20.0
+    }
   ]
 }
