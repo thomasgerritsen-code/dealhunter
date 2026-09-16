@@ -529,12 +529,12 @@
       "asking_high": 314.18
     },
     {
-      "at": "2026-09-16T00:19:06.044768+00:00",
-      "sample_count": 14,
-      "median_asking": 267.5,
-      "estimated_resale": 246.1,
+      "at": "2026-09-16T09:59:16.416977+00:00",
+      "sample_count": 17,
+      "median_asking": 275.0,
+      "estimated_resale": 253.0,
       "asking_low": 250.0,
-      "asking_high": 314.18
+      "asking_high": 357.98
     }
   ],
   "Sony PlayStation 5 Pro": [
@@ -9703,6 +9703,14 @@
       "estimated_resale": 7.12,
       "asking_low": 8.0,
       "asking_high": 8.0
+    },
+    {
+      "at": "2026-09-16T09:59:16.416977+00:00",
+      "sample_count": 1,
+      "median_asking": 20.0,
+      "estimated_resale": 17.8,
+      "asking_low": 20.0,
+      "asking_high": 20.0
     }
   ],
   "Makita 197172 1 SLOOPSTOF": [
