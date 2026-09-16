@@ -1,5 +1,72 @@
 [
   {
+    "id": "marktplaats-html:m2443386394",
+    "found_at": "2026-09-16T16:32:28.012428+00:00",
+    "last_seen_at": "2026-09-16T16:32:28.012428+00:00",
+    "source": "marktplaats-html",
+    "query": "xbox series x",
+    "category_hint": "Spelcomputers",
+    "title": "Xbox Series S",
+    "description": "Bewaren in Mijn Favorieten Xbox Series S Xbox series s carbon black + originele hdmi + originele voedingskabel opslag: 1tb ports: 3x usb a ingang 1x hdmi output 1x storage expansion 1x lan ethernet 1x voeding ingang 𝗢𝗿𝗶𝗴𝗶𝗻𝗲𝗹𝗲 𝗱𝗼𝗼 Zo goed als nieuw Ophalen € 320,00 Vandaag Marlous Flier Eerbeek Bewaren in Mijn Favorieten Xbox Series S € 320,00 Xbox series s carbon black + originele hdmi + originele voedingskabel opslag: 1tb ports: 3x usb a ingang 1x hdmi output 1x storage expansion 1x lan ethernet 1x voeding ingang 𝗢𝗿𝗶𝗴𝗶𝗻𝗲𝗹𝗲 𝗱𝗼𝗼 Zo goed als nieuw Ophalen Marlous Flier Eerbeek Vandaag Bewaren in Mijn Favorieten Xbox Series S € 320,00 Details Ophalen Zo goed als nieuw Xbox Series S Xbox series s carbon black + originele hdmi + originele voedingskabel opslag: 1tb ports: 3x usb a ingang 1x hdmi output 1x storage expansion 1x lan ethernet 1x voeding ingang 𝗢𝗿𝗶𝗴𝗶𝗻𝗲𝗹𝗲 𝗱𝗼𝗼𝘀 𝗭𝗼𝗻𝗱𝗲𝗿 𝗰𝗼𝗻𝘁𝗿𝗼𝗹𝗹𝗲𝗿 hier",
+    "url": "https://www.marktplaats.nl/v/spelcomputers-en-games/spelcomputers-xbox-series-x-en-s/m2443386394-xbox-series-s",
+    "asking_price": 320.0,
+    "previous_asking_price": null,
+    "price_drop_percent": 0.0,
+    "promoted": false,
+    "matched_product": "Microsoft Xbox Series S 512GB",
+    "recognition_confidence": 93,
+    "condition": "zo goed als nieuw",
+    "analysis": {
+      "matched_product": "Microsoft Xbox Series S 512GB",
+      "category": "Spelcomputers",
+      "source": "Marktplaats profiel (19 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (19 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 19,
+      "asking_price": 320.0,
+      "expected_resale": 246.28,
+      "market_low": 202.22,
+      "market_high": 269.87,
+      "fees": 0.0,
+      "risk_reserve": 5.32,
+      "travel_cost": 0.0,
+      "expected_profit": -79.04,
+      "roi_percent": -24.7,
+      "discount_percent": -29.9,
+      "opening_bid": 146.5,
+      "target_buy_price": 166.48,
+      "max_buy_price": 180.96,
+      "deal_score": 40,
+      "risk_score": 18,
+      "liquidity_score": 84,
+      "confidence_percent": 85,
+      "recognition_confidence_percent": 93,
+      "market_confidence_percent": 77,
+      "verdict": "OVERSLAAN",
+      "recommendation": "NIET INTERESSANT",
+      "risk_reasons": [],
+      "score_breakdown": {
+        "discount": 0,
+        "profit": 0,
+        "roi": 0,
+        "liquidity": 10.1,
+        "confidence": 15.2,
+        "risk_penalty": 3.6
+      },
+      "note": "Marktwaardes op basis van vraagprijzen zijn schattingen, geen gegarandeerde gerealiseerde verkoopprijzen."
+    },
+    "result_status": "scored",
+    "is_deal": false,
+    "exclusion_reason": null,
+    "market_profile": {
+      "sample_count": 19,
+      "median_asking": 275.0
+    },
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
+  },
+  {
     "id": "marktplaats-html:m2443353090",
     "found_at": "2026-09-16T16:16:59.960131+00:00",
     "last_seen_at": "2026-09-16T16:16:59.960131+00:00",
@@ -69,7 +136,7 @@
   {
     "id": "marktplaats-html:m2443370630",
     "found_at": "2026-09-16T15:42:27.995333+00:00",
-    "last_seen_at": "2026-09-16T16:17:20.435714+00:00",
+    "last_seen_at": "2026-09-16T16:32:51.037091+00:00",
     "source": "marktplaats-html",
     "query": "jbl vintage speaker",
     "category_hint": "Audio",
@@ -121,7 +188,7 @@
   {
     "id": "marktplaats-html:m2443360750",
     "found_at": "2026-09-16T15:14:16.575456+00:00",
-    "last_seen_at": "2026-09-16T16:17:11.932664+00:00",
+    "last_seen_at": "2026-09-16T16:32:41.647163+00:00",
     "source": "marktplaats-html",
     "query": "tektronix",
     "category_hint": "Meetapparatuur",
@@ -147,7 +214,7 @@
   {
     "id": "marktplaats-html:m2443344364",
     "found_at": "2026-09-16T14:46:42.389274+00:00",
-    "last_seen_at": "2026-09-16T16:16:59.958808+00:00",
+    "last_seen_at": "2026-09-16T16:32:28.012806+00:00",
     "source": "marktplaats-html",
     "query": "xbox series x",
     "category_hint": "Spelcomputers",
@@ -214,7 +281,7 @@
   {
     "id": "marktplaats-html:a1524074520",
     "found_at": "2026-09-16T14:33:19.860294+00:00",
-    "last_seen_at": "2026-09-16T16:17:02.950344+00:00",
+    "last_seen_at": "2026-09-16T16:32:31.482871+00:00",
     "source": "marktplaats-html",
     "query": "festool",
     "category_hint": "Gereedschap",
@@ -240,7 +307,7 @@
   {
     "id": "marktplaats-html:m2443327999",
     "found_at": "2026-09-16T14:15:18.904862+00:00",
-    "last_seen_at": "2026-09-16T16:17:14.954675+00:00",
+    "last_seen_at": "2026-09-16T16:32:45.187412+00:00",
     "source": "marktplaats-html",
     "query": "shure sm7b",
     "category_hint": "Audio",
@@ -266,7 +333,7 @@
   {
     "id": "marktplaats-html:a1531071749",
     "found_at": "2026-09-16T13:55:39.173807+00:00",
-    "last_seen_at": "2026-09-16T16:17:11.932013+00:00",
+    "last_seen_at": "2026-09-16T16:32:41.646758+00:00",
     "source": "marktplaats-html",
     "query": "tektronix",
     "category_hint": "Meetapparatuur",
@@ -411,7 +478,7 @@
   {
     "id": "marktplaats-html:m2443129359",
     "found_at": "2026-09-16T11:43:15.337084+00:00",
-    "last_seen_at": "2026-09-16T16:17:06.185069+00:00",
+    "last_seen_at": "2026-09-16T16:32:35.040405+00:00",
     "source": "marktplaats-html",
     "query": "makita",
     "category_hint": "Gereedschap",
@@ -437,7 +504,7 @@
   {
     "id": "marktplaats-html:m2443260530",
     "found_at": "2026-09-16T11:28:34.256253+00:00",
-    "last_seen_at": "2026-09-16T16:17:23.503290+00:00",
+    "last_seen_at": "2026-09-16T16:32:54.368662+00:00",
     "source": "marktplaats-html",
     "query": "bang olufsen speaker",
     "category_hint": "Audio",
@@ -480,13 +547,13 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series S 512GB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (18 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (18 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 18,
+      "source": "Marktplaats profiel (19 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (19 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 19,
       "asking_price": 250.0,
       "expected_resale": 224.55,
       "market_low": 184.37,
-      "market_high": 246.92,
+      "market_high": 246.06,
       "fees": 0.0,
       "risk_reserve": 4.85,
       "travel_cost": 0.0,
@@ -519,7 +586,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 18,
+      "sample_count": 19,
       "median_asking": 275.0
     },
     "repair": {
@@ -530,7 +597,7 @@
   {
     "id": "marktplaats-html:m2443233324",
     "found_at": "2026-09-16T10:15:14.533334+00:00",
-    "last_seen_at": "2026-09-16T16:17:23.502992+00:00",
+    "last_seen_at": "2026-09-16T16:32:54.368486+00:00",
     "source": "marktplaats-html",
     "query": "bang olufsen speaker",
     "category_hint": "Audio",
@@ -556,7 +623,7 @@
   {
     "id": "marktplaats-html:m2443232686",
     "found_at": "2026-09-16T10:14:55.654353+00:00",
-    "last_seen_at": "2026-09-16T16:17:06.184731+00:00",
+    "last_seen_at": "2026-09-16T16:32:35.040222+00:00",
     "source": "marktplaats-html",
     "query": "makita",
     "category_hint": "Gereedschap",
@@ -582,7 +649,7 @@
   {
     "id": "marktplaats-html:a1531043637",
     "found_at": "2026-09-16T09:58:31.217107+00:00",
-    "last_seen_at": "2026-09-16T16:17:06.184365+00:00",
+    "last_seen_at": "2026-09-16T16:32:35.039988+00:00",
     "source": "marktplaats-html",
     "query": "makita",
     "category_hint": "Gereedschap",
@@ -625,13 +692,13 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series S 512GB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (18 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (18 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 18,
+      "source": "Marktplaats profiel (19 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (19 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 19,
       "asking_price": 349.98,
       "expected_resale": 246.28,
       "market_low": 202.22,
-      "market_high": 270.81,
+      "market_high": 269.87,
       "fees": 0.0,
       "risk_reserve": 5.32,
       "travel_cost": 0.0,
@@ -664,7 +731,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 18,
+      "sample_count": 19,
       "median_asking": 275.0
     },
     "repair": {
@@ -692,13 +759,13 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series S 512GB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (18 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (18 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 18,
+      "source": "Marktplaats profiel (19 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (19 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 19,
       "asking_price": 389.98,
       "expected_resale": 246.28,
       "market_low": 202.22,
-      "market_high": 270.81,
+      "market_high": 269.87,
       "fees": 0.0,
       "risk_reserve": 5.32,
       "travel_cost": 0.0,
@@ -731,7 +798,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 18,
+      "sample_count": 19,
       "median_asking": 275.0
     },
     "repair": {
@@ -794,7 +861,7 @@
   {
     "id": "marktplaats-html:m2443210348",
     "found_at": "2026-09-16T09:14:29.380553+00:00",
-    "last_seen_at": "2026-09-16T16:16:53.943843+00:00",
+    "last_seen_at": "2026-09-16T16:32:22.160699+00:00",
     "source": "marktplaats-html",
     "query": "nintendo switch oled",
     "category_hint": "Spelcomputers",
@@ -910,7 +977,7 @@
   {
     "id": "marktplaats-html:m2443181738",
     "found_at": "2026-09-16T07:58:47.547671+00:00",
-    "last_seen_at": "2026-09-16T16:17:23.503605+00:00",
+    "last_seen_at": "2026-09-16T16:32:54.368848+00:00",
     "source": "marktplaats-html",
     "query": "bang olufsen speaker",
     "category_hint": "Audio",
@@ -936,7 +1003,7 @@
   {
     "id": "marktplaats-html:m2442659947",
     "found_at": "2026-09-16T07:58:28.216819+00:00",
-    "last_seen_at": "2026-09-16T16:17:06.185417+00:00",
+    "last_seen_at": "2026-09-16T16:32:35.040609+00:00",
     "source": "marktplaats-html",
     "query": "makita",
     "category_hint": "Gereedschap",
@@ -1014,7 +1081,7 @@
   {
     "id": "marktplaats-html:m2443161554",
     "found_at": "2026-09-16T06:54:10.672513+00:00",
-    "last_seen_at": "2026-09-16T16:17:23.503922+00:00",
+    "last_seen_at": "2026-09-16T16:32:54.369028+00:00",
     "source": "marktplaats-html",
     "query": "bang olufsen speaker",
     "category_hint": "Audio",
@@ -1040,7 +1107,7 @@
   {
     "id": "marktplaats-html:m2443152274",
     "found_at": "2026-09-16T05:53:20.269320+00:00",
-    "last_seen_at": "2026-09-16T16:17:26.680480+00:00",
+    "last_seen_at": "2026-09-16T16:32:57.617458+00:00",
     "source": "marktplaats-html",
     "query": "kef vintage speaker",
     "category_hint": "Audio",
@@ -1066,7 +1133,7 @@
   {
     "id": "marktplaats-html:a1521948937",
     "found_at": "2026-09-16T05:12:58.994208+00:00",
-    "last_seen_at": "2026-09-16T16:17:02.951570+00:00",
+    "last_seen_at": "2026-09-16T16:32:31.483614+00:00",
     "source": "marktplaats-html",
     "query": "festool",
     "category_hint": "Gereedschap",
@@ -1092,7 +1159,7 @@
   {
     "id": "marktplaats-html:a1530517261",
     "found_at": "2026-09-16T04:58:02.513883+00:00",
-    "last_seen_at": "2026-09-16T16:16:51.101048+00:00",
+    "last_seen_at": "2026-09-16T16:32:19.198200+00:00",
     "source": "marktplaats-html",
     "query": "ps5",
     "category_hint": "Spelcomputers",
@@ -1300,7 +1367,7 @@
   {
     "id": "marktplaats-html:m2443098380",
     "found_at": "2026-09-15T19:13:17.728455+00:00",
-    "last_seen_at": "2026-09-16T16:17:42.063960+00:00",
+    "last_seen_at": "2026-09-16T16:33:13.947686+00:00",
     "source": "marktplaats-html",
     "query": "jbl speaker defect",
     "category_hint": "Audio",
@@ -1340,7 +1407,7 @@
   {
     "id": "marktplaats-html:m2443086534",
     "found_at": "2026-09-15T18:34:02.596022+00:00",
-    "last_seen_at": "2026-09-16T16:16:53.944521+00:00",
+    "last_seen_at": "2026-09-16T16:32:22.161028+00:00",
     "source": "marktplaats-html",
     "query": "nintendo switch oled",
     "category_hint": "Spelcomputers",
@@ -1366,7 +1433,7 @@
   {
     "id": "marktplaats-html:m2443046768",
     "found_at": "2026-09-15T18:14:26.661241+00:00",
-    "last_seen_at": "2026-09-16T16:16:53.943182+00:00",
+    "last_seen_at": "2026-09-16T16:32:22.160328+00:00",
     "source": "marktplaats-html",
     "query": "nintendo switch oled",
     "category_hint": "Spelcomputers",
@@ -1485,7 +1552,7 @@
   {
     "id": "marktplaats-html:m2443064939",
     "found_at": "2026-09-15T17:24:29.281658+00:00",
-    "last_seen_at": "2026-09-16T16:16:56.860282+00:00",
+    "last_seen_at": "2026-09-16T16:32:25.021870+00:00",
     "source": "marktplaats-html",
     "query": "steam deck",
     "category_hint": "Spelcomputers",
@@ -1630,7 +1697,7 @@
   {
     "id": "marktplaats-html:a1531036094",
     "found_at": "2026-09-15T14:14:47.303504+00:00",
-    "last_seen_at": "2026-09-16T16:16:51.102314+00:00",
+    "last_seen_at": "2026-09-16T16:32:19.199084+00:00",
     "source": "marktplaats-html",
     "query": "ps5",
     "category_hint": "Spelcomputers",
@@ -1739,7 +1806,7 @@
   {
     "id": "marktplaats-html:m2442277566",
     "found_at": "2026-09-15T13:47:36.035456+00:00",
-    "last_seen_at": "2026-09-16T16:16:56.861016+00:00",
+    "last_seen_at": "2026-09-16T16:32:25.022276+00:00",
     "source": "marktplaats-html",
     "query": "steam deck",
     "category_hint": "Spelcomputers",
@@ -1806,7 +1873,7 @@
   {
     "id": "marktplaats-html:a1530885591",
     "found_at": "2026-09-15T12:53:40.338829+00:00",
-    "last_seen_at": "2026-09-16T16:17:02.951344+00:00",
+    "last_seen_at": "2026-09-16T16:32:31.483477+00:00",
     "source": "marktplaats-html",
     "query": "festool",
     "category_hint": "Gereedschap",
@@ -1884,7 +1951,7 @@
   {
     "id": "marktplaats-html:m2441978945",
     "found_at": "2026-09-15T12:38:09.375688+00:00",
-    "last_seen_at": "2026-09-16T16:17:06.185751+00:00",
+    "last_seen_at": "2026-09-16T16:32:35.040813+00:00",
     "source": "marktplaats-html",
     "query": "makita",
     "category_hint": "Gereedschap",
@@ -1910,7 +1977,7 @@
   {
     "id": "marktplaats-html:a1531015962",
     "found_at": "2026-09-15T11:51:34.860242+00:00",
-    "last_seen_at": "2026-09-16T16:17:14.954071+00:00",
+    "last_seen_at": "2026-09-16T16:32:45.187053+00:00",
     "source": "marktplaats-html",
     "query": "shure sm7b",
     "category_hint": "Audio",
@@ -1936,7 +2003,7 @@
   {
     "id": "marktplaats-html:a1531015921",
     "found_at": "2026-09-15T11:51:34.859920+00:00",
-    "last_seen_at": "2026-09-16T16:17:14.953366+00:00",
+    "last_seen_at": "2026-09-16T16:32:45.186616+00:00",
     "source": "marktplaats-html",
     "query": "shure sm7b",
     "category_hint": "Audio",
@@ -2066,7 +2133,7 @@
   {
     "id": "marktplaats-html:a1286276818",
     "found_at": "2026-09-15T10:46:09.138170+00:00",
-    "last_seen_at": "2026-09-16T16:17:32.546721+00:00",
+    "last_seen_at": "2026-09-16T16:33:03.893890+00:00",
     "source": "marktplaats-html",
     "query": "ps5 defect",
     "category_hint": "Spelcomputers",
@@ -2196,7 +2263,7 @@
   {
     "id": "marktplaats-html:m2442898213",
     "found_at": "2026-09-15T09:38:25.004665+00:00",
-    "last_seen_at": "2026-09-16T16:17:29.498506+00:00",
+    "last_seen_at": "2026-09-16T16:33:00.369636+00:00",
     "source": "marktplaats-html",
     "query": "tannoy speaker",
     "category_hint": "Audio",
@@ -2304,7 +2371,7 @@
   {
     "id": "marktplaats-html:m2442831285",
     "found_at": "2026-09-15T08:21:15.315549+00:00",
-    "last_seen_at": "2026-09-16T16:17:29.499200+00:00",
+    "last_seen_at": "2026-09-16T16:33:00.370044+00:00",
     "source": "marktplaats-html",
     "query": "tannoy speaker",
     "category_hint": "Audio",
@@ -2481,7 +2548,7 @@
   {
     "id": "marktplaats-html:m2441893444",
     "found_at": "2026-09-15T07:15:42.485262+00:00",
-    "last_seen_at": "2026-09-16T16:16:53.945208+00:00",
+    "last_seen_at": "2026-09-16T16:32:22.161400+00:00",
     "source": "marktplaats-html",
     "query": "nintendo switch oled",
     "category_hint": "Spelcomputers",
@@ -2721,7 +2788,7 @@
   {
     "id": "marktplaats-html:m2442828443",
     "found_at": "2026-09-15T04:19:22.253324+00:00",
-    "last_seen_at": "2026-09-16T16:17:29.498844+00:00",
+    "last_seen_at": "2026-09-16T16:33:00.369841+00:00",
     "source": "marktplaats-html",
     "query": "tannoy speaker",
     "category_hint": "Audio",
@@ -3368,7 +3435,7 @@
   {
     "id": "marktplaats-html:a1530983202",
     "found_at": "2026-09-14T15:45:22.845763+00:00",
-    "last_seen_at": "2026-09-16T16:17:32.548086+00:00",
+    "last_seen_at": "2026-09-16T16:33:03.894684+00:00",
     "source": "marktplaats-html",
     "query": "ps5 defect",
     "category_hint": "Spelcomputers",
@@ -3394,7 +3461,7 @@
   {
     "id": "marktplaats-html:m2442694893",
     "found_at": "2026-09-14T15:45:19.870288+00:00",
-    "last_seen_at": "2026-09-16T16:17:29.499529+00:00",
+    "last_seen_at": "2026-09-16T16:33:00.370237+00:00",
     "source": "marktplaats-html",
     "query": "tannoy speaker",
     "category_hint": "Audio",
@@ -3446,7 +3513,7 @@
   {
     "id": "marktplaats-html:a1530706163",
     "found_at": "2026-09-14T14:36:23.179803+00:00",
-    "last_seen_at": "2026-09-16T16:17:02.950724+00:00",
+    "last_seen_at": "2026-09-16T16:32:31.483112+00:00",
     "source": "marktplaats-html",
     "query": "festool",
     "category_hint": "Gereedschap",
@@ -3628,7 +3695,7 @@
   {
     "id": "marktplaats-html:m2442578343",
     "found_at": "2026-09-14T11:14:26.772616+00:00",
-    "last_seen_at": "2026-09-16T16:16:56.859592+00:00",
+    "last_seen_at": "2026-09-16T16:32:25.021485+00:00",
     "source": "marktplaats-html",
     "query": "steam deck",
     "category_hint": "Spelcomputers",
@@ -4188,7 +4255,7 @@
   {
     "id": "marktplaats-html:a1530977342",
     "found_at": "2026-09-14T07:34:23.119584+00:00",
-    "last_seen_at": "2026-09-16T16:17:09.166627+00:00",
+    "last_seen_at": "2026-09-16T16:32:38.407115+00:00",
     "source": "marktplaats-html",
     "query": "fluke",
     "category_hint": "Meetapparatuur",
@@ -4463,7 +4530,7 @@
   {
     "id": "marktplaats-html:m2442172990",
     "found_at": "2026-09-13T20:26:51.584952+00:00",
-    "last_seen_at": "2026-09-16T16:17:26.681129+00:00",
+    "last_seen_at": "2026-09-16T16:32:57.617826+00:00",
     "source": "marktplaats-html",
     "query": "kef vintage speaker",
     "category_hint": "Audio",
@@ -4833,7 +4900,7 @@
   {
     "id": "marktplaats-html:m2442306342",
     "found_at": "2026-09-13T14:25:40.490687+00:00",
-    "last_seen_at": "2026-09-16T16:17:20.436029+00:00",
+    "last_seen_at": "2026-09-16T16:32:51.037266+00:00",
     "source": "marktplaats-html",
     "query": "jbl vintage speaker",
     "category_hint": "Audio",
@@ -5103,13 +5170,13 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series S 512GB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (18 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (18 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 18,
+      "source": "Marktplaats profiel (19 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (19 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 19,
       "asking_price": 275.0,
       "expected_resale": 246.28,
       "market_low": 202.22,
-      "market_high": 270.81,
+      "market_high": 269.87,
       "fees": 0.0,
       "risk_reserve": 5.32,
       "travel_cost": 0.0,
@@ -5142,7 +5209,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 18,
+      "sample_count": 19,
       "median_asking": 275.0
     },
     "repair": {
@@ -5219,7 +5286,7 @@
   {
     "id": "marktplaats-html:m2442253826",
     "found_at": "2026-09-13T12:51:44.527416+00:00",
-    "last_seen_at": "2026-09-16T16:17:11.932948+00:00",
+    "last_seen_at": "2026-09-16T16:32:41.647324+00:00",
     "source": "marktplaats-html",
     "query": "tektronix",
     "category_hint": "Meetapparatuur",
@@ -6036,13 +6103,13 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series S 512GB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (18 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (18 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 18,
+      "source": "Marktplaats profiel (19 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (19 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 19,
       "asking_price": 275.0,
       "expected_resale": 246.28,
       "market_low": 202.22,
-      "market_high": 270.81,
+      "market_high": 269.87,
       "fees": 0.0,
       "risk_reserve": 5.32,
       "travel_cost": 0.0,
@@ -6075,7 +6142,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 18,
+      "sample_count": 19,
       "median_asking": 275.0
     },
     "repair": {
@@ -6786,13 +6853,13 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series S 512GB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (18 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (18 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 18,
+      "source": "Marktplaats profiel (19 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (19 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 19,
       "asking_price": 480.99,
       "expected_resale": 258.35,
       "market_low": 212.13,
-      "market_high": 284.09,
+      "market_high": 283.1,
       "fees": 0.0,
       "risk_reserve": 5.58,
       "travel_cost": 0.0,
@@ -6825,7 +6892,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 18,
+      "sample_count": 19,
       "median_asking": 275.0
     },
     "repair": {
@@ -7022,7 +7089,7 @@
   {
     "id": "marktplaats-html:a1530925899",
     "found_at": "2026-09-12T14:25:58.302527+00:00",
-    "last_seen_at": "2026-09-16T16:17:26.680082+00:00",
+    "last_seen_at": "2026-09-16T16:32:57.617187+00:00",
     "source": "marktplaats-html",
     "query": "kef vintage speaker",
     "category_hint": "Audio",
@@ -7208,7 +7275,7 @@
   {
     "id": "marktplaats-html:m2441866491",
     "found_at": "2026-09-12T12:51:47.175983+00:00",
-    "last_seen_at": "2026-09-16T16:17:38.964912+00:00",
+    "last_seen_at": "2026-09-16T16:33:10.714142+00:00",
     "source": "marktplaats-html",
     "query": "fluke defect",
     "category_hint": "Meetapparatuur",
@@ -7538,7 +7605,7 @@
   {
     "id": "marktplaats-html:a1530908538",
     "found_at": "2026-09-12T10:57:40.307062+00:00",
-    "last_seen_at": "2026-09-16T16:17:35.728220+00:00",
+    "last_seen_at": "2026-09-16T16:33:07.296307+00:00",
     "source": "marktplaats-html",
     "query": "festool defect",
     "category_hint": "Gereedschap",
@@ -7564,7 +7631,7 @@
   {
     "id": "marktplaats-html:m2441801873",
     "found_at": "2026-09-12T10:40:25.266130+00:00",
-    "last_seen_at": "2026-09-16T16:17:42.064305+00:00",
+    "last_seen_at": "2026-09-16T16:33:13.947881+00:00",
     "source": "marktplaats-html",
     "query": "jbl speaker defect",
     "category_hint": "Audio",
@@ -8765,7 +8832,7 @@
   {
     "id": "marktplaats-html:m2441582208",
     "found_at": "2026-09-11T15:58:09.908037+00:00",
-    "last_seen_at": "2026-09-16T16:17:11.933199+00:00",
+    "last_seen_at": "2026-09-16T16:32:41.647478+00:00",
     "source": "marktplaats-html",
     "query": "tektronix",
     "category_hint": "Meetapparatuur",
@@ -8848,13 +8915,13 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series S 512GB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (18 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (18 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 18,
+      "source": "Marktplaats profiel (19 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (19 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 19,
       "asking_price": 220.0,
       "expected_resale": 246.28,
       "market_low": 202.22,
-      "market_high": 270.81,
+      "market_high": 269.87,
       "fees": 0.0,
       "risk_reserve": 5.32,
       "travel_cost": 0.0,
@@ -8887,7 +8954,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 18,
+      "sample_count": 19,
       "median_asking": 275.0
     },
     "repair": {
@@ -9959,13 +10026,13 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series S 512GB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (18 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (18 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 18,
+      "source": "Marktplaats profiel (19 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (19 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 19,
       "asking_price": 250.0,
       "expected_resale": 224.55,
       "market_low": 184.37,
-      "market_high": 246.92,
+      "market_high": 246.06,
       "fees": 0.0,
       "risk_reserve": 4.85,
       "travel_cost": 0.0,
@@ -9998,7 +10065,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 18,
+      "sample_count": 19,
       "median_asking": 275.0
     },
     "repair": {
@@ -10405,13 +10472,13 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series S 512GB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (18 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (18 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 18,
+      "source": "Marktplaats profiel (19 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (19 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 19,
       "asking_price": 250.0,
       "expected_resale": 246.28,
       "market_low": 202.22,
-      "market_high": 270.81,
+      "market_high": 269.87,
       "fees": 0.0,
       "risk_reserve": 5.32,
       "travel_cost": 0.0,
@@ -10444,7 +10511,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 18,
+      "sample_count": 19,
       "median_asking": 275.0
     },
     "repair": {
@@ -10823,7 +10890,7 @@
   {
     "id": "marktplaats-html:a1530829022",
     "found_at": "2026-09-11T07:19:36.686027+00:00",
-    "last_seen_at": "2026-09-16T16:17:20.435326+00:00",
+    "last_seen_at": "2026-09-16T16:32:51.036834+00:00",
     "source": "marktplaats-html",
     "query": "jbl vintage speaker",
     "category_hint": "Audio",
@@ -11083,7 +11150,7 @@
   {
     "id": "marktplaats-html:m2441309140",
     "found_at": "2026-09-10T22:13:09.971877+00:00",
-    "last_seen_at": "2026-09-16T16:16:56.861684+00:00",
+    "last_seen_at": "2026-09-16T16:32:25.022650+00:00",
     "source": "marktplaats-html",
     "query": "steam deck",
     "category_hint": "Spelcomputers",
@@ -11706,7 +11773,7 @@
   {
     "id": "marktplaats-html:m2441203708",
     "found_at": "2026-09-10T15:14:17.078243+00:00",
-    "last_seen_at": "2026-09-16T16:17:42.064888+00:00",
+    "last_seen_at": "2026-09-16T16:33:13.948207+00:00",
     "source": "marktplaats-html",
     "query": "jbl speaker defect",
     "category_hint": "Audio",
@@ -12671,7 +12738,7 @@
   {
     "id": "marktplaats-html:m2436066984",
     "found_at": "2026-09-10T08:35:02.095739+00:00",
-    "last_seen_at": "2026-09-16T16:17:20.436680+00:00",
+    "last_seen_at": "2026-09-16T16:32:51.037652+00:00",
     "source": "marktplaats-html",
     "query": "jbl vintage speaker",
     "category_hint": "Audio",
@@ -12697,7 +12764,7 @@
   {
     "id": "marktplaats-html:m2439476231",
     "found_at": "2026-09-10T08:35:02.095121+00:00",
-    "last_seen_at": "2026-09-16T16:17:20.436365+00:00",
+    "last_seen_at": "2026-09-16T16:32:51.037471+00:00",
     "source": "marktplaats-html",
     "query": "jbl vintage speaker",
     "category_hint": "Audio",
@@ -12723,7 +12790,7 @@
   {
     "id": "marktplaats-html:m2433752328",
     "found_at": "2026-09-10T08:34:58.869242+00:00",
-    "last_seen_at": "2026-09-16T16:17:17.512580+00:00",
+    "last_seen_at": "2026-09-16T16:32:47.791119+00:00",
     "source": "marktplaats-html",
     "query": "sennheiser mkh",
     "category_hint": "Audio",
@@ -13130,7 +13197,7 @@
   {
     "id": "marktplaats-html:a1530795066",
     "found_at": "2026-09-10T03:19:39.721242+00:00",
-    "last_seen_at": "2026-09-16T16:17:29.498114+00:00",
+    "last_seen_at": "2026-09-16T16:33:00.369360+00:00",
     "source": "marktplaats-html",
     "query": "tannoy speaker",
     "category_hint": "Audio",
@@ -13750,7 +13817,7 @@
   {
     "id": "marktplaats-html:m2440850507",
     "found_at": "2026-09-09T15:15:22.810313+00:00",
-    "last_seen_at": "2026-09-16T16:17:26.680803+00:00",
+    "last_seen_at": "2026-09-16T16:32:57.617645+00:00",
     "source": "marktplaats-html",
     "query": "kef vintage speaker",
     "category_hint": "Audio",
@@ -14707,13 +14774,13 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series S 512GB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (18 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (18 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 18,
+      "source": "Marktplaats profiel (19 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (19 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 19,
       "asking_price": 359.98,
       "expected_resale": 246.28,
       "market_low": 202.22,
-      "market_high": 270.81,
+      "market_high": 269.87,
       "fees": 0.0,
       "risk_reserve": 5.32,
       "travel_cost": 0.0,
@@ -14746,7 +14813,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 18,
+      "sample_count": 19,
       "median_asking": 275.0
     },
     "repair": {
@@ -14913,7 +14980,7 @@
   {
     "id": "marktplaats-html:m2440590221",
     "found_at": "2026-09-08T21:24:46.535966+00:00",
-    "last_seen_at": "2026-09-16T16:16:59.958159+00:00",
+    "last_seen_at": "2026-09-16T16:32:28.011664+00:00",
     "source": "marktplaats-html",
     "query": "xbox series x",
     "category_hint": "Spelcomputers",
@@ -15155,7 +15222,7 @@
   {
     "id": "marktplaats-html:m2440534433",
     "found_at": "2026-09-08T17:57:38.034491+00:00",
-    "last_seen_at": "2026-09-16T16:17:26.681406+00:00",
+    "last_seen_at": "2026-09-16T16:32:57.617983+00:00",
     "source": "marktplaats-html",
     "query": "kef vintage speaker",
     "category_hint": "Audio",
@@ -15488,13 +15555,13 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series S 512GB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (18 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (18 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 18,
+      "source": "Marktplaats profiel (19 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (19 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 19,
       "asking_price": 250.0,
       "expected_resale": 246.28,
       "market_low": 202.22,
-      "market_high": 270.81,
+      "market_high": 269.87,
       "fees": 0.0,
       "risk_reserve": 5.32,
       "travel_cost": 0.0,
@@ -15527,7 +15594,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 18,
+      "sample_count": 19,
       "median_asking": 275.0
     },
     "repair": {
@@ -15616,7 +15683,7 @@
   {
     "id": "marktplaats-html:m2440465484",
     "found_at": "2026-09-08T15:03:26.811242+00:00",
-    "last_seen_at": "2026-09-16T16:17:17.512951+00:00",
+    "last_seen_at": "2026-09-16T16:32:47.791329+00:00",
     "source": "marktplaats-html",
     "query": "sennheiser mkh",
     "category_hint": "Audio",
@@ -15824,7 +15891,7 @@
   {
     "id": "marktplaats-html:m2440418284",
     "found_at": "2026-09-08T13:16:26.588658+00:00",
-    "last_seen_at": "2026-09-16T16:17:42.064592+00:00",
+    "last_seen_at": "2026-09-16T16:33:13.948044+00:00",
     "source": "marktplaats-html",
     "query": "jbl speaker defect",
     "category_hint": "Audio",
@@ -16343,13 +16410,13 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series S 512GB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (18 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (18 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 18,
+      "source": "Marktplaats profiel (19 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (19 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 19,
       "asking_price": 399.95,
       "expected_resale": 246.28,
       "market_low": 202.22,
-      "market_high": 270.81,
+      "market_high": 269.87,
       "fees": 0.0,
       "risk_reserve": 5.32,
       "travel_cost": 0.0,
@@ -16382,7 +16449,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 18,
+      "sample_count": 19,
       "median_asking": 275.0
     },
     "repair": {
@@ -16540,13 +16607,13 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series S 512GB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (18 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (18 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 18,
+      "source": "Marktplaats profiel (19 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (19 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 19,
       "asking_price": 296.98,
       "expected_resale": 246.28,
       "market_low": 202.22,
-      "market_high": 270.81,
+      "market_high": 269.87,
       "fees": 0.0,
       "risk_reserve": 5.32,
       "travel_cost": 0.0,
@@ -16579,7 +16646,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 18,
+      "sample_count": 19,
       "median_asking": 275.0
     },
     "repair": {
@@ -17804,7 +17871,7 @@
   {
     "id": "marktplaats-html:m2439954093",
     "found_at": "2026-09-07T08:15:54.571992+00:00",
-    "last_seen_at": "2026-09-16T16:17:17.511927+00:00",
+    "last_seen_at": "2026-09-16T16:32:47.790716+00:00",
     "source": "marktplaats-html",
     "query": "sennheiser mkh",
     "category_hint": "Audio",
@@ -17899,13 +17966,13 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series S 512GB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (18 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (18 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 18,
+      "source": "Marktplaats profiel (19 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (19 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 19,
       "asking_price": 339.98,
       "expected_resale": 246.28,
       "market_low": 202.22,
-      "market_high": 270.81,
+      "market_high": 269.87,
       "fees": 0.0,
       "risk_reserve": 5.32,
       "travel_cost": 0.0,
@@ -17938,7 +18005,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 18,
+      "sample_count": 19,
       "median_asking": 275.0
     },
     "repair": {
@@ -18799,7 +18866,7 @@
   {
     "id": "marktplaats-html:m2439721702",
     "found_at": "2026-09-06T13:48:30.908181+00:00",
-    "last_seen_at": "2026-09-16T16:17:38.965230+00:00",
+    "last_seen_at": "2026-09-16T16:33:10.714308+00:00",
     "source": "marktplaats-html",
     "query": "fluke defect",
     "category_hint": "Meetapparatuur",
@@ -19829,7 +19896,7 @@
   {
     "id": "marktplaats-html:m2439492288",
     "found_at": "2026-09-06T00:23:01.232882+00:00",
-    "last_seen_at": "2026-09-16T16:17:11.932377+00:00",
+    "last_seen_at": "2026-09-16T16:32:41.646993+00:00",
     "source": "marktplaats-html",
     "query": "tektronix",
     "category_hint": "Meetapparatuur",
@@ -20028,13 +20095,13 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series S 512GB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (18 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (18 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 18,
+      "source": "Marktplaats profiel (19 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (19 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 19,
       "asking_price": 225.0,
       "expected_resale": 246.28,
       "market_low": 202.22,
-      "market_high": 270.81,
+      "market_high": 269.87,
       "fees": 0.0,
       "risk_reserve": 30.32,
       "travel_cost": 0.0,
@@ -20069,7 +20136,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 18,
+      "sample_count": 19,
       "median_asking": 275.0
     },
     "repair": {
@@ -20596,13 +20663,13 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series S 512GB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (18 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (18 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 18,
+      "source": "Marktplaats profiel (19 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (19 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 19,
       "asking_price": 250.0,
       "expected_resale": 246.28,
       "market_low": 202.22,
-      "market_high": 270.81,
+      "market_high": 269.87,
       "fees": 0.0,
       "risk_reserve": 5.32,
       "travel_cost": 0.0,
@@ -20635,7 +20702,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 18,
+      "sample_count": 19,
       "median_asking": 275.0
     },
     "repair": {
@@ -20663,13 +20730,13 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series S 512GB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (18 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (18 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 18,
+      "source": "Marktplaats profiel (19 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (19 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 19,
       "asking_price": 250.0,
       "expected_resale": 246.28,
       "market_low": 202.22,
-      "market_high": 270.81,
+      "market_high": 269.87,
       "fees": 0.0,
       "risk_reserve": 5.32,
       "travel_cost": 0.0,
@@ -20702,7 +20769,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 18,
+      "sample_count": 19,
       "median_asking": 275.0
     },
     "repair": {
@@ -21032,13 +21099,13 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series S 512GB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (18 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (18 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 18,
+      "source": "Marktplaats profiel (19 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (19 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 19,
       "asking_price": 296.98,
       "expected_resale": 246.28,
       "market_low": 202.22,
-      "market_high": 270.81,
+      "market_high": 269.87,
       "fees": 0.0,
       "risk_reserve": 5.32,
       "travel_cost": 0.0,
@@ -21071,7 +21138,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 18,
+      "sample_count": 19,
       "median_asking": 275.0
     },
     "repair": {
@@ -21457,13 +21524,13 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series S 512GB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (18 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (18 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 18,
+      "source": "Marktplaats profiel (19 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (19 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 19,
       "asking_price": 260.0,
       "expected_resale": 246.28,
       "market_low": 202.22,
-      "market_high": 270.81,
+      "market_high": 269.87,
       "fees": 0.0,
       "risk_reserve": 5.32,
       "travel_cost": 0.0,
@@ -21496,7 +21563,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 18,
+      "sample_count": 19,
       "median_asking": 275.0
     },
     "repair": {
@@ -23825,13 +23892,13 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series S 512GB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (18 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (18 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 18,
+      "source": "Marktplaats profiel (19 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (19 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 19,
       "asking_price": 260.0,
       "expected_resale": 246.28,
       "market_low": 202.22,
-      "market_high": 270.81,
+      "market_high": 269.87,
       "fees": 0.0,
       "risk_reserve": 5.32,
       "travel_cost": 0.0,
@@ -23864,7 +23931,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 18,
+      "sample_count": 19,
       "median_asking": 275.0
     },
     "repair": {
@@ -25934,13 +26001,13 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series S 512GB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (18 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (18 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 18,
+      "source": "Marktplaats profiel (19 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (19 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 19,
       "asking_price": 200.0,
       "expected_resale": 224.55,
       "market_low": 184.37,
-      "market_high": 246.92,
+      "market_high": 246.06,
       "fees": 0.0,
       "risk_reserve": 4.85,
       "travel_cost": 0.0,
@@ -25973,7 +26040,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 18,
+      "sample_count": 19,
       "median_asking": 275.0
     },
     "repair": {
@@ -26129,7 +26196,7 @@
   {
     "id": "marktplaats-html:a1513171378",
     "found_at": "2026-09-02T09:15:26.696347+00:00",
-    "last_seen_at": "2026-09-16T16:17:44.866983+00:00",
+    "last_seen_at": "2026-09-16T16:33:16.681657+00:00",
     "source": "marktplaats-html",
     "query": "bang olufsen defect",
     "category_hint": "Audio",
@@ -26155,7 +26222,7 @@
   {
     "id": "marktplaats-html:a1512620259",
     "found_at": "2026-09-02T09:15:26.696036+00:00",
-    "last_seen_at": "2026-09-16T16:17:44.866656+00:00",
+    "last_seen_at": "2026-09-16T16:33:16.681482+00:00",
     "source": "marktplaats-html",
     "query": "bang olufsen defect",
     "category_hint": "Audio",
@@ -26181,7 +26248,7 @@
   {
     "id": "marktplaats-html:a1045761226",
     "found_at": "2026-09-02T09:15:26.695698+00:00",
-    "last_seen_at": "2026-09-16T16:17:44.866340+00:00",
+    "last_seen_at": "2026-09-16T16:33:16.681298+00:00",
     "source": "marktplaats-html",
     "query": "bang olufsen defect",
     "category_hint": "Audio",
@@ -26207,7 +26274,7 @@
   {
     "id": "marktplaats-html:a1512619081",
     "found_at": "2026-09-02T09:15:26.695407+00:00",
-    "last_seen_at": "2026-09-16T16:17:44.866043+00:00",
+    "last_seen_at": "2026-09-16T16:33:16.681130+00:00",
     "source": "marktplaats-html",
     "query": "bang olufsen defect",
     "category_hint": "Audio",
@@ -26233,7 +26300,7 @@
   {
     "id": "marktplaats-html:a1512681175",
     "found_at": "2026-09-02T09:15:26.695050+00:00",
-    "last_seen_at": "2026-09-16T16:17:44.865666+00:00",
+    "last_seen_at": "2026-09-16T16:33:16.680894+00:00",
     "source": "marktplaats-html",
     "query": "bang olufsen defect",
     "category_hint": "Audio",
@@ -26381,7 +26448,7 @@
   {
     "id": "marktplaats-html:a1519149645",
     "found_at": "2026-09-02T09:15:23.642176+00:00",
-    "last_seen_at": "2026-09-16T16:17:42.063529+00:00",
+    "last_seen_at": "2026-09-16T16:33:13.947412+00:00",
     "source": "marktplaats-html",
     "query": "jbl speaker defect",
     "category_hint": "Audio",
@@ -26407,7 +26474,7 @@
   {
     "id": "marktplaats-html:m2436474820",
     "found_at": "2026-09-02T09:15:20.807241+00:00",
-    "last_seen_at": "2026-09-16T16:17:38.965493+00:00",
+    "last_seen_at": "2026-09-16T16:33:10.714467+00:00",
     "source": "marktplaats-html",
     "query": "fluke defect",
     "category_hint": "Meetapparatuur",
@@ -26501,7 +26568,7 @@
   {
     "id": "marktplaats-html:a1524865551",
     "found_at": "2026-09-02T09:15:20.806402+00:00",
-    "last_seen_at": "2026-09-16T16:17:38.964611+00:00",
+    "last_seen_at": "2026-09-16T16:33:10.713968+00:00",
     "source": "marktplaats-html",
     "query": "fluke defect",
     "category_hint": "Meetapparatuur",
@@ -26527,7 +26594,7 @@
   {
     "id": "marktplaats-html:a1517574015",
     "found_at": "2026-09-02T09:15:18.276079+00:00",
-    "last_seen_at": "2026-09-16T16:17:35.729593+00:00",
+    "last_seen_at": "2026-09-16T16:33:07.297148+00:00",
     "source": "marktplaats-html",
     "query": "festool defect",
     "category_hint": "Gereedschap",
@@ -26553,7 +26620,7 @@
   {
     "id": "marktplaats-html:a1514475919",
     "found_at": "2026-09-02T09:15:18.275076+00:00",
-    "last_seen_at": "2026-09-16T16:17:35.728626+00:00",
+    "last_seen_at": "2026-09-16T16:33:07.296579+00:00",
     "source": "marktplaats-html",
     "query": "festool defect",
     "category_hint": "Gereedschap",
@@ -26579,7 +26646,7 @@
   {
     "id": "marktplaats-html:a1521778985",
     "found_at": "2026-09-02T09:15:18.274671+00:00",
-    "last_seen_at": "2026-09-16T16:17:35.728981+00:00",
+    "last_seen_at": "2026-09-16T16:33:07.296791+00:00",
     "source": "marktplaats-html",
     "query": "festool defect",
     "category_hint": "Gereedschap",
@@ -26645,7 +26712,7 @@
   {
     "id": "marktplaats-html:a1516895454",
     "found_at": "2026-09-02T09:15:15.271652+00:00",
-    "last_seen_at": "2026-09-16T16:17:32.545227+00:00",
+    "last_seen_at": "2026-09-16T16:33:03.892999+00:00",
     "source": "marktplaats-html",
     "query": "ps5 defect",
     "category_hint": "Spelcomputers",
@@ -27002,7 +27069,7 @@
   {
     "id": "marktplaats-html:a1529176214",
     "found_at": "2026-09-02T07:13:11.240258+00:00",
-    "last_seen_at": "2026-09-16T16:17:09.166250+00:00",
+    "last_seen_at": "2026-09-16T16:32:38.406872+00:00",
     "source": "marktplaats-html",
     "query": "fluke",
     "category_hint": "Meetapparatuur",
@@ -27879,7 +27946,7 @@
   {
     "id": "marktplaats-html:a1215170017",
     "found_at": "2026-09-02T04:51:25.635436+00:00",
-    "last_seen_at": "2026-09-16T16:17:23.502612+00:00",
+    "last_seen_at": "2026-09-16T16:32:54.368245+00:00",
     "source": "marktplaats-html",
     "query": "bang olufsen speaker",
     "category_hint": "Audio",
@@ -28473,7 +28540,7 @@
   {
     "id": "marktplaats-html:m2434415000",
     "found_at": "2026-09-02T04:51:19.073784+00:00",
-    "last_seen_at": "2026-09-16T16:17:17.513227+00:00",
+    "last_seen_at": "2026-09-16T16:32:47.791491+00:00",
     "source": "marktplaats-html",
     "query": "sennheiser mkh",
     "category_hint": "Audio",
@@ -28563,7 +28630,7 @@
   {
     "id": "marktplaats-html:m2434251249",
     "found_at": "2026-09-02T04:51:19.073462+00:00",
-    "last_seen_at": "2026-09-16T16:17:17.512259+00:00",
+    "last_seen_at": "2026-09-16T16:32:47.790923+00:00",
     "source": "marktplaats-html",
     "query": "sennheiser mkh",
     "category_hint": "Audio",
@@ -29655,7 +29722,7 @@
     "result_status": "excluded",
     "is_deal": false,
     "exclusion_reason": "Dienst/gezocht-advertentie gedetecteerd: reparatie",
-    "last_seen_at": "2026-09-16T16:17:32.546088+00:00",
+    "last_seen_at": "2026-09-16T16:33:03.893527+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
     "condition": "onderdelen/defect",
@@ -30309,7 +30376,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "valuation_samples": 0,
-    "last_seen_at": "2026-09-16T16:17:14.954366+00:00",
+    "last_seen_at": "2026-09-16T16:32:45.187222+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
     "condition": "nieuw",
@@ -30575,7 +30642,7 @@
     "result_status": "scored",
     "is_deal": false,
     "exclusion_reason": null,
-    "last_seen_at": "2026-09-16T16:17:14.953772+00:00",
+    "last_seen_at": "2026-09-16T16:32:45.186879+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
     "condition": "nieuw",
@@ -30781,7 +30848,7 @@
     "result_status": "unrecognized",
     "is_deal": false,
     "exclusion_reason": null,
-    "last_seen_at": "2026-09-16T16:17:09.167477+00:00",
+    "last_seen_at": "2026-09-16T16:32:38.407598+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
     "condition": "nieuw",
@@ -30835,7 +30902,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "valuation_samples": 0,
-    "last_seen_at": "2026-09-16T16:17:09.167215+00:00",
+    "last_seen_at": "2026-09-16T16:32:38.407451+00:00",
     "previous_asking_price": 114.89,
     "price_drop_percent": 0.0,
     "condition": "nieuw",
@@ -30862,7 +30929,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "valuation_samples": 0,
-    "last_seen_at": "2026-09-16T16:17:38.964181+00:00",
+    "last_seen_at": "2026-09-16T16:33:10.713728+00:00",
     "previous_asking_price": 1799.99,
     "price_drop_percent": 0.0,
     "condition": "nieuw",
@@ -31008,7 +31075,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "valuation_samples": 0,
-    "last_seen_at": "2026-09-16T16:17:35.729285+00:00",
+    "last_seen_at": "2026-09-16T16:33:07.296971+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
     "condition": "nieuw",
@@ -31244,13 +31311,13 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series S 512GB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (18 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (18 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 18,
+      "source": "Marktplaats profiel (19 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (19 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 19,
       "asking_price": 215.0,
       "expected_resale": 224.55,
       "market_low": 184.37,
-      "market_high": 246.92,
+      "market_high": 246.06,
       "fees": 0.0,
       "risk_reserve": 4.85,
       "travel_cost": 0.0,
@@ -31283,7 +31350,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 18,
+      "sample_count": 19,
       "median_asking": 275.0
     },
     "repair": {
@@ -31489,7 +31556,7 @@
     "result_status": "excluded",
     "is_deal": false,
     "exclusion_reason": "Controller/accessoire in plaats van console",
-    "last_seen_at": "2026-09-16T16:16:59.959456+00:00",
+    "last_seen_at": "2026-09-16T16:32:28.012039+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
     "condition": "zo goed als nieuw",
@@ -31566,13 +31633,13 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series S 512GB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (18 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (18 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 18,
+      "source": "Marktplaats profiel (19 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (19 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 19,
       "asking_price": 300.0,
       "expected_resale": 246.28,
       "market_low": 202.22,
-      "market_high": 270.81,
+      "market_high": 269.87,
       "fees": 0.0,
       "risk_reserve": 30.32,
       "travel_cost": 0.0,
@@ -31606,12 +31673,12 @@
     "result_status": "scored",
     "is_deal": false,
     "exclusion_reason": null,
-    "last_seen_at": "2026-09-16T16:16:59.957350+00:00",
+    "last_seen_at": "2026-09-16T16:32:28.011184+00:00",
     "previous_asking_price": 250.0,
     "price_drop_percent": 0.0,
     "condition": "zo goed als nieuw",
     "market_profile": {
-      "sample_count": 18,
+      "sample_count": 19,
       "median_asking": 275.0
     },
     "repair": {
@@ -31846,7 +31913,7 @@
     "result_status": "excluded",
     "is_deal": false,
     "exclusion_reason": "Accessoire/dienst gedetecteerd: dock",
-    "last_seen_at": "2026-09-16T16:16:56.858593+00:00",
+    "last_seen_at": "2026-09-16T16:32:25.020852+00:00",
     "previous_asking_price": 67.95,
     "price_drop_percent": 0.0,
     "condition": "nieuw",
@@ -32713,7 +32780,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "valuation_samples": 0,
-    "last_seen_at": "2026-09-16T16:16:53.942500+00:00",
+    "last_seen_at": "2026-09-16T16:32:22.159923+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
     "condition": "zo goed als nieuw",
@@ -33068,7 +33135,7 @@
     "result_status": "excluded",
     "is_deal": false,
     "exclusion_reason": "Dienst/gezocht-advertentie gedetecteerd: gezocht",
-    "last_seen_at": "2026-09-16T16:17:32.547442+00:00",
+    "last_seen_at": "2026-09-16T16:33:03.894308+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
     "condition": "nieuw",
@@ -33383,7 +33450,7 @@
     "result_status": "excluded",
     "is_deal": false,
     "exclusion_reason": "Game/software in plaats van console",
-    "last_seen_at": "2026-09-16T16:16:51.102949+00:00",
+    "last_seen_at": "2026-09-16T16:32:19.199457+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
     "condition": "nieuw",
@@ -33435,7 +33502,7 @@
     "result_status": "excluded",
     "is_deal": false,
     "exclusion_reason": "Dienst/gezocht-advertentie gedetecteerd: onderhoud service",
-    "last_seen_at": "2026-09-16T16:16:51.100068+00:00",
+    "last_seen_at": "2026-09-16T16:32:19.197601+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
     "condition": "goed",
