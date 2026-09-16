@@ -11152,5 +11152,15 @@
       "asking_low": 224.99,
       "asking_high": 224.99
     }
+  ],
+  "Tannoy MERCURY MX1 LIGHT": [
+    {
+      "at": "2026-09-16T11:44:02.896960+00:00",
+      "sample_count": 1,
+      "median_asking": 50.0,
+      "estimated_resale": 44.5,
+      "asking_low": 50.0,
+      "asking_high": 50.0
+    }
   ]
 }
