@@ -11096,5 +11096,15 @@
       "asking_low": 80.0,
       "asking_high": 80.0
     }
+  ],
+  "Makita HAMERBOOR 28 MM": [
+    {
+      "at": "2026-09-16T04:33:31.110277+00:00",
+      "sample_count": 1,
+      "median_asking": 40.0,
+      "estimated_resale": 35.6,
+      "asking_low": 40.0,
+      "asking_high": 40.0
+    }
   ]
 }
