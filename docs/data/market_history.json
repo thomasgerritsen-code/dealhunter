@@ -11043,12 +11043,12 @@
       "asking_high": 80.0
     },
     {
-      "at": "2026-09-16T00:19:06.044768+00:00",
+      "at": "2026-09-16T07:47:08.417768+00:00",
       "sample_count": 1,
-      "median_asking": 80.0,
-      "estimated_resale": 71.2,
-      "asking_low": 80.0,
-      "asking_high": 80.0
+      "median_asking": 60.0,
+      "estimated_resale": 53.4,
+      "asking_low": 60.0,
+      "asking_high": 60.0
     }
   ],
   "JBL CHARGE 3 KLEINE": [
@@ -11123,6 +11123,16 @@
       "estimated_resale": 222.5,
       "asking_low": 250.0,
       "asking_high": 250.0
+    }
+  ],
+  "Makita DDF484 ACCU SCHROEFBOORMACHINE": [
+    {
+      "at": "2026-09-16T07:47:08.417768+00:00",
+      "sample_count": 1,
+      "median_asking": 59.99,
+      "estimated_resale": 53.39,
+      "asking_low": 59.99,
+      "asking_high": 59.99
     }
   ]
 }
