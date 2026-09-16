@@ -11162,5 +11162,15 @@
       "asking_low": 50.0,
       "asking_high": 50.0
     }
+  ],
+  "Tektronix EN PHILIPS SCOPEPROBES": [
+    {
+      "at": "2026-09-16T15:14:49.053239+00:00",
+      "sample_count": 1,
+      "median_asking": 20.0,
+      "estimated_resale": 18.0,
+      "asking_low": 20.0,
+      "asking_high": 20.0
+    }
   ]
 }
