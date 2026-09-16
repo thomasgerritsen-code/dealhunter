@@ -11134,5 +11134,15 @@
       "asking_low": 59.99,
       "asking_high": 59.99
     }
+  ],
+  "Fluke 561 HVAC INFRARED": [
+    {
+      "at": "2026-09-16T09:33:47.046536+00:00",
+      "sample_count": 1,
+      "median_asking": 224.99,
+      "estimated_resale": 202.49,
+      "asking_low": 224.99,
+      "asking_high": 224.99
+    }
   ]
 }
