@@ -12252,5 +12252,15 @@
       "asking_low": 50.0,
       "asking_high": 50.0
     }
+  ],
+  "Makita DF457D JV183D": [
+    {
+      "at": "2026-09-17T19:26:46.298551+00:00",
+      "sample_count": 1,
+      "median_asking": 190.0,
+      "estimated_resale": 169.1,
+      "asking_low": 190.0,
+      "asking_high": 190.0
+    }
   ]
 }
