@@ -301,12 +301,12 @@
       "asking_high": 600.0
     },
     {
-      "at": "2026-09-17T00:18:46.969946+00:00",
-      "sample_count": 38,
-      "median_asking": 450.0,
-      "estimated_resale": 414.0,
-      "asking_low": 291.0,
-      "asking_high": 600.0
+      "at": "2026-09-17T14:16:06.614722+00:00",
+      "sample_count": 42,
+      "median_asking": 462.5,
+      "estimated_resale": 425.5,
+      "asking_low": 303.0,
+      "asking_high": 611.98
     }
   ],
   "Festool DECOUPEERZAAG 18V CARVEX": [
@@ -1707,12 +1707,12 @@
       "asking_high": 260.98
     },
     {
-      "at": "2026-09-17T13:59:06.270049+00:00",
+      "at": "2026-09-17T14:16:06.614722+00:00",
       "sample_count": 4,
-      "median_asking": 262.48,
-      "estimated_resale": 241.48,
-      "asking_low": 222.99,
-      "asking_high": 280.43
+      "median_asking": 214.99,
+      "estimated_resale": 197.79,
+      "asking_low": 116.99,
+      "asking_high": 260.98
     }
   ],
   "Nintendo Switch (variant onbekend)": [
