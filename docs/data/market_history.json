@@ -12242,5 +12242,15 @@
       "asking_low": 150.0,
       "asking_high": 150.0
     }
+  ],
+  "Tektronix 148 INSERTION PROFESSIONEEL": [
+    {
+      "at": "2026-09-17T15:53:19.792419+00:00",
+      "sample_count": 1,
+      "median_asking": 50.0,
+      "estimated_resale": 45.0,
+      "asking_low": 50.0,
+      "asking_high": 50.0
+    }
   ]
 }
