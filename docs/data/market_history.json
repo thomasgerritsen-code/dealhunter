@@ -12222,5 +12222,15 @@
       "asking_low": 400.0,
       "asking_high": 400.0
     }
+  ],
+  "Tannoy OCV6": [
+    {
+      "at": "2026-09-17T07:59:27.975313+00:00",
+      "sample_count": 1,
+      "median_asking": 300.0,
+      "estimated_resale": 267.0,
+      "asking_low": 300.0,
+      "asking_high": 300.0
+    }
   ]
 }
