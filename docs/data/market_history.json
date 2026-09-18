@@ -13378,5 +13378,15 @@
       "asking_low": 80.0,
       "asking_high": 80.0
     }
+  ],
+  "Tannoy I5T AW LUIDSPREKERS": [
+    {
+      "at": "2026-09-18T09:27:33.504321+00:00",
+      "sample_count": 1,
+      "median_asking": 70.0,
+      "estimated_resale": 62.3,
+      "asking_low": 70.0,
+      "asking_high": 70.0
+    }
   ]
 }
