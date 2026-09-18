@@ -2,7 +2,7 @@
   {
     "id": "marktplaats-html:a1531036094",
     "found_at": "2026-09-15T14:14:47.303504+00:00",
-    "last_seen_at": "2026-09-18T06:52:25.182663+00:00",
+    "last_seen_at": "2026-09-18T07:00:49.899513+00:00",
     "source": "marktplaats-html",
     "query": "ps5",
     "category_hint": "Spelcomputers",
@@ -828,7 +828,7 @@
   {
     "id": "marktplaats-html:m2443793961",
     "found_at": "2026-09-17T19:40:49.744172+00:00",
-    "last_seen_at": "2026-09-18T06:52:51.211675+00:00",
+    "last_seen_at": "2026-09-18T07:01:16.145962+00:00",
     "source": "marktplaats-html",
     "query": "shure sm7b",
     "category_hint": "Audio",
@@ -845,13 +845,13 @@
     "analysis": {
       "matched_product": "Shure SM7B",
       "category": "Audio",
-      "source": "Marktplaats profiel (18 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (18 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 18,
+      "source": "Marktplaats profiel (19 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (19 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 19,
       "asking_price": 174.99,
       "expected_resale": 288.17,
-      "market_low": 229.6,
-      "market_high": 357.23,
+      "market_low": 230.55,
+      "market_high": 356.75,
       "fees": 0.0,
       "risk_reserve": 5.53,
       "travel_cost": 0.0,
@@ -879,17 +879,17 @@
         "risk_penalty": 3.2
       },
       "note": "Marktwaardes op basis van vraagprijzen zijn schattingen, geen gegarandeerde gerealiseerde verkoopprijzen.",
-      "quick_sale_value": 229.6,
+      "quick_sale_value": 230.55,
       "realistic_market_value": 288.17,
-      "optimistic_value": 357.23,
+      "optimistic_value": 356.75,
       "source_agreement_percent": null,
       "valuation_sources": [
         {
           "source": "Marktplaats",
           "value": 266.11,
-          "low": 172.66,
-          "high": 354.22,
-          "samples": 18,
+          "low": 174.43,
+          "high": 353.33,
+          "samples": 19,
           "kind": "actieve vraagprijzen"
         },
         {
@@ -907,7 +907,7 @@
     "is_deal": true,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 18,
+      "sample_count": 19,
       "median_asking": 299.0
     },
     "repair": {
@@ -935,13 +935,13 @@
     "analysis": {
       "matched_product": "Shure SM7B",
       "category": "Audio",
-      "source": "Marktplaats profiel (18 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (18 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 18,
+      "source": "Marktplaats profiel (19 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (19 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 19,
       "asking_price": 150.0,
       "expected_resale": 250.47,
-      "market_low": 199.56,
-      "market_high": 310.49,
+      "market_low": 200.39,
+      "market_high": 310.07,
       "fees": 0.0,
       "risk_reserve": 4.81,
       "travel_cost": 0.0,
@@ -969,17 +969,17 @@
         "risk_penalty": 3.2
       },
       "note": "Marktwaardes op basis van vraagprijzen zijn schattingen, geen gegarandeerde gerealiseerde verkoopprijzen.",
-      "quick_sale_value": 199.56,
+      "quick_sale_value": 200.39,
       "realistic_market_value": 250.47,
-      "optimistic_value": 310.49,
+      "optimistic_value": 310.07,
       "source_agreement_percent": null,
       "valuation_sources": [
         {
           "source": "Marktplaats",
           "value": 266.11,
-          "low": 172.66,
-          "high": 354.22,
-          "samples": 18,
+          "low": 174.43,
+          "high": 353.33,
+          "samples": 19,
           "kind": "actieve vraagprijzen"
         },
         {
@@ -997,7 +997,7 @@
     "is_deal": true,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 18,
+      "sample_count": 19,
       "median_asking": 299.0
     },
     "repair": {

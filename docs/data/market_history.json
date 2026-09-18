@@ -13368,5 +13368,15 @@
       "asking_low": 50.0,
       "asking_high": 50.0
     }
+  ],
+  "JBL XTREME 3 BEKIJKEN": [
+    {
+      "at": "2026-09-18T07:01:48.261783+00:00",
+      "sample_count": 1,
+      "median_asking": 80.0,
+      "estimated_resale": 71.2,
+      "asking_low": 80.0,
+      "asking_high": 80.0
+    }
   ]
 }
