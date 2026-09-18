@@ -1,6 +1,6 @@
 {
   "mode": "marktplaats-html-scraper-v1.2-repair-hunter",
-  "last_checked": "2026-09-18T08:58:22.243517+00:00",
+  "last_checked": "2026-09-18T09:13:59.627896+00:00",
   "queries_configured": 19,
   "links_fetched": 95,
   "checked_ads": 95,
@@ -11,11 +11,11 @@
   "new_deals": 0,
   "excluded_results": 160,
   "excluded_in_current_scan": 9,
-  "recognized_unvalued": 279,
+  "recognized_unvalued": 280,
   "unpriced_candidates": 231,
   "unrecognized_results": 128,
   "learned_models": 136,
-  "total_results": 1010,
+  "total_results": 1011,
   "total_deals": 17,
   "smart_alerts_sent": 0,
   "errors": [],
@@ -30,6 +30,6 @@
     "Audiofanzine publieke classifieds"
   ],
   "valuation_source_errors": [],
-  "repair_candidates": 45,
+  "repair_candidates": 46,
   "repair_deals": 0
 }
