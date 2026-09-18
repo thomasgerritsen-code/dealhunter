@@ -7305,6 +7305,14 @@
       "estimated_resale": 106.79,
       "asking_low": 119.99,
       "asking_high": 119.99
+    },
+    {
+      "at": "2026-09-18T05:13:22.015177+00:00",
+      "sample_count": 1,
+      "median_asking": 119.99,
+      "estimated_resale": 106.79,
+      "asking_low": 119.99,
+      "asking_high": 119.99
     }
   ],
   "Festool C12 ACCU BOOR": [
@@ -7318,6 +7326,14 @@
     },
     {
       "at": "2026-09-06T17:48:56.881263+00:00",
+      "sample_count": 1,
+      "median_asking": 189.99,
+      "estimated_resale": 169.09,
+      "asking_low": 189.99,
+      "asking_high": 189.99
+    },
+    {
+      "at": "2026-09-18T05:13:22.015177+00:00",
       "sample_count": 1,
       "median_asking": 189.99,
       "estimated_resale": 169.09,
@@ -13341,6 +13357,16 @@
       "estimated_resale": 169.1,
       "asking_low": 190.0,
       "asking_high": 190.0
+    }
+  ],
+  "Festool DTS 400 DEFECT": [
+    {
+      "at": "2026-09-18T05:13:22.015177+00:00",
+      "sample_count": 1,
+      "median_asking": 50.0,
+      "estimated_resale": 44.5,
+      "asking_low": 50.0,
+      "asking_high": 50.0
     }
   ]
 }
