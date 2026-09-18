@@ -13418,5 +13418,15 @@
       "asking_low": 15.0,
       "asking_high": 15.0
     }
+  ],
+  "Tannoy TITAN BOEKENPLANK LUIDSPREKERS": [
+    {
+      "at": "2026-09-18T18:15:49.293905+00:00",
+      "sample_count": 1,
+      "median_asking": 55.0,
+      "estimated_resale": 48.95,
+      "asking_low": 55.0,
+      "asking_high": 55.0
+    }
   ]
 }
