@@ -13408,5 +13408,15 @@
       "asking_low": 69.99,
       "asking_high": 69.99
     }
+  ],
+  "Makita MULTIBOOR O6": [
+    {
+      "at": "2026-09-18T15:42:32.329928+00:00",
+      "sample_count": 1,
+      "median_asking": 15.0,
+      "estimated_resale": 13.35,
+      "asking_low": 15.0,
+      "asking_high": 15.0
+    }
   ]
 }
