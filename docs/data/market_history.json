@@ -13398,5 +13398,15 @@
       "asking_low": 995.0,
       "asking_high": 995.0
     }
+  ],
+  "JBL FLIP 7 BLUETOOTH": [
+    {
+      "at": "2026-09-18T14:58:49.189268+00:00",
+      "sample_count": 1,
+      "median_asking": 69.99,
+      "estimated_resale": 62.29,
+      "asking_low": 69.99,
+      "asking_high": 69.99
+    }
   ]
 }
