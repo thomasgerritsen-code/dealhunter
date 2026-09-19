@@ -1,8 +1,98 @@
 [
   {
+    "id": "marktplaats-html:m2444368273",
+    "found_at": "2026-09-19T12:59:02.747829+00:00",
+    "last_seen_at": "2026-09-19T12:59:02.747829+00:00",
+    "source": "marktplaats-html",
+    "query": "shure sm7b",
+    "category_hint": "Audio",
+    "title": "Shure SM7B Studiomicrofoon met standaard en kabel",
+    "description": "Bewaren in Mijn Favorieten Shure SM7B Studiomicrofoon met standaard en kabel Te koop aangeboden: een shure sm7b studiomicrofoon in uitstekende staat. Deze professionele microfoon is ideaal voor zang, spraak en instrumenten, en staat bekend om zijn warme en heldere geluidsweerg Zo goed als nieuw Ophalen of Verzenden € 249,99 Vandaag Used Products Hilversum Hilversum Bewaren in Mijn Favorieten Shure SM7B Studiomicrofoon met standaard en kabel € 249,99 Te koop aangeboden: een shure sm7b studiomicrofoon in uitstekende staat. Deze professionele microfoon is ideaal voor zang, spraak en instrumenten, en staat bekend om zijn warme en heldere geluidsweerg Zo goed als nieuw Ophalen of Verzenden Used Products Hilversum Hilversum Vandaag Bewaren in Mijn Favorieten Shure SM7B Studiomicrofoon met standaard en kabel € 249,99 Details Ophalen of Verzenden Zo goed als nieuw Nvt Studiomicrofoon Te koop aan",
+    "url": "https://www.marktplaats.nl/v/muziek-en-instrumenten/microfoons/m2444368273-shure-sm7b-studiomicrofoon-met-standaard-en-kabel",
+    "asking_price": 249.99,
+    "previous_asking_price": null,
+    "price_drop_percent": 0.0,
+    "promoted": false,
+    "matched_product": "Shure SM7B",
+    "recognition_confidence": 86,
+    "condition": "zo goed als nieuw",
+    "analysis": {
+      "matched_product": "Shure SM7B",
+      "category": "Audio",
+      "source": "Marktplaats profiel (24 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (24 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 24,
+      "asking_price": 249.99,
+      "expected_resale": 274.71,
+      "market_low": 221.59,
+      "market_high": 337.81,
+      "fees": 0.0,
+      "risk_reserve": 5.27,
+      "travel_cost": 0.0,
+      "expected_profit": 19.44,
+      "roi_percent": 7.8,
+      "discount_percent": 9.0,
+      "opening_bid": 169.56,
+      "target_buy_price": 192.68,
+      "max_buy_price": 209.43,
+      "deal_score": 49,
+      "risk_score": 16,
+      "liquidity_score": 88,
+      "confidence_percent": 81,
+      "recognition_confidence_percent": 86,
+      "market_confidence_percent": 77,
+      "verdict": "OVERSLAAN",
+      "recommendation": "NIET INTERESSANT",
+      "risk_reasons": [],
+      "score_breakdown": {
+        "discount": 5.6,
+        "profit": 1.9,
+        "roi": 1.7,
+        "liquidity": 10.6,
+        "confidence": 14.6,
+        "risk_penalty": 3.2
+      },
+      "note": "Marktwaardes op basis van vraagprijzen zijn schattingen, geen gegarandeerde gerealiseerde verkoopprijzen.",
+      "quick_sale_value": 221.59,
+      "realistic_market_value": 274.71,
+      "optimistic_value": 337.81,
+      "source_agreement_percent": null,
+      "valuation_sources": [
+        {
+          "source": "Marktplaats",
+          "value": 266.11,
+          "low": 178.0,
+          "high": 348.88,
+          "samples": 24,
+          "kind": "actieve vraagprijzen"
+        },
+        {
+          "source": "Referentiecatalogus",
+          "value": 285.0,
+          "low": 256.5,
+          "high": 313.5,
+          "samples": 0,
+          "kind": "lokale handmatige referentie"
+        }
+      ],
+      "multi_source": true
+    },
+    "result_status": "scored",
+    "is_deal": false,
+    "exclusion_reason": null,
+    "market_profile": {
+      "sample_count": 24,
+      "median_asking": 299.0
+    },
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
+  },
+  {
     "id": "marktplaats-html:a1531243866",
     "found_at": "2026-09-19T12:35:34.493877+00:00",
-    "last_seen_at": "2026-09-19T12:35:34.493877+00:00",
+    "last_seen_at": "2026-09-19T12:58:37.510278+00:00",
     "source": "marktplaats-html",
     "query": "ps5",
     "category_hint": "Spelcomputers",
@@ -28,7 +118,7 @@
   {
     "id": "marktplaats-html:m2444340882",
     "found_at": "2026-09-19T12:16:47.911685+00:00",
-    "last_seen_at": "2026-09-19T12:51:02.810854+00:00",
+    "last_seen_at": "2026-09-19T12:58:46.433416+00:00",
     "source": "marktplaats-html",
     "query": "xbox series x",
     "category_hint": "Spelcomputers",
@@ -54,7 +144,7 @@
   {
     "id": "marktplaats-html:m2444325265",
     "found_at": "2026-09-19T11:42:01.848163+00:00",
-    "last_seen_at": "2026-09-19T12:51:08.976624+00:00",
+    "last_seen_at": "2026-09-19T12:58:54.078756+00:00",
     "source": "marktplaats-html",
     "query": "makita",
     "category_hint": "Gereedschap",
@@ -80,7 +170,7 @@
   {
     "id": "marktplaats-html:m2444307626",
     "found_at": "2026-09-19T11:12:00.987983+00:00",
-    "last_seen_at": "2026-09-19T12:50:56.874309+00:00",
+    "last_seen_at": "2026-09-19T12:58:40.329148+00:00",
     "source": "marktplaats-html",
     "query": "nintendo switch oled",
     "category_hint": "Spelcomputers",
@@ -175,7 +265,7 @@
   {
     "id": "marktplaats-html:m2444285648",
     "found_at": "2026-09-19T10:40:03.387411+00:00",
-    "last_seen_at": "2026-09-19T12:51:02.810209+00:00",
+    "last_seen_at": "2026-09-19T12:58:46.432836+00:00",
     "source": "marktplaats-html",
     "query": "xbox series x",
     "category_hint": "Spelcomputers",
@@ -268,7 +358,7 @@
   {
     "id": "marktplaats-html:m2444276096",
     "found_at": "2026-09-19T10:25:14.794049+00:00",
-    "last_seen_at": "2026-09-19T12:50:56.876268+00:00",
+    "last_seen_at": "2026-09-19T12:58:40.330860+00:00",
     "source": "marktplaats-html",
     "query": "nintendo switch oled",
     "category_hint": "Spelcomputers",
@@ -335,7 +425,7 @@
   {
     "id": "marktplaats-html:m2444268375",
     "found_at": "2026-09-19T10:13:12.689228+00:00",
-    "last_seen_at": "2026-09-19T12:51:14.640086+00:00",
+    "last_seen_at": "2026-09-19T12:58:59.901398+00:00",
     "source": "marktplaats-html",
     "query": "tektronix",
     "category_hint": "Meetapparatuur",
@@ -482,7 +572,7 @@
   {
     "id": "marktplaats-html:m2444263946",
     "found_at": "2026-09-19T09:57:46.951511+00:00",
-    "last_seen_at": "2026-09-19T12:51:18.310400+00:00",
+    "last_seen_at": "2026-09-19T12:59:02.747599+00:00",
     "source": "marktplaats-html",
     "query": "shure sm7b",
     "category_hint": "Audio",
@@ -499,13 +589,13 @@
     "analysis": {
       "matched_product": "Shure SM7B",
       "category": "Audio",
-      "source": "Marktplaats profiel (23 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (23 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 23,
+      "source": "Marktplaats profiel (24 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (24 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 24,
       "asking_price": 200.0,
       "expected_resale": 288.17,
       "market_low": 232.46,
-      "market_high": 354.84,
+      "market_high": 354.37,
       "fees": 0.0,
       "risk_reserve": 5.53,
       "travel_cost": 0.0,
@@ -535,15 +625,15 @@
       "note": "Marktwaardes op basis van vraagprijzen zijn schattingen, geen gegarandeerde gerealiseerde verkoopprijzen.",
       "quick_sale_value": 232.46,
       "realistic_market_value": 288.17,
-      "optimistic_value": 354.84,
+      "optimistic_value": 354.37,
       "source_agreement_percent": null,
       "valuation_sources": [
         {
           "source": "Marktplaats",
           "value": 266.11,
-          "low": 177.99,
-          "high": 349.77,
-          "samples": 23,
+          "low": 178.0,
+          "high": 348.88,
+          "samples": 24,
           "kind": "actieve vraagprijzen"
         },
         {
@@ -561,7 +651,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 23,
+      "sample_count": 24,
       "median_asking": 299.0
     },
     "repair": {
@@ -572,7 +662,7 @@
   {
     "id": "marktplaats-html:m2444266560",
     "found_at": "2026-09-19T09:57:46.951363+00:00",
-    "last_seen_at": "2026-09-19T12:51:18.310146+00:00",
+    "last_seen_at": "2026-09-19T12:59:02.747368+00:00",
     "source": "marktplaats-html",
     "query": "shure sm7b",
     "category_hint": "Audio",
@@ -589,13 +679,13 @@
     "analysis": {
       "matched_product": "Shure SM7B",
       "category": "Audio",
-      "source": "Marktplaats profiel (23 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (23 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 23,
+      "source": "Marktplaats profiel (24 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (24 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 24,
       "asking_price": 290.0,
       "expected_resale": 274.71,
       "market_low": 221.59,
-      "market_high": 338.26,
+      "market_high": 337.81,
       "fees": 0.0,
       "risk_reserve": 5.27,
       "travel_cost": 0.0,
@@ -625,15 +715,15 @@
       "note": "Marktwaardes op basis van vraagprijzen zijn schattingen, geen gegarandeerde gerealiseerde verkoopprijzen.",
       "quick_sale_value": 221.59,
       "realistic_market_value": 274.71,
-      "optimistic_value": 338.26,
+      "optimistic_value": 337.81,
       "source_agreement_percent": null,
       "valuation_sources": [
         {
           "source": "Marktplaats",
           "value": 266.11,
-          "low": 177.99,
-          "high": 349.77,
-          "samples": 23,
+          "low": 178.0,
+          "high": 348.88,
+          "samples": 24,
           "kind": "actieve vraagprijzen"
         },
         {
@@ -651,7 +741,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 23,
+      "sample_count": 24,
       "median_asking": 299.0
     },
     "repair": {
@@ -688,7 +778,7 @@
   {
     "id": "marktplaats-html:m2444257381",
     "found_at": "2026-09-19T09:40:03.624478+00:00",
-    "last_seen_at": "2026-09-19T12:50:56.874933+00:00",
+    "last_seen_at": "2026-09-19T12:58:40.329709+00:00",
     "source": "marktplaats-html",
     "query": "nintendo switch oled",
     "category_hint": "Spelcomputers",
@@ -755,7 +845,7 @@
   {
     "id": "marktplaats-html:m2444250660",
     "found_at": "2026-09-19T09:26:35.545911+00:00",
-    "last_seen_at": "2026-09-19T12:51:26.541864+00:00",
+    "last_seen_at": "2026-09-19T12:59:12.224690+00:00",
     "source": "marktplaats-html",
     "query": "bang olufsen speaker",
     "category_hint": "Audio",
@@ -781,7 +871,7 @@
   {
     "id": "marktplaats-html:m2444248682",
     "found_at": "2026-09-19T09:26:11.206670+00:00",
-    "last_seen_at": "2026-09-19T12:51:02.809579+00:00",
+    "last_seen_at": "2026-09-19T12:58:46.432276+00:00",
     "source": "marktplaats-html",
     "query": "xbox series x",
     "category_hint": "Spelcomputers",
@@ -848,7 +938,7 @@
   {
     "id": "marktplaats-html:m2444245854",
     "found_at": "2026-09-19T09:13:38.517222+00:00",
-    "last_seen_at": "2026-09-19T12:51:20.997829+00:00",
+    "last_seen_at": "2026-09-19T12:59:05.707927+00:00",
     "source": "marktplaats-html",
     "query": "sennheiser mkh",
     "category_hint": "Audio",
@@ -941,7 +1031,7 @@
   {
     "id": "marktplaats-html:m2444217410",
     "found_at": "2026-09-19T08:14:35.531391+00:00",
-    "last_seen_at": "2026-09-19T12:51:26.542181+00:00",
+    "last_seen_at": "2026-09-19T12:59:12.224978+00:00",
     "source": "marktplaats-html",
     "query": "bang olufsen speaker",
     "category_hint": "Audio",
@@ -1099,7 +1189,7 @@
   {
     "id": "marktplaats-html:m2444199810",
     "found_at": "2026-09-19T07:34:22.348743+00:00",
-    "last_seen_at": "2026-09-19T12:51:08.975295+00:00",
+    "last_seen_at": "2026-09-19T12:58:54.077551+00:00",
     "source": "marktplaats-html",
     "query": "makita",
     "category_hint": "Gereedschap",
@@ -1348,7 +1438,7 @@
   {
     "id": "marktplaats-html:a1531101438",
     "found_at": "2026-09-19T06:16:24.102940+00:00",
-    "last_seen_at": "2026-09-19T12:50:54.038223+00:00",
+    "last_seen_at": "2026-09-19T12:58:37.511374+00:00",
     "source": "marktplaats-html",
     "query": "ps5",
     "category_hint": "Spelcomputers",
@@ -1415,7 +1505,7 @@
   {
     "id": "marktplaats-html:a1530727559",
     "found_at": "2026-09-19T06:16:24.099415+00:00",
-    "last_seen_at": "2026-09-19T12:50:54.034737+00:00",
+    "last_seen_at": "2026-09-19T12:58:37.503094+00:00",
     "source": "marktplaats-html",
     "query": "ps5",
     "category_hint": "Spelcomputers",
@@ -1519,7 +1609,7 @@
   {
     "id": "marktplaats-html:m2444152477",
     "found_at": "2026-09-18T22:25:24.814612+00:00",
-    "last_seen_at": "2026-09-19T12:51:32.540752+00:00",
+    "last_seen_at": "2026-09-19T12:59:18.356904+00:00",
     "source": "marktplaats-html",
     "query": "tannoy speaker",
     "category_hint": "Audio",
@@ -1562,13 +1652,13 @@
     "analysis": {
       "matched_product": "Shure SM7B",
       "category": "Audio",
-      "source": "Marktplaats profiel (23 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (23 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 23,
+      "source": "Marktplaats profiel (24 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (24 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 24,
       "asking_price": 300.0,
       "expected_resale": 274.71,
       "market_low": 221.59,
-      "market_high": 338.26,
+      "market_high": 337.81,
       "fees": 0.0,
       "risk_reserve": 5.27,
       "travel_cost": 0.0,
@@ -1598,15 +1688,15 @@
       "note": "Marktwaardes op basis van vraagprijzen zijn schattingen, geen gegarandeerde gerealiseerde verkoopprijzen.",
       "quick_sale_value": 221.59,
       "realistic_market_value": 274.71,
-      "optimistic_value": 338.26,
+      "optimistic_value": 337.81,
       "source_agreement_percent": null,
       "valuation_sources": [
         {
           "source": "Marktplaats",
           "value": 266.11,
-          "low": 177.99,
-          "high": 349.77,
-          "samples": 23,
+          "low": 178.0,
+          "high": 348.88,
+          "samples": 24,
           "kind": "actieve vraagprijzen"
         },
         {
@@ -1624,7 +1714,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 23,
+      "sample_count": 24,
       "median_asking": 299.0
     },
     "repair": {
@@ -1635,7 +1725,7 @@
   {
     "id": "marktplaats-html:m2443551998",
     "found_at": "2026-09-18T20:56:57.654421+00:00",
-    "last_seen_at": "2026-09-19T12:51:08.975672+00:00",
+    "last_seen_at": "2026-09-19T12:58:54.077926+00:00",
     "source": "marktplaats-html",
     "query": "makita",
     "category_hint": "Gereedschap",
@@ -1661,7 +1751,7 @@
   {
     "id": "marktplaats-html:m2444111398",
     "found_at": "2026-09-18T18:34:17.141104+00:00",
-    "last_seen_at": "2026-09-19T12:51:14.640626+00:00",
+    "last_seen_at": "2026-09-19T12:58:59.901921+00:00",
     "source": "marktplaats-html",
     "query": "tektronix",
     "category_hint": "Meetapparatuur",
@@ -1713,7 +1803,7 @@
   {
     "id": "marktplaats-html:m2444023555",
     "found_at": "2026-09-18T16:57:37.553864+00:00",
-    "last_seen_at": "2026-09-19T12:50:56.875595+00:00",
+    "last_seen_at": "2026-09-19T12:58:40.330272+00:00",
     "source": "marktplaats-html",
     "query": "nintendo switch oled",
     "category_hint": "Spelcomputers",
@@ -1780,7 +1870,7 @@
   {
     "id": "marktplaats-html:m2444073827",
     "found_at": "2026-09-18T16:27:01.357218+00:00",
-    "last_seen_at": "2026-09-19T12:51:44.683616+00:00",
+    "last_seen_at": "2026-09-19T12:59:32.088063+00:00",
     "source": "marktplaats-html",
     "query": "jbl speaker defect",
     "category_hint": "Audio",
@@ -1924,7 +2014,7 @@
   {
     "id": "marktplaats-html:m2444052417",
     "found_at": "2026-09-18T15:26:50.628694+00:00",
-    "last_seen_at": "2026-09-19T12:51:02.808916+00:00",
+    "last_seen_at": "2026-09-19T12:58:46.431679+00:00",
     "source": "marktplaats-html",
     "query": "xbox series x",
     "category_hint": "Spelcomputers",
@@ -2017,7 +2107,7 @@
   {
     "id": "marktplaats-html:a1531168073",
     "found_at": "2026-09-18T15:13:17.455929+00:00",
-    "last_seen_at": "2026-09-19T12:50:54.036332+00:00",
+    "last_seen_at": "2026-09-19T12:58:37.509666+00:00",
     "source": "marktplaats-html",
     "query": "ps5",
     "category_hint": "Spelcomputers",
@@ -2043,7 +2133,7 @@
   {
     "id": "marktplaats-html:a1531205725",
     "found_at": "2026-09-18T14:58:45.224700+00:00",
-    "last_seen_at": "2026-09-19T12:51:44.684231+00:00",
+    "last_seen_at": "2026-09-19T12:59:32.088608+00:00",
     "source": "marktplaats-html",
     "query": "jbl speaker defect",
     "category_hint": "Audio",
@@ -2162,7 +2252,7 @@
   {
     "id": "marktplaats-html:m2443857057",
     "found_at": "2026-09-18T14:33:26.717023+00:00",
-    "last_seen_at": "2026-09-19T12:51:32.541068+00:00",
+    "last_seen_at": "2026-09-19T12:59:18.357173+00:00",
     "source": "marktplaats-html",
     "query": "tannoy speaker",
     "category_hint": "Audio",
@@ -2240,7 +2330,7 @@
   {
     "id": "marktplaats-html:m2444019674",
     "found_at": "2026-09-18T14:15:13.640087+00:00",
-    "last_seen_at": "2026-09-19T12:51:32.540425+00:00",
+    "last_seen_at": "2026-09-19T12:59:18.356594+00:00",
     "source": "marktplaats-html",
     "query": "tannoy speaker",
     "category_hint": "Audio",
@@ -2266,7 +2356,7 @@
   {
     "id": "marktplaats-html:a1531195239",
     "found_at": "2026-09-18T13:59:41.285948+00:00",
-    "last_seen_at": "2026-09-19T12:51:05.894885+00:00",
+    "last_seen_at": "2026-09-19T12:58:50.474873+00:00",
     "source": "marktplaats-html",
     "query": "festool",
     "category_hint": "Gereedschap",
@@ -2292,7 +2382,7 @@
   {
     "id": "marktplaats-html:a1531192951",
     "found_at": "2026-09-18T13:52:24.333512+00:00",
-    "last_seen_at": "2026-09-19T12:51:23.676194+00:00",
+    "last_seen_at": "2026-09-19T12:59:08.764401+00:00",
     "source": "marktplaats-html",
     "query": "jbl vintage speaker",
     "category_hint": "Audio",
@@ -2608,7 +2698,7 @@
   {
     "id": "marktplaats-html:a1531160422",
     "found_at": "2026-09-18T11:25:48.976391+00:00",
-    "last_seen_at": "2026-09-19T12:51:38.615138+00:00",
+    "last_seen_at": "2026-09-19T12:59:25.885905+00:00",
     "source": "marktplaats-html",
     "query": "festool defect",
     "category_hint": "Gereedschap",
@@ -2634,7 +2724,7 @@
   {
     "id": "marktplaats-html:a1531160248",
     "found_at": "2026-09-18T11:25:48.975360+00:00",
-    "last_seen_at": "2026-09-19T12:51:38.614102+00:00",
+    "last_seen_at": "2026-09-19T12:59:25.884942+00:00",
     "source": "marktplaats-html",
     "query": "festool defect",
     "category_hint": "Gereedschap",
@@ -2686,7 +2776,7 @@
   {
     "id": "marktplaats-html:m2443946665",
     "found_at": "2026-09-18T11:13:04.003019+00:00",
-    "last_seen_at": "2026-09-19T12:51:23.676604+00:00",
+    "last_seen_at": "2026-09-19T12:59:08.764767+00:00",
     "source": "marktplaats-html",
     "query": "jbl vintage speaker",
     "category_hint": "Audio",
@@ -2738,7 +2828,7 @@
   {
     "id": "marktplaats-html:a1531160331",
     "found_at": "2026-09-18T10:51:13.354199+00:00",
-    "last_seen_at": "2026-09-19T12:51:41.448227+00:00",
+    "last_seen_at": "2026-09-19T12:59:28.761046+00:00",
     "source": "marktplaats-html",
     "query": "fluke defect",
     "category_hint": "Meetapparatuur",
@@ -2764,7 +2854,7 @@
   {
     "id": "marktplaats-html:a1531160172",
     "found_at": "2026-09-18T10:51:13.353853+00:00",
-    "last_seen_at": "2026-09-19T12:51:41.447852+00:00",
+    "last_seen_at": "2026-09-19T12:59:28.760690+00:00",
     "source": "marktplaats-html",
     "query": "fluke defect",
     "category_hint": "Meetapparatuur",
@@ -2842,7 +2932,7 @@
   {
     "id": "marktplaats-html:a1531160299",
     "found_at": "2026-09-18T10:41:20.821472+00:00",
-    "last_seen_at": "2026-09-19T12:51:38.614805+00:00",
+    "last_seen_at": "2026-09-19T12:59:25.885613+00:00",
     "source": "marktplaats-html",
     "query": "festool defect",
     "category_hint": "Gereedschap",
@@ -2963,7 +3053,7 @@
   {
     "id": "marktplaats-html:m2443901091",
     "found_at": "2026-09-18T09:27:19.358461+00:00",
-    "last_seen_at": "2026-09-19T12:51:32.540072+00:00",
+    "last_seen_at": "2026-09-19T12:59:18.356271+00:00",
     "source": "marktplaats-html",
     "query": "tannoy speaker",
     "category_hint": "Audio",
@@ -3098,13 +3188,13 @@
     "analysis": {
       "matched_product": "Shure SM7B",
       "category": "Audio",
-      "source": "Marktplaats profiel (23 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (23 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 23,
+      "source": "Marktplaats profiel (24 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (24 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 24,
       "asking_price": 299.0,
       "expected_resale": 288.17,
       "market_low": 232.46,
-      "market_high": 354.84,
+      "market_high": 354.37,
       "fees": 0.0,
       "risk_reserve": 5.53,
       "travel_cost": 0.0,
@@ -3134,15 +3224,15 @@
       "note": "Marktwaardes op basis van vraagprijzen zijn schattingen, geen gegarandeerde gerealiseerde verkoopprijzen.",
       "quick_sale_value": 232.46,
       "realistic_market_value": 288.17,
-      "optimistic_value": 354.84,
+      "optimistic_value": 354.37,
       "source_agreement_percent": null,
       "valuation_sources": [
         {
           "source": "Marktplaats",
           "value": 266.11,
-          "low": 177.99,
-          "high": 349.77,
-          "samples": 23,
+          "low": 178.0,
+          "high": 348.88,
+          "samples": 24,
           "kind": "actieve vraagprijzen"
         },
         {
@@ -3160,7 +3250,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 23,
+      "sample_count": 24,
       "median_asking": 299.0
     },
     "repair": {
@@ -3800,13 +3890,13 @@
     "analysis": {
       "matched_product": "Shure SM7B",
       "category": "Audio",
-      "source": "Marktplaats profiel (23 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (23 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 23,
+      "source": "Marktplaats profiel (24 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (24 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 24,
       "asking_price": 164.99,
       "expected_resale": 288.17,
       "market_low": 232.46,
-      "market_high": 354.84,
+      "market_high": 354.37,
       "fees": 0.0,
       "risk_reserve": 5.53,
       "travel_cost": 0.0,
@@ -3836,15 +3926,15 @@
       "note": "Marktwaardes op basis van vraagprijzen zijn schattingen, geen gegarandeerde gerealiseerde verkoopprijzen.",
       "quick_sale_value": 232.46,
       "realistic_market_value": 288.17,
-      "optimistic_value": 354.84,
+      "optimistic_value": 354.37,
       "source_agreement_percent": null,
       "valuation_sources": [
         {
           "source": "Marktplaats",
           "value": 266.11,
-          "low": 177.99,
-          "high": 349.77,
-          "samples": 23,
+          "low": 178.0,
+          "high": 348.88,
+          "samples": 24,
           "kind": "actieve vraagprijzen"
         },
         {
@@ -3862,7 +3952,7 @@
     "is_deal": true,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 23,
+      "sample_count": 24,
       "median_asking": 299.0
     },
     "repair": {
@@ -4406,7 +4496,7 @@
   {
     "id": "marktplaats-html:m2443710710",
     "found_at": "2026-09-17T15:14:12.010018+00:00",
-    "last_seen_at": "2026-09-19T12:50:59.652736+00:00",
+    "last_seen_at": "2026-09-19T12:58:43.296512+00:00",
     "source": "marktplaats-html",
     "query": "steam deck",
     "category_hint": "Spelcomputers",
@@ -4525,7 +4615,7 @@
   {
     "id": "marktplaats-html:m2443693470",
     "found_at": "2026-09-17T14:33:47.713463+00:00",
-    "last_seen_at": "2026-09-19T12:51:29.528629+00:00",
+    "last_seen_at": "2026-09-19T12:59:15.467429+00:00",
     "source": "marktplaats-html",
     "query": "kef vintage speaker",
     "category_hint": "Audio",
@@ -4577,14 +4667,14 @@
   {
     "id": "marktplaats-html:m2443682633",
     "found_at": "2026-09-17T14:15:49.557773+00:00",
-    "last_seen_at": "2026-09-19T12:51:29.528355+00:00",
+    "last_seen_at": "2026-09-19T12:59:15.467149+00:00",
     "source": "marktplaats-html",
     "query": "kef vintage speaker",
     "category_hint": "Audio",
     "title": "Kef Concerto Speakers",
-    "description": "Bewaren in Mijn Favorieten Kef Concerto Speakers Fraaie set vintage kef concerto kefkit speakers. Deze geven een erg mooi drie dimensionaal helder geluid met een erg diepe bas. De filters zijn gereviseerd met kwalitatieve mundorf caps zodat deze spe Gebruikt Ophalen Bieden Eergisteren HappyStranger Uden Bewaren in Mijn Favorieten Kef Concerto Speakers Bieden Fraaie set vintage kef concerto kefkit speakers. Deze geven een erg mooi drie dimensionaal helder geluid met een erg diepe bas. De filters zijn gereviseerd met kwalitatieve mundorf caps zodat deze spe Gebruikt Ophalen HappyStranger Uden Eergisteren Bewaren in Mijn Favorieten Kef Concerto Speakers Bieden Details Ophalen Gebruikt Vloerstaande luidspreker KEF Fraaie set vintage kef concerto kefkit speakers. Deze geven een erg mooi drie dimensionaal helder geluid met een erg diepe bas. De filters zijn gereviseerd met kwalitatieve mundorf",
+    "description": "Bewaren in Mijn Favorieten Kef Concerto Speakers Fraaie set vintage kef concerto kefkit speakers. Deze geven een erg mooi drie dimensionaal helder geluid met een erg diepe bas. De filters zijn gereviseerd met kwalitatieve mundorf caps zodat deze spe Gebruikt Ophalen € 300,00 Eergisteren HappyStranger Uden Bewaren in Mijn Favorieten Kef Concerto Speakers € 300,00 Fraaie set vintage kef concerto kefkit speakers. Deze geven een erg mooi drie dimensionaal helder geluid met een erg diepe bas. De filters zijn gereviseerd met kwalitatieve mundorf caps zodat deze spe Gebruikt Ophalen HappyStranger Uden Eergisteren Bewaren in Mijn Favorieten Kef Concerto Speakers € 300,00 Details Ophalen Gebruikt Vloerstaande luidspreker KEF Fraaie set vintage kef concerto kefkit speakers. Deze geven een erg mooi drie dimensionaal helder geluid met een erg diepe bas. De filters zijn gereviseerd met kwalitatieve m",
     "url": "https://www.marktplaats.nl/v/audio-tv-en-foto/luidsprekers/m2443682633-kef-concerto-speakers",
-    "asking_price": null,
+    "asking_price": 300.0,
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
     "promoted": false,
@@ -4592,7 +4682,7 @@
     "recognition_confidence": 0,
     "condition": "goed",
     "analysis": null,
-    "result_status": "unpriced",
+    "result_status": "unrecognized",
     "is_deal": false,
     "exclusion_reason": null,
     "repair": {
@@ -4888,13 +4978,13 @@
     "analysis": {
       "matched_product": "Shure SM7B",
       "category": "Audio",
-      "source": "Marktplaats profiel (23 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (23 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 23,
+      "source": "Marktplaats profiel (24 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (24 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 24,
       "asking_price": 299.0,
       "expected_resale": 288.17,
       "market_low": 232.46,
-      "market_high": 354.84,
+      "market_high": 354.37,
       "fees": 0.0,
       "risk_reserve": 5.53,
       "travel_cost": 0.0,
@@ -4924,15 +5014,15 @@
       "note": "Marktwaardes op basis van vraagprijzen zijn schattingen, geen gegarandeerde gerealiseerde verkoopprijzen.",
       "quick_sale_value": 232.46,
       "realistic_market_value": 288.17,
-      "optimistic_value": 354.84,
+      "optimistic_value": 354.37,
       "source_agreement_percent": null,
       "valuation_sources": [
         {
           "source": "Marktplaats",
           "value": 266.11,
-          "low": 177.99,
-          "high": 349.77,
-          "samples": 23,
+          "low": 178.0,
+          "high": 348.88,
+          "samples": 24,
           "kind": "actieve vraagprijzen"
         },
         {
@@ -4950,7 +5040,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 23,
+      "sample_count": 24,
       "median_asking": 299.0
     },
     "repair": {
@@ -5421,7 +5511,7 @@
   {
     "id": "marktplaats-html:m2443504427",
     "found_at": "2026-09-17T08:45:47.246349+00:00",
-    "last_seen_at": "2026-09-19T12:51:08.976328+00:00",
+    "last_seen_at": "2026-09-19T12:58:54.078493+00:00",
     "source": "marktplaats-html",
     "query": "makita",
     "category_hint": "Gereedschap",
@@ -5841,7 +5931,7 @@
   {
     "id": "marktplaats-html:m2443402468",
     "found_at": "2026-09-16T17:13:08.376864+00:00",
-    "last_seen_at": "2026-09-19T12:51:44.683914+00:00",
+    "last_seen_at": "2026-09-19T12:59:32.088341+00:00",
     "source": "marktplaats-html",
     "query": "jbl speaker defect",
     "category_hint": "Audio",
@@ -6017,7 +6107,7 @@
   {
     "id": "marktplaats-html:m2443370630",
     "found_at": "2026-09-16T15:42:27.995333+00:00",
-    "last_seen_at": "2026-09-19T12:51:23.677593+00:00",
+    "last_seen_at": "2026-09-19T12:59:08.765671+00:00",
     "source": "marktplaats-html",
     "query": "jbl vintage speaker",
     "category_hint": "Audio",
@@ -6205,13 +6295,13 @@
     "analysis": {
       "matched_product": "Shure SM7B",
       "category": "Audio",
-      "source": "Marktplaats profiel (23 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (23 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 23,
+      "source": "Marktplaats profiel (24 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (24 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 24,
       "asking_price": 199.99,
       "expected_resale": 250.47,
       "market_low": 202.04,
-      "market_high": 308.42,
+      "market_high": 308.01,
       "fees": 0.0,
       "risk_reserve": 4.81,
       "travel_cost": 0.0,
@@ -6241,15 +6331,15 @@
       "note": "Marktwaardes op basis van vraagprijzen zijn schattingen, geen gegarandeerde gerealiseerde verkoopprijzen.",
       "quick_sale_value": 202.04,
       "realistic_market_value": 250.47,
-      "optimistic_value": 308.42,
+      "optimistic_value": 308.01,
       "source_agreement_percent": null,
       "valuation_sources": [
         {
           "source": "Marktplaats",
           "value": 266.11,
-          "low": 177.99,
-          "high": 349.77,
-          "samples": 23,
+          "low": 178.0,
+          "high": 348.88,
+          "samples": 24,
           "kind": "actieve vraagprijzen"
         },
         {
@@ -6271,14 +6361,14 @@
     },
     "is_repair_deal": false,
     "market_profile": {
-      "sample_count": 23,
+      "sample_count": 24,
       "median_asking": 299.0
     }
   },
   {
     "id": "marktplaats-html:a1531071749",
     "found_at": "2026-09-16T13:55:39.173807+00:00",
-    "last_seen_at": "2026-09-19T12:51:14.639735+00:00",
+    "last_seen_at": "2026-09-19T12:58:59.901059+00:00",
     "source": "marktplaats-html",
     "query": "tektronix",
     "category_hint": "Meetapparatuur",
@@ -6849,13 +6939,13 @@
     "analysis": {
       "matched_product": "Shure SM7B",
       "category": "Audio",
-      "source": "Marktplaats profiel (23 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (23 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 23,
+      "source": "Marktplaats profiel (24 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (24 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 24,
       "asking_price": 300.0,
       "expected_resale": 274.71,
       "market_low": 221.59,
-      "market_high": 338.26,
+      "market_high": 337.81,
       "fees": 0.0,
       "risk_reserve": 5.27,
       "travel_cost": 0.0,
@@ -6885,15 +6975,15 @@
       "note": "Marktwaardes op basis van vraagprijzen zijn schattingen, geen gegarandeerde gerealiseerde verkoopprijzen.",
       "quick_sale_value": 221.59,
       "realistic_market_value": 274.71,
-      "optimistic_value": 338.26,
+      "optimistic_value": 337.81,
       "source_agreement_percent": null,
       "valuation_sources": [
         {
           "source": "Marktplaats",
           "value": 266.11,
-          "low": 177.99,
-          "high": 349.77,
-          "samples": 23,
+          "low": 178.0,
+          "high": 348.88,
+          "samples": 24,
           "kind": "actieve vraagprijzen"
         },
         {
@@ -6911,7 +7001,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 23,
+      "sample_count": 24,
       "median_asking": 299.0
     },
     "repair": {
@@ -7497,7 +7587,7 @@
   {
     "id": "marktplaats-html:m2443064939",
     "found_at": "2026-09-15T17:24:29.281658+00:00",
-    "last_seen_at": "2026-09-19T12:50:59.654801+00:00",
+    "last_seen_at": "2026-09-19T12:58:43.298340+00:00",
     "source": "marktplaats-html",
     "query": "steam deck",
     "category_hint": "Spelcomputers",
@@ -8041,7 +8131,7 @@
   {
     "id": "marktplaats-html:a1286276818",
     "found_at": "2026-09-15T10:46:09.138170+00:00",
-    "last_seen_at": "2026-09-19T12:51:35.604318+00:00",
+    "last_seen_at": "2026-09-19T12:59:22.669254+00:00",
     "source": "marktplaats-html",
     "query": "ps5 defect",
     "category_hint": "Spelcomputers",
@@ -8361,7 +8451,7 @@
   {
     "id": "marktplaats-html:m2442166281",
     "found_at": "2026-09-15T08:20:56.203540+00:00",
-    "last_seen_at": "2026-09-19T12:51:11.753448+00:00",
+    "last_seen_at": "2026-09-19T12:58:57.225496+00:00",
     "source": "marktplaats-html",
     "query": "fluke",
     "category_hint": "Meetapparatuur",
@@ -8847,13 +8937,13 @@
     "analysis": {
       "matched_product": "Shure SM7B",
       "category": "Audio",
-      "source": "Marktplaats profiel (23 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (23 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 23,
+      "source": "Marktplaats profiel (24 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (24 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 24,
       "asking_price": 425.0,
       "expected_resale": 250.47,
       "market_low": 202.04,
-      "market_high": 308.42,
+      "market_high": 308.01,
       "fees": 0.0,
       "risk_reserve": 4.81,
       "travel_cost": 0.0,
@@ -8883,15 +8973,15 @@
       "note": "Marktwaardes op basis van vraagprijzen zijn schattingen, geen gegarandeerde gerealiseerde verkoopprijzen.",
       "quick_sale_value": 202.04,
       "realistic_market_value": 250.47,
-      "optimistic_value": 308.42,
+      "optimistic_value": 308.01,
       "source_agreement_percent": null,
       "valuation_sources": [
         {
           "source": "Marktplaats",
           "value": 266.11,
-          "low": 177.99,
-          "high": 349.77,
-          "samples": 23,
+          "low": 178.0,
+          "high": 348.88,
+          "samples": 24,
           "kind": "actieve vraagprijzen"
         },
         {
@@ -8909,7 +8999,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 23,
+      "sample_count": 24,
       "median_asking": 299.0
     },
     "repair": {
@@ -9343,7 +9433,7 @@
   {
     "id": "marktplaats-html:a1530983202",
     "found_at": "2026-09-14T15:45:22.845763+00:00",
-    "last_seen_at": "2026-09-19T12:51:35.605038+00:00",
+    "last_seen_at": "2026-09-19T12:59:22.669902+00:00",
     "source": "marktplaats-html",
     "query": "ps5 defect",
     "category_hint": "Spelcomputers",
@@ -9603,7 +9693,7 @@
   {
     "id": "marktplaats-html:m2442578343",
     "found_at": "2026-09-14T11:14:26.772616+00:00",
-    "last_seen_at": "2026-09-19T12:50:59.653468+00:00",
+    "last_seen_at": "2026-09-19T12:58:43.297159+00:00",
     "source": "marktplaats-html",
     "query": "steam deck",
     "category_hint": "Spelcomputers",
@@ -10163,7 +10253,7 @@
   {
     "id": "marktplaats-html:a1530977342",
     "found_at": "2026-09-14T07:34:23.119584+00:00",
-    "last_seen_at": "2026-09-19T12:51:11.752598+00:00",
+    "last_seen_at": "2026-09-19T12:58:57.224695+00:00",
     "source": "marktplaats-html",
     "query": "fluke",
     "category_hint": "Meetapparatuur",
@@ -10808,7 +10898,7 @@
   {
     "id": "marktplaats-html:m2442306342",
     "found_at": "2026-09-13T14:25:40.490687+00:00",
-    "last_seen_at": "2026-09-19T12:51:23.677266+00:00",
+    "last_seen_at": "2026-09-19T12:59:08.765374+00:00",
     "source": "marktplaats-html",
     "query": "jbl vintage speaker",
     "category_hint": "Audio",
@@ -11194,7 +11284,7 @@
   {
     "id": "marktplaats-html:m2442253826",
     "found_at": "2026-09-13T12:51:44.527416+00:00",
-    "last_seen_at": "2026-09-19T12:51:14.640380+00:00",
+    "last_seen_at": "2026-09-19T12:58:59.901670+00:00",
     "source": "marktplaats-html",
     "query": "tektronix",
     "category_hint": "Meetapparatuur",
@@ -11367,13 +11457,13 @@
     "analysis": {
       "matched_product": "Shure SM7B",
       "category": "Audio",
-      "source": "Marktplaats profiel (23 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (23 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 23,
+      "source": "Marktplaats profiel (24 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (24 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 24,
       "asking_price": 299.0,
       "expected_resale": 288.17,
       "market_low": 232.46,
-      "market_high": 354.84,
+      "market_high": 354.37,
       "fees": 0.0,
       "risk_reserve": 5.53,
       "travel_cost": 0.0,
@@ -11403,15 +11493,15 @@
       "note": "Marktwaardes op basis van vraagprijzen zijn schattingen, geen gegarandeerde gerealiseerde verkoopprijzen.",
       "quick_sale_value": 232.46,
       "realistic_market_value": 288.17,
-      "optimistic_value": 354.84,
+      "optimistic_value": 354.37,
       "source_agreement_percent": null,
       "valuation_sources": [
         {
           "source": "Marktplaats",
           "value": 266.11,
-          "low": 177.99,
-          "high": 349.77,
-          "samples": 23,
+          "low": 178.0,
+          "high": 348.88,
+          "samples": 24,
           "kind": "actieve vraagprijzen"
         },
         {
@@ -11429,7 +11519,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 23,
+      "sample_count": 24,
       "median_asking": 299.0
     },
     "repair": {
@@ -12500,13 +12590,13 @@
     "analysis": {
       "matched_product": "Shure SM7B",
       "category": "Audio",
-      "source": "Marktplaats profiel (23 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (23 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 23,
+      "source": "Marktplaats profiel (24 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (24 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 24,
       "asking_price": 390.0,
       "expected_resale": 274.71,
       "market_low": 221.59,
-      "market_high": 338.26,
+      "market_high": 337.81,
       "fees": 0.0,
       "risk_reserve": 5.27,
       "travel_cost": 0.0,
@@ -12536,15 +12626,15 @@
       "note": "Marktwaardes op basis van vraagprijzen zijn schattingen, geen gegarandeerde gerealiseerde verkoopprijzen.",
       "quick_sale_value": 221.59,
       "realistic_market_value": 274.71,
-      "optimistic_value": 338.26,
+      "optimistic_value": 337.81,
       "source_agreement_percent": null,
       "valuation_sources": [
         {
           "source": "Marktplaats",
           "value": 266.11,
-          "low": 177.99,
-          "high": 349.77,
-          "samples": 23,
+          "low": 178.0,
+          "high": 348.88,
+          "samples": 24,
           "kind": "actieve vraagprijzen"
         },
         {
@@ -12562,7 +12652,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 23,
+      "sample_count": 24,
       "median_asking": 299.0
     },
     "repair": {
@@ -12997,12 +13087,12 @@
   {
     "id": "marktplaats-html:a1530925899",
     "found_at": "2026-09-12T14:25:58.302527+00:00",
-    "last_seen_at": "2026-09-19T12:51:29.527960+00:00",
+    "last_seen_at": "2026-09-19T12:59:15.466778+00:00",
     "source": "marktplaats-html",
     "query": "kef vintage speaker",
     "category_hint": "Audio",
     "title": "Kef - Coda III - Overeenkomend Paar Luidsprekerset",
-    "description": "Bewaren in Mijn Favorieten Kef - Coda III - Overeenkomend Paar Luidsprekerset Titel: kef - coda iii - overeenkomend paar luidsprekerset geschatte waarde: €150.0 Belangrijk: winnende biedingen zijn exclusief 9% koperbescherming + €3 kavel beschrijving kef coda iii - ma Nieuw € 51,00 Eergisteren Topadvertentie Catawiki Heel Nederland Bewaren in Mijn Favorieten Kef - Coda III - Overeenkomend Paar Luidsprekerset € 51,00 Titel: kef - coda iii - overeenkomend paar luidsprekerset geschatte waarde: €150.0 Belangrijk: winnende biedingen zijn exclusief 9% koperbescherming + €3 kavel beschrijving kef coda iii - ma Nieuw Catawiki Heel Nederland Eergisteren Topadvertentie Bewaren in Mijn Favorieten Kef - Coda III - Overeenkomend Paar Luidsprekerset € 51,00 Details Nieuw Titel: kef - coda iii - overeenkomend paar luidsprekerset geschatte waarde: €150.0 Belangrijk: winnende biedingen zijn exclusief 9% ",
+    "description": "Bewaren in Mijn Favorieten Kef - Coda III - Overeenkomend Paar Luidsprekerset Titel: kef - coda iii - overeenkomend paar luidsprekerset geschatte waarde: €150.0 Belangrijk: winnende biedingen zijn exclusief 9% koperbescherming + €3 kavel beschrijving kef coda iii - ma Nieuw € 51,00 Vandaag Topadvertentie Catawiki Heel Nederland Bewaren in Mijn Favorieten Kef - Coda III - Overeenkomend Paar Luidsprekerset € 51,00 Titel: kef - coda iii - overeenkomend paar luidsprekerset geschatte waarde: €150.0 Belangrijk: winnende biedingen zijn exclusief 9% koperbescherming + €3 kavel beschrijving kef coda iii - ma Nieuw Catawiki Heel Nederland Vandaag Topadvertentie Bewaren in Mijn Favorieten Kef - Coda III - Overeenkomend Paar Luidsprekerset € 51,00 Details Nieuw Titel: kef - coda iii - overeenkomend paar luidsprekerset geschatte waarde: €150.0 Belangrijk: winnende biedingen zijn exclusief 9% koperbes",
     "url": "https://www.marktplaats.nl/v/audio-tv-en-foto/radio-s/a1530925899-kef-coda-iii-overeenkomend-paar-luidsprekerset",
     "asking_price": 51.0,
     "previous_asking_price": 39.0,
@@ -13183,7 +13273,7 @@
   {
     "id": "marktplaats-html:m2441866491",
     "found_at": "2026-09-12T12:51:47.175983+00:00",
-    "last_seen_at": "2026-09-19T12:51:41.448520+00:00",
+    "last_seen_at": "2026-09-19T12:59:28.761315+00:00",
     "source": "marktplaats-html",
     "query": "fluke defect",
     "category_hint": "Meetapparatuur",
@@ -13539,7 +13629,7 @@
   {
     "id": "marktplaats-html:m2441801873",
     "found_at": "2026-09-12T10:40:25.266130+00:00",
-    "last_seen_at": "2026-09-19T12:51:44.684547+00:00",
+    "last_seen_at": "2026-09-19T12:59:32.088902+00:00",
     "source": "marktplaats-html",
     "query": "jbl speaker defect",
     "category_hint": "Audio",
@@ -14407,13 +14497,13 @@
     "analysis": {
       "matched_product": "Shure SM7B",
       "category": "Audio",
-      "source": "Marktplaats profiel (23 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (23 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 23,
+      "source": "Marktplaats profiel (24 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (24 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 24,
       "asking_price": 450.0,
       "expected_resale": 274.71,
       "market_low": 221.59,
-      "market_high": 338.26,
+      "market_high": 337.81,
       "fees": 0.0,
       "risk_reserve": 5.27,
       "travel_cost": 0.0,
@@ -14443,15 +14533,15 @@
       "note": "Marktwaardes op basis van vraagprijzen zijn schattingen, geen gegarandeerde gerealiseerde verkoopprijzen.",
       "quick_sale_value": 221.59,
       "realistic_market_value": 274.71,
-      "optimistic_value": 338.26,
+      "optimistic_value": 337.81,
       "source_agreement_percent": null,
       "valuation_sources": [
         {
           "source": "Marktplaats",
           "value": 266.11,
-          "low": 177.99,
-          "high": 349.77,
-          "samples": 23,
+          "low": 178.0,
+          "high": 348.88,
+          "samples": 24,
           "kind": "actieve vraagprijzen"
         },
         {
@@ -14469,7 +14559,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 23,
+      "sample_count": 24,
       "median_asking": 299.0
     },
     "repair": {
@@ -14740,7 +14830,7 @@
   {
     "id": "marktplaats-html:m2441582208",
     "found_at": "2026-09-11T15:58:09.908037+00:00",
-    "last_seen_at": "2026-09-19T12:51:14.640920+00:00",
+    "last_seen_at": "2026-09-19T12:58:59.902198+00:00",
     "source": "marktplaats-html",
     "query": "tektronix",
     "category_hint": "Meetapparatuur",
@@ -18672,7 +18762,7 @@
   {
     "id": "marktplaats-html:m2439476231",
     "found_at": "2026-09-10T08:35:02.095121+00:00",
-    "last_seen_at": "2026-09-19T12:51:23.676924+00:00",
+    "last_seen_at": "2026-09-19T12:59:08.765083+00:00",
     "source": "marktplaats-html",
     "query": "jbl vintage speaker",
     "category_hint": "Audio",
@@ -18698,7 +18788,7 @@
   {
     "id": "marktplaats-html:m2433752328",
     "found_at": "2026-09-10T08:34:58.869242+00:00",
-    "last_seen_at": "2026-09-19T12:51:20.998153+00:00",
+    "last_seen_at": "2026-09-19T12:59:05.708236+00:00",
     "source": "marktplaats-html",
     "query": "sennheiser mkh",
     "category_hint": "Audio",
@@ -19725,7 +19815,7 @@
   {
     "id": "marktplaats-html:m2440850507",
     "found_at": "2026-09-09T15:15:22.810313+00:00",
-    "last_seen_at": "2026-09-19T12:51:29.528902+00:00",
+    "last_seen_at": "2026-09-19T12:59:15.467672+00:00",
     "source": "marktplaats-html",
     "query": "kef vintage speaker",
     "category_hint": "Audio",
@@ -19980,13 +20070,13 @@
     "analysis": {
       "matched_product": "Shure SM7B",
       "category": "Audio",
-      "source": "Marktplaats profiel (23 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (23 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 23,
+      "source": "Marktplaats profiel (24 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (24 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 24,
       "asking_price": 150.0,
       "expected_resale": 250.47,
       "market_low": 202.04,
-      "market_high": 308.42,
+      "market_high": 308.01,
       "fees": 0.0,
       "risk_reserve": 4.81,
       "travel_cost": 0.0,
@@ -20016,15 +20106,15 @@
       "note": "Marktwaardes op basis van vraagprijzen zijn schattingen, geen gegarandeerde gerealiseerde verkoopprijzen.",
       "quick_sale_value": 202.04,
       "realistic_market_value": 250.47,
-      "optimistic_value": 308.42,
+      "optimistic_value": 308.01,
       "source_agreement_percent": null,
       "valuation_sources": [
         {
           "source": "Marktplaats",
           "value": 266.11,
-          "low": 177.99,
-          "high": 349.77,
-          "samples": 23,
+          "low": 178.0,
+          "high": 348.88,
+          "samples": 24,
           "kind": "actieve vraagprijzen"
         },
         {
@@ -20042,7 +20132,7 @@
     "is_deal": true,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 23,
+      "sample_count": 24,
       "median_asking": 299.0
     },
     "repair": {
@@ -20996,7 +21086,7 @@
   {
     "id": "marktplaats-html:m2440582457",
     "found_at": "2026-09-08T20:42:16.255926+00:00",
-    "last_seen_at": "2026-09-19T12:50:59.654132+00:00",
+    "last_seen_at": "2026-09-19T12:58:43.297740+00:00",
     "source": "marktplaats-html",
     "query": "steam deck",
     "category_hint": "Spelcomputers",
@@ -21130,7 +21220,7 @@
   {
     "id": "marktplaats-html:m2440534433",
     "found_at": "2026-09-08T17:57:38.034491+00:00",
-    "last_seen_at": "2026-09-19T12:51:29.529215+00:00",
+    "last_seen_at": "2026-09-19T12:59:15.467947+00:00",
     "source": "marktplaats-html",
     "query": "kef vintage speaker",
     "category_hint": "Audio",
@@ -21156,7 +21246,7 @@
   {
     "id": "marktplaats-html:m2365970631",
     "found_at": "2026-09-08T17:41:09.983519+00:00",
-    "last_seen_at": "2026-09-19T12:51:41.449101+00:00",
+    "last_seen_at": "2026-09-19T12:59:28.761825+00:00",
     "source": "marktplaats-html",
     "query": "fluke defect",
     "category_hint": "Meetapparatuur",
@@ -21865,7 +21955,7 @@
   {
     "id": "marktplaats-html:a1530744757",
     "found_at": "2026-09-08T11:13:39.818078+00:00",
-    "last_seen_at": "2026-09-19T12:51:05.895296+00:00",
+    "last_seen_at": "2026-09-19T12:58:50.475274+00:00",
     "source": "marktplaats-html",
     "query": "festool",
     "category_hint": "Gereedschap",
@@ -23779,7 +23869,7 @@
   {
     "id": "marktplaats-html:m2439954093",
     "found_at": "2026-09-07T08:15:54.571992+00:00",
-    "last_seen_at": "2026-09-19T12:51:20.998801+00:00",
+    "last_seen_at": "2026-09-19T12:59:05.708852+00:00",
     "source": "marktplaats-html",
     "query": "sennheiser mkh",
     "category_hint": "Audio",
@@ -24519,13 +24609,13 @@
     "analysis": {
       "matched_product": "Shure SM7B",
       "category": "Audio",
-      "source": "Marktplaats profiel (23 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (23 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 23,
+      "source": "Marktplaats profiel (24 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (24 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 24,
       "asking_price": 395.0,
       "expected_resale": 274.71,
       "market_low": 221.59,
-      "market_high": 338.26,
+      "market_high": 337.81,
       "fees": 0.0,
       "risk_reserve": 5.27,
       "travel_cost": 0.0,
@@ -24555,15 +24645,15 @@
       "note": "Marktwaardes op basis van vraagprijzen zijn schattingen, geen gegarandeerde gerealiseerde verkoopprijzen.",
       "quick_sale_value": 221.59,
       "realistic_market_value": 274.71,
-      "optimistic_value": 338.26,
+      "optimistic_value": 337.81,
       "source_agreement_percent": null,
       "valuation_sources": [
         {
           "source": "Marktplaats",
           "value": 266.11,
-          "low": 177.99,
-          "high": 349.77,
-          "samples": 23,
+          "low": 178.0,
+          "high": 348.88,
+          "samples": 24,
           "kind": "actieve vraagprijzen"
         },
         {
@@ -24581,7 +24671,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 23,
+      "sample_count": 24,
       "median_asking": 299.0
     },
     "repair": {
@@ -24774,7 +24864,7 @@
   {
     "id": "marktplaats-html:m2439721702",
     "found_at": "2026-09-06T13:48:30.908181+00:00",
-    "last_seen_at": "2026-09-19T12:51:41.448816+00:00",
+    "last_seen_at": "2026-09-19T12:59:28.761581+00:00",
     "source": "marktplaats-html",
     "query": "fluke defect",
     "category_hint": "Meetapparatuur",
@@ -25438,13 +25528,13 @@
     "analysis": {
       "matched_product": "Shure SM7B",
       "category": "Audio",
-      "source": "Marktplaats profiel (23 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (23 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 23,
+      "source": "Marktplaats profiel (24 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (24 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 24,
       "asking_price": 299.0,
       "expected_resale": 288.17,
       "market_low": 232.46,
-      "market_high": 354.84,
+      "market_high": 354.37,
       "fees": 0.0,
       "risk_reserve": 5.53,
       "travel_cost": 0.0,
@@ -25474,15 +25564,15 @@
       "note": "Marktwaardes op basis van vraagprijzen zijn schattingen, geen gegarandeerde gerealiseerde verkoopprijzen.",
       "quick_sale_value": 232.46,
       "realistic_market_value": 288.17,
-      "optimistic_value": 354.84,
+      "optimistic_value": 354.37,
       "source_agreement_percent": null,
       "valuation_sources": [
         {
           "source": "Marktplaats",
           "value": 266.11,
-          "low": 177.99,
-          "high": 349.77,
-          "samples": 23,
+          "low": 178.0,
+          "high": 348.88,
+          "samples": 24,
           "kind": "actieve vraagprijzen"
         },
         {
@@ -25500,7 +25590,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 23,
+      "sample_count": 24,
       "median_asking": 299.0
     },
     "repair": {
@@ -25934,7 +26024,7 @@
   {
     "id": "marktplaats-html:m2421807162",
     "found_at": "2026-09-05T19:12:54.739182+00:00",
-    "last_seen_at": "2026-09-19T12:51:26.541297+00:00",
+    "last_seen_at": "2026-09-19T12:59:12.224152+00:00",
     "source": "marktplaats-html",
     "query": "bang olufsen speaker",
     "category_hint": "Audio",
@@ -25960,7 +26050,7 @@
   {
     "id": "marktplaats-html:m2420330906",
     "found_at": "2026-09-05T19:12:54.738916+00:00",
-    "last_seen_at": "2026-09-19T12:51:26.541602+00:00",
+    "last_seen_at": "2026-09-19T12:59:12.224442+00:00",
     "source": "marktplaats-html",
     "query": "bang olufsen speaker",
     "category_hint": "Audio",
@@ -26388,13 +26478,13 @@
     "analysis": {
       "matched_product": "Shure SM7B",
       "category": "Audio",
-      "source": "Marktplaats profiel (23 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (23 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 23,
+      "source": "Marktplaats profiel (24 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (24 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 24,
       "asking_price": 180.0,
       "expected_resale": 274.71,
       "market_low": 221.59,
-      "market_high": 338.26,
+      "market_high": 337.81,
       "fees": 0.0,
       "risk_reserve": 5.27,
       "travel_cost": 0.0,
@@ -26424,15 +26514,15 @@
       "note": "Marktwaardes op basis van vraagprijzen zijn schattingen, geen gegarandeerde gerealiseerde verkoopprijzen.",
       "quick_sale_value": 221.59,
       "realistic_market_value": 274.71,
-      "optimistic_value": 338.26,
+      "optimistic_value": 337.81,
       "source_agreement_percent": null,
       "valuation_sources": [
         {
           "source": "Marktplaats",
           "value": 266.11,
-          "low": 177.99,
-          "high": 349.77,
-          "samples": 23,
+          "low": 178.0,
+          "high": 348.88,
+          "samples": 24,
           "kind": "actieve vraagprijzen"
         },
         {
@@ -26450,7 +26540,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 23,
+      "sample_count": 24,
       "median_asking": 299.0
     },
     "repair": {
@@ -26891,13 +26981,13 @@
     "analysis": {
       "matched_product": "Shure SM7B",
       "category": "Audio",
-      "source": "Marktplaats profiel (23 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (23 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 23,
+      "source": "Marktplaats profiel (24 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (24 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 24,
       "asking_price": 385.0,
       "expected_resale": 274.71,
       "market_low": 221.59,
-      "market_high": 338.26,
+      "market_high": 337.81,
       "fees": 0.0,
       "risk_reserve": 5.27,
       "travel_cost": 0.0,
@@ -26927,15 +27017,15 @@
       "note": "Marktwaardes op basis van vraagprijzen zijn schattingen, geen gegarandeerde gerealiseerde verkoopprijzen.",
       "quick_sale_value": 221.59,
       "realistic_market_value": 274.71,
-      "optimistic_value": 338.26,
+      "optimistic_value": 337.81,
       "source_agreement_percent": null,
       "valuation_sources": [
         {
           "source": "Marktplaats",
           "value": 266.11,
-          "low": 177.99,
-          "high": 349.77,
-          "samples": 23,
+          "low": 178.0,
+          "high": 348.88,
+          "samples": 24,
           "kind": "actieve vraagprijzen"
         },
         {
@@ -26953,7 +27043,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 23,
+      "sample_count": 24,
       "median_asking": 299.0
     },
     "repair": {
@@ -27696,7 +27786,7 @@
   {
     "id": "marktplaats-html:a1513757969",
     "found_at": "2026-09-05T07:12:38.886823+00:00",
-    "last_seen_at": "2026-09-19T12:51:38.615444+00:00",
+    "last_seen_at": "2026-09-19T12:59:25.886181+00:00",
     "source": "marktplaats-html",
     "query": "festool defect",
     "category_hint": "Gereedschap",
@@ -32104,7 +32194,7 @@
   {
     "id": "marktplaats-html:a1513171378",
     "found_at": "2026-09-02T09:15:26.696347+00:00",
-    "last_seen_at": "2026-09-19T12:51:47.449907+00:00",
+    "last_seen_at": "2026-09-19T12:59:35.191227+00:00",
     "source": "marktplaats-html",
     "query": "bang olufsen defect",
     "category_hint": "Audio",
@@ -32130,7 +32220,7 @@
   {
     "id": "marktplaats-html:a1512620259",
     "found_at": "2026-09-02T09:15:26.696036+00:00",
-    "last_seen_at": "2026-09-19T12:51:47.449598+00:00",
+    "last_seen_at": "2026-09-19T12:59:35.190952+00:00",
     "source": "marktplaats-html",
     "query": "bang olufsen defect",
     "category_hint": "Audio",
@@ -32156,7 +32246,7 @@
   {
     "id": "marktplaats-html:a1045761226",
     "found_at": "2026-09-02T09:15:26.695698+00:00",
-    "last_seen_at": "2026-09-19T12:51:47.449287+00:00",
+    "last_seen_at": "2026-09-19T12:59:35.190663+00:00",
     "source": "marktplaats-html",
     "query": "bang olufsen defect",
     "category_hint": "Audio",
@@ -32182,7 +32272,7 @@
   {
     "id": "marktplaats-html:a1512619081",
     "found_at": "2026-09-02T09:15:26.695407+00:00",
-    "last_seen_at": "2026-09-19T12:51:47.448981+00:00",
+    "last_seen_at": "2026-09-19T12:59:35.190401+00:00",
     "source": "marktplaats-html",
     "query": "bang olufsen defect",
     "category_hint": "Audio",
@@ -32208,7 +32298,7 @@
   {
     "id": "marktplaats-html:a1512681175",
     "found_at": "2026-09-02T09:15:26.695050+00:00",
-    "last_seen_at": "2026-09-19T12:51:47.448641+00:00",
+    "last_seen_at": "2026-09-19T12:59:35.190057+00:00",
     "source": "marktplaats-html",
     "query": "bang olufsen defect",
     "category_hint": "Audio",
@@ -32356,7 +32446,7 @@
   {
     "id": "marktplaats-html:a1519149645",
     "found_at": "2026-09-02T09:15:23.642176+00:00",
-    "last_seen_at": "2026-09-19T12:51:44.683229+00:00",
+    "last_seen_at": "2026-09-19T12:59:32.087656+00:00",
     "source": "marktplaats-html",
     "query": "jbl speaker defect",
     "category_hint": "Audio",
@@ -32528,7 +32618,7 @@
   {
     "id": "marktplaats-html:a1514475919",
     "found_at": "2026-09-02T09:15:18.275076+00:00",
-    "last_seen_at": "2026-09-19T12:51:38.614471+00:00",
+    "last_seen_at": "2026-09-19T12:59:25.885304+00:00",
     "source": "marktplaats-html",
     "query": "festool defect",
     "category_hint": "Gereedschap",
@@ -32580,7 +32670,7 @@
   {
     "id": "marktplaats-html:a1522094802",
     "found_at": "2026-09-02T09:15:15.272997+00:00",
-    "last_seen_at": "2026-09-19T12:51:35.605741+00:00",
+    "last_seen_at": "2026-09-19T12:59:22.670536+00:00",
     "source": "marktplaats-html",
     "query": "ps5 defect",
     "category_hint": "Spelcomputers",
@@ -32620,7 +32710,7 @@
   {
     "id": "marktplaats-html:a1516895454",
     "found_at": "2026-09-02T09:15:15.271652+00:00",
-    "last_seen_at": "2026-09-19T12:51:35.603559+00:00",
+    "last_seen_at": "2026-09-19T12:59:22.668564+00:00",
     "source": "marktplaats-html",
     "query": "ps5 defect",
     "category_hint": "Spelcomputers",
@@ -32951,7 +33041,7 @@
   {
     "id": "marktplaats-html:a1511948604",
     "found_at": "2026-09-02T07:26:39.707648+00:00",
-    "last_seen_at": "2026-09-19T12:51:08.976013+00:00",
+    "last_seen_at": "2026-09-19T12:58:54.078234+00:00",
     "source": "marktplaats-html",
     "query": "makita",
     "category_hint": "Gereedschap",
@@ -32977,7 +33067,7 @@
   {
     "id": "marktplaats-html:a1529176214",
     "found_at": "2026-09-02T07:13:11.240258+00:00",
-    "last_seen_at": "2026-09-19T12:51:11.752885+00:00",
+    "last_seen_at": "2026-09-19T12:58:57.224983+00:00",
     "source": "marktplaats-html",
     "query": "fluke",
     "category_hint": "Meetapparatuur",
@@ -33490,7 +33580,7 @@
   {
     "id": "marktplaats-html:a1522759373",
     "found_at": "2026-09-02T04:51:32.139871+00:00",
-    "last_seen_at": "2026-09-19T12:51:32.539686+00:00",
+    "last_seen_at": "2026-09-19T12:59:18.355899+00:00",
     "source": "marktplaats-html",
     "query": "tannoy speaker",
     "category_hint": "Audio",
@@ -33854,7 +33944,7 @@
   {
     "id": "marktplaats-html:a1215170017",
     "found_at": "2026-09-02T04:51:25.635436+00:00",
-    "last_seen_at": "2026-09-19T12:51:26.540935+00:00",
+    "last_seen_at": "2026-09-19T12:59:12.223812+00:00",
     "source": "marktplaats-html",
     "query": "bang olufsen speaker",
     "category_hint": "Audio",
@@ -34448,7 +34538,7 @@
   {
     "id": "marktplaats-html:m2434415000",
     "found_at": "2026-09-02T04:51:19.073784+00:00",
-    "last_seen_at": "2026-09-19T12:51:20.999053+00:00",
+    "last_seen_at": "2026-09-19T12:59:05.709071+00:00",
     "source": "marktplaats-html",
     "query": "sennheiser mkh",
     "category_hint": "Audio",
@@ -34538,7 +34628,7 @@
   {
     "id": "marktplaats-html:m2434251249",
     "found_at": "2026-09-02T04:51:19.073462+00:00",
-    "last_seen_at": "2026-09-19T12:51:20.998513+00:00",
+    "last_seen_at": "2026-09-19T12:59:05.708575+00:00",
     "source": "marktplaats-html",
     "query": "sennheiser mkh",
     "category_hint": "Audio",
@@ -35630,7 +35720,7 @@
     "result_status": "excluded",
     "is_deal": false,
     "exclusion_reason": "Dienst/gezocht-advertentie gedetecteerd: reparatie",
-    "last_seen_at": "2026-09-19T12:51:35.602875+00:00",
+    "last_seen_at": "2026-09-19T12:59:22.667931+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
     "condition": "onderdelen/defect",
@@ -35705,13 +35795,13 @@
     "analysis": {
       "matched_product": "Shure SM7B",
       "category": "Audio",
-      "source": "Marktplaats profiel (23 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (23 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 23,
+      "source": "Marktplaats profiel (24 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (24 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 24,
       "asking_price": 190.0,
       "expected_resale": 250.47,
       "market_low": 202.04,
-      "market_high": 308.42,
+      "market_high": 308.01,
       "fees": 0.0,
       "risk_reserve": 4.81,
       "travel_cost": 0.0,
@@ -35741,15 +35831,15 @@
       "note": "Marktwaardes op basis van vraagprijzen zijn schattingen, geen gegarandeerde gerealiseerde verkoopprijzen.",
       "quick_sale_value": 202.04,
       "realistic_market_value": 250.47,
-      "optimistic_value": 308.42,
+      "optimistic_value": 308.01,
       "source_agreement_percent": null,
       "valuation_sources": [
         {
           "source": "Marktplaats",
           "value": 266.11,
-          "low": 177.99,
-          "high": 349.77,
-          "samples": 23,
+          "low": 178.0,
+          "high": 348.88,
+          "samples": 24,
           "kind": "actieve vraagprijzen"
         },
         {
@@ -35767,7 +35857,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 23,
+      "sample_count": 24,
       "median_asking": 299.0
     },
     "repair": {
@@ -35791,13 +35881,13 @@
     "analysis": {
       "matched_product": "Shure SM7B",
       "category": "Audio",
-      "source": "Marktplaats profiel (23 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (23 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 23,
+      "source": "Marktplaats profiel (24 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (24 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 24,
       "asking_price": 400.0,
       "expected_resale": 250.47,
       "market_low": 202.04,
-      "market_high": 308.42,
+      "market_high": 308.01,
       "fees": 0.0,
       "risk_reserve": 4.81,
       "travel_cost": 0.0,
@@ -35827,15 +35917,15 @@
       "note": "Marktwaardes op basis van vraagprijzen zijn schattingen, geen gegarandeerde gerealiseerde verkoopprijzen.",
       "quick_sale_value": 202.04,
       "realistic_market_value": 250.47,
-      "optimistic_value": 308.42,
+      "optimistic_value": 308.01,
       "source_agreement_percent": null,
       "valuation_sources": [
         {
           "source": "Marktplaats",
           "value": 266.11,
-          "low": 177.99,
-          "high": 349.77,
-          "samples": 23,
+          "low": 178.0,
+          "high": 348.88,
+          "samples": 24,
           "kind": "actieve vraagprijzen"
         },
         {
@@ -35853,7 +35943,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 23,
+      "sample_count": 24,
       "median_asking": 299.0
     },
     "repair": {
@@ -35877,13 +35967,13 @@
     "analysis": {
       "matched_product": "Shure SM7B",
       "category": "Audio",
-      "source": "Marktplaats profiel (23 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (23 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 23,
+      "source": "Marktplaats profiel (24 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (24 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 24,
       "asking_price": 495.0,
       "expected_resale": 250.47,
       "market_low": 202.04,
-      "market_high": 308.42,
+      "market_high": 308.01,
       "fees": 0.0,
       "risk_reserve": 4.81,
       "travel_cost": 0.0,
@@ -35913,15 +36003,15 @@
       "note": "Marktwaardes op basis van vraagprijzen zijn schattingen, geen gegarandeerde gerealiseerde verkoopprijzen.",
       "quick_sale_value": 202.04,
       "realistic_market_value": 250.47,
-      "optimistic_value": 308.42,
+      "optimistic_value": 308.01,
       "source_agreement_percent": null,
       "valuation_sources": [
         {
           "source": "Marktplaats",
           "value": 266.11,
-          "low": 177.99,
-          "high": 349.77,
-          "samples": 23,
+          "low": 178.0,
+          "high": 348.88,
+          "samples": 24,
           "kind": "actieve vraagprijzen"
         },
         {
@@ -35939,7 +36029,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 23,
+      "sample_count": 24,
       "median_asking": 299.0
     },
     "repair": {
@@ -35963,13 +36053,13 @@
     "analysis": {
       "matched_product": "Shure SM7B",
       "category": "Audio",
-      "source": "Marktplaats profiel (23 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (23 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 23,
+      "source": "Marktplaats profiel (24 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (24 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 24,
       "asking_price": 279.0,
       "expected_resale": 250.47,
       "market_low": 202.04,
-      "market_high": 308.42,
+      "market_high": 308.01,
       "fees": 0.0,
       "risk_reserve": 4.81,
       "travel_cost": 0.0,
@@ -35999,15 +36089,15 @@
       "note": "Marktwaardes op basis van vraagprijzen zijn schattingen, geen gegarandeerde gerealiseerde verkoopprijzen.",
       "quick_sale_value": 202.04,
       "realistic_market_value": 250.47,
-      "optimistic_value": 308.42,
+      "optimistic_value": 308.01,
       "source_agreement_percent": null,
       "valuation_sources": [
         {
           "source": "Marktplaats",
           "value": 266.11,
-          "low": 177.99,
-          "high": 349.77,
-          "samples": 23,
+          "low": 178.0,
+          "high": 348.88,
+          "samples": 24,
           "kind": "actieve vraagprijzen"
         },
         {
@@ -36025,7 +36115,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 23,
+      "sample_count": 24,
       "median_asking": 299.0
     },
     "repair": {
@@ -36049,13 +36139,13 @@
     "analysis": {
       "matched_product": "Shure SM7B",
       "category": "Audio",
-      "source": "Marktplaats profiel (23 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (23 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 23,
+      "source": "Marktplaats profiel (24 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (24 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 24,
       "asking_price": 375.0,
       "expected_resale": 274.71,
       "market_low": 221.59,
-      "market_high": 338.26,
+      "market_high": 337.81,
       "fees": 0.0,
       "risk_reserve": 5.27,
       "travel_cost": 0.0,
@@ -36085,15 +36175,15 @@
       "note": "Marktwaardes op basis van vraagprijzen zijn schattingen, geen gegarandeerde gerealiseerde verkoopprijzen.",
       "quick_sale_value": 221.59,
       "realistic_market_value": 274.71,
-      "optimistic_value": 338.26,
+      "optimistic_value": 337.81,
       "source_agreement_percent": null,
       "valuation_sources": [
         {
           "source": "Marktplaats",
           "value": 266.11,
-          "low": 177.99,
-          "high": 349.77,
-          "samples": 23,
+          "low": 178.0,
+          "high": 348.88,
+          "samples": 24,
           "kind": "actieve vraagprijzen"
         },
         {
@@ -36111,7 +36201,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 23,
+      "sample_count": 24,
       "median_asking": 299.0
     },
     "repair": {
@@ -36192,13 +36282,13 @@
     "analysis": {
       "matched_product": "Shure SM7B",
       "category": "Audio",
-      "source": "Marktplaats profiel (23 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (23 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 23,
+      "source": "Marktplaats profiel (24 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (24 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 24,
       "asking_price": 275.0,
       "expected_resale": 274.71,
       "market_low": 221.59,
-      "market_high": 338.26,
+      "market_high": 337.81,
       "fees": 0.0,
       "risk_reserve": 5.27,
       "travel_cost": 0.0,
@@ -36228,15 +36318,15 @@
       "note": "Marktwaardes op basis van vraagprijzen zijn schattingen, geen gegarandeerde gerealiseerde verkoopprijzen.",
       "quick_sale_value": 221.59,
       "realistic_market_value": 274.71,
-      "optimistic_value": 338.26,
+      "optimistic_value": 337.81,
       "source_agreement_percent": null,
       "valuation_sources": [
         {
           "source": "Marktplaats",
           "value": 266.11,
-          "low": 177.99,
-          "high": 349.77,
-          "samples": 23,
+          "low": 178.0,
+          "high": 348.88,
+          "samples": 24,
           "kind": "actieve vraagprijzen"
         },
         {
@@ -36262,7 +36352,7 @@
     },
     "is_repair_deal": false,
     "market_profile": {
-      "sample_count": 23,
+      "sample_count": 24,
       "median_asking": 299.0
     }
   },
@@ -36284,7 +36374,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "valuation_samples": 0,
-    "last_seen_at": "2026-09-19T12:51:18.309788+00:00",
+    "last_seen_at": "2026-09-19T12:59:02.747068+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
     "condition": "nieuw",
@@ -36309,13 +36399,13 @@
     "analysis": {
       "matched_product": "Shure SM7B",
       "category": "Audio",
-      "source": "Marktplaats profiel (23 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (23 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 23,
+      "source": "Marktplaats profiel (24 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (24 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 24,
       "asking_price": 479.0,
       "expected_resale": 288.17,
       "market_low": 232.46,
-      "market_high": 354.84,
+      "market_high": 354.37,
       "fees": 0.0,
       "risk_reserve": 5.53,
       "travel_cost": 0.0,
@@ -36345,15 +36435,15 @@
       "note": "Marktwaardes op basis van vraagprijzen zijn schattingen, geen gegarandeerde gerealiseerde verkoopprijzen.",
       "quick_sale_value": 232.46,
       "realistic_market_value": 288.17,
-      "optimistic_value": 354.84,
+      "optimistic_value": 354.37,
       "source_agreement_percent": null,
       "valuation_sources": [
         {
           "source": "Marktplaats",
           "value": 266.11,
-          "low": 177.99,
-          "high": 349.77,
-          "samples": 23,
+          "low": 178.0,
+          "high": 348.88,
+          "samples": 24,
           "kind": "actieve vraagprijzen"
         },
         {
@@ -36375,7 +36465,7 @@
     "price_drop_percent": 0.0,
     "condition": "nieuw",
     "market_profile": {
-      "sample_count": 23,
+      "sample_count": 24,
       "median_asking": 299.0
     },
     "repair": {
@@ -36399,13 +36489,13 @@
     "analysis": {
       "matched_product": "Shure SM7B",
       "category": "Audio",
-      "source": "Marktplaats profiel (23 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (23 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 23,
+      "source": "Marktplaats profiel (24 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (24 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 24,
       "asking_price": 479.0,
       "expected_resale": 288.17,
       "market_low": 232.46,
-      "market_high": 354.84,
+      "market_high": 354.37,
       "fees": 0.0,
       "risk_reserve": 5.53,
       "travel_cost": 0.0,
@@ -36435,15 +36525,15 @@
       "note": "Marktwaardes op basis van vraagprijzen zijn schattingen, geen gegarandeerde gerealiseerde verkoopprijzen.",
       "quick_sale_value": 232.46,
       "realistic_market_value": 288.17,
-      "optimistic_value": 354.84,
+      "optimistic_value": 354.37,
       "source_agreement_percent": null,
       "valuation_sources": [
         {
           "source": "Marktplaats",
           "value": 266.11,
-          "low": 177.99,
-          "high": 349.77,
-          "samples": 23,
+          "low": 178.0,
+          "high": 348.88,
+          "samples": 24,
           "kind": "actieve vraagprijzen"
         },
         {
@@ -36465,7 +36555,7 @@
     "price_drop_percent": 0.0,
     "condition": "nieuw",
     "market_profile": {
-      "sample_count": 23,
+      "sample_count": 24,
       "median_asking": 299.0
     },
     "repair": {
@@ -36489,13 +36579,13 @@
     "analysis": {
       "matched_product": "Shure SM7B",
       "category": "Audio",
-      "source": "Marktplaats profiel (23 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (23 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 23,
+      "source": "Marktplaats profiel (24 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (24 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 24,
       "asking_price": 355.0,
       "expected_resale": 288.17,
       "market_low": 232.46,
-      "market_high": 354.84,
+      "market_high": 354.37,
       "fees": 0.0,
       "risk_reserve": 5.53,
       "travel_cost": 0.0,
@@ -36525,15 +36615,15 @@
       "note": "Marktwaardes op basis van vraagprijzen zijn schattingen, geen gegarandeerde gerealiseerde verkoopprijzen.",
       "quick_sale_value": 232.46,
       "realistic_market_value": 288.17,
-      "optimistic_value": 354.84,
+      "optimistic_value": 354.37,
       "source_agreement_percent": null,
       "valuation_sources": [
         {
           "source": "Marktplaats",
           "value": 266.11,
-          "low": 177.99,
-          "high": 349.77,
-          "samples": 23,
+          "low": 178.0,
+          "high": 348.88,
+          "samples": 24,
           "kind": "actieve vraagprijzen"
         },
         {
@@ -36550,12 +36640,12 @@
     "result_status": "scored",
     "is_deal": false,
     "exclusion_reason": null,
-    "last_seen_at": "2026-09-19T12:51:18.309446+00:00",
+    "last_seen_at": "2026-09-19T12:59:02.746719+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
     "condition": "nieuw",
     "market_profile": {
-      "sample_count": 23,
+      "sample_count": 24,
       "median_asking": 299.0
     },
     "repair": {
@@ -36810,7 +36900,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "valuation_samples": 0,
-    "last_seen_at": "2026-09-19T12:51:11.753188+00:00",
+    "last_seen_at": "2026-09-19T12:58:57.225250+00:00",
     "previous_asking_price": 114.89,
     "price_drop_percent": 0.0,
     "condition": "nieuw",
@@ -37009,7 +37099,7 @@
     "result_status": "unrecognized",
     "is_deal": false,
     "exclusion_reason": null,
-    "last_seen_at": "2026-09-19T12:51:05.896160+00:00",
+    "last_seen_at": "2026-09-19T12:58:50.476090+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
     "condition": "nieuw",
@@ -37089,7 +37179,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "valuation_samples": 0,
-    "last_seen_at": "2026-09-19T12:51:05.895836+00:00",
+    "last_seen_at": "2026-09-19T12:58:50.475789+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
     "condition": "nieuw",
@@ -37581,7 +37671,7 @@
     "result_status": "scored",
     "is_deal": false,
     "exclusion_reason": null,
-    "last_seen_at": "2026-09-19T12:51:02.808182+00:00",
+    "last_seen_at": "2026-09-19T12:58:46.430983+00:00",
     "previous_asking_price": 250.0,
     "price_drop_percent": 0.0,
     "condition": "zo goed als nieuw",
@@ -38061,7 +38151,7 @@
     "result_status": "excluded",
     "is_deal": false,
     "exclusion_reason": "Accessoire/dienst gedetecteerd: dock",
-    "last_seen_at": "2026-09-19T12:50:59.651768+00:00",
+    "last_seen_at": "2026-09-19T12:58:43.295592+00:00",
     "previous_asking_price": 65.95,
     "price_drop_percent": 0.0,
     "condition": "nieuw",
@@ -38688,7 +38778,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "valuation_samples": 0,
-    "last_seen_at": "2026-09-19T12:50:56.873659+00:00",
+    "last_seen_at": "2026-09-19T12:58:40.328537+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
     "condition": "zo goed als nieuw",
@@ -39358,7 +39448,7 @@
     "result_status": "excluded",
     "is_deal": false,
     "exclusion_reason": "Game/software in plaats van console",
-    "last_seen_at": "2026-09-19T12:50:54.037622+00:00",
+    "last_seen_at": "2026-09-19T12:58:37.510845+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
     "condition": "nieuw",

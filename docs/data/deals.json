@@ -1052,13 +1052,13 @@
     "analysis": {
       "matched_product": "Shure SM7B",
       "category": "Audio",
-      "source": "Marktplaats profiel (23 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (23 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 23,
+      "source": "Marktplaats profiel (24 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (24 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 24,
       "asking_price": 164.99,
       "expected_resale": 288.17,
       "market_low": 232.46,
-      "market_high": 354.84,
+      "market_high": 354.37,
       "fees": 0.0,
       "risk_reserve": 5.53,
       "travel_cost": 0.0,
@@ -1088,15 +1088,15 @@
       "note": "Marktwaardes op basis van vraagprijzen zijn schattingen, geen gegarandeerde gerealiseerde verkoopprijzen.",
       "quick_sale_value": 232.46,
       "realistic_market_value": 288.17,
-      "optimistic_value": 354.84,
+      "optimistic_value": 354.37,
       "source_agreement_percent": null,
       "valuation_sources": [
         {
           "source": "Marktplaats",
           "value": 266.11,
-          "low": 177.99,
-          "high": 349.77,
-          "samples": 23,
+          "low": 178.0,
+          "high": 348.88,
+          "samples": 24,
           "kind": "actieve vraagprijzen"
         },
         {
@@ -1114,7 +1114,7 @@
     "is_deal": true,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 23,
+      "sample_count": 24,
       "median_asking": 299.0
     },
     "repair": {
@@ -1142,13 +1142,13 @@
     "analysis": {
       "matched_product": "Shure SM7B",
       "category": "Audio",
-      "source": "Marktplaats profiel (23 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (23 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 23,
+      "source": "Marktplaats profiel (24 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (24 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 24,
       "asking_price": 150.0,
       "expected_resale": 250.47,
       "market_low": 202.04,
-      "market_high": 308.42,
+      "market_high": 308.01,
       "fees": 0.0,
       "risk_reserve": 4.81,
       "travel_cost": 0.0,
@@ -1178,15 +1178,15 @@
       "note": "Marktwaardes op basis van vraagprijzen zijn schattingen, geen gegarandeerde gerealiseerde verkoopprijzen.",
       "quick_sale_value": 202.04,
       "realistic_market_value": 250.47,
-      "optimistic_value": 308.42,
+      "optimistic_value": 308.01,
       "source_agreement_percent": null,
       "valuation_sources": [
         {
           "source": "Marktplaats",
           "value": 266.11,
-          "low": 177.99,
-          "high": 349.77,
-          "samples": 23,
+          "low": 178.0,
+          "high": 348.88,
+          "samples": 24,
           "kind": "actieve vraagprijzen"
         },
         {
@@ -1204,7 +1204,7 @@
     "is_deal": true,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 23,
+      "sample_count": 24,
       "median_asking": 299.0
     },
     "repair": {
