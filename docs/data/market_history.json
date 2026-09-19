@@ -14608,5 +14608,15 @@
       "asking_low": 200.0,
       "asking_high": 200.0
     }
+  ],
+  "Makita BOOR EN SCHROEFMACHINE": [
+    {
+      "at": "2026-09-19T10:26:09.492861+00:00",
+      "sample_count": 1,
+      "median_asking": 60.0,
+      "estimated_resale": 53.4,
+      "asking_low": 60.0,
+      "asking_high": 60.0
+    }
   ]
 }
