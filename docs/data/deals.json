@@ -897,7 +897,7 @@
   {
     "id": "marktplaats-html:m2443793961",
     "found_at": "2026-09-17T19:40:49.744172+00:00",
-    "last_seen_at": "2026-09-19T08:57:54.808359+00:00",
+    "last_seen_at": "2026-09-19T09:13:35.951365+00:00",
     "source": "marktplaats-html",
     "query": "shure sm7b",
     "category_hint": "Audio",
@@ -920,7 +920,7 @@
       "asking_price": 164.99,
       "expected_resale": 288.17,
       "market_low": 232.46,
-      "market_high": 358.18,
+      "market_high": 355.8,
       "fees": 0.0,
       "risk_reserve": 5.53,
       "travel_cost": 0.0,
@@ -950,14 +950,14 @@
       "note": "Marktwaardes op basis van vraagprijzen zijn schattingen, geen gegarandeerde gerealiseerde verkoopprijzen.",
       "quick_sale_value": 232.46,
       "realistic_market_value": 288.17,
-      "optimistic_value": 358.18,
+      "optimistic_value": 355.8,
       "source_agreement_percent": null,
       "valuation_sources": [
         {
           "source": "Marktplaats",
           "value": 266.11,
           "low": 177.99,
-          "high": 356.0,
+          "high": 351.55,
           "samples": 21,
           "kind": "actieve vraagprijzen"
         },
@@ -1010,7 +1010,7 @@
       "asking_price": 150.0,
       "expected_resale": 250.47,
       "market_low": 202.04,
-      "market_high": 311.32,
+      "market_high": 309.24,
       "fees": 0.0,
       "risk_reserve": 4.81,
       "travel_cost": 0.0,
@@ -1040,14 +1040,14 @@
       "note": "Marktwaardes op basis van vraagprijzen zijn schattingen, geen gegarandeerde gerealiseerde verkoopprijzen.",
       "quick_sale_value": 202.04,
       "realistic_market_value": 250.47,
-      "optimistic_value": 311.32,
+      "optimistic_value": 309.24,
       "source_agreement_percent": null,
       "valuation_sources": [
         {
           "source": "Marktplaats",
           "value": 266.11,
           "low": 177.99,
-          "high": 356.0,
+          "high": 351.55,
           "samples": 21,
           "kind": "actieve vraagprijzen"
         },
