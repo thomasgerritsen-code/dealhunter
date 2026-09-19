@@ -14656,5 +14656,15 @@
       "asking_low": 30.0,
       "asking_high": 30.0
     }
+  ],
+  "Tannoy 609 IN AND": [
+    {
+      "at": "2026-09-19T21:13:08.248033+00:00",
+      "sample_count": 1,
+      "median_asking": 250.0,
+      "estimated_resale": 222.5,
+      "asking_low": 250.0,
+      "asking_high": 250.0
+    }
   ]
 }
