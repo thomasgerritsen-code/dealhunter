@@ -1,5 +1,74 @@
 [
   {
+    "id": "marktplaats-html:a1531242730",
+    "found_at": "2026-09-19T10:12:50.046758+00:00",
+    "last_seen_at": "2026-09-19T10:12:50.046758+00:00",
+    "source": "marktplaats-html",
+    "query": "ps5",
+    "category_hint": "Spelcomputers",
+    "title": "PS5 Slim Koelstandaard RGB | Retourdeal 32% Korting",
+    "description": "Bewaren in Mijn Favorieten PS5 Slim Koelstandaard RGB | Retourdeal 32% Korting Fastsnail rgb koelstandaard voor ps5 slim - met controllerlader - 32% korting gecontroleerd retourproduct - 100% functioneel. Geschikt voor ps5 slim digital en disc edition stille koelventilator met 3 Zo goed als nieuw Ophalen of Verzenden € 16,33 Vandaag Topadvertentie Retoertje Arnhem Bewaren in Mijn Favorieten PS5 Slim Koelstandaard RGB | Retourdeal 32% Korting € 16,33 Fastsnail rgb koelstandaard voor ps5 slim - met controllerlader - 32% korting gecontroleerd retourproduct - 100% functioneel. Geschikt voor ps5 slim digital en disc edition stille koelventilator met 3 Zo goed als nieuw Ophalen of Verzenden Retoertje Arnhem Vandaag Topadvertentie Bewaren in Mijn Favorieten PS5 Slim Koelstandaard RGB | Retourdeal 32% Korting € 16,33 Details Ophalen of Verzenden Zo goed als nieuw Overige typen Fastsnail rgb koel",
+    "url": "https://www.marktplaats.nl/v/spelcomputers-en-games/spelcomputers-xbox-accessoires/a1531242730-ps5-slim-koelstandaard-rgb-retourdeal-32-korting",
+    "asking_price": 16.33,
+    "previous_asking_price": null,
+    "price_drop_percent": 0.0,
+    "promoted": true,
+    "matched_product": "Sony PlayStation 5 Digital Slim",
+    "recognition_confidence": 93,
+    "condition": "zo goed als nieuw",
+    "analysis": {
+      "matched_product": "Sony PlayStation 5 Digital Slim",
+      "category": "Spelcomputers",
+      "source": "lokale referentiecatalogus",
+      "valuation_basis": "lokale referentiecatalogus",
+      "valuation_samples": 0,
+      "asking_price": 16.33,
+      "expected_resale": 316.2,
+      "market_low": 284.58,
+      "market_high": 347.82,
+      "fees": 0.0,
+      "risk_reserve": 22.59,
+      "travel_cost": 0.0,
+      "expected_profit": 277.28,
+      "roi_percent": 1698.0,
+      "discount_percent": 94.8,
+      "opening_bid": 15.02,
+      "target_buy_price": 16.33,
+      "max_buy_price": 233.61,
+      "deal_score": 100,
+      "risk_score": 28,
+      "liquidity_score": 93,
+      "confidence_percent": 75,
+      "recognition_confidence_percent": 93,
+      "market_confidence_percent": 58,
+      "verdict": "TOPDEAL",
+      "recommendation": "ZEER INTERESSANT",
+      "risk_reasons": [
+        "Vraagprijs is <45% van geschatte waarde: extra fraude-/defectcheck"
+      ],
+      "score_breakdown": {
+        "discount": 28,
+        "profit": 24,
+        "roi": 18,
+        "liquidity": 11.2,
+        "confidence": 13.5,
+        "risk_penalty": 5.6
+      },
+      "note": "Marktwaardes op basis van vraagprijzen zijn schattingen, geen gegarandeerde gerealiseerde verkoopprijzen."
+    },
+    "result_status": "deal",
+    "is_deal": true,
+    "exclusion_reason": null,
+    "market_profile": {
+      "sample_count": 1,
+      "median_asking": 450.0
+    },
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
+  },
+  {
     "id": "marktplaats-html:m2443904033",
     "found_at": "2026-09-18T09:41:21.181945+00:00",
     "last_seen_at": "2026-09-18T13:27:20.072540+00:00",
@@ -897,7 +966,7 @@
   {
     "id": "marktplaats-html:m2443793961",
     "found_at": "2026-09-17T19:40:49.744172+00:00",
-    "last_seen_at": "2026-09-19T09:57:46.951652+00:00",
+    "last_seen_at": "2026-09-19T10:13:15.961233+00:00",
     "source": "marktplaats-html",
     "query": "shure sm7b",
     "category_hint": "Audio",

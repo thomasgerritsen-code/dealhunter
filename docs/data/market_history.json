@@ -14598,5 +14598,15 @@
       "asking_low": 100.0,
       "asking_high": 100.0
     }
+  ],
+  "Tektronix 547": [
+    {
+      "at": "2026-09-19T10:13:50.163848+00:00",
+      "sample_count": 1,
+      "median_asking": 200.0,
+      "estimated_resale": 180.0,
+      "asking_low": 200.0,
+      "asking_high": 200.0
+    }
   ]
 }
