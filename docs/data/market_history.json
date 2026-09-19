@@ -14636,5 +14636,15 @@
       "asking_low": 200.0,
       "asking_high": 200.0
     }
+  ],
+  "Tektronix 2215": [
+    {
+      "at": "2026-09-19T16:13:59.683863+00:00",
+      "sample_count": 1,
+      "median_asking": 110.0,
+      "estimated_resale": 99.0,
+      "asking_low": 110.0,
+      "asking_high": 110.0
+    }
   ]
 }
