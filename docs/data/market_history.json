@@ -14619,12 +14619,22 @@
   ],
   "Makita BOOR EN SCHROEFMACHINE": [
     {
-      "at": "2026-09-19T13:13:48.567353+00:00",
-      "sample_count": 2,
-      "median_asking": 130.0,
-      "estimated_resale": 115.7,
-      "asking_low": 88.0,
-      "asking_high": 172.0
+      "at": "2026-09-19T13:40:04.252515+00:00",
+      "sample_count": 1,
+      "median_asking": 60.0,
+      "estimated_resale": 53.4,
+      "asking_low": 60.0,
+      "asking_high": 60.0
+    }
+  ],
+  "Makita KLOP BOOR EN": [
+    {
+      "at": "2026-09-19T13:40:04.252515+00:00",
+      "sample_count": 1,
+      "median_asking": 200.0,
+      "estimated_resale": 178.0,
+      "asking_low": 200.0,
+      "asking_high": 200.0
     }
   ]
 }
