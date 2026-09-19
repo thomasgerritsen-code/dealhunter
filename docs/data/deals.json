@@ -897,7 +897,7 @@
   {
     "id": "marktplaats-html:m2443793961",
     "found_at": "2026-09-17T19:40:49.744172+00:00",
-    "last_seen_at": "2026-09-19T00:37:45.106632+00:00",
+    "last_seen_at": "2026-09-19T00:51:03.148712+00:00",
     "source": "marktplaats-html",
     "query": "shure sm7b",
     "category_hint": "Audio",
@@ -906,7 +906,7 @@
     "url": "https://www.marktplaats.nl/v/muziek-en-instrumenten/microfoons/m2443793961-shure-sm7b",
     "asking_price": 164.99,
     "previous_asking_price": 174.99,
-    "price_drop_percent": 5.7,
+    "price_drop_percent": 0.0,
     "promoted": false,
     "matched_product": "Shure SM7B",
     "recognition_confidence": 86,
