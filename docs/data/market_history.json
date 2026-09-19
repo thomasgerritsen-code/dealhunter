@@ -12709,6 +12709,14 @@
       "estimated_resale": 7.12,
       "asking_low": 8.0,
       "asking_high": 8.0
+    },
+    {
+      "at": "2026-09-19T13:13:48.567353+00:00",
+      "sample_count": 1,
+      "median_asking": 8.0,
+      "estimated_resale": 7.12,
+      "asking_low": 8.0,
+      "asking_high": 8.0
     }
   ],
   "Tektronix P6055": [
@@ -14611,12 +14619,12 @@
   ],
   "Makita BOOR EN SCHROEFMACHINE": [
     {
-      "at": "2026-09-19T10:26:09.492861+00:00",
-      "sample_count": 1,
-      "median_asking": 60.0,
-      "estimated_resale": 53.4,
-      "asking_low": 60.0,
-      "asking_high": 60.0
+      "at": "2026-09-19T13:13:48.567353+00:00",
+      "sample_count": 2,
+      "median_asking": 130.0,
+      "estimated_resale": 115.7,
+      "asking_low": 88.0,
+      "asking_high": 172.0
     }
   ]
 }
