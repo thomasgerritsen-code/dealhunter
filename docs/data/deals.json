@@ -1,5 +1,74 @@
 [
   {
+    "id": "marktplaats-html:a1531208893",
+    "found_at": "2026-09-20T16:50:02.193705+00:00",
+    "last_seen_at": "2026-09-20T16:50:02.193705+00:00",
+    "source": "marktplaats-html",
+    "query": "ps5 defect",
+    "category_hint": "Spelcomputers",
+    "title": "Marvels Avengers (PlayStation 4)",
+    "description": "Bewaren in Mijn Favorieten Marvels Avengers (PlayStation 4) Marvel's avengers (playstation 4) upgrade zonder extra kosten naar de ps5-versie van de game. Spelers moeten een ps5-systeem met een disc-speler hebben om in aanmerking te komen en de ps4-discs te Gebruikt Verzenden € 22,99 Vandaag Topadvertentie Nedgame.nl Heel Nederland Bewaren in Mijn Favorieten Marvels Avengers (PlayStation 4) € 22,99 Marvel's avengers (playstation 4) upgrade zonder extra kosten naar de ps5-versie van de game. Spelers moeten een ps5-systeem met een disc-speler hebben om in aanmerking te komen en de ps4-discs te Gebruikt Verzenden Nedgame.nl Heel Nederland Vandaag Topadvertentie Bewaren in Mijn Favorieten Marvels Avengers (PlayStation 4) € 22,99 Details Verzenden Gebruikt Vanaf 12 jaar Marvel's avengers (playstation 4) upgrade zonder extra kosten naar de ps5-versie van de game. Spelers moeten een ps5-systeem ",
+    "url": "https://www.marktplaats.nl/v/spelcomputers-en-games/games-sony-playstation-4/a1531208893-marvels-avengers-playstation-4",
+    "asking_price": 22.99,
+    "previous_asking_price": null,
+    "price_drop_percent": 0.0,
+    "promoted": true,
+    "matched_product": "Sony PlayStation 5 Disc (original)",
+    "recognition_confidence": 66,
+    "condition": "goed",
+    "analysis": {
+      "matched_product": "Sony PlayStation 5 Disc (original)",
+      "category": "Spelcomputers",
+      "source": "lokale referentiecatalogus",
+      "valuation_basis": "lokale referentiecatalogus",
+      "valuation_samples": 0,
+      "asking_price": 22.99,
+      "expected_resale": 316.2,
+      "market_low": 284.58,
+      "market_high": 347.82,
+      "fees": 0.0,
+      "risk_reserve": 22.59,
+      "travel_cost": 0.0,
+      "expected_profit": 270.62,
+      "roi_percent": 1177.1,
+      "discount_percent": 92.7,
+      "opening_bid": 21.15,
+      "target_buy_price": 22.99,
+      "max_buy_price": 233.61,
+      "deal_score": 100,
+      "risk_score": 28,
+      "liquidity_score": 96,
+      "confidence_percent": 66,
+      "recognition_confidence_percent": 75,
+      "market_confidence_percent": 58,
+      "verdict": "TOPDEAL",
+      "recommendation": "ZEER INTERESSANT",
+      "risk_reasons": [
+        "Vraagprijs is <45% van geschatte waarde: extra fraude-/defectcheck"
+      ],
+      "score_breakdown": {
+        "discount": 28,
+        "profit": 24,
+        "roi": 18,
+        "liquidity": 11.5,
+        "confidence": 11.9,
+        "risk_penalty": 5.6
+      },
+      "note": "Marktwaardes op basis van vraagprijzen zijn schattingen, geen gegarandeerde gerealiseerde verkoopprijzen."
+    },
+    "result_status": "deal",
+    "is_deal": true,
+    "exclusion_reason": null,
+    "market_profile": {
+      "sample_count": 1,
+      "median_asking": 1049.0
+    },
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
+  },
+  {
     "id": "marktplaats-html:a1531242735",
     "found_at": "2026-09-19T17:30:13.859713+00:00",
     "last_seen_at": "2026-09-19T18:14:26.494620+00:00",
@@ -1125,7 +1194,7 @@
   {
     "id": "marktplaats-html:a1531036094",
     "found_at": "2026-09-15T14:14:47.303504+00:00",
-    "last_seen_at": "2026-09-20T16:40:23.651910+00:00",
+    "last_seen_at": "2026-09-20T16:49:18.120116+00:00",
     "source": "marktplaats-html",
     "query": "ps5",
     "category_hint": "Spelcomputers",
