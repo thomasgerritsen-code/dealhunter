@@ -15868,5 +15868,15 @@
       "asking_low": 175.0,
       "asking_high": 175.0
     }
+  ],
+  "Makita DHR171ZJ ACCU BOORHAMER": [
+    {
+      "at": "2026-09-20T07:25:55.797224+00:00",
+      "sample_count": 1,
+      "median_asking": 140.0,
+      "estimated_resale": 124.6,
+      "asking_low": 140.0,
+      "asking_high": 140.0
+    }
   ]
 }
