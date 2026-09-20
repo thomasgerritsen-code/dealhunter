@@ -15858,5 +15858,15 @@
       "asking_low": 250.0,
       "asking_high": 250.0
     }
+  ],
+  "Makita DDF484 18V BRUSHLESS": [
+    {
+      "at": "2026-09-20T05:57:31.072858+00:00",
+      "sample_count": 1,
+      "median_asking": 175.0,
+      "estimated_resale": 155.75,
+      "asking_low": 175.0,
+      "asking_high": 175.0
+    }
   ]
 }
