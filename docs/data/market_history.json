@@ -15891,12 +15891,12 @@
   ],
   "Tannoy I7": [
     {
-      "at": "2026-09-20T10:25:43.672768+00:00",
+      "at": "2026-09-20T11:34:01.264657+00:00",
       "sample_count": 1,
-      "median_asking": 100.0,
-      "estimated_resale": 89.0,
-      "asking_low": 100.0,
-      "asking_high": 100.0
+      "median_asking": 75.0,
+      "estimated_resale": 66.75,
+      "asking_low": 75.0,
+      "asking_high": 75.0
     }
   ],
   "Tektronix 7623A OSCILLOSCOPE": [
