@@ -278,7 +278,7 @@
   {
     "id": "marktplaats-html:a1531036094",
     "found_at": "2026-09-15T14:14:47.303504+00:00",
-    "last_seen_at": "2026-09-20T08:40:57.699793+00:00",
+    "last_seen_at": "2026-09-20T08:50:21.482157+00:00",
     "source": "marktplaats-html",
     "query": "ps5",
     "category_hint": "Spelcomputers",
@@ -1371,7 +1371,7 @@
       "valuation_samples": 21,
       "asking_price": 130.0,
       "expected_resale": 213.9,
-      "market_low": 175.82,
+      "market_low": 184.37,
       "market_high": 240.07,
       "fees": 0.0,
       "risk_reserve": 4.62,
