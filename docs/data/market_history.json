@@ -15861,12 +15861,12 @@
   ],
   "Makita DDF484 18V BRUSHLESS": [
     {
-      "at": "2026-09-20T05:57:31.072858+00:00",
-      "sample_count": 1,
-      "median_asking": 175.0,
-      "estimated_resale": 155.75,
-      "asking_low": 175.0,
-      "asking_high": 175.0
+      "at": "2026-09-20T12:36:35.275952+00:00",
+      "sample_count": 2,
+      "median_asking": 142.0,
+      "estimated_resale": 126.38,
+      "asking_low": 122.2,
+      "asking_high": 161.8
     }
   ],
   "Makita DHR171ZJ ACCU BOORHAMER": [
@@ -15907,6 +15907,16 @@
       "estimated_resale": 270.0,
       "asking_low": 300.0,
       "asking_high": 300.0
+    }
+  ],
+  "Tannoy REVEAL STUDIOMONITORS": [
+    {
+      "at": "2026-09-20T12:36:35.275952+00:00",
+      "sample_count": 1,
+      "median_asking": 110.0,
+      "estimated_resale": 97.9,
+      "asking_low": 110.0,
+      "asking_high": 110.0
     }
   ]
 }
