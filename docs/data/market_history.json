@@ -15918,5 +15918,15 @@
       "asking_low": 110.0,
       "asking_high": 110.0
     }
+  ],
+  "KEF C55 LUIDSPREKERS UNI": [
+    {
+      "at": "2026-09-20T13:24:51.902453+00:00",
+      "sample_count": 1,
+      "median_asking": 125.0,
+      "estimated_resale": 111.25,
+      "asking_low": 125.0,
+      "asking_high": 125.0
+    }
   ]
 }
