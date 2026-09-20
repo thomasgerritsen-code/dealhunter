@@ -15878,5 +15878,15 @@
       "asking_low": 140.0,
       "asking_high": 140.0
     }
+  ],
+  "Makita DHR243": [
+    {
+      "at": "2026-09-20T08:14:44.693724+00:00",
+      "sample_count": 1,
+      "median_asking": 165.0,
+      "estimated_resale": 146.85,
+      "asking_low": 165.0,
+      "asking_high": 165.0
+    }
   ]
 }
