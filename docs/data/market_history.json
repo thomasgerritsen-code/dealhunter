@@ -17179,17 +17179,27 @@
   ],
   "KEF CODA III BOEKENPLANK": [
     {
-      "at": "2026-09-21T08:15:54.000019+00:00",
+      "at": "2026-09-21T08:47:02.260463+00:00",
       "sample_count": 1,
-      "median_asking": 80.0,
-      "estimated_resale": 71.2,
-      "asking_low": 80.0,
-      "asking_high": 80.0
+      "median_asking": 75.0,
+      "estimated_resale": 66.75,
+      "asking_low": 75.0,
+      "asking_high": 75.0
     }
   ],
   "KEF VLOERSTAANDE LUIDSPREKERS": [
     {
       "at": "2026-09-21T08:34:23.322796+00:00",
+      "sample_count": 1,
+      "median_asking": 250.0,
+      "estimated_resale": 222.5,
+      "asking_low": 250.0,
+      "asking_high": 250.0
+    }
+  ],
+  "KEF HIGH END LUIDSPREKERS": [
+    {
+      "at": "2026-09-21T08:47:02.260463+00:00",
       "sample_count": 1,
       "median_asking": 250.0,
       "estimated_resale": 222.5,
