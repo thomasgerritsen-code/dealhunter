@@ -17206,5 +17206,15 @@
       "asking_low": 250.0,
       "asking_high": 250.0
     }
+  ],
+  "JBL PARTYBOX 300 WERKT": [
+    {
+      "at": "2026-09-21T12:19:31.165330+00:00",
+      "sample_count": 1,
+      "median_asking": 225.0,
+      "estimated_resale": 200.25,
+      "asking_low": 225.0,
+      "asking_high": 225.0
+    }
   ]
 }
