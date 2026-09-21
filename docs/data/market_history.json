@@ -17262,5 +17262,15 @@
       "asking_low": 75.0,
       "asking_high": 75.0
     }
+  ],
+  "Tannoy 609 DUAL CONCENTRIC": [
+    {
+      "at": "2026-09-21T17:33:35.736600+00:00",
+      "sample_count": 1,
+      "median_asking": 200.0,
+      "estimated_resale": 178.0,
+      "asking_low": 200.0,
+      "asking_high": 200.0
+    }
   ]
 }
