@@ -17186,5 +17186,15 @@
       "asking_low": 80.0,
       "asking_high": 80.0
     }
+  ],
+  "KEF VLOERSTAANDE LUIDSPREKERS": [
+    {
+      "at": "2026-09-21T08:34:23.322796+00:00",
+      "sample_count": 1,
+      "median_asking": 250.0,
+      "estimated_resale": 222.5,
+      "asking_low": 250.0,
+      "asking_high": 250.0
+    }
   ]
 }
