@@ -721,12 +721,12 @@
       "asking_high": 339.98
     },
     {
-      "at": "2026-09-22T00:19:06.306353+00:00",
-      "sample_count": 21,
-      "median_asking": 260.0,
-      "estimated_resale": 239.2,
-      "asking_low": 250.0,
-      "asking_high": 339.98
+      "at": "2026-09-22T10:57:55.629927+00:00",
+      "sample_count": 24,
+      "median_asking": 267.5,
+      "estimated_resale": 246.1,
+      "asking_low": 242.0,
+      "asking_high": 353.98
     }
   ],
   "Sony PlayStation 5 Pro": [
@@ -18585,6 +18585,16 @@
       "estimated_resale": 311.5,
       "asking_low": 350.0,
       "asking_high": 350.0
+    }
+  ],
+  "Makita DHP484 LXT 18V": [
+    {
+      "at": "2026-09-22T10:57:55.629927+00:00",
+      "sample_count": 1,
+      "median_asking": 99.99,
+      "estimated_resale": 88.99,
+      "asking_low": 99.99,
+      "asking_high": 99.99
     }
   ]
 }
