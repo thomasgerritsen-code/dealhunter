@@ -18596,5 +18596,15 @@
       "asking_low": 99.99,
       "asking_high": 99.99
     }
+  ],
+  "Makita BDF343 BOORMACHINE GEBRUIKTE": [
+    {
+      "at": "2026-09-22T13:47:18.582035+00:00",
+      "sample_count": 1,
+      "median_asking": 119.99,
+      "estimated_resale": 106.79,
+      "asking_low": 119.99,
+      "asking_high": 119.99
+    }
   ]
 }
