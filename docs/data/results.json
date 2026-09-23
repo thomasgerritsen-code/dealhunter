@@ -1,8 +1,77 @@
 [
   {
+    "id": "marktplaats-html:m2445871714",
+    "found_at": "2026-09-23T15:27:59.451680+00:00",
+    "last_seen_at": "2026-09-23T15:27:59.451680+00:00",
+    "source": "marktplaats-html",
+    "query": "xbox series x",
+    "category_hint": "Spelcomputers",
+    "title": "Xbox Series X Console",
+    "description": "Bewaren in Mijn Favorieten Xbox Series X Console Te koop aangeboden: een xbox series x console in zeer goede staat. De console wordt geleverd zonder controller, maar inclusief alle benodigde kabels (stroomkabel, hdmi-kabel) en vier populaire games: Zo goed als nieuw Ophalen € 480,00 Vandaag Tyl Ulvenhout Bewaren in Mijn Favorieten Xbox Series X Console € 480,00 Te koop aangeboden: een xbox series x console in zeer goede staat. De console wordt geleverd zonder controller, maar inclusief alle benodigde kabels (stroomkabel, hdmi-kabel) en vier populaire games: Zo goed als nieuw Ophalen Tyl Ulvenhout Vandaag Bewaren in Mijn Favorieten Xbox Series X Console € 480,00 Details Ophalen Zo goed als nieuw Xbox Series X Te koop aangeboden: een xbox series x console in zeer goede staat. De console wordt geleverd zonder controller, maar inclusief alle benodigde kabels (stroomkabel, hdmi-kabel) en vier",
+    "url": "https://www.marktplaats.nl/v/spelcomputers-en-games/spelcomputers-xbox-series-x-en-s/m2445871714-xbox-series-x-console",
+    "asking_price": 480.0,
+    "previous_asking_price": null,
+    "price_drop_percent": 0.0,
+    "promoted": false,
+    "matched_product": "Microsoft Xbox Series X 1TB",
+    "recognition_confidence": 93,
+    "condition": "zo goed als nieuw",
+    "analysis": {
+      "matched_product": "Microsoft Xbox Series X 1TB",
+      "category": "Spelcomputers",
+      "source": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 50,
+      "asking_price": 480.0,
+      "expected_resale": 446.68,
+      "market_low": 336.8,
+      "market_high": 490.11,
+      "fees": 0.0,
+      "risk_reserve": 34.65,
+      "travel_cost": 0.0,
+      "expected_profit": -67.97,
+      "roi_percent": -14.2,
+      "discount_percent": -7.5,
+      "opening_bid": 268.49,
+      "target_buy_price": 305.1,
+      "max_buy_price": 331.63,
+      "deal_score": 39,
+      "risk_score": 23,
+      "liquidity_score": 87,
+      "confidence_percent": 85,
+      "recognition_confidence_percent": 93,
+      "market_confidence_percent": 77,
+      "verdict": "OVERSLAAN",
+      "recommendation": "NIET INTERESSANT",
+      "risk_reasons": [
+        "Belangrijke accessoires ontbreken"
+      ],
+      "score_breakdown": {
+        "discount": 0,
+        "profit": 0,
+        "roi": 0,
+        "liquidity": 10.4,
+        "confidence": 15.2,
+        "risk_penalty": 4.6
+      },
+      "note": "Marktwaardes op basis van vraagprijzen zijn schattingen, geen gegarandeerde gerealiseerde verkoopprijzen."
+    },
+    "result_status": "scored",
+    "is_deal": false,
+    "exclusion_reason": null,
+    "market_profile": {
+      "sample_count": 50,
+      "median_asking": 500.0
+    },
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
+  },
+  {
     "id": "marktplaats-html:m2445823982",
     "found_at": "2026-09-23T14:14:39.886674+00:00",
-    "last_seen_at": "2026-09-23T15:13:31.633897+00:00",
+    "last_seen_at": "2026-09-23T15:28:20.763495+00:00",
     "source": "marktplaats-html",
     "query": "jbl vintage speaker",
     "category_hint": "Audio",
@@ -28,7 +97,7 @@
   {
     "id": "marktplaats-html:m2445802900",
     "found_at": "2026-09-23T13:33:53.374626+00:00",
-    "last_seen_at": "2026-09-23T15:13:05.648842+00:00",
+    "last_seen_at": "2026-09-23T15:27:53.820593+00:00",
     "source": "marktplaats-html",
     "query": "nintendo switch oled",
     "category_hint": "Spelcomputers",
@@ -95,16 +164,16 @@
   {
     "id": "marktplaats-html:m2445737995",
     "found_at": "2026-09-23T13:20:50.817644+00:00",
-    "last_seen_at": "2026-09-23T15:13:08.378991+00:00",
+    "last_seen_at": "2026-09-23T15:27:56.558652+00:00",
     "source": "marktplaats-html",
     "query": "steam deck",
     "category_hint": "Spelcomputers",
     "title": "Steam Deck met lader en dock",
-    "description": "Bewaren in Mijn Favorieten Steam Deck met lader en dock Te koop aangeboden: een steam deck in uitstekende staat. De handheld console inclusief de originele lader en een handig dock, waarmee je de steam deck eenvoudig kunt aansluiten op een extern scherm. I Zo goed als nieuw Ophalen € 380,00 Vandaag Dagtopper Jason Woltman Oost-Souburg Bewaren in Mijn Favorieten Steam Deck met lader en dock € 380,00 Te koop aangeboden: een steam deck in uitstekende staat. De handheld console inclusief de originele lader en een handig dock, waarmee je de steam deck eenvoudig kunt aansluiten op een extern scherm. I Zo goed als nieuw Ophalen Jason Woltman Oost-Souburg Vandaag Dagtopper Bewaren in Mijn Favorieten Steam Deck met lader en dock € 380,00 Details Ophalen Valve Zo goed als nieuw Te koop aangeboden: een steam deck in uitstekende staat. De handheld console inclusief de originele lader en een handig d",
+    "description": "Bewaren in Mijn Favorieten Steam Deck met lader en dock Te koop aangeboden: een steam deck in uitstekende staat. De handheld console inclusief de originele lader en een handig dock, waarmee je de steam deck eenvoudig kunt aansluiten op een extern scherm. I Zo goed als nieuw Ophalen € 370,00 Vandaag Dagtopper Jason Woltman Oost-Souburg Bewaren in Mijn Favorieten Steam Deck met lader en dock € 370,00 Te koop aangeboden: een steam deck in uitstekende staat. De handheld console inclusief de originele lader en een handig dock, waarmee je de steam deck eenvoudig kunt aansluiten op een extern scherm. I Zo goed als nieuw Ophalen Jason Woltman Oost-Souburg Vandaag Dagtopper Bewaren in Mijn Favorieten Steam Deck met lader en dock € 370,00 Details Ophalen Valve Zo goed als nieuw Te koop aangeboden: een steam deck in uitstekende staat. De handheld console inclusief de originele lader en een handig d",
     "url": "https://www.marktplaats.nl/v/spelcomputers-en-games/spelcomputers-overige/m2445737995-steam-deck-met-lader-en-dock",
-    "asking_price": 380.0,
-    "previous_asking_price": null,
-    "price_drop_percent": 0.0,
+    "asking_price": 370.0,
+    "previous_asking_price": 380.0,
+    "price_drop_percent": 2.6,
     "promoted": true,
     "matched_product": "Valve Steam Deck",
     "recognition_confidence": 92,
@@ -121,7 +190,7 @@
   {
     "id": "marktplaats-html:m2445771417",
     "found_at": "2026-09-23T13:03:17.334892+00:00",
-    "last_seen_at": "2026-09-23T15:13:40.460488+00:00",
+    "last_seen_at": "2026-09-23T15:28:30.058855+00:00",
     "source": "marktplaats-html",
     "query": "tannoy speaker",
     "category_hint": "Audio",
@@ -147,7 +216,7 @@
   {
     "id": "marktplaats-html:m2445786987",
     "found_at": "2026-09-23T13:03:01.266797+00:00",
-    "last_seen_at": "2026-09-23T15:13:22.724143+00:00",
+    "last_seen_at": "2026-09-23T15:28:11.376961+00:00",
     "source": "marktplaats-html",
     "query": "tektronix",
     "category_hint": "Meetapparatuur",
@@ -216,12 +285,12 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series X 1TB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 49,
+      "source": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 50,
       "asking_price": 650.0,
       "expected_resale": 407.27,
-      "market_low": 304.95,
+      "market_low": 307.09,
       "market_high": 446.87,
       "fees": 0.0,
       "risk_reserve": 8.8,
@@ -255,7 +324,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 49,
+      "sample_count": 50,
       "median_asking": 500.0
     },
     "repair": {
@@ -292,7 +361,7 @@
   {
     "id": "marktplaats-html:m2445746347",
     "found_at": "2026-09-23T11:26:50.559923+00:00",
-    "last_seen_at": "2026-09-23T15:13:11.122058+00:00",
+    "last_seen_at": "2026-09-23T15:27:59.452328+00:00",
     "source": "marktplaats-html",
     "query": "xbox series x",
     "category_hint": "Spelcomputers",
@@ -318,7 +387,7 @@
   {
     "id": "marktplaats-html:m2445642880",
     "found_at": "2026-09-23T11:13:38.178314+00:00",
-    "last_seen_at": "2026-09-23T15:13:34.515639+00:00",
+    "last_seen_at": "2026-09-23T15:28:24.054534+00:00",
     "source": "marktplaats-html",
     "query": "bang olufsen speaker",
     "category_hint": "Audio",
@@ -344,7 +413,7 @@
   {
     "id": "marktplaats-html:m2445001011",
     "found_at": "2026-09-23T10:00:52.700470+00:00",
-    "last_seen_at": "2026-09-23T15:13:17.150733+00:00",
+    "last_seen_at": "2026-09-23T15:28:05.507966+00:00",
     "source": "marktplaats-html",
     "query": "makita",
     "category_hint": "Gereedschap",
@@ -370,7 +439,7 @@
   {
     "id": "marktplaats-html:m2445713761",
     "found_at": "2026-09-23T10:00:52.700136+00:00",
-    "last_seen_at": "2026-09-23T15:13:17.150418+00:00",
+    "last_seen_at": "2026-09-23T15:28:05.507642+00:00",
     "source": "marktplaats-html",
     "query": "makita",
     "category_hint": "Gereedschap",
@@ -396,7 +465,7 @@
   {
     "id": "marktplaats-html:m2445705477",
     "found_at": "2026-09-23T10:00:52.699811+00:00",
-    "last_seen_at": "2026-09-23T15:13:17.150090+00:00",
+    "last_seen_at": "2026-09-23T15:28:05.507320+00:00",
     "source": "marktplaats-html",
     "query": "makita",
     "category_hint": "Gereedschap",
@@ -422,7 +491,7 @@
   {
     "id": "marktplaats-html:m2445713354",
     "found_at": "2026-09-23T10:00:52.699484+00:00",
-    "last_seen_at": "2026-09-23T15:13:17.149733+00:00",
+    "last_seen_at": "2026-09-23T15:28:05.506985+00:00",
     "source": "marktplaats-html",
     "query": "makita",
     "category_hint": "Gereedschap",
@@ -474,7 +543,7 @@
   {
     "id": "marktplaats-html:m2445698532",
     "found_at": "2026-09-23T09:14:12.807813+00:00",
-    "last_seen_at": "2026-09-23T15:13:40.459863+00:00",
+    "last_seen_at": "2026-09-23T15:28:30.058231+00:00",
     "source": "marktplaats-html",
     "query": "tannoy speaker",
     "category_hint": "Audio",
@@ -500,7 +569,7 @@
   {
     "id": "marktplaats-html:m2445691419",
     "found_at": "2026-09-23T09:14:07.030582+00:00",
-    "last_seen_at": "2026-09-23T15:13:34.515341+00:00",
+    "last_seen_at": "2026-09-23T15:28:24.054243+00:00",
     "source": "marktplaats-html",
     "query": "bang olufsen speaker",
     "category_hint": "Audio",
@@ -526,7 +595,7 @@
   {
     "id": "marktplaats-html:m2445697133",
     "found_at": "2026-09-23T09:14:07.030353+00:00",
-    "last_seen_at": "2026-09-23T15:13:34.515032+00:00",
+    "last_seen_at": "2026-09-23T15:28:24.053942+00:00",
     "source": "marktplaats-html",
     "query": "bang olufsen speaker",
     "category_hint": "Audio",
@@ -552,7 +621,7 @@
   {
     "id": "marktplaats-html:a1530636260",
     "found_at": "2026-09-23T05:25:47.860303+00:00",
-    "last_seen_at": "2026-09-23T15:13:17.149404+00:00",
+    "last_seen_at": "2026-09-23T15:28:05.506653+00:00",
     "source": "marktplaats-html",
     "query": "makita",
     "category_hint": "Gereedschap",
@@ -578,7 +647,7 @@
   {
     "id": "marktplaats-html:a1531361647",
     "found_at": "2026-09-23T05:25:33.892843+00:00",
-    "last_seen_at": "2026-09-23T15:13:02.860410+00:00",
+    "last_seen_at": "2026-09-23T15:27:50.919760+00:00",
     "source": "marktplaats-html",
     "query": "ps5",
     "category_hint": "Spelcomputers",
@@ -604,7 +673,7 @@
   {
     "id": "marktplaats-html:m2445115004",
     "found_at": "2026-09-22T20:43:56.292183+00:00",
-    "last_seen_at": "2026-09-23T15:13:05.648188+00:00",
+    "last_seen_at": "2026-09-23T15:27:53.819940+00:00",
     "source": "marktplaats-html",
     "query": "nintendo switch oled",
     "category_hint": "Spelcomputers",
@@ -697,7 +766,7 @@
   {
     "id": "marktplaats-html:a1531347632",
     "found_at": "2026-09-22T18:59:37.311693+00:00",
-    "last_seen_at": "2026-09-23T15:13:02.861053+00:00",
+    "last_seen_at": "2026-09-23T15:27:50.920403+00:00",
     "source": "marktplaats-html",
     "query": "ps5",
     "category_hint": "Spelcomputers",
@@ -766,12 +835,12 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series X 1TB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 49,
+      "source": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 50,
       "asking_price": 650.0,
       "expected_resale": 446.68,
-      "market_low": 334.46,
+      "market_low": 336.8,
       "market_high": 490.11,
       "fees": 0.0,
       "risk_reserve": 9.65,
@@ -805,7 +874,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 49,
+      "sample_count": 50,
       "median_asking": 500.0
     },
     "repair": {
@@ -816,7 +885,7 @@
   {
     "id": "marktplaats-html:m2445543455",
     "found_at": "2026-09-22T17:26:15.667968+00:00",
-    "last_seen_at": "2026-09-23T15:13:05.650092+00:00",
+    "last_seen_at": "2026-09-23T15:27:53.821813+00:00",
     "source": "marktplaats-html",
     "query": "nintendo switch oled",
     "category_hint": "Spelcomputers",
@@ -909,7 +978,7 @@
   {
     "id": "marktplaats-html:m2445523192",
     "found_at": "2026-09-22T16:14:08.062695+00:00",
-    "last_seen_at": "2026-09-23T15:13:25.665189+00:00",
+    "last_seen_at": "2026-09-23T15:28:14.686982+00:00",
     "source": "marktplaats-html",
     "query": "shure sm7b",
     "category_hint": "Audio",
@@ -987,7 +1056,7 @@
   {
     "id": "marktplaats-html:m2445499527",
     "found_at": "2026-09-22T15:14:04.375165+00:00",
-    "last_seen_at": "2026-09-23T15:13:40.459555+00:00",
+    "last_seen_at": "2026-09-23T15:28:30.057900+00:00",
     "source": "marktplaats-html",
     "query": "tannoy speaker",
     "category_hint": "Audio",
@@ -1039,7 +1108,7 @@
   {
     "id": "marktplaats-html:m2445073238",
     "found_at": "2026-09-22T15:13:26.449848+00:00",
-    "last_seen_at": "2026-09-23T15:13:05.649475+00:00",
+    "last_seen_at": "2026-09-23T15:27:53.821218+00:00",
     "source": "marktplaats-html",
     "query": "nintendo switch oled",
     "category_hint": "Spelcomputers",
@@ -1151,12 +1220,12 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series X 1TB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 49,
+      "source": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 50,
       "asking_price": 600.0,
       "expected_resale": 446.68,
-      "market_low": 334.46,
+      "market_low": 336.8,
       "market_high": 490.11,
       "fees": 0.0,
       "risk_reserve": 9.65,
@@ -1190,7 +1259,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 49,
+      "sample_count": 50,
       "median_asking": 500.0
     },
     "repair": {
@@ -1201,7 +1270,7 @@
   {
     "id": "marktplaats-html:m2445485478",
     "found_at": "2026-09-22T14:34:53.433733+00:00",
-    "last_seen_at": "2026-09-23T15:13:40.460190+00:00",
+    "last_seen_at": "2026-09-23T15:28:30.058547+00:00",
     "source": "marktplaats-html",
     "query": "tannoy speaker",
     "category_hint": "Audio",
@@ -1227,7 +1296,7 @@
   {
     "id": "marktplaats-html:a1531352507",
     "found_at": "2026-09-22T14:15:13.171707+00:00",
-    "last_seen_at": "2026-09-23T15:13:56.553695+00:00",
+    "last_seen_at": "2026-09-23T15:28:45.997166+00:00",
     "source": "marktplaats-html",
     "query": "bang olufsen defect",
     "category_hint": "Audio",
@@ -1824,12 +1893,12 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series X 1TB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 49,
+      "source": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 50,
       "asking_price": 10.0,
       "expected_resale": 407.27,
-      "market_low": 304.95,
+      "market_low": 307.09,
       "market_high": 446.87,
       "fees": 0.0,
       "risk_reserve": 23.8,
@@ -1865,7 +1934,7 @@
     "is_deal": true,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 49,
+      "sample_count": 50,
       "median_asking": 500.0
     },
     "repair": {
@@ -1995,7 +2064,7 @@
   {
     "id": "marktplaats-html:m2445320890",
     "found_at": "2026-09-22T06:17:44.717970+00:00",
-    "last_seen_at": "2026-09-23T15:13:22.724770+00:00",
+    "last_seen_at": "2026-09-23T15:28:11.377555+00:00",
     "source": "marktplaats-html",
     "query": "tektronix",
     "category_hint": "Meetapparatuur",
@@ -2166,7 +2235,7 @@
   {
     "id": "marktplaats-html:m2442755082",
     "found_at": "2026-09-21T22:13:03.774881+00:00",
-    "last_seen_at": "2026-09-23T15:13:08.380433+00:00",
+    "last_seen_at": "2026-09-23T15:27:56.560695+00:00",
     "source": "marktplaats-html",
     "query": "steam deck",
     "category_hint": "Spelcomputers",
@@ -2360,7 +2429,7 @@
   {
     "id": "marktplaats-html:m2444913698",
     "found_at": "2026-09-21T18:52:53.834504+00:00",
-    "last_seen_at": "2026-09-23T15:13:11.121423+00:00",
+    "last_seen_at": "2026-09-23T15:27:59.451065+00:00",
     "source": "marktplaats-html",
     "query": "xbox series x",
     "category_hint": "Spelcomputers",
@@ -2464,7 +2533,7 @@
   {
     "id": "marktplaats-html:m2445197166",
     "found_at": "2026-09-21T16:14:14.911761+00:00",
-    "last_seen_at": "2026-09-23T15:13:22.724505+00:00",
+    "last_seen_at": "2026-09-23T15:28:11.377301+00:00",
     "source": "marktplaats-html",
     "query": "tektronix",
     "category_hint": "Meetapparatuur",
@@ -2615,12 +2684,12 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series X 1TB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 49,
+      "source": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 50,
       "asking_price": 700.0,
       "expected_resale": 446.68,
-      "market_low": 334.46,
+      "market_low": 336.8,
       "market_high": 490.11,
       "fees": 0.0,
       "risk_reserve": 9.65,
@@ -2654,7 +2723,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 49,
+      "sample_count": 50,
       "median_asking": 500.0
     },
     "repair": {
@@ -2682,12 +2751,12 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series X 1TB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 49,
+      "source": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 50,
       "asking_price": 500.0,
       "expected_resale": 446.68,
-      "market_low": 334.46,
+      "market_low": 336.8,
       "market_high": 490.11,
       "fees": 0.0,
       "risk_reserve": 9.65,
@@ -2721,7 +2790,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 49,
+      "sample_count": 50,
       "median_asking": 500.0
     },
     "repair": {
@@ -3153,7 +3222,7 @@
   {
     "id": "marktplaats-html:m2445139728",
     "found_at": "2026-09-21T13:42:12.949695+00:00",
-    "last_seen_at": "2026-09-23T15:13:31.634562+00:00",
+    "last_seen_at": "2026-09-23T15:28:20.764110+00:00",
     "source": "marktplaats-html",
     "query": "jbl vintage speaker",
     "category_hint": "Audio",
@@ -3205,7 +3274,7 @@
   {
     "id": "marktplaats-html:m2445115034",
     "found_at": "2026-09-21T12:36:10.796456+00:00",
-    "last_seen_at": "2026-09-23T15:13:53.862425+00:00",
+    "last_seen_at": "2026-09-23T15:28:42.646251+00:00",
     "source": "marktplaats-html",
     "query": "jbl speaker defect",
     "category_hint": "Audio",
@@ -3289,7 +3358,7 @@
   {
     "id": "marktplaats-html:m2445103659",
     "found_at": "2026-09-21T12:19:10.087413+00:00",
-    "last_seen_at": "2026-09-23T15:13:34.514676+00:00",
+    "last_seen_at": "2026-09-23T15:28:24.053588+00:00",
     "source": "marktplaats-html",
     "query": "bang olufsen speaker",
     "category_hint": "Audio",
@@ -3568,7 +3637,7 @@
   {
     "id": "marktplaats-html:m2445017717",
     "found_at": "2026-09-21T08:34:06.181883+00:00",
-    "last_seen_at": "2026-09-23T15:13:37.554587+00:00",
+    "last_seen_at": "2026-09-23T15:28:27.153690+00:00",
     "source": "marktplaats-html",
     "query": "kef vintage speaker",
     "category_hint": "Audio",
@@ -3594,7 +3663,7 @@
   {
     "id": "marktplaats-html:m2445014534",
     "found_at": "2026-09-21T08:15:35.722090+00:00",
-    "last_seen_at": "2026-09-23T15:13:37.554242+00:00",
+    "last_seen_at": "2026-09-23T15:28:27.153354+00:00",
     "source": "marktplaats-html",
     "query": "kef vintage speaker",
     "category_hint": "Audio",
@@ -3672,7 +3741,7 @@
   {
     "id": "marktplaats-html:m2444989573",
     "found_at": "2026-09-21T06:41:56.836714+00:00",
-    "last_seen_at": "2026-09-23T15:13:08.379707+00:00",
+    "last_seen_at": "2026-09-23T15:27:56.559363+00:00",
     "source": "marktplaats-html",
     "query": "steam deck",
     "category_hint": "Spelcomputers",
@@ -3724,7 +3793,7 @@
   {
     "id": "marktplaats-html:m2444971004",
     "found_at": "2026-09-21T02:13:48.751424+00:00",
-    "last_seen_at": "2026-09-23T15:13:25.664965+00:00",
+    "last_seen_at": "2026-09-23T15:28:14.686742+00:00",
     "source": "marktplaats-html",
     "query": "shure sm7b",
     "category_hint": "Audio",
@@ -4460,12 +4529,12 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series X 1TB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 49,
+      "source": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 50,
       "asking_price": 850.0,
       "expected_resale": 446.68,
-      "market_low": 334.46,
+      "market_low": 336.8,
       "market_high": 490.11,
       "fees": 0.0,
       "risk_reserve": 9.65,
@@ -4499,7 +4568,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 49,
+      "sample_count": 50,
       "median_asking": 500.0
     },
     "repair": {
@@ -4536,7 +4605,7 @@
   {
     "id": "marktplaats-html:m2444210480",
     "found_at": "2026-09-20T13:12:04.280663+00:00",
-    "last_seen_at": "2026-09-23T15:13:19.953888+00:00",
+    "last_seen_at": "2026-09-23T15:28:08.266583+00:00",
     "source": "marktplaats-html",
     "query": "fluke",
     "category_hint": "Meetapparatuur",
@@ -4588,7 +4657,7 @@
   {
     "id": "marktplaats-html:m2444761113",
     "found_at": "2026-09-20T12:59:34.039954+00:00",
-    "last_seen_at": "2026-09-23T15:13:37.554899+00:00",
+    "last_seen_at": "2026-09-23T15:28:27.154024+00:00",
     "source": "marktplaats-html",
     "query": "kef vintage speaker",
     "category_hint": "Audio",
@@ -4718,7 +4787,7 @@
   {
     "id": "marktplaats-html:m2444722228",
     "found_at": "2026-09-20T11:50:51.103991+00:00",
-    "last_seen_at": "2026-09-23T15:13:37.553837+00:00",
+    "last_seen_at": "2026-09-23T15:28:27.152991+00:00",
     "source": "marktplaats-html",
     "query": "kef vintage speaker",
     "category_hint": "Audio",
@@ -5008,7 +5077,7 @@
   {
     "id": "marktplaats-html:a1531293458",
     "found_at": "2026-09-20T10:25:08.972134+00:00",
-    "last_seen_at": "2026-09-23T15:13:19.953339+00:00",
+    "last_seen_at": "2026-09-23T15:28:08.266031+00:00",
     "source": "marktplaats-html",
     "query": "fluke",
     "category_hint": "Meetapparatuur",
@@ -5946,12 +6015,12 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series X 1TB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 49,
+      "source": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 50,
       "asking_price": 500.0,
       "expected_resale": 407.27,
-      "market_low": 304.95,
+      "market_low": 307.09,
       "market_high": 446.87,
       "fees": 0.0,
       "risk_reserve": 8.8,
@@ -5985,7 +6054,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 49,
+      "sample_count": 50,
       "median_asking": 500.0
     },
     "repair": {
@@ -6262,7 +6331,7 @@
   {
     "id": "marktplaats-html:a1531253478",
     "found_at": "2026-09-19T13:13:33.861549+00:00",
-    "last_seen_at": "2026-09-23T15:13:40.459177+00:00",
+    "last_seen_at": "2026-09-23T15:28:30.057535+00:00",
     "source": "marktplaats-html",
     "query": "tannoy speaker",
     "category_hint": "Audio",
@@ -6620,12 +6689,12 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series X 1TB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 49,
+      "source": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 50,
       "asking_price": 500.0,
       "expected_resale": 446.68,
-      "market_low": 334.46,
+      "market_low": 336.8,
       "market_high": 490.11,
       "fees": 0.0,
       "risk_reserve": 9.65,
@@ -6659,7 +6728,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 49,
+      "sample_count": 50,
       "median_asking": 500.0
     },
     "repair": {
@@ -6763,7 +6832,7 @@
   {
     "id": "marktplaats-html:m2444268375",
     "found_at": "2026-09-19T10:13:12.689228+00:00",
-    "last_seen_at": "2026-09-23T15:13:22.725316+00:00",
+    "last_seen_at": "2026-09-23T15:28:11.378108+00:00",
     "source": "marktplaats-html",
     "query": "tektronix",
     "category_hint": "Meetapparatuur",
@@ -7226,12 +7295,12 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series X 1TB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 49,
+      "source": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 50,
       "asking_price": 700.0,
       "expected_resale": 407.27,
-      "market_low": 304.95,
+      "market_low": 307.09,
       "market_high": 446.87,
       "fees": 0.0,
       "risk_reserve": 8.8,
@@ -7265,7 +7334,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 49,
+      "sample_count": 50,
       "median_asking": 500.0
     },
     "repair": {
@@ -7276,7 +7345,7 @@
   {
     "id": "marktplaats-html:m2444245854",
     "found_at": "2026-09-19T09:13:38.517222+00:00",
-    "last_seen_at": "2026-09-23T15:13:28.556694+00:00",
+    "last_seen_at": "2026-09-23T15:28:17.814442+00:00",
     "source": "marktplaats-html",
     "query": "sennheiser mkh",
     "category_hint": "Audio",
@@ -8208,7 +8277,7 @@
   {
     "id": "marktplaats-html:m2444073827",
     "found_at": "2026-09-18T16:27:01.357218+00:00",
-    "last_seen_at": "2026-09-23T15:13:53.863044+00:00",
+    "last_seen_at": "2026-09-23T15:28:42.646849+00:00",
     "source": "marktplaats-html",
     "query": "jbl speaker defect",
     "category_hint": "Audio",
@@ -8471,7 +8540,7 @@
   {
     "id": "marktplaats-html:a1531205725",
     "found_at": "2026-09-18T14:58:45.224700+00:00",
-    "last_seen_at": "2026-09-23T15:13:53.863344+00:00",
+    "last_seen_at": "2026-09-23T15:28:42.647165+00:00",
     "source": "marktplaats-html",
     "query": "jbl speaker defect",
     "category_hint": "Audio",
@@ -8720,7 +8789,7 @@
   {
     "id": "marktplaats-html:a1531192951",
     "found_at": "2026-09-18T13:52:24.333512+00:00",
-    "last_seen_at": "2026-09-23T15:13:31.633519+00:00",
+    "last_seen_at": "2026-09-23T15:28:20.763147+00:00",
     "source": "marktplaats-html",
     "query": "jbl vintage speaker",
     "category_hint": "Audio",
@@ -9036,7 +9105,7 @@
   {
     "id": "marktplaats-html:a1531160422",
     "found_at": "2026-09-18T11:25:48.976391+00:00",
-    "last_seen_at": "2026-09-23T15:13:47.099240+00:00",
+    "last_seen_at": "2026-09-23T15:28:36.592257+00:00",
     "source": "marktplaats-html",
     "query": "festool defect",
     "category_hint": "Gereedschap",
@@ -9062,7 +9131,7 @@
   {
     "id": "marktplaats-html:a1531160248",
     "found_at": "2026-09-18T11:25:48.975360+00:00",
-    "last_seen_at": "2026-09-23T15:13:47.098517+00:00",
+    "last_seen_at": "2026-09-23T15:28:36.591539+00:00",
     "source": "marktplaats-html",
     "query": "festool defect",
     "category_hint": "Gereedschap",
@@ -9114,7 +9183,7 @@
   {
     "id": "marktplaats-html:m2443946665",
     "found_at": "2026-09-18T11:13:04.003019+00:00",
-    "last_seen_at": "2026-09-23T15:13:31.634244+00:00",
+    "last_seen_at": "2026-09-23T15:28:20.763779+00:00",
     "source": "marktplaats-html",
     "query": "jbl vintage speaker",
     "category_hint": "Audio",
@@ -9166,7 +9235,7 @@
   {
     "id": "marktplaats-html:a1531160331",
     "found_at": "2026-09-18T10:51:13.354199+00:00",
-    "last_seen_at": "2026-09-23T15:13:50.337145+00:00",
+    "last_seen_at": "2026-09-23T15:28:39.937044+00:00",
     "source": "marktplaats-html",
     "query": "fluke defect",
     "category_hint": "Meetapparatuur",
@@ -9192,7 +9261,7 @@
   {
     "id": "marktplaats-html:a1531160172",
     "found_at": "2026-09-18T10:51:13.353853+00:00",
-    "last_seen_at": "2026-09-23T15:13:50.336755+00:00",
+    "last_seen_at": "2026-09-23T15:28:39.936680+00:00",
     "source": "marktplaats-html",
     "query": "fluke defect",
     "category_hint": "Meetapparatuur",
@@ -9270,7 +9339,7 @@
   {
     "id": "marktplaats-html:a1531160299",
     "found_at": "2026-09-18T10:41:20.821472+00:00",
-    "last_seen_at": "2026-09-23T15:13:47.099540+00:00",
+    "last_seen_at": "2026-09-23T15:28:36.592557+00:00",
     "source": "marktplaats-html",
     "query": "festool defect",
     "category_hint": "Gereedschap",
@@ -9339,12 +9408,12 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series X 1TB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 49,
+      "source": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 50,
       "asking_price": 50.0,
       "expected_resale": 468.57,
-      "market_low": 350.85,
+      "market_low": 353.31,
       "market_high": 514.13,
       "fees": 0.0,
       "risk_reserve": 25.12,
@@ -9380,7 +9449,7 @@
     "is_deal": true,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 49,
+      "sample_count": 50,
       "median_asking": 500.0
     },
     "repair": {
@@ -10211,7 +10280,7 @@
   {
     "id": "marktplaats-html:m2443793961",
     "found_at": "2026-09-17T19:40:49.744172+00:00",
-    "last_seen_at": "2026-09-23T15:13:25.664707+00:00",
+    "last_seen_at": "2026-09-23T15:28:14.686496+00:00",
     "source": "marktplaats-html",
     "query": "shure sm7b",
     "category_hint": "Audio",
@@ -10411,12 +10480,12 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series X 1TB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 49,
+      "source": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 50,
       "asking_price": 550.0,
       "expected_resale": 446.68,
-      "market_low": 334.46,
+      "market_low": 336.8,
       "market_high": 490.11,
       "fees": 0.0,
       "risk_reserve": 9.65,
@@ -10450,7 +10519,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 49,
+      "sample_count": 50,
       "median_asking": 500.0
     },
     "repair": {
@@ -10784,12 +10853,12 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series X 1TB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 49,
+      "source": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 50,
       "asking_price": 600.0,
       "expected_resale": 446.68,
-      "market_low": 334.46,
+      "market_low": 336.8,
       "market_high": 490.11,
       "fees": 0.0,
       "risk_reserve": 9.65,
@@ -10823,7 +10892,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 49,
+      "sample_count": 50,
       "median_asking": 500.0
     },
     "repair": {
@@ -10903,12 +10972,12 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series X 1TB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 49,
+      "source": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 50,
       "asking_price": 425.0,
       "expected_resale": 446.68,
-      "market_low": 334.46,
+      "market_low": 336.8,
       "market_high": 490.11,
       "fees": 0.0,
       "risk_reserve": 9.65,
@@ -10942,7 +11011,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 49,
+      "sample_count": 50,
       "median_asking": 500.0
     },
     "repair": {
@@ -11005,7 +11074,7 @@
   {
     "id": "marktplaats-html:m2443682633",
     "found_at": "2026-09-17T14:15:49.557773+00:00",
-    "last_seen_at": "2026-09-23T15:13:37.555247+00:00",
+    "last_seen_at": "2026-09-23T15:28:27.154351+00:00",
     "source": "marktplaats-html",
     "query": "kef vintage speaker",
     "category_hint": "Audio",
@@ -11048,12 +11117,12 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series X 1TB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 49,
+      "source": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 50,
       "asking_price": 566.99,
       "expected_resale": 468.57,
-      "market_low": 350.85,
+      "market_low": 353.31,
       "market_high": 514.13,
       "fees": 0.0,
       "risk_reserve": 10.12,
@@ -11087,7 +11156,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 49,
+      "sample_count": 50,
       "median_asking": 500.0
     },
     "repair": {
@@ -11115,12 +11184,12 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series X 1TB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 49,
+      "source": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 50,
       "asking_price": 746.73,
       "expected_resale": 468.57,
-      "market_low": 350.85,
+      "market_low": 353.31,
       "market_high": 514.13,
       "fees": 0.0,
       "risk_reserve": 10.12,
@@ -11154,7 +11223,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 49,
+      "sample_count": 50,
       "median_asking": 500.0
     },
     "repair": {
@@ -11182,12 +11251,12 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series X 1TB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 49,
+      "source": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 50,
       "asking_price": 747.0,
       "expected_resale": 468.57,
-      "market_low": 350.85,
+      "market_low": 353.31,
       "market_high": 514.13,
       "fees": 0.0,
       "risk_reserve": 10.12,
@@ -11221,7 +11290,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 49,
+      "sample_count": 50,
       "median_asking": 500.0
     },
     "repair": {
@@ -11628,12 +11697,12 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series X 1TB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 49,
+      "source": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 50,
       "asking_price": 450.0,
       "expected_resale": 446.68,
-      "market_low": 334.46,
+      "market_low": 336.8,
       "market_high": 490.11,
       "fees": 0.0,
       "risk_reserve": 9.65,
@@ -11667,7 +11736,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 49,
+      "sample_count": 50,
       "median_asking": 500.0
     },
     "repair": {
@@ -12219,12 +12288,12 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series X 1TB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 49,
+      "source": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 50,
       "asking_price": 670.0,
       "expected_resale": 446.68,
-      "market_low": 334.46,
+      "market_low": 336.8,
       "market_high": 490.11,
       "fees": 0.0,
       "risk_reserve": 9.65,
@@ -12258,7 +12327,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 49,
+      "sample_count": 50,
       "median_asking": 500.0
     },
     "repair": {
@@ -12395,12 +12464,12 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series X 1TB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 49,
+      "source": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 50,
       "asking_price": 450.0,
       "expected_resale": 446.68,
-      "market_low": 334.46,
+      "market_low": 336.8,
       "market_high": 490.11,
       "fees": 0.0,
       "risk_reserve": 9.65,
@@ -12434,7 +12503,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 49,
+      "sample_count": 50,
       "median_asking": 500.0
     },
     "repair": {
@@ -12540,12 +12609,12 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series X 1TB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 49,
+      "source": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 50,
       "asking_price": 350.0,
       "expected_resale": 446.68,
-      "market_low": 334.46,
+      "market_low": 336.8,
       "market_high": 490.11,
       "fees": 0.0,
       "risk_reserve": 9.65,
@@ -12579,7 +12648,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 49,
+      "sample_count": 50,
       "median_asking": 500.0
     },
     "repair": {
@@ -12590,7 +12659,7 @@
   {
     "id": "marktplaats-html:a1524074520",
     "found_at": "2026-09-16T14:33:19.860294+00:00",
-    "last_seen_at": "2026-09-23T15:13:14.196468+00:00",
+    "last_seen_at": "2026-09-23T15:28:02.472853+00:00",
     "source": "marktplaats-html",
     "query": "festool",
     "category_hint": "Gereedschap",
@@ -12775,12 +12844,12 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series X 1TB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 49,
+      "source": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 50,
       "asking_price": 570.0,
       "expected_resale": 446.68,
-      "market_low": 334.46,
+      "market_low": 336.8,
       "market_high": 490.11,
       "fees": 0.0,
       "risk_reserve": 9.65,
@@ -12814,7 +12883,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 49,
+      "sample_count": 50,
       "median_asking": 500.0
     },
     "repair": {
@@ -14467,7 +14536,7 @@
   {
     "id": "marktplaats-html:a1286276818",
     "found_at": "2026-09-15T10:46:09.138170+00:00",
-    "last_seen_at": "2026-09-23T15:13:43.952245+00:00",
+    "last_seen_at": "2026-09-23T15:28:33.607752+00:00",
     "source": "marktplaats-html",
     "query": "ps5 defect",
     "category_hint": "Spelcomputers",
@@ -14830,12 +14899,12 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series X 1TB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 49,
+      "source": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 50,
       "asking_price": 150.0,
       "expected_resale": 446.68,
-      "market_low": 334.46,
+      "market_low": 336.8,
       "market_high": 490.11,
       "fees": 0.0,
       "risk_reserve": 24.65,
@@ -14871,7 +14940,7 @@
     "is_deal": true,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 49,
+      "sample_count": 50,
       "median_asking": 500.0
     },
     "repair": {
@@ -14992,12 +15061,12 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series X 1TB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 49,
+      "source": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 50,
       "asking_price": 20.0,
       "expected_resale": 446.68,
-      "market_low": 334.46,
+      "market_low": 336.8,
       "market_high": 490.11,
       "fees": 0.0,
       "risk_reserve": 24.65,
@@ -15033,7 +15102,7 @@
     "is_deal": true,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 49,
+      "sample_count": 50,
       "median_asking": 500.0
     },
     "repair": {
@@ -15455,12 +15524,12 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series X 1TB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 49,
+      "source": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 50,
       "asking_price": 450.0,
       "expected_resale": 407.27,
-      "market_low": 304.95,
+      "market_low": 307.09,
       "market_high": 446.87,
       "fees": 0.0,
       "risk_reserve": 8.8,
@@ -15494,7 +15563,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 49,
+      "sample_count": 50,
       "median_asking": 500.0
     },
     "repair": {
@@ -15769,7 +15838,7 @@
   {
     "id": "marktplaats-html:a1530983202",
     "found_at": "2026-09-14T15:45:22.845763+00:00",
-    "last_seen_at": "2026-09-23T15:13:43.952957+00:00",
+    "last_seen_at": "2026-09-23T15:28:33.608470+00:00",
     "source": "marktplaats-html",
     "query": "ps5 defect",
     "category_hint": "Spelcomputers",
@@ -16029,16 +16098,16 @@
   {
     "id": "marktplaats-html:m2442578343",
     "found_at": "2026-09-14T11:14:26.772616+00:00",
-    "last_seen_at": "2026-09-23T15:13:08.381161+00:00",
+    "last_seen_at": "2026-09-23T15:27:56.560055+00:00",
     "source": "marktplaats-html",
     "query": "steam deck",
     "category_hint": "Spelcomputers",
     "title": "Valve Steam Deck 512GB met Dock en SD-kaart",
-    "description": "Bewaren in Mijn Favorieten Valve Steam Deck 512GB met Dock en SD-kaart Steam deck oled 512gb in perfecte staat aftermarket onderdelen: custom backplate met extra airflow custom buttons screenprotector hall effect joysticks (zodat je nooit meer stickdrift hoeft te ervaren Zo goed als nieuw Ophalen of Verzenden € 650,00 Vandaag Dagtopper Senna Zoetermeer Bewaren in Mijn Favorieten Valve Steam Deck 512GB met Dock en SD-kaart € 650,00 Steam deck oled 512gb in perfecte staat aftermarket onderdelen: custom backplate met extra airflow custom buttons screenprotector hall effect joysticks (zodat je nooit meer stickdrift hoeft te ervaren Zo goed als nieuw Ophalen of Verzenden Senna Zoetermeer Vandaag Dagtopper Bewaren in Mijn Favorieten Valve Steam Deck 512GB met Dock en SD-kaart € 650,00 Details Ophalen of Verzenden Valve Zo goed als nieuw Steam deck oled 512gb in perfecte staat aftermarket onder",
+    "description": "Bewaren in Mijn Favorieten Valve Steam Deck 512GB met Dock en SD-kaart Steam deck oled 512gb in perfecte staat aftermarket onderdelen: custom backplate met extra airflow custom buttons screenprotector hall effect joysticks (zodat je nooit meer stickdrift hoeft te ervaren Zo goed als nieuw Ophalen of Verzenden € 600,00 Vandaag Dagtopper Senna Zoetermeer Bewaren in Mijn Favorieten Valve Steam Deck 512GB met Dock en SD-kaart € 600,00 Steam deck oled 512gb in perfecte staat aftermarket onderdelen: custom backplate met extra airflow custom buttons screenprotector hall effect joysticks (zodat je nooit meer stickdrift hoeft te ervaren Zo goed als nieuw Ophalen of Verzenden Senna Zoetermeer Vandaag Dagtopper Bewaren in Mijn Favorieten Valve Steam Deck 512GB met Dock en SD-kaart € 600,00 Details Ophalen of Verzenden Valve Zo goed als nieuw Steam deck oled 512gb in perfecte staat aftermarket onder",
     "url": "https://www.marktplaats.nl/v/spelcomputers-en-games/spelcomputers-overige/m2442578343-valve-steam-deck-512gb-met-dock-en-sd-kaart",
-    "asking_price": 650.0,
-    "previous_asking_price": 700.0,
-    "price_drop_percent": 0.0,
+    "asking_price": 600.0,
+    "previous_asking_price": 650.0,
+    "price_drop_percent": 7.7,
     "promoted": true,
     "matched_product": "Valve Steam Deck OLED 512GB",
     "recognition_confidence": 98,
@@ -16049,16 +16118,16 @@
       "source": "lokale referentiecatalogus",
       "valuation_basis": "lokale referentiecatalogus",
       "valuation_samples": 0,
-      "asking_price": 650.0,
+      "asking_price": 600.0,
       "expected_resale": 211.5,
       "market_low": 190.35,
       "market_high": 232.65,
       "fees": 0.0,
       "risk_reserve": 30.58,
       "travel_cost": 0.0,
-      "expected_profit": -469.08,
-      "roi_percent": -72.2,
-      "discount_percent": -207.3,
+      "expected_profit": -419.08,
+      "roi_percent": -69.8,
+      "discount_percent": -183.7,
       "opening_bid": 97.89,
       "target_buy_price": 111.24,
       "max_buy_price": 120.92,
@@ -16788,12 +16857,12 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series X 1TB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 49,
+      "source": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 50,
       "asking_price": 400.0,
       "expected_resale": 446.68,
-      "market_low": 334.46,
+      "market_low": 336.8,
       "market_high": 490.11,
       "fees": 0.0,
       "risk_reserve": 9.65,
@@ -16827,7 +16896,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 49,
+      "sample_count": 50,
       "median_asking": 500.0
     },
     "repair": {
@@ -17277,12 +17346,12 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series X 1TB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 49,
+      "source": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 50,
       "asking_price": 699.0,
       "expected_resale": 446.68,
-      "market_low": 334.46,
+      "market_low": 336.8,
       "market_high": 490.11,
       "fees": 0.0,
       "risk_reserve": 9.65,
@@ -17316,7 +17385,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 49,
+      "sample_count": 50,
       "median_asking": 500.0
     },
     "repair": {
@@ -17620,7 +17689,7 @@
   {
     "id": "marktplaats-html:m2442253826",
     "found_at": "2026-09-13T12:51:44.527416+00:00",
-    "last_seen_at": "2026-09-23T15:13:22.725072+00:00",
+    "last_seen_at": "2026-09-23T15:28:11.377842+00:00",
     "source": "marktplaats-html",
     "query": "tektronix",
     "category_hint": "Meetapparatuur",
@@ -17950,12 +18019,12 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series X 1TB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 49,
+      "source": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 50,
       "asking_price": 370.0,
       "expected_resale": 407.27,
-      "market_low": 304.95,
+      "market_low": 307.09,
       "market_high": 446.87,
       "fees": 0.0,
       "risk_reserve": 8.8,
@@ -17989,7 +18058,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 49,
+      "sample_count": 50,
       "median_asking": 500.0
     },
     "repair": {
@@ -18043,12 +18112,12 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series X 1TB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 49,
+      "source": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 50,
       "asking_price": 750.0,
       "expected_resale": 446.68,
-      "market_low": 334.46,
+      "market_low": 336.8,
       "market_high": 490.11,
       "fees": 0.0,
       "risk_reserve": 9.65,
@@ -18082,7 +18151,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 49,
+      "sample_count": 50,
       "median_asking": 500.0
     },
     "repair": {
@@ -19254,12 +19323,12 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series X 1TB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 49,
+      "source": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 50,
       "asking_price": 450.0,
       "expected_resale": 446.68,
-      "market_low": 334.46,
+      "market_low": 336.8,
       "market_high": 490.11,
       "fees": 0.0,
       "risk_reserve": 9.65,
@@ -19293,7 +19362,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 49,
+      "sample_count": 50,
       "median_asking": 500.0
     },
     "repair": {
@@ -19347,12 +19416,12 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series X 1TB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 49,
+      "source": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 50,
       "asking_price": 650.0,
       "expected_resale": 407.27,
-      "market_low": 304.95,
+      "market_low": 307.09,
       "market_high": 446.87,
       "fees": 0.0,
       "risk_reserve": 8.8,
@@ -19386,7 +19455,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 49,
+      "sample_count": 50,
       "median_asking": 500.0
     },
     "repair": {
@@ -19492,12 +19561,12 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series X 1TB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 49,
+      "source": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 50,
       "asking_price": 566.99,
       "expected_resale": 468.57,
-      "market_low": 350.85,
+      "market_low": 353.31,
       "market_high": 514.13,
       "fees": 0.0,
       "risk_reserve": 10.12,
@@ -19531,7 +19600,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 49,
+      "sample_count": 50,
       "median_asking": 500.0
     },
     "repair": {
@@ -19609,7 +19678,7 @@
   {
     "id": "marktplaats-html:m2441866491",
     "found_at": "2026-09-12T12:51:47.175983+00:00",
-    "last_seen_at": "2026-09-23T15:13:50.337441+00:00",
+    "last_seen_at": "2026-09-23T15:28:39.937331+00:00",
     "source": "marktplaats-html",
     "query": "fluke defect",
     "category_hint": "Meetapparatuur",
@@ -19770,12 +19839,12 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series X 1TB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 49,
+      "source": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 50,
       "asking_price": 650.0,
       "expected_resale": 446.68,
-      "market_low": 334.46,
+      "market_low": 336.8,
       "market_high": 490.11,
       "fees": 0.0,
       "risk_reserve": 9.65,
@@ -19809,7 +19878,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 49,
+      "sample_count": 50,
       "median_asking": 500.0
     },
     "repair": {
@@ -19965,7 +20034,7 @@
   {
     "id": "marktplaats-html:m2441801873",
     "found_at": "2026-09-12T10:40:25.266130+00:00",
-    "last_seen_at": "2026-09-23T15:13:53.862751+00:00",
+    "last_seen_at": "2026-09-23T15:28:42.646571+00:00",
     "source": "marktplaats-html",
     "query": "jbl speaker defect",
     "category_hint": "Audio",
@@ -20463,12 +20532,12 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series X 1TB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 49,
+      "source": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 50,
       "asking_price": 220.0,
       "expected_resale": 446.68,
-      "market_low": 334.46,
+      "market_low": 336.8,
       "market_high": 490.11,
       "fees": 0.0,
       "risk_reserve": 34.65,
@@ -20504,7 +20573,7 @@
     "is_deal": true,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 49,
+      "sample_count": 50,
       "median_asking": 500.0
     },
     "repair": {
@@ -23646,12 +23715,12 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series X 1TB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 49,
+      "source": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 50,
       "asking_price": 600.0,
       "expected_resale": 446.68,
-      "market_low": 334.46,
+      "market_low": 336.8,
       "market_high": 490.11,
       "fees": 0.0,
       "risk_reserve": 9.65,
@@ -23685,7 +23754,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 49,
+      "sample_count": 50,
       "median_asking": 500.0
     },
     "repair": {
@@ -23831,12 +23900,12 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series X 1TB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 49,
+      "source": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 50,
       "asking_price": 600.0,
       "expected_resale": 407.27,
-      "market_low": 304.95,
+      "market_low": 307.09,
       "market_high": 446.87,
       "fees": 0.0,
       "risk_reserve": 8.8,
@@ -23870,7 +23939,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 49,
+      "sample_count": 50,
       "median_asking": 500.0
     },
     "repair": {
@@ -24398,12 +24467,12 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series X 1TB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 49,
+      "source": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 50,
       "asking_price": 500.0,
       "expected_resale": 446.68,
-      "market_low": 334.46,
+      "market_low": 336.8,
       "market_high": 490.11,
       "fees": 0.0,
       "risk_reserve": 9.65,
@@ -24437,7 +24506,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 49,
+      "sample_count": 50,
       "median_asking": 500.0
     },
     "repair": {
@@ -25098,7 +25167,7 @@
   {
     "id": "marktplaats-html:m2439476231",
     "found_at": "2026-09-10T08:35:02.095121+00:00",
-    "last_seen_at": "2026-09-23T15:13:31.634892+00:00",
+    "last_seen_at": "2026-09-23T15:28:20.764431+00:00",
     "source": "marktplaats-html",
     "query": "jbl vintage speaker",
     "category_hint": "Audio",
@@ -25124,7 +25193,7 @@
   {
     "id": "marktplaats-html:m2433752328",
     "found_at": "2026-09-10T08:34:58.869242+00:00",
-    "last_seen_at": "2026-09-23T15:13:28.557024+00:00",
+    "last_seen_at": "2026-09-23T15:28:17.814738+00:00",
     "source": "marktplaats-html",
     "query": "sennheiser mkh",
     "category_hint": "Audio",
@@ -25219,12 +25288,12 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series X 1TB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 49,
+      "source": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 50,
       "asking_price": 150.0,
       "expected_resale": 446.68,
-      "market_low": 334.46,
+      "market_low": 336.8,
       "market_high": 490.11,
       "fees": 0.0,
       "risk_reserve": 24.65,
@@ -25260,7 +25329,7 @@
     "is_deal": true,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 49,
+      "sample_count": 50,
       "median_asking": 500.0
     },
     "repair": {
@@ -25930,12 +25999,12 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series X 1TB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 49,
+      "source": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 50,
       "asking_price": 425.0,
       "expected_resale": 446.68,
-      "market_low": 334.46,
+      "market_low": 336.8,
       "market_high": 490.11,
       "fees": 0.0,
       "risk_reserve": 9.65,
@@ -25969,7 +26038,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 49,
+      "sample_count": 50,
       "median_asking": 500.0
     },
     "repair": {
@@ -26522,12 +26591,12 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series X 1TB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 49,
+      "source": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 50,
       "asking_price": 475.0,
       "expected_resale": 446.68,
-      "market_low": 334.46,
+      "market_low": 336.8,
       "market_high": 490.11,
       "fees": 0.0,
       "risk_reserve": 9.65,
@@ -26561,7 +26630,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 49,
+      "sample_count": 50,
       "median_asking": 500.0
     },
     "repair": {
@@ -26786,12 +26855,12 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series X 1TB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 49,
+      "source": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 50,
       "asking_price": 450.0,
       "expected_resale": 446.68,
-      "market_low": 334.46,
+      "market_low": 336.8,
       "market_high": 490.11,
       "fees": 0.0,
       "risk_reserve": 9.65,
@@ -26825,7 +26894,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 49,
+      "sample_count": 50,
       "median_asking": 500.0
     },
     "repair": {
@@ -26853,12 +26922,12 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series X 1TB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 49,
+      "source": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 50,
       "asking_price": 550.0,
       "expected_resale": 446.68,
-      "market_low": 334.46,
+      "market_low": 336.8,
       "market_high": 490.11,
       "fees": 0.0,
       "risk_reserve": 9.65,
@@ -26892,7 +26961,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 49,
+      "sample_count": 50,
       "median_asking": 500.0
     },
     "repair": {
@@ -26920,12 +26989,12 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series X 1TB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 49,
+      "source": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 50,
       "asking_price": 600.0,
       "expected_resale": 446.68,
-      "market_low": 334.46,
+      "market_low": 336.8,
       "market_high": 490.11,
       "fees": 0.0,
       "risk_reserve": 9.65,
@@ -26959,7 +27028,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 49,
+      "sample_count": 50,
       "median_asking": 500.0
     },
     "repair": {
@@ -27013,12 +27082,12 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series X 1TB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 49,
+      "source": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 50,
       "asking_price": 10.0,
       "expected_resale": 446.68,
-      "market_low": 334.46,
+      "market_low": 336.8,
       "market_high": 490.11,
       "fees": 0.0,
       "risk_reserve": 24.65,
@@ -27054,7 +27123,7 @@
     "is_deal": true,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 49,
+      "sample_count": 50,
       "median_asking": 500.0
     },
     "repair": {
@@ -27506,12 +27575,12 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series X 1TB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 49,
+      "source": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 50,
       "asking_price": 600.0,
       "expected_resale": 446.68,
-      "market_low": 334.46,
+      "market_low": 336.8,
       "market_high": 490.11,
       "fees": 0.0,
       "risk_reserve": 9.65,
@@ -27545,7 +27614,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 49,
+      "sample_count": 50,
       "median_asking": 500.0
     },
     "repair": {
@@ -27582,7 +27651,7 @@
   {
     "id": "marktplaats-html:m2365970631",
     "found_at": "2026-09-08T17:41:09.983519+00:00",
-    "last_seen_at": "2026-09-23T15:13:50.338011+00:00",
+    "last_seen_at": "2026-09-23T15:28:39.937877+00:00",
     "source": "marktplaats-html",
     "query": "fluke defect",
     "category_hint": "Meetapparatuur",
@@ -27744,12 +27813,12 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series X 1TB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 49,
+      "source": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 50,
       "asking_price": 500.0,
       "expected_resale": 446.68,
-      "market_low": 334.46,
+      "market_low": 336.8,
       "market_high": 490.11,
       "fees": 0.0,
       "risk_reserve": 9.65,
@@ -27783,7 +27852,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 49,
+      "sample_count": 50,
       "median_asking": 500.0
     },
     "repair": {
@@ -28505,12 +28574,12 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series X 1TB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 49,
+      "source": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 50,
       "asking_price": 400.0,
       "expected_resale": 446.68,
-      "market_low": 334.46,
+      "market_low": 336.8,
       "market_high": 490.11,
       "fees": 0.0,
       "risk_reserve": 9.65,
@@ -28544,7 +28613,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 49,
+      "sample_count": 50,
       "median_asking": 500.0
     },
     "repair": {
@@ -28846,7 +28915,7 @@
   {
     "id": "marktplaats-html:a1528556233",
     "found_at": "2026-09-08T05:53:00.184354+00:00",
-    "last_seen_at": "2026-09-23T15:13:02.858084+00:00",
+    "last_seen_at": "2026-09-23T15:27:50.917539+00:00",
     "source": "marktplaats-html",
     "query": "ps5",
     "category_hint": "Spelcomputers",
@@ -29512,12 +29581,12 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series X 1TB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 49,
+      "source": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 50,
       "asking_price": 300.0,
       "expected_resale": 446.68,
-      "market_low": 334.46,
+      "market_low": 336.8,
       "market_high": 490.11,
       "fees": 0.0,
       "risk_reserve": 9.65,
@@ -29551,7 +29620,7 @@
     "is_deal": true,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 49,
+      "sample_count": 50,
       "median_asking": 500.0
     },
     "repair": {
@@ -29750,12 +29819,12 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series X 1TB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 49,
+      "source": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 50,
       "asking_price": 695.0,
       "expected_resale": 446.68,
-      "market_low": 334.46,
+      "market_low": 336.8,
       "market_high": 490.11,
       "fees": 0.0,
       "risk_reserve": 9.65,
@@ -29789,7 +29858,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 49,
+      "sample_count": 50,
       "median_asking": 500.0
     },
     "repair": {
@@ -30205,7 +30274,7 @@
   {
     "id": "marktplaats-html:m2439954093",
     "found_at": "2026-09-07T08:15:54.571992+00:00",
-    "last_seen_at": "2026-09-23T15:13:28.557678+00:00",
+    "last_seen_at": "2026-09-23T15:28:17.815390+00:00",
     "source": "marktplaats-html",
     "query": "sennheiser mkh",
     "category_hint": "Audio",
@@ -31200,7 +31269,7 @@
   {
     "id": "marktplaats-html:m2439721702",
     "found_at": "2026-09-06T13:48:30.908181+00:00",
-    "last_seen_at": "2026-09-23T15:13:50.337734+00:00",
+    "last_seen_at": "2026-09-23T15:28:39.937618+00:00",
     "source": "marktplaats-html",
     "query": "fluke defect",
     "category_hint": "Meetapparatuur",
@@ -33500,12 +33569,12 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series X 1TB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 49,
+      "source": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 50,
       "asking_price": 285.0,
       "expected_resale": 446.68,
-      "market_low": 334.46,
+      "market_low": 336.8,
       "market_high": 490.11,
       "fees": 0.0,
       "risk_reserve": 9.65,
@@ -33539,7 +33608,7 @@
     "is_deal": true,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 49,
+      "sample_count": 50,
       "median_asking": 500.0
     },
     "repair": {
@@ -33951,12 +34020,12 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series X 1TB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 49,
+      "source": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 50,
       "asking_price": 25.0,
       "expected_resale": 446.68,
-      "market_low": 334.46,
+      "market_low": 336.8,
       "market_high": 490.11,
       "fees": 0.0,
       "risk_reserve": 24.65,
@@ -33992,7 +34061,7 @@
     "is_deal": true,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 49,
+      "sample_count": 50,
       "median_asking": 500.0
     },
     "repair": {
@@ -34122,7 +34191,7 @@
   {
     "id": "marktplaats-html:a1513757969",
     "found_at": "2026-09-05T07:12:38.886823+00:00",
-    "last_seen_at": "2026-09-23T15:13:47.099838+00:00",
+    "last_seen_at": "2026-09-23T15:28:36.592857+00:00",
     "source": "marktplaats-html",
     "query": "festool defect",
     "category_hint": "Gereedschap",
@@ -34600,7 +34669,7 @@
   {
     "id": "marktplaats-html:a1530636256",
     "found_at": "2026-09-05T00:40:23.911462+00:00",
-    "last_seen_at": "2026-09-23T15:13:14.196823+00:00",
+    "last_seen_at": "2026-09-23T15:28:02.473212+00:00",
     "source": "marktplaats-html",
     "query": "festool",
     "category_hint": "Gereedschap",
@@ -36915,12 +36984,12 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series X 1TB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 49,
+      "source": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 50,
       "asking_price": 500.0,
       "expected_resale": 446.68,
-      "market_low": 334.46,
+      "market_low": 336.8,
       "market_high": 490.11,
       "fees": 0.0,
       "risk_reserve": 9.65,
@@ -36954,7 +37023,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 49,
+      "sample_count": 50,
       "median_asking": 500.0
     },
     "repair": {
@@ -37364,12 +37433,12 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series X 1TB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 49,
+      "source": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 50,
       "asking_price": 20.0,
       "expected_resale": 446.68,
-      "market_low": 334.46,
+      "market_low": 336.8,
       "market_high": 490.11,
       "fees": 0.0,
       "risk_reserve": 24.65,
@@ -37405,7 +37474,7 @@
     "is_deal": true,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 49,
+      "sample_count": 50,
       "median_asking": 500.0
     },
     "repair": {
@@ -37961,12 +38030,12 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series X 1TB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 49,
+      "source": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 50,
       "asking_price": 614.98,
       "expected_resale": 446.68,
-      "market_low": 334.46,
+      "market_low": 336.8,
       "market_high": 490.11,
       "fees": 0.0,
       "risk_reserve": 9.65,
@@ -38000,7 +38069,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 49,
+      "sample_count": 50,
       "median_asking": 500.0
     },
     "repair": {
@@ -38454,12 +38523,12 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series X 1TB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 49,
+      "source": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 50,
       "asking_price": 315.0,
       "expected_resale": 446.68,
-      "market_low": 334.46,
+      "market_low": 336.8,
       "market_high": 490.11,
       "fees": 0.0,
       "risk_reserve": 9.65,
@@ -38493,7 +38562,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 49,
+      "sample_count": 50,
       "median_asking": 500.0
     },
     "repair": {
@@ -38556,7 +38625,7 @@
   {
     "id": "marktplaats-html:a1512620259",
     "found_at": "2026-09-02T09:15:26.696036+00:00",
-    "last_seen_at": "2026-09-23T15:13:56.554968+00:00",
+    "last_seen_at": "2026-09-23T15:28:45.998393+00:00",
     "source": "marktplaats-html",
     "query": "bang olufsen defect",
     "category_hint": "Audio",
@@ -38582,7 +38651,7 @@
   {
     "id": "marktplaats-html:a1045761226",
     "found_at": "2026-09-02T09:15:26.695698+00:00",
-    "last_seen_at": "2026-09-23T15:13:56.554655+00:00",
+    "last_seen_at": "2026-09-23T15:28:45.998096+00:00",
     "source": "marktplaats-html",
     "query": "bang olufsen defect",
     "category_hint": "Audio",
@@ -38608,7 +38677,7 @@
   {
     "id": "marktplaats-html:a1512619081",
     "found_at": "2026-09-02T09:15:26.695407+00:00",
-    "last_seen_at": "2026-09-23T15:13:56.554377+00:00",
+    "last_seen_at": "2026-09-23T15:28:45.997801+00:00",
     "source": "marktplaats-html",
     "query": "bang olufsen defect",
     "category_hint": "Audio",
@@ -38634,7 +38703,7 @@
   {
     "id": "marktplaats-html:a1512681175",
     "found_at": "2026-09-02T09:15:26.695050+00:00",
-    "last_seen_at": "2026-09-23T15:13:56.554092+00:00",
+    "last_seen_at": "2026-09-23T15:28:45.997523+00:00",
     "source": "marktplaats-html",
     "query": "bang olufsen defect",
     "category_hint": "Audio",
@@ -38782,7 +38851,7 @@
   {
     "id": "marktplaats-html:a1519149645",
     "found_at": "2026-09-02T09:15:23.642176+00:00",
-    "last_seen_at": "2026-09-23T15:13:53.862022+00:00",
+    "last_seen_at": "2026-09-23T15:28:42.645854+00:00",
     "source": "marktplaats-html",
     "query": "jbl speaker defect",
     "category_hint": "Audio",
@@ -38954,7 +39023,7 @@
   {
     "id": "marktplaats-html:a1514475919",
     "found_at": "2026-09-02T09:15:18.275076+00:00",
-    "last_seen_at": "2026-09-23T15:13:47.098890+00:00",
+    "last_seen_at": "2026-09-23T15:28:36.591898+00:00",
     "source": "marktplaats-html",
     "query": "festool defect",
     "category_hint": "Gereedschap",
@@ -39006,7 +39075,7 @@
   {
     "id": "marktplaats-html:a1522094802",
     "found_at": "2026-09-02T09:15:15.272997+00:00",
-    "last_seen_at": "2026-09-23T15:13:43.953662+00:00",
+    "last_seen_at": "2026-09-23T15:28:33.609186+00:00",
     "source": "marktplaats-html",
     "query": "ps5 defect",
     "category_hint": "Spelcomputers",
@@ -39046,7 +39115,7 @@
   {
     "id": "marktplaats-html:a1516895454",
     "found_at": "2026-09-02T09:15:15.271652+00:00",
-    "last_seen_at": "2026-09-23T15:13:43.951475+00:00",
+    "last_seen_at": "2026-09-23T15:28:33.607010+00:00",
     "source": "marktplaats-html",
     "query": "ps5 defect",
     "category_hint": "Spelcomputers",
@@ -39403,7 +39472,7 @@
   {
     "id": "marktplaats-html:a1529176214",
     "found_at": "2026-09-02T07:13:11.240258+00:00",
-    "last_seen_at": "2026-09-23T15:13:19.952651+00:00",
+    "last_seen_at": "2026-09-23T15:28:08.265362+00:00",
     "source": "marktplaats-html",
     "query": "fluke",
     "category_hint": "Meetapparatuur",
@@ -39602,12 +39671,12 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series X 1TB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 49,
+      "source": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 50,
       "asking_price": 600.0,
       "expected_resale": 446.68,
-      "market_low": 334.46,
+      "market_low": 336.8,
       "market_high": 490.11,
       "fees": 0.0,
       "risk_reserve": 9.65,
@@ -39641,7 +39710,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 49,
+      "sample_count": 50,
       "median_asking": 500.0
     },
     "repair": {
@@ -40280,7 +40349,7 @@
   {
     "id": "marktplaats-html:a1215170017",
     "found_at": "2026-09-02T04:51:25.635436+00:00",
-    "last_seen_at": "2026-09-23T15:13:34.514313+00:00",
+    "last_seen_at": "2026-09-23T15:28:24.053252+00:00",
     "source": "marktplaats-html",
     "query": "bang olufsen speaker",
     "category_hint": "Audio",
@@ -40874,7 +40943,7 @@
   {
     "id": "marktplaats-html:m2434415000",
     "found_at": "2026-09-02T04:51:19.073784+00:00",
-    "last_seen_at": "2026-09-23T15:13:28.557915+00:00",
+    "last_seen_at": "2026-09-23T15:28:17.815616+00:00",
     "source": "marktplaats-html",
     "query": "sennheiser mkh",
     "category_hint": "Audio",
@@ -40964,7 +41033,7 @@
   {
     "id": "marktplaats-html:m2434251249",
     "found_at": "2026-09-02T04:51:19.073462+00:00",
-    "last_seen_at": "2026-09-23T15:13:28.557387+00:00",
+    "last_seen_at": "2026-09-23T15:28:17.815107+00:00",
     "source": "marktplaats-html",
     "query": "sennheiser mkh",
     "category_hint": "Audio",
@@ -41760,12 +41829,12 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series X 1TB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 49,
+      "source": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 50,
       "asking_price": 400.0,
       "expected_resale": 446.68,
-      "market_low": 334.46,
+      "market_low": 336.8,
       "market_high": 490.11,
       "fees": 0.0,
       "risk_reserve": 9.65,
@@ -41803,7 +41872,7 @@
     "price_drop_percent": 0.0,
     "condition": "zo goed als nieuw",
     "market_profile": {
-      "sample_count": 49,
+      "sample_count": 50,
       "median_asking": 500.0
     },
     "repair": {
@@ -41827,12 +41896,12 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series X 1TB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 49,
+      "source": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 50,
       "asking_price": 375.0,
       "expected_resale": 446.68,
-      "market_low": 334.46,
+      "market_low": 336.8,
       "market_high": 490.11,
       "fees": 0.0,
       "risk_reserve": 9.65,
@@ -41870,7 +41939,7 @@
     "price_drop_percent": 0.0,
     "condition": "zo goed als nieuw",
     "market_profile": {
-      "sample_count": 49,
+      "sample_count": 50,
       "median_asking": 500.0
     },
     "repair": {
@@ -42056,7 +42125,7 @@
     "result_status": "excluded",
     "is_deal": false,
     "exclusion_reason": "Dienst/gezocht-advertentie gedetecteerd: reparatie",
-    "last_seen_at": "2026-09-23T15:13:43.950779+00:00",
+    "last_seen_at": "2026-09-23T15:28:33.606328+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
     "condition": "onderdelen/defect",
@@ -42710,7 +42779,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "valuation_samples": 0,
-    "last_seen_at": "2026-09-23T15:13:25.664376+00:00",
+    "last_seen_at": "2026-09-23T15:28:14.686168+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
     "condition": "nieuw",
@@ -42976,7 +43045,7 @@
     "result_status": "scored",
     "is_deal": false,
     "exclusion_reason": null,
-    "last_seen_at": "2026-09-23T15:13:25.664024+00:00",
+    "last_seen_at": "2026-09-23T15:28:14.685801+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
     "condition": "nieuw",
@@ -43236,7 +43305,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "valuation_samples": 0,
-    "last_seen_at": "2026-09-23T15:13:19.953626+00:00",
+    "last_seen_at": "2026-09-23T15:28:08.266319+00:00",
     "previous_asking_price": 116.1,
     "price_drop_percent": 0.0,
     "condition": "nieuw",
@@ -43515,7 +43584,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "valuation_samples": 0,
-    "last_seen_at": "2026-09-23T15:13:14.197712+00:00",
+    "last_seen_at": "2026-09-23T15:28:02.473794+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
     "condition": "nieuw",
@@ -43568,7 +43637,7 @@
     "result_status": "unrecognized",
     "is_deal": false,
     "exclusion_reason": null,
-    "last_seen_at": "2026-09-23T15:13:14.197431+00:00",
+    "last_seen_at": "2026-09-23T15:28:02.474126+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
     "condition": "nieuw",
@@ -43782,12 +43851,12 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series X 1TB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (49 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 49,
+      "source": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (50 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 50,
       "asking_price": 574.98,
       "expected_resale": 407.27,
-      "market_low": 304.95,
+      "market_low": 307.09,
       "market_high": 446.87,
       "fees": 0.0,
       "risk_reserve": 8.8,
@@ -43821,7 +43890,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 49,
+      "sample_count": 50,
       "median_asking": 500.0
     },
     "repair": {
@@ -43890,7 +43959,7 @@
     "result_status": "excluded",
     "is_deal": false,
     "exclusion_reason": "Controller/accessoire in plaats van console",
-    "last_seen_at": "2026-09-23T15:13:11.122669+00:00",
+    "last_seen_at": "2026-09-23T15:27:59.452945+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
     "condition": "zo goed als nieuw",
@@ -44007,7 +44076,7 @@
     "result_status": "scored",
     "is_deal": false,
     "exclusion_reason": null,
-    "last_seen_at": "2026-09-23T15:13:11.120626+00:00",
+    "last_seen_at": "2026-09-23T15:27:59.450310+00:00",
     "previous_asking_price": 250.0,
     "price_drop_percent": 0.0,
     "condition": "zo goed als nieuw",
@@ -44487,7 +44556,7 @@
     "result_status": "excluded",
     "is_deal": false,
     "exclusion_reason": "Accessoire/dienst gedetecteerd: dock",
-    "last_seen_at": "2026-09-23T15:13:08.377980+00:00",
+    "last_seen_at": "2026-09-23T15:27:56.557705+00:00",
     "previous_asking_price": 65.95,
     "price_drop_percent": 0.0,
     "condition": "nieuw",
@@ -45114,7 +45183,7 @@
     "is_deal": false,
     "exclusion_reason": null,
     "valuation_samples": 0,
-    "last_seen_at": "2026-09-23T15:13:05.647526+00:00",
+    "last_seen_at": "2026-09-23T15:27:53.819307+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
     "condition": "zo goed als nieuw",
@@ -45499,7 +45568,7 @@
       "detected": false
     },
     "is_repair_deal": false,
-    "last_seen_at": "2026-09-23T15:13:02.861716+00:00",
+    "last_seen_at": "2026-09-23T15:27:50.921067+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
     "condition": "nieuw"
@@ -45788,7 +45857,7 @@
     "result_status": "excluded",
     "is_deal": false,
     "exclusion_reason": "Game/software in plaats van console",
-    "last_seen_at": "2026-09-23T15:13:02.859692+00:00",
+    "last_seen_at": "2026-09-23T15:27:50.919060+00:00",
     "previous_asking_price": null,
     "price_drop_percent": 0.0,
     "condition": "nieuw",
