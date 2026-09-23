@@ -2527,6 +2527,14 @@
       "estimated_resale": 66.0,
       "asking_low": 75.0,
       "asking_high": 75.0
+    },
+    {
+      "at": "2026-09-23T13:03:32.974458+00:00",
+      "sample_count": 1,
+      "median_asking": 50.0,
+      "estimated_resale": 45.0,
+      "asking_low": 50.0,
+      "asking_high": 50.0
     }
   ],
   "Tektronix THS710 TEKSCOPE": [
@@ -19953,6 +19961,16 @@
       "estimated_resale": 133.5,
       "asking_low": 150.0,
       "asking_high": 150.0
+    }
+  ],
+  "Tannoy D700 AMERICAN CHERRY": [
+    {
+      "at": "2026-09-23T13:03:32.974458+00:00",
+      "sample_count": 1,
+      "median_asking": 1750.0,
+      "estimated_resale": 1557.5,
+      "asking_low": 1750.0,
+      "asking_high": 1750.0
     }
   ]
 }
