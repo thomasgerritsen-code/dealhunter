@@ -19944,5 +19944,15 @@
       "asking_low": 300.0,
       "asking_high": 300.0
     }
+  ],
+  "Tannoy REVEAL 402 ACTIEVE": [
+    {
+      "at": "2026-09-23T09:14:27.793316+00:00",
+      "sample_count": 1,
+      "median_asking": 150.0,
+      "estimated_resale": 133.5,
+      "asking_low": 150.0,
+      "asking_high": 150.0
+    }
   ]
 }
