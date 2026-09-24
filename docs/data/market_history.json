@@ -21400,5 +21400,15 @@
       "asking_low": 125.0,
       "asking_high": 125.0
     }
+  ],
+  "Tannoy MERCURY M20 LUIDSPREKERS": [
+    {
+      "at": "2026-09-24T15:34:12.553794+00:00",
+      "sample_count": 1,
+      "median_asking": 90.0,
+      "estimated_resale": 80.1,
+      "asking_low": 90.0,
+      "asking_high": 90.0
+    }
   ]
 }
