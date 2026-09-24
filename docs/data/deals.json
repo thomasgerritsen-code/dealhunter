@@ -1173,7 +1173,7 @@
   {
     "id": "marktplaats-html:m2443793961",
     "found_at": "2026-09-17T19:40:49.744172+00:00",
-    "last_seen_at": "2026-09-24T15:00:13.303236+00:00",
+    "last_seen_at": "2026-09-24T15:15:59.235169+00:00",
     "source": "marktplaats-html",
     "query": "shure sm7b",
     "category_hint": "Audio",
@@ -1486,7 +1486,7 @@
       "valuation_samples": 26,
       "asking_price": 130.0,
       "expected_resale": 219.22,
-      "market_low": 175.82,
+      "market_low": 184.37,
       "market_high": 240.07,
       "fees": 0.0,
       "risk_reserve": 4.74,
