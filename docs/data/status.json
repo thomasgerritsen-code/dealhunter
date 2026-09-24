@@ -1,6 +1,6 @@
 {
   "mode": "marktplaats-html-scraper-v1.2-repair-hunter",
-  "last_checked": "2026-09-24T11:58:14.700572+00:00",
+  "last_checked": "2026-09-24T12:18:10.402112+00:00",
   "queries_configured": 19,
   "links_fetched": 95,
   "checked_ads": 95,
@@ -10,26 +10,27 @@
   "price_drops": 0,
   "new_deals": 0,
   "excluded_results": 195,
-  "excluded_in_current_scan": 10,
-  "recognized_unvalued": 370,
+  "excluded_in_current_scan": 9,
+  "recognized_unvalued": 371,
   "unpriced_candidates": 291,
   "unrecognized_results": 172,
   "learned_models": 175,
-  "total_results": 1311,
+  "total_results": 1312,
   "total_deals": 26,
   "smart_alerts_sent": 0,
   "errors": [],
   "whatsapp_enabled": false,
-  "audiofanzine_observations": 80,
-  "audiofanzine_models_matched": 5,
+  "audiofanzine_observations": 0,
+  "audiofanzine_models_matched": 0,
   "multi_source_revalued": 56,
   "multi_source_results": 37,
   "valuation_sources_active": [
     "Marktplaats",
-    "lokale referentiecatalogus",
-    "Audiofanzine publieke classifieds"
+    "lokale referentiecatalogus"
   ],
-  "valuation_source_errors": [],
+  "valuation_source_errors": [
+    "Audiofanzine: HTTPStatusError: Server error '502 Bad Gateway' for url 'https://en.audiofanzine.com/classifieds/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502"
+  ],
   "repair_candidates": 54,
   "repair_deals": 0
 }
