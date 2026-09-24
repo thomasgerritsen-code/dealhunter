@@ -21390,5 +21390,15 @@
       "asking_low": 90.0,
       "asking_high": 90.0
     }
+  ],
+  "Tannoy FUSION 1LUIDSPREKERSET ECHT": [
+    {
+      "at": "2026-09-24T13:21:13.010578+00:00",
+      "sample_count": 1,
+      "median_asking": 125.0,
+      "estimated_resale": 111.25,
+      "asking_low": 125.0,
+      "asking_high": 125.0
+    }
   ]
 }
