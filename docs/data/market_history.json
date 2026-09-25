@@ -22874,5 +22874,15 @@
       "asking_low": 8.0,
       "asking_high": 8.0
     }
+  ],
+  "Sennheiser MKH8040 CARDIOIDE": [
+    {
+      "at": "2026-09-25T11:58:42.029433+00:00",
+      "sample_count": 1,
+      "median_asking": 1800.0,
+      "estimated_resale": 1602.0,
+      "asking_low": 1800.0,
+      "asking_high": 1800.0
+    }
   ]
 }
