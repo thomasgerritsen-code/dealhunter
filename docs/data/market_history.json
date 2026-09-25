@@ -9393,6 +9393,14 @@
       "estimated_resale": 44.5,
       "asking_low": 50.0,
       "asking_high": 50.0
+    },
+    {
+      "at": "2026-09-25T09:01:11.310794+00:00",
+      "sample_count": 1,
+      "median_asking": 8.0,
+      "estimated_resale": 7.12,
+      "asking_low": 8.0,
+      "asking_high": 8.0
     }
   ],
   "Sony PlayStation 5 Digital Slim": [
@@ -14961,12 +14969,12 @@
       "asking_high": 50.0
     },
     {
-      "at": "2026-09-25T00:20:42.295631+00:00",
-      "sample_count": 1,
-      "median_asking": 50.0,
-      "estimated_resale": 44.5,
-      "asking_low": 50.0,
-      "asking_high": 50.0
+      "at": "2026-09-25T09:01:11.310794+00:00",
+      "sample_count": 2,
+      "median_asking": 29.0,
+      "estimated_resale": 25.81,
+      "asking_low": 16.4,
+      "asking_high": 41.6
     }
   ],
   "Tektronix WVR 7000 VIDEO": [
@@ -17311,12 +17319,12 @@
       "asking_high": 200.0
     },
     {
-      "at": "2026-09-25T00:20:42.295631+00:00",
-      "sample_count": 1,
-      "median_asking": 200.0,
-      "estimated_resale": 178.0,
-      "asking_low": 200.0,
-      "asking_high": 200.0
+      "at": "2026-09-25T09:01:11.310794+00:00",
+      "sample_count": 2,
+      "median_asking": 102.5,
+      "estimated_resale": 91.22,
+      "asking_low": 44.0,
+      "asking_high": 161.0
     }
   ],
   "JBL TLX 7 GI": [
@@ -22855,6 +22863,16 @@
       "estimated_resale": 44.5,
       "asking_low": 50.0,
       "asking_high": 50.0
+    }
+  ],
+  "JBL TLX 3 GI": [
+    {
+      "at": "2026-09-25T09:01:11.310794+00:00",
+      "sample_count": 1,
+      "median_asking": 8.0,
+      "estimated_resale": 7.12,
+      "asking_low": 8.0,
+      "asking_high": 8.0
     }
   ]
 }
