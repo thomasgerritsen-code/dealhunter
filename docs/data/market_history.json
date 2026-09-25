@@ -22884,5 +22884,15 @@
       "asking_low": 1800.0,
       "asking_high": 1800.0
     }
+  ],
+  "KEF C35 BOEKENPLANK LUIDSPREKERS": [
+    {
+      "at": "2026-09-25T15:33:48.784903+00:00",
+      "sample_count": 1,
+      "median_asking": 175.0,
+      "estimated_resale": 155.75,
+      "asking_low": 175.0,
+      "asking_high": 175.0
+    }
   ]
 }
