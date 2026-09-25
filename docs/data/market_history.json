@@ -22846,5 +22846,15 @@
       "asking_low": 500.0,
       "asking_high": 500.0
     }
+  ],
+  "JBL LX 800 VLOERSTAANDE": [
+    {
+      "at": "2026-09-25T08:15:24.312128+00:00",
+      "sample_count": 1,
+      "median_asking": 50.0,
+      "estimated_resale": 44.5,
+      "asking_low": 50.0,
+      "asking_high": 50.0
+    }
   ]
 }
