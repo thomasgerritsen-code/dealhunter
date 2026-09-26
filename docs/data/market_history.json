@@ -24358,5 +24358,25 @@
       "asking_low": 175.0,
       "asking_high": 175.0
     }
+  ],
+  "JBL BAR 5 1": [
+    {
+      "at": "2026-09-26T11:24:07.024018+00:00",
+      "sample_count": 1,
+      "median_asking": 250.0,
+      "estimated_resale": 222.5,
+      "asking_low": 250.0,
+      "asking_high": 250.0
+    }
+  ],
+  "Tannoy 635 ROSEWOOD PLUS": [
+    {
+      "at": "2026-09-26T11:24:07.024018+00:00",
+      "sample_count": 1,
+      "median_asking": 100.0,
+      "estimated_resale": 89.0,
+      "asking_low": 100.0,
+      "asking_high": 100.0
+    }
   ]
 }
