@@ -25807,12 +25807,12 @@
       "asking_high": 175.0
     },
     {
-      "at": "2026-09-27T01:50:00.641894+00:00",
+      "at": "2026-09-27T13:01:00.854831+00:00",
       "sample_count": 1,
-      "median_asking": 175.0,
-      "estimated_resale": 155.75,
-      "asking_low": 175.0,
-      "asking_high": 175.0
+      "median_asking": 150.0,
+      "estimated_resale": 133.5,
+      "asking_low": 150.0,
+      "asking_high": 150.0
     }
   ],
   "JBL BAR 5 1": [
@@ -25885,6 +25885,26 @@
       "estimated_resale": 48.95,
       "asking_low": 55.0,
       "asking_high": 55.0
+    }
+  ],
+  "JBL PRO COMPAQ 2": [
+    {
+      "at": "2026-09-27T13:01:00.854831+00:00",
+      "sample_count": 1,
+      "median_asking": 12.5,
+      "estimated_resale": 11.12,
+      "asking_low": 12.5,
+      "asking_high": 12.5
+    }
+  ],
+  "JBL TLX 8": [
+    {
+      "at": "2026-09-27T13:01:00.854831+00:00",
+      "sample_count": 1,
+      "median_asking": 100.0,
+      "estimated_resale": 89.0,
+      "asking_low": 100.0,
+      "asking_high": 100.0
     }
   ]
 }
