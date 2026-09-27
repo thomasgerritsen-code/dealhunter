@@ -71,7 +71,7 @@
   {
     "id": "marktplaats-html:a1531504409",
     "found_at": "2026-09-25T22:55:45.551967+00:00",
-    "last_seen_at": "2026-09-27T17:37:08.947490+00:00",
+    "last_seen_at": "2026-09-27T20:22:57.900501+00:00",
     "source": "marktplaats-html",
     "query": "ps5",
     "category_hint": "Spelcomputers",
@@ -1447,7 +1447,7 @@
   {
     "id": "marktplaats-html:m2443793961",
     "found_at": "2026-09-17T19:40:49.744172+00:00",
-    "last_seen_at": "2026-09-27T17:37:33.732116+00:00",
+    "last_seen_at": "2026-09-27T20:23:23.615068+00:00",
     "source": "marktplaats-html",
     "query": "shure sm7b",
     "category_hint": "Audio",
@@ -1464,13 +1464,13 @@
     "analysis": {
       "matched_product": "Shure SM7B",
       "category": "Audio",
-      "source": "Marktplaats profiel (28 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (28 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 28,
+      "source": "Marktplaats profiel (29 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (29 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 29,
       "asking_price": 164.99,
       "expected_resale": 288.17,
-      "market_low": 241.98,
-      "market_high": 352.47,
+      "market_low": 246.73,
+      "market_high": 352.0,
       "fees": 0.0,
       "risk_reserve": 5.53,
       "travel_cost": 0.0,
@@ -1498,17 +1498,17 @@
         "risk_penalty": 3.2
       },
       "note": "Marktwaardes op basis van vraagprijzen zijn schattingen, geen gegarandeerde gerealiseerde verkoopprijzen.",
-      "quick_sale_value": 241.98,
+      "quick_sale_value": 246.73,
       "realistic_market_value": 288.17,
-      "optimistic_value": 352.47,
+      "optimistic_value": 352.0,
       "source_agreement_percent": null,
       "valuation_sources": [
         {
           "source": "Marktplaats",
           "value": 266.11,
-          "low": 195.8,
-          "high": 345.32,
-          "samples": 28,
+          "low": 204.69,
+          "high": 344.43,
+          "samples": 29,
           "kind": "actieve vraagprijzen"
         },
         {
@@ -1526,7 +1526,7 @@
     "is_deal": true,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 28,
+      "sample_count": 29,
       "median_asking": 299.0
     },
     "repair": {
@@ -1836,13 +1836,13 @@
     "analysis": {
       "matched_product": "Shure SM7B",
       "category": "Audio",
-      "source": "Marktplaats profiel (28 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (28 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 28,
+      "source": "Marktplaats profiel (29 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (29 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 29,
       "asking_price": 150.0,
       "expected_resale": 250.47,
-      "market_low": 210.32,
-      "market_high": 306.35,
+      "market_low": 214.45,
+      "market_high": 305.94,
       "fees": 0.0,
       "risk_reserve": 4.81,
       "travel_cost": 0.0,
@@ -1870,17 +1870,17 @@
         "risk_penalty": 3.2
       },
       "note": "Marktwaardes op basis van vraagprijzen zijn schattingen, geen gegarandeerde gerealiseerde verkoopprijzen.",
-      "quick_sale_value": 210.32,
+      "quick_sale_value": 214.45,
       "realistic_market_value": 250.47,
-      "optimistic_value": 306.35,
+      "optimistic_value": 305.94,
       "source_agreement_percent": null,
       "valuation_sources": [
         {
           "source": "Marktplaats",
           "value": 266.11,
-          "low": 195.8,
-          "high": 345.32,
-          "samples": 28,
+          "low": 204.69,
+          "high": 344.43,
+          "samples": 29,
           "kind": "actieve vraagprijzen"
         },
         {
@@ -1898,7 +1898,7 @@
     "is_deal": true,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 28,
+      "sample_count": 29,
       "median_asking": 299.0
     },
     "repair": {
@@ -1926,13 +1926,13 @@
     "analysis": {
       "matched_product": "Shure SM7B",
       "category": "Audio",
-      "source": "Marktplaats profiel (28 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (28 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 28,
+      "source": "Marktplaats profiel (29 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (29 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 29,
       "asking_price": 175.0,
       "expected_resale": 274.71,
-      "market_low": 230.67,
-      "market_high": 336.0,
+      "market_low": 235.2,
+      "market_high": 335.55,
       "fees": 0.0,
       "risk_reserve": 5.27,
       "travel_cost": 0.0,
@@ -1960,17 +1960,17 @@
         "risk_penalty": 3.2
       },
       "note": "Marktwaardes op basis van vraagprijzen zijn schattingen, geen gegarandeerde gerealiseerde verkoopprijzen.",
-      "quick_sale_value": 230.67,
+      "quick_sale_value": 235.2,
       "realistic_market_value": 274.71,
-      "optimistic_value": 336.0,
+      "optimistic_value": 335.55,
       "source_agreement_percent": null,
       "valuation_sources": [
         {
           "source": "Marktplaats",
           "value": 266.11,
-          "low": 195.8,
-          "high": 345.32,
-          "samples": 28,
+          "low": 204.69,
+          "high": 344.43,
+          "samples": 29,
           "kind": "actieve vraagprijzen"
         },
         {
@@ -1988,7 +1988,7 @@
     "is_deal": true,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 28,
+      "sample_count": 29,
       "median_asking": 299.0
     },
     "repair": {
