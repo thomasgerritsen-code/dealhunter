@@ -19987,12 +19987,12 @@
       "asking_high": 73.0
     },
     {
-      "at": "2026-09-28T01:38:26.095864+00:00",
-      "sample_count": 2,
-      "median_asking": 55.0,
-      "estimated_resale": 48.95,
-      "asking_low": 37.0,
-      "asking_high": 73.0
+      "at": "2026-09-28T15:57:19.860769+00:00",
+      "sample_count": 3,
+      "median_asking": 70.0,
+      "estimated_resale": 62.3,
+      "asking_low": 43.0,
+      "asking_high": 79.0
     }
   ],
   "KEF CANTATA SP1056 VLOERSTAANDE": [
@@ -26265,6 +26265,14 @@
       "estimated_resale": 200.25,
       "asking_low": 225.0,
       "asking_high": 225.0
+    },
+    {
+      "at": "2026-09-28T15:57:19.860769+00:00",
+      "sample_count": 1,
+      "median_asking": 200.0,
+      "estimated_resale": 178.0,
+      "asking_low": 200.0,
+      "asking_high": 200.0
     }
   ],
   "JBL LX 750 VLOERSTAANDE": [
@@ -27427,6 +27435,26 @@
       "estimated_resale": 155.75,
       "asking_low": 175.0,
       "asking_high": 175.0
+    }
+  ],
+  "JBL CREATURE III 3": [
+    {
+      "at": "2026-09-28T15:57:19.860769+00:00",
+      "sample_count": 1,
+      "median_asking": 59.95,
+      "estimated_resale": 53.36,
+      "asking_low": 59.95,
+      "asking_high": 59.95
+    }
+  ],
+  "Tannoy REVOLUTION R3": [
+    {
+      "at": "2026-09-28T15:57:19.860769+00:00",
+      "sample_count": 1,
+      "median_asking": 250.0,
+      "estimated_resale": 222.5,
+      "asking_low": 250.0,
+      "asking_high": 250.0
     }
   ]
 }
