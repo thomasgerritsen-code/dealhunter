@@ -27456,5 +27456,35 @@
       "asking_low": 250.0,
       "asking_high": 250.0
     }
+  ],
+  "Tannoy MERCURY M1 SHADOW": [
+    {
+      "at": "2026-09-28T21:41:21.601302+00:00",
+      "sample_count": 1,
+      "median_asking": 95.0,
+      "estimated_resale": 84.55,
+      "asking_low": 95.0,
+      "asking_high": 95.0
+    }
+  ],
+  "JBL CHARGE 3 BLUETOOTH": [
+    {
+      "at": "2026-09-28T21:41:21.601302+00:00",
+      "sample_count": 1,
+      "median_asking": 15.0,
+      "estimated_resale": 13.35,
+      "asking_low": 15.0,
+      "asking_high": 15.0
+    }
+  ],
+  "JBL FLIP 3 SPECIAL": [
+    {
+      "at": "2026-09-28T21:41:21.601302+00:00",
+      "sample_count": 1,
+      "median_asking": 5.0,
+      "estimated_resale": 4.45,
+      "asking_low": 5.0,
+      "asking_high": 5.0
+    }
   ]
 }
