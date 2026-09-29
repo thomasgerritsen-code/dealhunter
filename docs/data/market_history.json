@@ -945,12 +945,12 @@
       "asking_high": 339.98
     },
     {
-      "at": "2026-09-29T01:16:41.277657+00:00",
-      "sample_count": 26,
-      "median_asking": 267.5,
-      "estimated_resale": 246.1,
-      "asking_low": 250.0,
-      "asking_high": 339.98
+      "at": "2026-09-29T13:55:48.194873+00:00",
+      "sample_count": 29,
+      "median_asking": 260.0,
+      "estimated_resale": 239.2,
+      "asking_low": 220.0,
+      "asking_high": 330.99
     }
   ],
   "Sony PlayStation 5 Pro": [
@@ -10963,12 +10963,12 @@
       "asking_high": 104.0
     },
     {
-      "at": "2026-09-29T07:01:31.407777+00:00",
-      "sample_count": 2,
-      "median_asking": 132.0,
-      "estimated_resale": 117.48,
-      "asking_low": 115.2,
-      "asking_high": 148.8
+      "at": "2026-09-29T13:55:48.194873+00:00",
+      "sample_count": 1,
+      "median_asking": 104.0,
+      "estimated_resale": 92.56,
+      "asking_low": 104.0,
+      "asking_high": 104.0
     }
   ],
   "Sony PlayStation 5 Digital Slim": [
@@ -29045,6 +29045,16 @@
       "estimated_resale": 4.45,
       "asking_low": 5.0,
       "asking_high": 5.0
+    }
+  ],
+  "Tannoy MERCURY MC SHADOW": [
+    {
+      "at": "2026-09-29T13:55:48.194873+00:00",
+      "sample_count": 1,
+      "median_asking": 100.0,
+      "estimated_resale": 89.0,
+      "asking_low": 100.0,
+      "asking_high": 100.0
     }
   ]
 }
