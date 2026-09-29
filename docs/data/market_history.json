@@ -215,6 +215,14 @@
       "estimated_resale": 1931.08,
       "asking_low": 2099.0,
       "asking_high": 2099.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 2099.0,
+      "estimated_resale": 1931.08,
+      "asking_low": 2099.0,
+      "asking_high": 2099.0
     }
   ],
   "Sony PlayStation 5 Digital": [
@@ -483,6 +491,14 @@
       "estimated_resale": 506.0,
       "asking_low": 400.0,
       "asking_high": 650.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 58,
+      "median_asking": 550.0,
+      "estimated_resale": 506.0,
+      "asking_low": 400.0,
+      "asking_high": 650.0
     }
   ],
   "Festool DECOUPEERZAAG 18V CARVEX": [
@@ -696,6 +712,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 275.0,
+      "estimated_resale": 244.75,
+      "asking_low": 275.0,
+      "asking_high": 275.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 275.0,
       "estimated_resale": 244.75,
@@ -919,6 +943,14 @@
       "estimated_resale": 246.1,
       "asking_low": 250.0,
       "asking_high": 339.98
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 26,
+      "median_asking": 267.5,
+      "estimated_resale": 246.1,
+      "asking_low": 250.0,
+      "asking_high": 339.98
     }
   ],
   "Sony PlayStation 5 Pro": [
@@ -1132,6 +1164,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 2,
+      "median_asking": 905.0,
+      "estimated_resale": 832.6,
+      "asking_low": 902.0,
+      "asking_high": 908.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 2,
       "median_asking": 905.0,
       "estimated_resale": 832.6,
@@ -1375,6 +1415,14 @@
       "estimated_resale": 400.5,
       "asking_low": 450.0,
       "asking_high": 450.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 450.0,
+      "estimated_resale": 400.5,
+      "asking_low": 450.0,
+      "asking_high": 450.0
     }
   ],
   "Shure SM7B": [
@@ -1593,6 +1641,14 @@
       "estimated_resale": 266.11,
       "asking_low": 229.99,
       "asking_high": 387.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 28,
+      "median_asking": 299.0,
+      "estimated_resale": 266.11,
+      "asking_low": 220.0,
+      "asking_high": 388.0
     }
   ],
   "RØDE NT1 5TH GEN": [
@@ -1811,6 +1867,14 @@
       "estimated_resale": 124.6,
       "asking_low": 140.0,
       "asking_high": 140.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 140.0,
+      "estimated_resale": 124.6,
+      "asking_low": 140.0,
+      "asking_high": 140.0
     }
   ],
   "Shure SM7DB DYNAMISCHE VOCAL": [
@@ -1996,6 +2060,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 225.0,
+      "estimated_resale": 202.5,
+      "asking_low": 225.0,
+      "asking_high": 225.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 225.0,
       "estimated_resale": 202.5,
@@ -2313,6 +2385,14 @@
       "estimated_resale": 400.2,
       "asking_low": 392.0,
       "asking_high": 450.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 4,
+      "median_asking": 435.0,
+      "estimated_resale": 400.2,
+      "asking_low": 392.0,
+      "asking_high": 450.0
     }
   ],
   "Valve Steam Deck OLED 1TB": [
@@ -2526,6 +2606,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 3,
+      "median_asking": 595.0,
+      "estimated_resale": 547.4,
+      "asking_low": 583.0,
+      "asking_high": 598.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 3,
       "median_asking": 595.0,
       "estimated_resale": 547.4,
@@ -2769,6 +2857,14 @@
       "estimated_resale": 234.58,
       "asking_low": 238.98,
       "asking_high": 275.2
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 6,
+      "median_asking": 254.98,
+      "estimated_resale": 234.58,
+      "asking_low": 219.0,
+      "asking_high": 269.98
     }
   ],
   "Nintendo Switch (variant onbekend)": [
@@ -2997,6 +3093,14 @@
       "estimated_resale": 965.08,
       "asking_low": 1049.0,
       "asking_high": 1049.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 1049.0,
+      "estimated_resale": 965.08,
+      "asking_low": 1049.0,
+      "asking_high": 1049.0
     }
   ],
   "Makita DF457D BOORMACHINE": [
@@ -3090,6 +3194,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 50.0,
+      "estimated_resale": 45.0,
+      "asking_low": 50.0,
+      "asking_high": 50.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 50.0,
       "estimated_resale": 45.0,
@@ -3313,6 +3425,14 @@
       "estimated_resale": 360.0,
       "asking_low": 400.0,
       "asking_high": 400.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 400.0,
+      "estimated_resale": 360.0,
+      "asking_low": 400.0,
+      "asking_high": 400.0
     }
   ],
   "Tektronix TEKSCOPE THS720P OSCILLOSCOPE": [
@@ -3526,6 +3646,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 200.0,
+      "estimated_resale": 180.0,
+      "asking_low": 200.0,
+      "asking_high": 200.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 200.0,
       "estimated_resale": 180.0,
@@ -3749,6 +3877,14 @@
       "estimated_resale": 22.5,
       "asking_low": 25.0,
       "asking_high": 25.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 25.0,
+      "estimated_resale": 22.5,
+      "asking_low": 25.0,
+      "asking_high": 25.0
     }
   ],
   "Tektronix TDS 3012 100": [
@@ -3962,6 +4098,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 2,
+      "median_asking": 375.0,
+      "estimated_resale": 337.5,
+      "asking_low": 375.0,
+      "asking_high": 375.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 2,
       "median_asking": 375.0,
       "estimated_resale": 337.5,
@@ -4185,6 +4329,14 @@
       "estimated_resale": 890.0,
       "asking_low": 1000.0,
       "asking_high": 1000.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 1000.0,
+      "estimated_resale": 890.0,
+      "asking_low": 1000.0,
+      "asking_high": 1000.0
     }
   ],
   "Sennheiser MKH 416": [
@@ -4398,6 +4550,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 6,
+      "median_asking": 425.0,
+      "estimated_resale": 378.25,
+      "asking_low": 350.0,
+      "asking_high": 650.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 6,
       "median_asking": 425.0,
       "estimated_resale": 378.25,
@@ -4621,6 +4781,14 @@
       "estimated_resale": 618.55,
       "asking_low": 695.0,
       "asking_high": 695.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 695.0,
+      "estimated_resale": 618.55,
+      "asking_low": 695.0,
+      "asking_high": 695.0
     }
   ],
   "JBL AUTHENTICS L16 DRAADLOZE": [
@@ -4834,6 +5002,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 700.0,
+      "estimated_resale": 623.0,
+      "asking_low": 700.0,
+      "asking_high": 700.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 700.0,
       "estimated_resale": 623.0,
@@ -5111,6 +5287,14 @@
       "estimated_resale": 111.25,
       "asking_low": 125.0,
       "asking_high": 125.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 125.0,
+      "estimated_resale": 111.25,
+      "asking_low": 125.0,
+      "asking_high": 125.0
     }
   ],
   "KEF B139 WOOFER SP1044": [
@@ -5324,6 +5508,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 50.0,
+      "estimated_resale": 44.5,
+      "asking_low": 50.0,
+      "asking_high": 50.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 50.0,
       "estimated_resale": 44.5,
@@ -5547,6 +5739,14 @@
       "estimated_resale": 222.5,
       "asking_low": 250.0,
       "asking_high": 250.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 250.0,
+      "estimated_resale": 222.5,
+      "asking_low": 250.0,
+      "asking_high": 250.0
     }
   ],
   "KEF B110 TYPE SP1003": [
@@ -5760,6 +5960,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 125.0,
+      "estimated_resale": 111.25,
+      "asking_low": 125.0,
+      "asking_high": 125.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 125.0,
       "estimated_resale": 111.25,
@@ -5983,6 +6191,14 @@
       "estimated_resale": 102.35,
       "asking_low": 115.0,
       "asking_high": 115.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 115.0,
+      "estimated_resale": 102.35,
+      "asking_low": 115.0,
+      "asking_high": 115.0
     }
   ],
   "Tannoy SRNSYS DCC": [
@@ -6196,6 +6412,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 25.0,
+      "estimated_resale": 22.25,
+      "asking_low": 25.0,
+      "asking_high": 25.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 25.0,
       "estimated_resale": 22.25,
@@ -6419,6 +6643,14 @@
       "estimated_resale": 267.0,
       "asking_low": 297.0,
       "asking_high": 300.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 3,
+      "median_asking": 300.0,
+      "estimated_resale": 267.0,
+      "asking_low": 297.0,
+      "asking_high": 300.0
     }
   ],
   "Festool INVALZAAG TS 55": [
@@ -6632,6 +6864,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 260.0,
+      "estimated_resale": 231.4,
+      "asking_low": 260.0,
+      "asking_high": 260.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 260.0,
       "estimated_resale": 231.4,
@@ -6855,6 +7095,14 @@
       "estimated_resale": 213.6,
       "asking_low": 240.0,
       "asking_high": 240.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 240.0,
+      "estimated_resale": 213.6,
+      "asking_low": 240.0,
+      "asking_high": 240.0
     }
   ],
   "Sony LED QLED 55": [
@@ -7068,6 +7316,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 829.0,
+      "estimated_resale": 762.68,
+      "asking_low": 829.0,
+      "asking_high": 829.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 829.0,
       "estimated_resale": 762.68,
@@ -7291,6 +7547,14 @@
       "estimated_resale": 9.0,
       "asking_low": 10.0,
       "asking_high": 10.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 10.0,
+      "estimated_resale": 9.0,
+      "asking_low": 10.0,
+      "asking_high": 10.0
     }
   ],
   "JBL ON TIME WEKKERRADIO": [
@@ -7504,6 +7768,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 15.0,
+      "estimated_resale": 13.35,
+      "asking_low": 15.0,
+      "asking_high": 15.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 15.0,
       "estimated_resale": 13.35,
@@ -7737,6 +8009,14 @@
       "estimated_resale": 90.0,
       "asking_low": 100.0,
       "asking_high": 100.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 100.0,
+      "estimated_resale": 90.0,
+      "asking_low": 100.0,
+      "asking_high": 100.0
     }
   ],
   "JBL PARTYBOX DEFECT WERKT": [
@@ -7950,6 +8230,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 75.0,
+      "estimated_resale": 66.75,
+      "asking_low": 75.0,
+      "asking_high": 75.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 75.0,
       "estimated_resale": 66.75,
@@ -8173,6 +8461,14 @@
       "estimated_resale": 66.75,
       "asking_low": 75.0,
       "asking_high": 75.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 75.0,
+      "estimated_resale": 66.75,
+      "asking_low": 75.0,
+      "asking_high": 75.0
     }
   ],
   "JBL TR125": [
@@ -8391,6 +8687,14 @@
       "estimated_resale": 133.5,
       "asking_low": 150.0,
       "asking_high": 150.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 150.0,
+      "estimated_resale": 133.5,
+      "asking_low": 150.0,
+      "asking_high": 150.0
     }
   ],
   "JBL XTREME 3 ACCU": [
@@ -8596,6 +8900,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 60.0,
+      "estimated_resale": 53.4,
+      "asking_low": 60.0,
+      "asking_high": 60.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 60.0,
       "estimated_resale": 53.4,
@@ -8811,6 +9123,14 @@
       "estimated_resale": 155.75,
       "asking_low": 175.0,
       "asking_high": 175.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 175.0,
+      "estimated_resale": 155.75,
+      "asking_low": 175.0,
+      "asking_high": 175.0
     }
   ],
   "KEF CAPRICE II LUIDSPREKERBOXEN": [
@@ -9016,6 +9336,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 100.0,
+      "estimated_resale": 89.0,
+      "asking_low": 100.0,
+      "asking_high": 100.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 100.0,
       "estimated_resale": 89.0,
@@ -9233,6 +9561,14 @@
       "estimated_resale": 293.7,
       "asking_low": 330.0,
       "asking_high": 330.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 330.0,
+      "estimated_resale": 293.7,
+      "asking_low": 330.0,
+      "asking_high": 330.0
     }
   ],
   "JBL SB2210A 10 INCH": [
@@ -9435,6 +9771,14 @@
       "estimated_resale": 89.0,
       "asking_low": 100.0,
       "asking_high": 100.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 100.0,
+      "estimated_resale": 89.0,
+      "asking_low": 100.0,
+      "asking_high": 100.0
     }
   ],
   "Makita HS011G XGT CIRKELZAAG": [
@@ -9632,6 +9976,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 36.3,
+      "estimated_resale": 32.31,
+      "asking_low": 36.3,
+      "asking_high": 36.3
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 36.3,
       "estimated_resale": 32.31,
@@ -9913,6 +10265,14 @@
       "estimated_resale": 24.23,
       "asking_low": 27.23,
       "asking_high": 27.23
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 27.23,
+      "estimated_resale": 24.23,
+      "asking_low": 27.23,
+      "asking_high": 27.23
     }
   ],
   "JBL 4714A": [
@@ -10110,6 +10470,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 600.0,
+      "estimated_resale": 534.0,
+      "asking_low": 600.0,
+      "asking_high": 600.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 600.0,
       "estimated_resale": 534.0,
@@ -10317,6 +10685,14 @@
       "estimated_resale": 66.75,
       "asking_low": 75.0,
       "asking_high": 75.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 75.0,
+      "estimated_resale": 66.75,
+      "asking_low": 75.0,
+      "asking_high": 75.0
     }
   ],
   "Tannoy MERCURY M1 BOEKENPLANK": [
@@ -10519,6 +10895,14 @@
       "estimated_resale": 64.53,
       "asking_low": 71.0,
       "asking_high": 74.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 2,
+      "median_asking": 72.5,
+      "estimated_resale": 64.53,
+      "asking_low": 71.0,
+      "asking_high": 74.0
     }
   ],
   "JBL TLX 8 LUIDSPREKERSET": [
@@ -10572,6 +10956,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 104.0,
+      "estimated_resale": 92.56,
+      "asking_low": 104.0,
+      "asking_high": 104.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 104.0,
       "estimated_resale": 92.56,
@@ -10779,6 +11171,14 @@
       "estimated_resale": 414.0,
       "asking_low": 450.0,
       "asking_high": 450.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 450.0,
+      "estimated_resale": 414.0,
+      "asking_low": 450.0,
+      "asking_high": 450.0
     }
   ],
   "Makita LXT ACCU": [
@@ -10968,6 +11368,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 59.95,
+      "estimated_resale": 53.36,
+      "asking_low": 59.95,
+      "asking_high": 59.95
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 59.95,
       "estimated_resale": 53.36,
@@ -11170,6 +11578,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 2,
+      "median_asking": 30.0,
+      "estimated_resale": 26.7,
+      "asking_low": 30.0,
+      "asking_high": 30.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 2,
       "median_asking": 30.0,
       "estimated_resale": 26.7,
@@ -11447,6 +11863,14 @@
       "estimated_resale": 127.88,
       "asking_low": 139.0,
       "asking_high": 139.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 139.0,
+      "estimated_resale": 127.88,
+      "asking_low": 139.0,
+      "asking_high": 139.0
     }
   ],
   "Festool DECOUPEERZAAGMACHINE PS 200": [
@@ -11709,6 +12133,14 @@
       "estimated_resale": 155.75,
       "asking_low": 175.0,
       "asking_high": 175.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 175.0,
+      "estimated_resale": 155.75,
+      "asking_low": 175.0,
+      "asking_high": 175.0
     }
   ],
   "Festool BP 18V LI": [
@@ -11898,6 +12330,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 89.99,
+      "estimated_resale": 80.09,
+      "asking_low": 89.99,
+      "asking_high": 89.99
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 89.99,
       "estimated_resale": 80.09,
@@ -12097,6 +12537,14 @@
       "estimated_resale": 93.45,
       "asking_low": 105.0,
       "asking_high": 105.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 105.0,
+      "estimated_resale": 93.45,
+      "asking_low": 105.0,
+      "asking_high": 105.0
     }
   ],
   "Valve Steam Deck 64GB": [
@@ -12286,6 +12734,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 399.0,
+      "estimated_resale": 367.08,
+      "asking_low": 399.0,
+      "asking_high": 399.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 399.0,
       "estimated_resale": 367.08,
@@ -12485,6 +12941,14 @@
       "estimated_resale": 22.25,
       "asking_low": 25.0,
       "asking_high": 25.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 25.0,
+      "estimated_resale": 22.25,
+      "asking_low": 25.0,
+      "asking_high": 25.0
     }
   ],
   "Valve Steam Deck LCD 256GB": [
@@ -12674,6 +13138,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 400.0,
+      "estimated_resale": 368.0,
+      "asking_low": 400.0,
+      "asking_high": 400.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 400.0,
       "estimated_resale": 368.0,
@@ -12873,6 +13345,14 @@
       "estimated_resale": 178.0,
       "asking_low": 200.0,
       "asking_high": 200.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 200.0,
+      "estimated_resale": 178.0,
+      "asking_low": 200.0,
+      "asking_high": 200.0
     }
   ],
   "Valve Steam Deck": [
@@ -13054,6 +13534,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 620.0,
+      "estimated_resale": 570.4,
+      "asking_low": 620.0,
+      "asking_high": 620.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 620.0,
       "estimated_resale": 570.4,
@@ -13245,6 +13733,14 @@
       "estimated_resale": 395.6,
       "asking_low": 430.0,
       "asking_high": 430.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 430.0,
+      "estimated_resale": 395.6,
+      "asking_low": 430.0,
+      "asking_high": 430.0
     }
   ],
   "JBL XPL 90": [
@@ -13431,6 +13927,14 @@
       "estimated_resale": 400.5,
       "asking_low": 450.0,
       "asking_high": 450.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 450.0,
+      "estimated_resale": 400.5,
+      "asking_low": 450.0,
+      "asking_high": 450.0
     }
   ],
   "KEF 303 3": [
@@ -13612,6 +14116,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 120.0,
+      "estimated_resale": 106.8,
+      "asking_low": 120.0,
+      "asking_high": 120.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 120.0,
       "estimated_resale": 106.8,
@@ -13813,6 +14325,14 @@
       "estimated_resale": 26.7,
       "asking_low": 30.0,
       "asking_high": 30.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 30.0,
+      "estimated_resale": 26.7,
+      "asking_low": 30.0,
+      "asking_high": 30.0
     }
   ],
   "Tannoy MERCURY F1 MATCHING": [
@@ -14001,6 +14521,14 @@
       "estimated_resale": 321.08,
       "asking_low": 349.0,
       "asking_high": 349.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 349.0,
+      "estimated_resale": 321.08,
+      "asking_low": 349.0,
+      "asking_high": 349.0
     }
   ],
   "Makita ACCU SLAGMOERSLEUTEL": [
@@ -14174,6 +14702,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 70.0,
+      "estimated_resale": 62.3,
+      "asking_low": 70.0,
+      "asking_high": 70.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 70.0,
       "estimated_resale": 62.3,
@@ -14357,6 +14893,14 @@
       "estimated_resale": 112.5,
       "asking_low": 125.0,
       "asking_high": 125.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 125.0,
+      "estimated_resale": 112.5,
+      "asking_low": 125.0,
+      "asking_high": 125.0
     }
   ],
   "JBL CHARGE 5 BLUETOOTH": [
@@ -14530,6 +15074,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 79.99,
+      "estimated_resale": 71.19,
+      "asking_low": 79.99,
+      "asking_high": 79.99
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 79.99,
       "estimated_resale": 71.19,
@@ -14713,6 +15265,14 @@
       "estimated_resale": 160.2,
       "asking_low": 180.0,
       "asking_high": 180.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 180.0,
+      "estimated_resale": 160.2,
+      "asking_low": 180.0,
+      "asking_high": 180.0
     }
   ],
   "Makita BOOR O5": [
@@ -14886,6 +15446,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 32.0,
+      "estimated_resale": 28.48,
+      "asking_low": 32.0,
+      "asking_high": 32.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 32.0,
       "estimated_resale": 28.48,
@@ -15069,6 +15637,14 @@
       "estimated_resale": 1068.0,
       "asking_low": 1200.0,
       "asking_high": 1200.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 1200.0,
+      "estimated_resale": 1068.0,
+      "asking_low": 1200.0,
+      "asking_high": 1200.0
     }
   ],
   "Makita DHP489 18V SCHROEF": [
@@ -15242,6 +15818,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 120.0,
+      "estimated_resale": 106.8,
+      "asking_low": 120.0,
+      "asking_high": 120.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 120.0,
       "estimated_resale": 106.8,
@@ -15427,6 +16011,14 @@
       "estimated_resale": 1068.0,
       "asking_low": 1200.0,
       "asking_high": 1200.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 1200.0,
+      "estimated_resale": 1068.0,
+      "asking_low": 1200.0,
+      "asking_high": 1200.0
     }
   ],
   "Makita HP1300S KLOPBOORMACHINE GEBRUIKT": [
@@ -15592,6 +16184,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 50.0,
+      "estimated_resale": 44.5,
+      "asking_low": 50.0,
+      "asking_high": 50.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 50.0,
       "estimated_resale": 44.5,
@@ -15767,6 +16367,14 @@
       "estimated_resale": 315.0,
       "asking_low": 350.0,
       "asking_high": 350.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 350.0,
+      "estimated_resale": 315.0,
+      "asking_low": 350.0,
+      "asking_high": 350.0
     }
   ],
   "Fluke DS701 VIDEOSCOPE": [
@@ -15932,6 +16540,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 950.0,
+      "estimated_resale": 855.0,
+      "asking_low": 950.0,
+      "asking_high": 950.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 950.0,
       "estimated_resale": 855.0,
@@ -16107,6 +16723,14 @@
       "estimated_resale": 44.5,
       "asking_low": 50.0,
       "asking_high": 50.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 50.0,
+      "estimated_resale": 44.5,
+      "asking_low": 50.0,
+      "asking_high": 50.0
     }
   ],
   "Fluke 325 TRUE RMS": [
@@ -16264,6 +16888,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 200.0,
+      "estimated_resale": 180.0,
+      "asking_low": 200.0,
+      "asking_high": 200.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 200.0,
       "estimated_resale": 180.0,
@@ -16431,6 +17063,14 @@
       "estimated_resale": 112.5,
       "asking_low": 125.0,
       "asking_high": 125.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 125.0,
+      "estimated_resale": 112.5,
+      "asking_low": 125.0,
+      "asking_high": 125.0
     }
   ],
   "Fluke 6500 05 INSTALLATIETESTER": [
@@ -16588,6 +17228,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 1100.0,
+      "estimated_resale": 990.0,
+      "asking_low": 1100.0,
+      "asking_high": 1100.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 1100.0,
       "estimated_resale": 990.0,
@@ -16755,6 +17403,14 @@
       "estimated_resale": 311.5,
       "asking_low": 350.0,
       "asking_high": 350.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 350.0,
+      "estimated_resale": 311.5,
+      "asking_low": 350.0,
+      "asking_high": 350.0
     }
   ],
   "JBL PARTYBOX 310 DEFECT": [
@@ -16917,6 +17573,14 @@
       "estimated_resale": 89.0,
       "asking_low": 100.0,
       "asking_high": 100.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 100.0,
+      "estimated_resale": 89.0,
+      "asking_low": 100.0,
+      "asking_high": 100.0
     }
   ],
   "JBL TLX2 LUIDSPREKERSET": [
@@ -16986,6 +17650,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 2,
+      "median_asking": 29.0,
+      "estimated_resale": 25.81,
+      "asking_low": 16.4,
+      "asking_high": 41.6
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 2,
       "median_asking": 29.0,
       "estimated_resale": 25.81,
@@ -17145,6 +17817,14 @@
       "estimated_resale": 135.0,
       "asking_low": 150.0,
       "asking_high": 150.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 150.0,
+      "estimated_resale": 135.0,
+      "asking_low": 150.0,
+      "asking_high": 150.0
     }
   ],
   "Yamaha S201 STEREO": [
@@ -17294,6 +17974,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 95.0,
+      "estimated_resale": 84.55,
+      "asking_low": 95.0,
+      "asking_high": 95.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 95.0,
       "estimated_resale": 84.55,
@@ -17453,6 +18141,14 @@
       "estimated_resale": 756.5,
       "asking_low": 850.0,
       "asking_high": 850.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 4,
+      "median_asking": 850.0,
+      "estimated_resale": 756.5,
+      "asking_low": 850.0,
+      "asking_high": 850.0
     }
   ],
   "Tannoy 607 LUIDSPREKERS 2X": [
@@ -17602,6 +18298,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 150.0,
+      "estimated_resale": 133.5,
+      "asking_low": 150.0,
+      "asking_high": 150.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 150.0,
       "estimated_resale": 133.5,
@@ -17761,6 +18465,14 @@
       "estimated_resale": 45.0,
       "asking_low": 50.0,
       "asking_high": 50.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 50.0,
+      "estimated_resale": 45.0,
+      "asking_low": 50.0,
+      "asking_high": 50.0
     }
   ],
   "Tannoy NXT IP5": [
@@ -17910,6 +18622,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 7,
+      "median_asking": 30.0,
+      "estimated_resale": 26.7,
+      "asking_low": 30.0,
+      "asking_high": 30.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 7,
       "median_asking": 30.0,
       "estimated_resale": 26.7,
@@ -18069,6 +18789,14 @@
       "estimated_resale": 62.3,
       "asking_low": 70.0,
       "asking_high": 70.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 70.0,
+      "estimated_resale": 62.3,
+      "asking_low": 70.0,
+      "asking_high": 70.0
     }
   ],
   "Tannoy REVOLUTION DC6T OCCASION": [
@@ -18218,6 +18946,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 450.0,
+      "estimated_resale": 400.5,
+      "asking_low": 450.0,
+      "asking_high": 450.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 450.0,
       "estimated_resale": 400.5,
@@ -18377,6 +19113,14 @@
       "estimated_resale": 17.8,
       "asking_low": 20.0,
       "asking_high": 20.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 20.0,
+      "estimated_resale": 17.8,
+      "asking_low": 20.0,
+      "asking_high": 20.0
     }
   ],
   "JBL PARTYBOX 200": [
@@ -18531,6 +19275,14 @@
       "estimated_resale": 62.3,
       "asking_low": 70.0,
       "asking_high": 70.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 70.0,
+      "estimated_resale": 62.3,
+      "asking_low": 70.0,
+      "asking_high": 70.0
     }
   ],
   "Makita DTD152 18V SLAGSCHROEVENDRAAIER": [
@@ -18677,6 +19429,14 @@
       "estimated_resale": 44.5,
       "asking_low": 50.0,
       "asking_high": 50.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 50.0,
+      "estimated_resale": 44.5,
+      "asking_low": 50.0,
+      "asking_high": 50.0
     }
   ],
   "JBL XL 1000 LUIDSPREKERSET": [
@@ -18802,6 +19562,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 55.0,
+      "estimated_resale": 48.95,
+      "asking_low": 55.0,
+      "asking_high": 55.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 55.0,
       "estimated_resale": 48.95,
@@ -18953,6 +19721,14 @@
       "estimated_resale": 17.8,
       "asking_low": 20.0,
       "asking_high": 20.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 20.0,
+      "estimated_resale": 17.8,
+      "asking_low": 20.0,
+      "asking_high": 20.0
     }
   ],
   "Agilent DIFFERENTIAL PROBE N2790A": [
@@ -19094,6 +19870,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 550.0,
+      "estimated_resale": 495.0,
+      "asking_low": 550.0,
+      "asking_high": 550.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 550.0,
       "estimated_resale": 495.0,
@@ -19245,6 +20029,14 @@
       "estimated_resale": 150.41,
       "asking_low": 169.0,
       "asking_high": 169.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 5,
+      "median_asking": 169.0,
+      "estimated_resale": 150.41,
+      "asking_low": 169.0,
+      "asking_high": 169.0
     }
   ],
   "Sennheiser MKE 40 MICROFOONS": [
@@ -19386,6 +20178,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 800.0,
+      "estimated_resale": 712.0,
+      "asking_low": 800.0,
+      "asking_high": 800.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 800.0,
       "estimated_resale": 712.0,
@@ -19537,6 +20337,14 @@
       "estimated_resale": 44.5,
       "asking_low": 50.0,
       "asking_high": 50.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 50.0,
+      "estimated_resale": 44.5,
+      "asking_low": 50.0,
+      "asking_high": 50.0
     }
   ],
   "Sennheiser K3": [
@@ -19683,6 +20491,14 @@
       "estimated_resale": 89.0,
       "asking_low": 100.0,
       "asking_high": 100.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 100.0,
+      "estimated_resale": 89.0,
+      "asking_low": 100.0,
+      "asking_high": 100.0
     }
   ],
   "JBL TLX 9 GI": [
@@ -19792,6 +20608,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 2,
+      "median_asking": 102.5,
+      "estimated_resale": 91.22,
+      "asking_low": 44.0,
+      "asking_high": 161.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 2,
       "median_asking": 102.5,
       "estimated_resale": 91.22,
@@ -19993,6 +20817,14 @@
       "estimated_resale": 62.3,
       "asking_low": 43.0,
       "asking_high": 79.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 3,
+      "median_asking": 70.0,
+      "estimated_resale": 62.3,
+      "asking_low": 43.0,
+      "asking_high": 79.0
     }
   ],
   "KEF CANTATA SP1056 VLOERSTAANDE": [
@@ -20134,6 +20966,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 500.0,
+      "estimated_resale": 445.0,
+      "asking_low": 500.0,
+      "asking_high": 500.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 500.0,
       "estimated_resale": 445.0,
@@ -20343,6 +21183,14 @@
       "estimated_resale": 45.0,
       "asking_low": 50.0,
       "asking_high": 50.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 50.0,
+      "estimated_resale": 45.0,
+      "asking_low": 50.0,
+      "asking_high": 50.0
     }
   ],
   "Tektronix P6106A": [
@@ -20484,6 +21332,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 30.0,
+      "estimated_resale": 27.0,
+      "asking_low": 30.0,
+      "asking_high": 30.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 30.0,
       "estimated_resale": 27.0,
@@ -20635,6 +21491,14 @@
       "estimated_resale": 13.5,
       "asking_low": 15.0,
       "asking_high": 15.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 15.0,
+      "estimated_resale": 13.5,
+      "asking_low": 15.0,
+      "asking_high": 15.0
     }
   ],
   "Tektronix P6006": [
@@ -20776,6 +21640,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 25.0,
+      "estimated_resale": 22.5,
+      "asking_low": 25.0,
+      "asking_high": 25.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 25.0,
       "estimated_resale": 22.5,
@@ -20927,6 +21799,14 @@
       "estimated_resale": 19.58,
       "asking_low": 22.0,
       "asking_high": 22.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 22.0,
+      "estimated_resale": 19.58,
+      "asking_low": 22.0,
+      "asking_high": 22.0
     }
   ],
   "Tektronix P6109B 100 MHZ": [
@@ -21073,6 +21953,14 @@
       "estimated_resale": 45.0,
       "asking_low": 50.0,
       "asking_high": 50.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 50.0,
+      "estimated_resale": 45.0,
+      "asking_low": 50.0,
+      "asking_high": 50.0
     }
   ],
   "Tannoy BOEKENPLANK LUIDSPREKERS": [
@@ -21206,6 +22094,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 95.0,
+      "estimated_resale": 84.55,
+      "asking_low": 95.0,
+      "asking_high": 95.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 95.0,
       "estimated_resale": 84.55,
@@ -21349,6 +22245,14 @@
       "estimated_resale": 81.0,
       "asking_low": 90.0,
       "asking_high": 90.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 90.0,
+      "estimated_resale": 81.0,
+      "asking_low": 90.0,
+      "asking_high": 90.0
     }
   ],
   "Tannoy SYSTEM DMT 15": [
@@ -21482,6 +22386,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 3500.0,
+      "estimated_resale": 3115.0,
+      "asking_low": 3500.0,
+      "asking_high": 3500.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 3500.0,
       "estimated_resale": 3115.0,
@@ -21625,6 +22537,14 @@
       "estimated_resale": 89.0,
       "asking_low": 100.0,
       "asking_high": 100.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 100.0,
+      "estimated_resale": 89.0,
+      "asking_low": 100.0,
+      "asking_high": 100.0
     }
   ],
   "Technics SU V40 SOLID": [
@@ -21758,6 +22678,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 100.0,
+      "estimated_resale": 89.0,
+      "asking_low": 100.0,
+      "asking_high": 100.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 100.0,
       "estimated_resale": 89.0,
@@ -21901,6 +22829,14 @@
       "estimated_resale": 44.5,
       "asking_low": 50.0,
       "asking_high": 50.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 50.0,
+      "estimated_resale": 44.5,
+      "asking_low": 50.0,
+      "asking_high": 50.0
     }
   ],
   "JBL LX22": [
@@ -22026,6 +22962,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 2,
+      "median_asking": 85.0,
+      "estimated_resale": 75.65,
+      "asking_low": 82.0,
+      "asking_high": 88.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 2,
       "median_asking": 85.0,
       "estimated_resale": 75.65,
@@ -22161,6 +23105,14 @@
       "estimated_resale": 422.75,
       "asking_low": 475.0,
       "asking_high": 475.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 475.0,
+      "estimated_resale": 422.75,
+      "asking_low": 475.0,
+      "asking_high": 475.0
     }
   ],
   "Shure SM7DB DYNAMISCHE STUDIOMICROFOON": [
@@ -22286,6 +23238,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 399.0,
+      "estimated_resale": 355.11,
+      "asking_low": 399.0,
+      "asking_high": 399.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 399.0,
       "estimated_resale": 355.11,
@@ -22431,6 +23391,14 @@
       "estimated_resale": 270.0,
       "asking_low": 300.0,
       "asking_high": 300.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 300.0,
+      "estimated_resale": 270.0,
+      "asking_low": 300.0,
+      "asking_high": 300.0
     }
   ],
   "Tannoy MERCURY MX 1": [
@@ -22553,6 +23521,14 @@
       "estimated_resale": 133.5,
       "asking_low": 150.0,
       "asking_high": 150.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 150.0,
+      "estimated_resale": 133.5,
+      "asking_low": 150.0,
+      "asking_high": 150.0
     }
   ],
   "Makita HAAKSE SPUITLANS 198909": [
@@ -22662,6 +23638,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 7.0,
+      "estimated_resale": 6.23,
+      "asking_low": 7.0,
+      "asking_high": 7.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 7.0,
       "estimated_resale": 6.23,
@@ -22781,6 +23765,14 @@
       "estimated_resale": 13.35,
       "asking_low": 15.0,
       "asking_high": 15.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 15.0,
+      "estimated_resale": 13.35,
+      "asking_low": 15.0,
+      "asking_high": 15.0
     }
   ],
   "Makita BOOR SCHROEFMACHINE": [
@@ -22890,6 +23882,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 49.99,
+      "estimated_resale": 44.49,
+      "asking_low": 49.99,
+      "asking_high": 49.99
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 49.99,
       "estimated_resale": 44.49,
@@ -23009,6 +24009,14 @@
       "estimated_resale": 53.4,
       "asking_low": 60.0,
       "asking_high": 60.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 60.0,
+      "estimated_resale": 53.4,
+      "asking_low": 60.0,
+      "asking_high": 60.0
     }
   ],
   "JBL CHARGE 3 KLEINE": [
@@ -23118,6 +24126,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 20.0,
+      "estimated_resale": 17.8,
+      "asking_low": 20.0,
+      "asking_high": 20.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 20.0,
       "estimated_resale": 17.8,
@@ -23237,6 +24253,14 @@
       "estimated_resale": 88.99,
       "asking_low": 99.99,
       "asking_high": 99.99
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 99.99,
+      "estimated_resale": 88.99,
+      "asking_low": 99.99,
+      "asking_high": 99.99
     }
   ],
   "Makita DC18RD SNELLADER": [
@@ -23351,6 +24375,14 @@
       "estimated_resale": 71.2,
       "asking_low": 80.0,
       "asking_high": 80.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 80.0,
+      "estimated_resale": 71.2,
+      "asking_low": 80.0,
+      "asking_high": 80.0
     }
   ],
   "Makita HAMERBOOR 28 MM": [
@@ -23452,6 +24484,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 40.0,
+      "estimated_resale": 35.6,
+      "asking_low": 40.0,
+      "asking_high": 40.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 40.0,
       "estimated_resale": 35.6,
@@ -23563,6 +24603,14 @@
       "estimated_resale": 222.5,
       "asking_low": 250.0,
       "asking_high": 250.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 250.0,
+      "estimated_resale": 222.5,
+      "asking_low": 250.0,
+      "asking_high": 250.0
     }
   ],
   "Makita DDF484 ACCU SCHROEFBOORMACHINE": [
@@ -23664,6 +24712,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 59.99,
+      "estimated_resale": 53.39,
+      "asking_low": 59.99,
+      "asking_high": 59.99
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 59.99,
       "estimated_resale": 53.39,
@@ -23785,6 +24841,14 @@
       "estimated_resale": 44.5,
       "asking_low": 50.0,
       "asking_high": 50.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 50.0,
+      "estimated_resale": 44.5,
+      "asking_low": 50.0,
+      "asking_high": 50.0
     }
   ],
   "Tektronix EN PHILIPS SCOPEPROBES": [
@@ -23886,6 +24950,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 20.0,
+      "estimated_resale": 18.0,
+      "asking_low": 20.0,
+      "asking_high": 20.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 20.0,
       "estimated_resale": 18.0,
@@ -23997,6 +25069,14 @@
       "estimated_resale": 360.0,
       "asking_low": 400.0,
       "asking_high": 400.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 400.0,
+      "estimated_resale": 360.0,
+      "asking_low": 400.0,
+      "asking_high": 400.0
     }
   ],
   "Tannoy OCV6": [
@@ -24090,6 +25170,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 300.0,
+      "estimated_resale": 267.0,
+      "asking_low": 300.0,
+      "asking_high": 300.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 300.0,
       "estimated_resale": 267.0,
@@ -24193,6 +25281,14 @@
       "estimated_resale": 133.5,
       "asking_low": 150.0,
       "asking_high": 150.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 150.0,
+      "estimated_resale": 133.5,
+      "asking_low": 150.0,
+      "asking_high": 150.0
     }
   ],
   "Tektronix 148 INSERTION PROFESSIONEEL": [
@@ -24286,6 +25382,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 50.0,
+      "estimated_resale": 45.0,
+      "asking_low": 50.0,
+      "asking_high": 50.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 50.0,
       "estimated_resale": 45.0,
@@ -24389,6 +25493,14 @@
       "estimated_resale": 169.1,
       "asking_low": 190.0,
       "asking_high": 190.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 190.0,
+      "estimated_resale": 169.1,
+      "asking_low": 190.0,
+      "asking_high": 190.0
     }
   ],
   "Festool DTS 400 DEFECT": [
@@ -24474,6 +25586,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 50.0,
+      "estimated_resale": 44.5,
+      "asking_low": 50.0,
+      "asking_high": 50.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 50.0,
       "estimated_resale": 44.5,
@@ -24569,6 +25689,14 @@
       "estimated_resale": 71.2,
       "asking_low": 80.0,
       "asking_high": 80.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 80.0,
+      "estimated_resale": 71.2,
+      "asking_low": 80.0,
+      "asking_high": 80.0
     }
   ],
   "Tannoy I5T AW LUIDSPREKERS": [
@@ -24654,6 +25782,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 70.0,
+      "estimated_resale": 62.3,
+      "asking_low": 70.0,
+      "asking_high": 70.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 70.0,
       "estimated_resale": 62.3,
@@ -24749,6 +25885,14 @@
       "estimated_resale": 885.55,
       "asking_low": 995.0,
       "asking_high": 995.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 995.0,
+      "estimated_resale": 885.55,
+      "asking_low": 995.0,
+      "asking_high": 995.0
     }
   ],
   "JBL FLIP 7 BLUETOOTH": [
@@ -24834,6 +25978,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 69.99,
+      "estimated_resale": 62.29,
+      "asking_low": 69.99,
+      "asking_high": 69.99
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 69.99,
       "estimated_resale": 62.29,
@@ -24929,6 +26081,14 @@
       "estimated_resale": 13.35,
       "asking_low": 15.0,
       "asking_high": 15.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 15.0,
+      "estimated_resale": 13.35,
+      "asking_low": 15.0,
+      "asking_high": 15.0
     }
   ],
   "Tannoy TITAN BOEKENPLANK LUIDSPREKERS": [
@@ -25014,6 +26174,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 55.0,
+      "estimated_resale": 48.95,
+      "asking_low": 55.0,
+      "asking_high": 55.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 55.0,
       "estimated_resale": 48.95,
@@ -25109,6 +26277,14 @@
       "estimated_resale": 90.0,
       "asking_low": 100.0,
       "asking_high": 100.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 100.0,
+      "estimated_resale": 90.0,
+      "asking_low": 100.0,
+      "asking_high": 100.0
     }
   ],
   "Tektronix 547": [
@@ -25186,6 +26362,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 200.0,
+      "estimated_resale": 180.0,
+      "asking_low": 200.0,
+      "asking_high": 200.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 200.0,
       "estimated_resale": 180.0,
@@ -25273,6 +26457,14 @@
       "estimated_resale": 60.08,
       "asking_low": 63.0,
       "asking_high": 72.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 2,
+      "median_asking": 67.5,
+      "estimated_resale": 60.08,
+      "asking_low": 63.0,
+      "asking_high": 72.0
     }
   ],
   "Makita KLOP BOOR EN": [
@@ -25350,6 +26542,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 200.0,
+      "estimated_resale": 178.0,
+      "asking_low": 200.0,
+      "asking_high": 200.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 200.0,
       "estimated_resale": 178.0,
@@ -25503,6 +26703,14 @@
       "estimated_resale": 26.7,
       "asking_low": 30.0,
       "asking_high": 30.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 30.0,
+      "estimated_resale": 26.7,
+      "asking_low": 30.0,
+      "asking_high": 30.0
     }
   ],
   "Tannoy 609 IN AND": [
@@ -25585,6 +26793,14 @@
       "estimated_resale": 222.5,
       "asking_low": 250.0,
       "asking_high": 250.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 250.0,
+      "estimated_resale": 222.5,
+      "asking_low": 250.0,
+      "asking_high": 250.0
     }
   ],
   "Makita DDF484 18V BRUSHLESS": [
@@ -25654,6 +26870,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 2,
+      "median_asking": 142.0,
+      "estimated_resale": 126.38,
+      "asking_low": 122.2,
+      "asking_high": 161.8
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 2,
       "median_asking": 142.0,
       "estimated_resale": 126.38,
@@ -25733,6 +26957,14 @@
       "estimated_resale": 124.6,
       "asking_low": 140.0,
       "asking_high": 140.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 140.0,
+      "estimated_resale": 124.6,
+      "asking_low": 140.0,
+      "asking_high": 140.0
     }
   ],
   "Makita DHR243": [
@@ -25802,6 +27034,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 165.0,
+      "estimated_resale": 146.85,
+      "asking_low": 165.0,
+      "asking_high": 165.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 165.0,
       "estimated_resale": 146.85,
@@ -25881,6 +27121,14 @@
       "estimated_resale": 66.75,
       "asking_low": 75.0,
       "asking_high": 75.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 75.0,
+      "estimated_resale": 66.75,
+      "asking_low": 75.0,
+      "asking_high": 75.0
     }
   ],
   "Tektronix 7623A OSCILLOSCOPE": [
@@ -25950,6 +27198,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 325.0,
+      "estimated_resale": 292.5,
+      "asking_low": 325.0,
+      "asking_high": 325.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 325.0,
       "estimated_resale": 292.5,
@@ -26029,6 +27285,14 @@
       "estimated_resale": 97.9,
       "asking_low": 110.0,
       "asking_high": 110.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 110.0,
+      "estimated_resale": 97.9,
+      "asking_low": 110.0,
+      "asking_high": 110.0
     }
   ],
   "KEF C55 LUIDSPREKERS UNI": [
@@ -26098,6 +27362,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 90.0,
+      "estimated_resale": 80.1,
+      "asking_low": 90.0,
+      "asking_high": 90.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 90.0,
       "estimated_resale": 80.1,
@@ -26189,6 +27461,14 @@
       "estimated_resale": 222.5,
       "asking_low": 250.0,
       "asking_high": 250.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 250.0,
+      "estimated_resale": 222.5,
+      "asking_low": 250.0,
+      "asking_high": 250.0
     }
   ],
   "JBL PARTYBOX 300 WERKT": [
@@ -26255,6 +27535,14 @@
       "estimated_resale": 200.25,
       "asking_low": 225.0,
       "asking_high": 225.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 225.0,
+      "estimated_resale": 200.25,
+      "asking_low": 225.0,
+      "asking_high": 225.0
     }
   ],
   "JBL PARTYBOX 300 DC": [
@@ -26268,6 +27556,14 @@
     },
     {
       "at": "2026-09-28T15:57:19.860769+00:00",
+      "sample_count": 1,
+      "median_asking": 200.0,
+      "estimated_resale": 178.0,
+      "asking_low": 200.0,
+      "asking_high": 200.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 200.0,
       "estimated_resale": 178.0,
@@ -26339,6 +27635,14 @@
       "estimated_resale": 22.25,
       "asking_low": 25.0,
       "asking_high": 25.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 25.0,
+      "estimated_resale": 22.25,
+      "asking_low": 25.0,
+      "asking_high": 25.0
     }
   ],
   "KEF CODA III LUIDSPREKERS": [
@@ -26400,6 +27704,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 75.0,
+      "estimated_resale": 66.75,
+      "asking_low": 75.0,
+      "asking_high": 75.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 75.0,
       "estimated_resale": 66.75,
@@ -26471,6 +27783,14 @@
       "estimated_resale": 178.0,
       "asking_low": 200.0,
       "asking_high": 200.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 200.0,
+      "estimated_resale": 178.0,
+      "asking_low": 200.0,
+      "asking_high": 200.0
     }
   ],
   "Tannoy P40 CHERRY VLOERSTAANDE": [
@@ -26524,6 +27844,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 350.0,
+      "estimated_resale": 311.5,
+      "asking_low": 350.0,
+      "asking_high": 350.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 350.0,
       "estimated_resale": 311.5,
@@ -26587,6 +27915,14 @@
       "estimated_resale": 88.99,
       "asking_low": 99.99,
       "asking_high": 99.99
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 99.99,
+      "estimated_resale": 88.99,
+      "asking_low": 99.99,
+      "asking_high": 99.99
     }
   ],
   "Makita BDF343 BOORMACHINE GEBRUIKTE": [
@@ -26645,6 +27981,14 @@
       "estimated_resale": 106.79,
       "asking_low": 119.99,
       "asking_high": 119.99
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 119.99,
+      "estimated_resale": 106.79,
+      "asking_low": 119.99,
+      "asking_high": 119.99
     }
   ],
   "Tektronix TYPE 564B BUIZEN": [
@@ -26690,6 +28034,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 300.0,
+      "estimated_resale": 270.0,
+      "asking_low": 300.0,
+      "asking_high": 300.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 300.0,
       "estimated_resale": 270.0,
@@ -26745,6 +28097,14 @@
       "estimated_resale": 133.5,
       "asking_low": 150.0,
       "asking_high": 150.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 150.0,
+      "estimated_resale": 133.5,
+      "asking_low": 150.0,
+      "asking_high": 150.0
     }
   ],
   "Tannoy D700 AMERICAN CHERRY": [
@@ -26790,6 +28150,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 1750.0,
+      "estimated_resale": 1557.5,
+      "asking_low": 1750.0,
+      "asking_high": 1750.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 1750.0,
       "estimated_resale": 1557.5,
@@ -26845,6 +28213,14 @@
       "estimated_resale": 1335.0,
       "asking_low": 1500.0,
       "asking_high": 1500.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 1500.0,
+      "estimated_resale": 1335.0,
+      "asking_low": 1500.0,
+      "asking_high": 1500.0
     }
   ],
   "Tannoy TURNBERRY GR OW": [
@@ -26882,6 +28258,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 4000.0,
+      "estimated_resale": 3560.0,
+      "asking_low": 4000.0,
+      "asking_high": 4000.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 4000.0,
       "estimated_resale": 3560.0,
@@ -26929,6 +28313,14 @@
       "estimated_resale": 449.1,
       "asking_low": 499.0,
       "asking_high": 499.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 499.0,
+      "estimated_resale": 449.1,
+      "asking_low": 499.0,
+      "asking_high": 499.0
     }
   ],
   "Tannoy MERCURY MX2 BOEKENPLANK": [
@@ -26966,6 +28358,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 75.0,
+      "estimated_resale": 66.75,
+      "asking_low": 75.0,
+      "asking_high": 75.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 75.0,
       "estimated_resale": 66.75,
@@ -27023,6 +28423,14 @@
       "estimated_resale": 111.25,
       "asking_low": 125.0,
       "asking_high": 125.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 125.0,
+      "estimated_resale": 111.25,
+      "asking_low": 125.0,
+      "asking_high": 125.0
     }
   ],
   "Tannoy MERCURY M20 LUIDSPREKERS": [
@@ -27060,6 +28468,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 90.0,
+      "estimated_resale": 80.1,
+      "asking_low": 90.0,
+      "asking_high": 90.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 90.0,
       "estimated_resale": 80.1,
@@ -27107,6 +28523,14 @@
       "estimated_resale": 88.99,
       "asking_low": 99.99,
       "asking_high": 99.99
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 99.99,
+      "estimated_resale": 88.99,
+      "asking_low": 99.99,
+      "asking_high": 99.99
     }
   ],
   "Tektronix DPO2002B DIGITAL PHOSPHOR": [
@@ -27136,6 +28560,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 500.0,
+      "estimated_resale": 450.0,
+      "asking_low": 500.0,
+      "asking_high": 500.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 500.0,
       "estimated_resale": 450.0,
@@ -27175,6 +28607,14 @@
       "estimated_resale": 44.5,
       "asking_low": 50.0,
       "asking_high": 50.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 50.0,
+      "estimated_resale": 44.5,
+      "asking_low": 50.0,
+      "asking_high": 50.0
     }
   ],
   "JBL TLX 3 GI": [
@@ -27204,6 +28644,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 8.0,
+      "estimated_resale": 7.12,
+      "asking_low": 8.0,
+      "asking_high": 8.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 8.0,
       "estimated_resale": 7.12,
@@ -27243,6 +28691,14 @@
       "estimated_resale": 1602.0,
       "asking_low": 1800.0,
       "asking_high": 1800.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 1800.0,
+      "estimated_resale": 1602.0,
+      "asking_low": 1800.0,
+      "asking_high": 1800.0
     }
   ],
   "KEF C35 BOEKENPLANK LUIDSPREKERS": [
@@ -27277,6 +28733,14 @@
       "estimated_resale": 133.5,
       "asking_low": 150.0,
       "asking_high": 150.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 150.0,
+      "estimated_resale": 133.5,
+      "asking_low": 150.0,
+      "asking_high": 150.0
     }
   ],
   "JBL BAR 5 1": [
@@ -27298,6 +28762,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 250.0,
+      "estimated_resale": 222.5,
+      "asking_low": 250.0,
+      "asking_high": 250.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 250.0,
       "estimated_resale": 222.5,
@@ -27329,6 +28801,14 @@
       "estimated_resale": 89.0,
       "asking_low": 100.0,
       "asking_high": 100.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 100.0,
+      "estimated_resale": 89.0,
+      "asking_low": 100.0,
+      "asking_high": 100.0
     }
   ],
   "Tannoy D500 AMERICAN CHERRY": [
@@ -27350,6 +28830,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 275.0,
+      "estimated_resale": 244.75,
+      "asking_low": 275.0,
+      "asking_high": 275.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 275.0,
       "estimated_resale": 244.75,
@@ -27381,6 +28869,14 @@
       "estimated_resale": 48.95,
       "asking_low": 55.0,
       "asking_high": 55.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 55.0,
+      "estimated_resale": 48.95,
+      "asking_low": 55.0,
+      "asking_high": 55.0
     }
   ],
   "JBL PRO COMPAQ 2": [
@@ -27394,6 +28890,14 @@
     },
     {
       "at": "2026-09-28T01:38:26.095864+00:00",
+      "sample_count": 1,
+      "median_asking": 12.5,
+      "estimated_resale": 11.12,
+      "asking_low": 12.5,
+      "asking_high": 12.5
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 12.5,
       "estimated_resale": 11.12,
@@ -27417,6 +28921,14 @@
       "estimated_resale": 89.0,
       "asking_low": 100.0,
       "asking_high": 100.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 100.0,
+      "estimated_resale": 89.0,
+      "asking_low": 100.0,
+      "asking_high": 100.0
     }
   ],
   "KEF CHORALE SP1016 EN": [
@@ -27435,11 +28947,27 @@
       "estimated_resale": 155.75,
       "asking_low": 175.0,
       "asking_high": 175.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 175.0,
+      "estimated_resale": 155.75,
+      "asking_low": 175.0,
+      "asking_high": 175.0
     }
   ],
   "JBL CREATURE III 3": [
     {
       "at": "2026-09-28T15:57:19.860769+00:00",
+      "sample_count": 1,
+      "median_asking": 59.95,
+      "estimated_resale": 53.36,
+      "asking_low": 59.95,
+      "asking_high": 59.95
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 59.95,
       "estimated_resale": 53.36,
@@ -27455,11 +28983,27 @@
       "estimated_resale": 222.5,
       "asking_low": 250.0,
       "asking_high": 250.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 250.0,
+      "estimated_resale": 222.5,
+      "asking_low": 250.0,
+      "asking_high": 250.0
     }
   ],
   "Tannoy MERCURY M1 SHADOW": [
     {
       "at": "2026-09-28T21:41:21.601302+00:00",
+      "sample_count": 1,
+      "median_asking": 95.0,
+      "estimated_resale": 84.55,
+      "asking_low": 95.0,
+      "asking_high": 95.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 95.0,
       "estimated_resale": 84.55,
@@ -27475,11 +29019,27 @@
       "estimated_resale": 13.35,
       "asking_low": 15.0,
       "asking_high": 15.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
+      "sample_count": 1,
+      "median_asking": 15.0,
+      "estimated_resale": 13.35,
+      "asking_low": 15.0,
+      "asking_high": 15.0
     }
   ],
   "JBL FLIP 3 SPECIAL": [
     {
       "at": "2026-09-28T21:41:21.601302+00:00",
+      "sample_count": 1,
+      "median_asking": 5.0,
+      "estimated_resale": 4.45,
+      "asking_low": 5.0,
+      "asking_high": 5.0
+    },
+    {
+      "at": "2026-09-29T01:16:41.277657+00:00",
       "sample_count": 1,
       "median_asking": 5.0,
       "estimated_resale": 4.45,
