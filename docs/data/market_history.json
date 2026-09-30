@@ -509,11 +509,11 @@
       "asking_high": 650.0
     },
     {
-      "at": "2026-09-30T01:54:25.891140+00:00",
-      "sample_count": 59,
-      "median_asking": 550.0,
-      "estimated_resale": 506.0,
-      "asking_low": 415.0,
+      "at": "2026-09-30T14:15:16.782887+00:00",
+      "sample_count": 60,
+      "median_asking": 558.5,
+      "estimated_resale": 513.82,
+      "asking_low": 420.0,
       "asking_high": 650.0
     }
   ],
@@ -977,12 +977,12 @@
       "asking_high": 330.99
     },
     {
-      "at": "2026-09-30T01:54:25.891140+00:00",
-      "sample_count": 29,
-      "median_asking": 260.0,
-      "estimated_resale": 239.2,
+      "at": "2026-09-30T14:15:16.782887+00:00",
+      "sample_count": 30,
+      "median_asking": 255.0,
+      "estimated_resale": 234.6,
       "asking_low": 220.0,
-      "asking_high": 330.99
+      "asking_high": 328.0
     }
   ],
   "Sony PlayStation 5 Pro": [
@@ -30641,6 +30641,26 @@
       "estimated_resale": 155.75,
       "asking_low": 175.0,
       "asking_high": 175.0
+    }
+  ],
+  "Tektronix MSO 2024 GEMENGD": [
+    {
+      "at": "2026-09-30T14:15:16.782887+00:00",
+      "sample_count": 1,
+      "median_asking": 340.0,
+      "estimated_resale": 306.0,
+      "asking_low": 340.0,
+      "asking_high": 340.0
+    }
+  ],
+  "Tannoy I7 LUIDSPREKERS 8": [
+    {
+      "at": "2026-09-30T14:15:16.782887+00:00",
+      "sample_count": 1,
+      "median_asking": 150.0,
+      "estimated_resale": 133.5,
+      "asking_low": 150.0,
+      "asking_high": 150.0
     }
   ]
 }
