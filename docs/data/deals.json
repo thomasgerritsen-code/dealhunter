@@ -1,5 +1,74 @@
 [
   {
+    "id": "marktplaats-html:a1532562771",
+    "found_at": "2026-10-30T19:21:48.230455+00:00",
+    "last_seen_at": "2026-10-30T19:21:48.230455+00:00",
+    "source": "marktplaats-html",
+    "query": "ps5 defect",
+    "category_hint": "Spelcomputers",
+    "title": "Marvels Avengers (PlayStation 4)",
+    "description": "Bewaren in Mijn Favorieten Marvels Avengers (PlayStation 4) Marvel's avengers (playstation 4) upgrade zonder extra kosten naar de ps5-versie van de game. Spelers moeten een ps5-systeem met een disc-speler hebben om in aanmerking te komen en de ps4-discs te Gebruikt Verzenden € 22,99 Gisteren Topadvertentie Nedgame.nl Heel Nederland Bewaren in Mijn Favorieten Marvels Avengers (PlayStation 4) € 22,99 Marvel's avengers (playstation 4) upgrade zonder extra kosten naar de ps5-versie van de game. Spelers moeten een ps5-systeem met een disc-speler hebben om in aanmerking te komen en de ps4-discs te Gebruikt Verzenden Nedgame.nl Heel Nederland Gisteren Topadvertentie Bewaren in Mijn Favorieten Marvels Avengers (PlayStation 4) € 22,99 Details Verzenden Gebruikt Vanaf 12 jaar Marvel's avengers (playstation 4) upgrade zonder extra kosten naar de ps5-versie van de game. Spelers moeten een ps5-systee",
+    "url": "https://www.marktplaats.nl/v/spelcomputers-en-games/games-sony-playstation-4/a1532562771-marvels-avengers-playstation-4",
+    "asking_price": 22.99,
+    "previous_asking_price": null,
+    "price_drop_percent": 0.0,
+    "promoted": true,
+    "matched_product": "Sony PlayStation 5 Disc (original)",
+    "recognition_confidence": 66,
+    "condition": "goed",
+    "analysis": {
+      "matched_product": "Sony PlayStation 5 Disc (original)",
+      "category": "Spelcomputers",
+      "source": "lokale referentiecatalogus",
+      "valuation_basis": "lokale referentiecatalogus",
+      "valuation_samples": 0,
+      "asking_price": 22.99,
+      "expected_resale": 316.2,
+      "market_low": 284.58,
+      "market_high": 347.82,
+      "fees": 0.0,
+      "risk_reserve": 22.59,
+      "travel_cost": 0.0,
+      "expected_profit": 270.62,
+      "roi_percent": 1177.1,
+      "discount_percent": 92.7,
+      "opening_bid": 21.15,
+      "target_buy_price": 22.99,
+      "max_buy_price": 233.61,
+      "deal_score": 100,
+      "risk_score": 28,
+      "liquidity_score": 96,
+      "confidence_percent": 66,
+      "recognition_confidence_percent": 75,
+      "market_confidence_percent": 58,
+      "verdict": "TOPDEAL",
+      "recommendation": "ZEER INTERESSANT",
+      "risk_reasons": [
+        "Vraagprijs is <45% van geschatte waarde: extra fraude-/defectcheck"
+      ],
+      "score_breakdown": {
+        "discount": 28,
+        "profit": 24,
+        "roi": 18,
+        "liquidity": 11.5,
+        "confidence": 11.9,
+        "risk_penalty": 5.6
+      },
+      "note": "Marktwaardes op basis van vraagprijzen zijn schattingen, geen gegarandeerde gerealiseerde verkoopprijzen."
+    },
+    "result_status": "deal",
+    "is_deal": true,
+    "exclusion_reason": null,
+    "market_profile": {
+      "sample_count": 1,
+      "median_asking": 1049.0
+    },
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
+  },
+  {
     "id": "marktplaats-html:a1530454557",
     "found_at": "2026-09-29T07:00:35.977900+00:00",
     "last_seen_at": "2026-09-29T07:00:35.977900+00:00",
@@ -1670,13 +1739,13 @@
     "analysis": {
       "matched_product": "Shure SM7B",
       "category": "Audio",
-      "source": "Marktplaats profiel (29 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (29 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 29,
+      "source": "Marktplaats profiel (32 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (32 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 32,
       "asking_price": 164.99,
       "expected_resale": 288.17,
-      "market_low": 246.73,
-      "market_high": 352.0,
+      "market_low": 256.27,
+      "market_high": 350.09,
       "fees": 0.0,
       "risk_reserve": 5.53,
       "travel_cost": 0.0,
@@ -1704,17 +1773,17 @@
         "risk_penalty": 3.2
       },
       "note": "Marktwaardes op basis van vraagprijzen zijn schattingen, geen gegarandeerde gerealiseerde verkoopprijzen.",
-      "quick_sale_value": 246.73,
+      "quick_sale_value": 256.27,
       "realistic_market_value": 288.17,
-      "optimistic_value": 352.0,
+      "optimistic_value": 350.09,
       "source_agreement_percent": null,
       "valuation_sources": [
         {
           "source": "Marktplaats",
           "value": 266.11,
-          "low": 204.69,
-          "high": 344.43,
-          "samples": 29,
+          "low": 222.49,
+          "high": 340.87,
+          "samples": 32,
           "kind": "actieve vraagprijzen"
         },
         {
@@ -1732,7 +1801,7 @@
     "is_deal": true,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 29,
+      "sample_count": 32,
       "median_asking": 299.0
     },
     "repair": {
@@ -1894,13 +1963,13 @@
     "analysis": {
       "matched_product": "Shure SM7B",
       "category": "Audio",
-      "source": "Marktplaats profiel (29 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (29 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 29,
+      "source": "Marktplaats profiel (32 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (32 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 32,
       "asking_price": 150.0,
       "expected_resale": 250.47,
-      "market_low": 214.45,
-      "market_high": 305.94,
+      "market_low": 222.74,
+      "market_high": 304.29,
       "fees": 0.0,
       "risk_reserve": 4.81,
       "travel_cost": 0.0,
@@ -1928,17 +1997,17 @@
         "risk_penalty": 3.2
       },
       "note": "Marktwaardes op basis van vraagprijzen zijn schattingen, geen gegarandeerde gerealiseerde verkoopprijzen.",
-      "quick_sale_value": 214.45,
+      "quick_sale_value": 222.74,
       "realistic_market_value": 250.47,
-      "optimistic_value": 305.94,
+      "optimistic_value": 304.29,
       "source_agreement_percent": null,
       "valuation_sources": [
         {
           "source": "Marktplaats",
           "value": 266.11,
-          "low": 204.69,
-          "high": 344.43,
-          "samples": 29,
+          "low": 222.49,
+          "high": 340.87,
+          "samples": 32,
           "kind": "actieve vraagprijzen"
         },
         {
@@ -1956,7 +2025,7 @@
     "is_deal": true,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 29,
+      "sample_count": 32,
       "median_asking": 299.0
     },
     "repair": {
@@ -1984,13 +2053,13 @@
     "analysis": {
       "matched_product": "Shure SM7B",
       "category": "Audio",
-      "source": "Marktplaats profiel (29 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (29 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 29,
+      "source": "Marktplaats profiel (32 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (32 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 32,
       "asking_price": 175.0,
       "expected_resale": 274.71,
-      "market_low": 235.2,
-      "market_high": 335.55,
+      "market_low": 244.29,
+      "market_high": 333.73,
       "fees": 0.0,
       "risk_reserve": 5.27,
       "travel_cost": 0.0,
@@ -2018,17 +2087,17 @@
         "risk_penalty": 3.2
       },
       "note": "Marktwaardes op basis van vraagprijzen zijn schattingen, geen gegarandeerde gerealiseerde verkoopprijzen.",
-      "quick_sale_value": 235.2,
+      "quick_sale_value": 244.29,
       "realistic_market_value": 274.71,
-      "optimistic_value": 335.55,
+      "optimistic_value": 333.73,
       "source_agreement_percent": null,
       "valuation_sources": [
         {
           "source": "Marktplaats",
           "value": 266.11,
-          "low": 204.69,
-          "high": 344.43,
-          "samples": 29,
+          "low": 222.49,
+          "high": 340.87,
+          "samples": 32,
           "kind": "actieve vraagprijzen"
         },
         {
@@ -2046,7 +2115,7 @@
     "is_deal": true,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 29,
+      "sample_count": 32,
       "median_asking": 299.0
     },
     "repair": {
