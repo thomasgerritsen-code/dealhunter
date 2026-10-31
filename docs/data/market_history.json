@@ -34106,5 +34106,15 @@
       "asking_low": 200.0,
       "asking_high": 200.0
     }
+  ],
+  "JBL PARTIJHANDEL RETOURGOEDEREN BOX": [
+    {
+      "at": "2026-10-31T05:38:19.073490+00:00",
+      "sample_count": 1,
+      "median_asking": 756.25,
+      "estimated_resale": 673.06,
+      "asking_low": 756.25,
+      "asking_high": 756.25
+    }
   ]
 }
