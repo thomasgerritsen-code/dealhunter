@@ -12155,12 +12155,12 @@
       "asking_high": 104.0
     },
     {
-      "at": "2026-10-31T00:12:15.011282+00:00",
-      "sample_count": 1,
-      "median_asking": 104.0,
-      "estimated_resale": 92.56,
-      "asking_low": 104.0,
-      "asking_high": 104.0
+      "at": "2026-10-31T11:13:55.442449+00:00",
+      "sample_count": 2,
+      "median_asking": 118.5,
+      "estimated_resale": 105.47,
+      "asking_low": 109.8,
+      "asking_high": 127.2
     }
   ],
   "Sony PlayStation 5 Digital Slim": [
@@ -34053,12 +34053,12 @@
       "asking_high": 75.0
     },
     {
-      "at": "2026-10-31T00:12:15.011282+00:00",
+      "at": "2026-10-31T11:13:55.442449+00:00",
       "sample_count": 1,
-      "median_asking": 75.0,
-      "estimated_resale": 66.75,
-      "asking_low": 75.0,
-      "asking_high": 75.0
+      "median_asking": 85.0,
+      "estimated_resale": 75.65,
+      "asking_low": 85.0,
+      "asking_high": 85.0
     }
   ],
   "JBL PARTYBOX 320": [
@@ -34115,6 +34115,16 @@
       "estimated_resale": 673.06,
       "asking_low": 756.25,
       "asking_high": 756.25
+    }
+  ],
+  "Tannoy PASSIEF STUDIO EN": [
+    {
+      "at": "2026-10-31T11:13:55.442449+00:00",
+      "sample_count": 1,
+      "median_asking": 79.0,
+      "estimated_resale": 70.31,
+      "asking_low": 79.0,
+      "asking_high": 79.0
     }
   ]
 }
