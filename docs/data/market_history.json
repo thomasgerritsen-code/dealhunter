@@ -35465,12 +35465,12 @@
       "asking_high": 75.0
     },
     {
-      "at": "2026-11-01T02:10:55.111827+00:00",
+      "at": "2026-11-01T23:42:26.775803+00:00",
       "sample_count": 1,
-      "median_asking": 75.0,
-      "estimated_resale": 67.5,
-      "asking_low": 75.0,
-      "asking_high": 75.0
+      "median_asking": 100.0,
+      "estimated_resale": 90.0,
+      "asking_low": 100.0,
+      "asking_high": 100.0
     }
   ],
   "Tektronix TDS 210 DIGITALE": [
