@@ -1,5 +1,13 @@
 [
   {
+    "id": "marktplaats-html:a1532620027",
+    "found_at": "2026-11-01T15:59:21.844421+00:00",
+    "title": "Bang en Olufsen aanbiedingen | summa455 Almere",
+    "matched_product": null,
+    "url": "https://www.marktplaats.nl/v/audio-tv-en-foto/luidsprekers/a1532620027-bang-en-olufsen-aanbiedingen-summa455-almere",
+    "reason": "Geen vaste vraagprijs (bijv. Bieden/Zie omschrijving)"
+  },
+  {
     "id": "marktplaats-html:m2460086405",
     "found_at": "2026-11-01T09:10:41.514209+00:00",
     "title": "Bang & Olufsen BeoLab 5 speakerset",
@@ -205,6 +213,14 @@
     "title": "Accugereedschapsset",
     "matched_product": null,
     "url": "https://www.marktplaats.nl/v/doe-het-zelf-en-verbouw/gereedschap-handgereedschap/a1533086518-accugereedschapsset-makita",
+    "reason": "Geen vaste vraagprijs (bijv. Bieden/Zie omschrijving)"
+  },
+  {
+    "id": "marktplaats-html:m2459799895",
+    "found_at": "2026-10-30T19:21:15.122052+00:00",
+    "title": "Steam Deck OLED 512GB incl. Steam Deck Docking Station",
+    "matched_product": "Valve Steam Deck OLED 512GB",
+    "url": "https://www.marktplaats.nl/v/spelcomputers-en-games/spelcomputers-overige/m2459799895-steam-deck-oled-512gb-incl-steam-deck-docking-station",
     "reason": "Geen vaste vraagprijs (bijv. Bieden/Zie omschrijving)"
   },
   {
@@ -1981,22 +1997,6 @@
     "title": "Bang & Olufsen BeoSound 3200 met speakers",
     "matched_product": null,
     "url": "https://www.marktplaats.nl/v/audio-tv-en-foto/stereo-sets/m2439975074-bang-olufsen-beosound-3200-met-speakers",
-    "reason": "Geen vaste vraagprijs (bijv. Bieden/Zie omschrijving)"
-  },
-  {
-    "id": "marktplaats-html:m2439962751",
-    "found_at": "2026-09-07T08:52:09.573940+00:00",
-    "title": "ps5 pro teruil tegen een xbox series x lees adv",
-    "matched_product": "Microsoft Xbox Series X 1TB",
-    "url": "https://www.marktplaats.nl/v/spelcomputers-en-games/spelcomputers-xbox-series-x-en-s/m2439962751-ps5-pro-teruil-tegen-een-xbox-series-x-lees-adv",
-    "reason": "Geen vaste vraagprijs (bijv. Bieden/Zie omschrijving)"
-  },
-  {
-    "id": "marktplaats-html:m2439954093",
-    "found_at": "2026-09-07T08:15:54.571992+00:00",
-    "title": "Diverse microfoons: Samson",
-    "matched_product": "Sennheiser MKH 416",
-    "url": "https://www.marktplaats.nl/v/muziek-en-instrumenten/microfoons/m2439954093-diverse-microfoons-samson-akg-sennheiser-gebruikt",
     "reason": "Geen vaste vraagprijs (bijv. Bieden/Zie omschrijving)"
   }
 ]

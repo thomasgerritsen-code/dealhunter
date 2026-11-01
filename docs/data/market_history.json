@@ -35803,6 +35803,14 @@
       "estimated_resale": 673.06,
       "asking_low": 756.25,
       "asking_high": 756.25
+    },
+    {
+      "at": "2026-11-01T15:59:44.085086+00:00",
+      "sample_count": 1,
+      "median_asking": 756.25,
+      "estimated_resale": 673.06,
+      "asking_low": 756.25,
+      "asking_high": 756.25
     }
   ],
   "Tannoy PASSIEF STUDIO EN": [
@@ -35831,6 +35839,16 @@
       "estimated_resale": 44.5,
       "asking_low": 50.0,
       "asking_high": 50.0
+    }
+  ],
+  "KEF SP1004 KLASSIEK GELUID": [
+    {
+      "at": "2026-11-01T15:59:44.085086+00:00",
+      "sample_count": 1,
+      "median_asking": 400.0,
+      "estimated_resale": 356.0,
+      "asking_low": 400.0,
+      "asking_high": 400.0
     }
   ]
 }
