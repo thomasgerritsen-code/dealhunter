@@ -5221,11 +5221,11 @@
       "asking_high": 650.0
     },
     {
-      "at": "2026-11-01T02:10:55.111827+00:00",
-      "sample_count": 7,
-      "median_asking": 475.0,
-      "estimated_resale": 422.75,
-      "asking_low": 355.0,
+      "at": "2026-11-01T20:20:50.140274+00:00",
+      "sample_count": 8,
+      "median_asking": 562.5,
+      "estimated_resale": 500.62,
+      "asking_low": 360.0,
       "asking_high": 650.0
     }
   ],
@@ -35793,6 +35793,14 @@
       "estimated_resale": 178.0,
       "asking_low": 200.0,
       "asking_high": 200.0
+    },
+    {
+      "at": "2026-11-01T20:20:50.140274+00:00",
+      "sample_count": 1,
+      "median_asking": 220.0,
+      "estimated_resale": 195.8,
+      "asking_low": 220.0,
+      "asking_high": 220.0
     }
   ],
   "JBL PARTIJHANDEL RETOURGOEDEREN BOX": [
@@ -35833,12 +35841,12 @@
   ],
   "Tannoy MERCURY MX4 2": [
     {
-      "at": "2026-11-01T09:11:01.733780+00:00",
+      "at": "2026-11-01T20:20:50.140274+00:00",
       "sample_count": 1,
-      "median_asking": 50.0,
-      "estimated_resale": 44.5,
-      "asking_low": 50.0,
-      "asking_high": 50.0
+      "median_asking": 79.0,
+      "estimated_resale": 70.31,
+      "asking_low": 79.0,
+      "asking_high": 79.0
     }
   ],
   "KEF SP1004 KLASSIEK GELUID": [
@@ -35849,6 +35857,16 @@
       "estimated_resale": 356.0,
       "asking_low": 400.0,
       "asking_high": 400.0
+    }
+  ],
+  "KEF CARLTON III": [
+    {
+      "at": "2026-11-01T20:20:50.140274+00:00",
+      "sample_count": 1,
+      "median_asking": 145.0,
+      "estimated_resale": 129.05,
+      "asking_low": 145.0,
+      "asking_high": 145.0
     }
   ]
 }
