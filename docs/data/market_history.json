@@ -8887,12 +8887,12 @@
       "asking_high": 14.5
     },
     {
-      "at": "2026-11-01T02:10:55.111827+00:00",
+      "at": "2026-11-01T09:11:01.733780+00:00",
       "sample_count": 2,
-      "median_asking": 13.75,
-      "estimated_resale": 12.24,
-      "asking_low": 13.0,
-      "asking_high": 14.5
+      "median_asking": 12.5,
+      "estimated_resale": 11.12,
+      "asking_low": 11.0,
+      "asking_high": 14.0
     }
   ],
   "Fluke 51 THERMOMETER": [
@@ -12555,12 +12555,12 @@
       "asking_high": 127.2
     },
     {
-      "at": "2026-11-01T02:10:55.111827+00:00",
-      "sample_count": 2,
-      "median_asking": 118.5,
-      "estimated_resale": 105.47,
-      "asking_low": 109.8,
-      "asking_high": 127.2
+      "at": "2026-11-01T09:11:01.733780+00:00",
+      "sample_count": 1,
+      "median_asking": 104.0,
+      "estimated_resale": 92.56,
+      "asking_low": 104.0,
+      "asking_high": 104.0
     }
   ],
   "Sony PlayStation 5 Digital Slim": [
@@ -35821,6 +35821,16 @@
       "estimated_resale": 70.31,
       "asking_low": 79.0,
       "asking_high": 79.0
+    }
+  ],
+  "Tannoy MERCURY MX4 2": [
+    {
+      "at": "2026-11-01T09:11:01.733780+00:00",
+      "sample_count": 1,
+      "median_asking": 50.0,
+      "estimated_resale": 44.5,
+      "asking_low": 50.0,
+      "asking_high": 50.0
     }
   ]
 }
