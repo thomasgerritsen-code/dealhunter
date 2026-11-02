@@ -37117,12 +37117,12 @@
       "asking_high": 475.0
     },
     {
-      "at": "2026-11-02T02:45:49.815490+00:00",
+      "at": "2026-11-02T20:20:27.551287+00:00",
       "sample_count": 1,
-      "median_asking": 475.0,
-      "estimated_resale": 427.5,
-      "asking_low": 475.0,
-      "asking_high": 475.0
+      "median_asking": 425.0,
+      "estimated_resale": 382.5,
+      "asking_low": 425.0,
+      "asking_high": 425.0
     }
   ],
   "Sennheiser MKH 815T": [
@@ -37499,6 +37499,14 @@
       "estimated_resale": 673.06,
       "asking_low": 756.25,
       "asking_high": 756.25
+    },
+    {
+      "at": "2026-11-02T20:20:27.551287+00:00",
+      "sample_count": 1,
+      "median_asking": 756.25,
+      "estimated_resale": 673.06,
+      "asking_low": 756.25,
+      "asking_high": 756.25
     }
   ],
   "Tannoy PASSIEF STUDIO EN": [
@@ -37589,6 +37597,16 @@
       "estimated_resale": 135.0,
       "asking_low": 150.0,
       "asking_high": 150.0
+    }
+  ],
+  "Tannoy 611": [
+    {
+      "at": "2026-11-02T20:20:27.551287+00:00",
+      "sample_count": 1,
+      "median_asking": 399.0,
+      "estimated_resale": 355.11,
+      "asking_low": 399.0,
+      "asking_high": 399.0
     }
   ]
 }
