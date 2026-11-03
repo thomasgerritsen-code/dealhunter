@@ -39336,5 +39336,25 @@
       "asking_low": 399.0,
       "asking_high": 399.0
     }
+  ],
+  "Makita HP457D 18V KLOPBOORMACHINE": [
+    {
+      "at": "2026-11-03T22:28:30.464556+00:00",
+      "sample_count": 1,
+      "median_asking": 115.0,
+      "estimated_resale": 102.35,
+      "asking_low": 115.0,
+      "asking_high": 115.0
+    }
+  ],
+  "Tannoy 611 VLOERSTAANDE LUIDSPREKERS": [
+    {
+      "at": "2026-11-03T22:28:30.464556+00:00",
+      "sample_count": 1,
+      "median_asking": 300.0,
+      "estimated_resale": 267.0,
+      "asking_low": 300.0,
+      "asking_high": 300.0
+    }
   ]
 }
