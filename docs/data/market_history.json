@@ -5541,11 +5541,11 @@
       "asking_high": 650.0
     },
     {
-      "at": "2026-11-03T02:27:02.877672+00:00",
-      "sample_count": 8,
-      "median_asking": 562.5,
-      "estimated_resale": 500.62,
-      "asking_low": 360.0,
+      "at": "2026-11-03T17:25:30.416121+00:00",
+      "sample_count": 9,
+      "median_asking": 495.0,
+      "estimated_resale": 440.55,
+      "asking_low": 365.0,
       "asking_high": 650.0
     }
   ],
@@ -16469,12 +16469,12 @@
       "asking_high": 620.0
     },
     {
-      "at": "2026-11-03T02:27:02.877672+00:00",
-      "sample_count": 1,
-      "median_asking": 620.0,
-      "estimated_resale": 570.4,
-      "asking_low": 620.0,
-      "asking_high": 620.0
+      "at": "2026-11-03T17:25:30.416121+00:00",
+      "sample_count": 2,
+      "median_asking": 585.0,
+      "estimated_resale": 538.2,
+      "asking_low": 563.99,
+      "asking_high": 606.0
     }
   ],
   "Sony PlayStation 5 Disc Slim": [
@@ -39241,12 +39241,12 @@
       "asking_high": 79.0
     },
     {
-      "at": "2026-11-03T02:27:02.877672+00:00",
+      "at": "2026-11-03T17:25:30.416121+00:00",
       "sample_count": 1,
-      "median_asking": 89.0,
-      "estimated_resale": 79.21,
-      "asking_low": 89.0,
-      "asking_high": 89.0
+      "median_asking": 99.0,
+      "estimated_resale": 88.11,
+      "asking_low": 99.0,
+      "asking_high": 99.0
     }
   ],
   "KEF SP1004 KLASSIEK GELUID": [
