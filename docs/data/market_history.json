@@ -42828,5 +42828,15 @@
       "asking_low": 300.0,
       "asking_high": 300.0
     }
+  ],
+  "Tektronix TEKTRONIX THS710 TEKSCOPE": [
+    {
+      "at": "2026-11-05T18:13:33.802753+00:00",
+      "sample_count": 1,
+      "median_asking": 395.0,
+      "estimated_resale": 355.5,
+      "asking_low": 395.0,
+      "asking_high": 395.0
+    }
   ]
 }
