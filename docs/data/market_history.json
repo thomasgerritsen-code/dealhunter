@@ -43583,12 +43583,12 @@
       "asking_high": 300.0
     },
     {
-      "at": "2026-11-06T03:39:49.562222+00:00",
+      "at": "2026-11-06T23:17:36.300496+00:00",
       "sample_count": 1,
-      "median_asking": 300.0,
-      "estimated_resale": 267.0,
-      "asking_low": 300.0,
-      "asking_high": 300.0
+      "median_asking": 250.0,
+      "estimated_resale": 222.5,
+      "asking_low": 250.0,
+      "asking_high": 250.0
     }
   ],
   "Sennheiser MKH 50 P48": [
@@ -44599,6 +44599,16 @@
       "estimated_resale": 89.0,
       "asking_low": 100.0,
       "asking_high": 100.0
+    }
+  ],
+  "JBL XTREME 5 BLUETOOTH": [
+    {
+      "at": "2026-11-06T23:17:36.300496+00:00",
+      "sample_count": 1,
+      "median_asking": 229.99,
+      "estimated_resale": 204.69,
+      "asking_low": 229.99,
+      "asking_high": 229.99
     }
   ]
 }
