@@ -46378,5 +46378,15 @@
       "asking_low": 229.99,
       "asking_high": 229.99
     }
+  ],
+  "JBL XTREME 3 DEFECT": [
+    {
+      "at": "2026-11-07T19:41:41.695143+00:00",
+      "sample_count": 1,
+      "median_asking": 70.0,
+      "estimated_resale": 62.3,
+      "asking_low": 70.0,
+      "asking_high": 70.0
+    }
   ]
 }
