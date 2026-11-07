@@ -46388,5 +46388,35 @@
       "asking_low": 70.0,
       "asking_high": 70.0
     }
+  ],
+  "KEF C55 SPEAKERSET TOP": [
+    {
+      "at": "2026-11-07T23:00:41.828957+00:00",
+      "sample_count": 1,
+      "median_asking": 149.0,
+      "estimated_resale": 132.61,
+      "asking_low": 149.0,
+      "asking_high": 149.0
+    }
+  ],
+  "KEF SERIES C30": [
+    {
+      "at": "2026-11-07T23:00:41.828957+00:00",
+      "sample_count": 1,
+      "median_asking": 149.0,
+      "estimated_resale": 132.61,
+      "asking_low": 149.0,
+      "asking_high": 149.0
+    }
+  ],
+  "KEF C55": [
+    {
+      "at": "2026-11-07T23:00:41.828957+00:00",
+      "sample_count": 1,
+      "median_asking": 149.0,
+      "estimated_resale": 132.61,
+      "asking_low": 149.0,
+      "asking_high": 149.0
+    }
   ]
 }
