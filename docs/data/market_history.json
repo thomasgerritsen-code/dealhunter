@@ -50028,5 +50028,15 @@
       "asking_low": 400.0,
       "asking_high": 400.0
     }
+  ],
+  "Tektronix WFM 601I VIDEO": [
+    {
+      "at": "2026-11-09T21:24:53.500339+00:00",
+      "sample_count": 1,
+      "median_asking": 75.0,
+      "estimated_resale": 67.5,
+      "asking_low": 75.0,
+      "asking_high": 75.0
+    }
   ]
 }
