@@ -2082,22 +2082,22 @@
     "analysis": {
       "matched_product": "Shure SM7B",
       "category": "Audio",
-      "source": "Marktplaats profiel (33 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (33 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 33,
+      "source": "Marktplaats profiel (34 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (34 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 34,
       "asking_price": 164.99,
-      "expected_resale": 288.17,
+      "expected_resale": 288.57,
       "market_low": 256.27,
-      "market_high": 349.13,
+      "market_high": 348.18,
       "fees": 0.0,
-      "risk_reserve": 5.53,
+      "risk_reserve": 5.54,
       "travel_cost": 0.0,
-      "expected_profit": 117.65,
-      "roi_percent": 71.3,
-      "discount_percent": 42.7,
+      "expected_profit": 118.04,
+      "roi_percent": 71.5,
+      "discount_percent": 42.8,
       "opening_bid": 151.79,
       "target_buy_price": 164.99,
-      "max_buy_price": 222.64,
+      "max_buy_price": 223.03,
       "deal_score": 94,
       "risk_score": 16,
       "liquidity_score": 88,
@@ -2110,23 +2110,23 @@
       "score_breakdown": {
         "discount": 26.6,
         "profit": 11.3,
-        "roi": 16.0,
+        "roi": 16.1,
         "liquidity": 10.6,
         "confidence": 14.6,
         "risk_penalty": 3.2
       },
       "note": "Marktwaardes op basis van vraagprijzen zijn schattingen, geen gegarandeerde gerealiseerde verkoopprijzen.",
       "quick_sale_value": 256.27,
-      "realistic_market_value": 288.17,
-      "optimistic_value": 349.13,
+      "realistic_market_value": 288.57,
+      "optimistic_value": 348.18,
       "source_agreement_percent": null,
       "valuation_sources": [
         {
           "source": "Marktplaats",
-          "value": 266.11,
-          "low": 222.49,
-          "high": 339.09,
-          "samples": 33,
+          "value": 266.56,
+          "low": 222.5,
+          "high": 337.31,
+          "samples": 34,
           "kind": "actieve vraagprijzen"
         },
         {
@@ -2144,8 +2144,8 @@
     "is_deal": true,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 33,
-      "median_asking": 299.0
+      "sample_count": 34,
+      "median_asking": 299.5
     },
     "repair": {
       "detected": false
@@ -2306,23 +2306,23 @@
     "analysis": {
       "matched_product": "Shure SM7B",
       "category": "Audio",
-      "source": "Marktplaats profiel (33 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (33 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 33,
+      "source": "Marktplaats profiel (34 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (34 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 34,
       "asking_price": 150.0,
-      "expected_resale": 250.47,
+      "expected_resale": 250.81,
       "market_low": 222.74,
-      "market_high": 303.45,
+      "market_high": 302.62,
       "fees": 0.0,
-      "risk_reserve": 4.81,
+      "risk_reserve": 4.82,
       "travel_cost": 0.0,
-      "expected_profit": 95.66,
-      "roi_percent": 63.8,
-      "discount_percent": 40.1,
+      "expected_profit": 96.0,
+      "roi_percent": 64.0,
+      "discount_percent": 40.2,
       "opening_bid": 138.0,
       "target_buy_price": 150.0,
-      "max_buy_price": 185.66,
-      "deal_score": 88,
+      "max_buy_price": 186.0,
+      "deal_score": 89,
       "risk_score": 16,
       "liquidity_score": 88,
       "confidence_percent": 81,
@@ -2334,23 +2334,23 @@
       "score_breakdown": {
         "discount": 25.0,
         "profit": 9.2,
-        "roi": 14.3,
+        "roi": 14.4,
         "liquidity": 10.6,
         "confidence": 14.6,
         "risk_penalty": 3.2
       },
       "note": "Marktwaardes op basis van vraagprijzen zijn schattingen, geen gegarandeerde gerealiseerde verkoopprijzen.",
       "quick_sale_value": 222.74,
-      "realistic_market_value": 250.47,
-      "optimistic_value": 303.45,
+      "realistic_market_value": 250.81,
+      "optimistic_value": 302.62,
       "source_agreement_percent": null,
       "valuation_sources": [
         {
           "source": "Marktplaats",
-          "value": 266.11,
-          "low": 222.49,
-          "high": 339.09,
-          "samples": 33,
+          "value": 266.56,
+          "low": 222.5,
+          "high": 337.31,
+          "samples": 34,
           "kind": "actieve vraagprijzen"
         },
         {
@@ -2368,8 +2368,8 @@
     "is_deal": true,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 33,
-      "median_asking": 299.0
+      "sample_count": 34,
+      "median_asking": 299.5
     },
     "repair": {
       "detected": false
@@ -2396,22 +2396,22 @@
     "analysis": {
       "matched_product": "Shure SM7B",
       "category": "Audio",
-      "source": "Marktplaats profiel (33 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (33 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 33,
+      "source": "Marktplaats profiel (34 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (34 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 34,
       "asking_price": 175.0,
-      "expected_resale": 274.71,
+      "expected_resale": 275.08,
       "market_low": 244.29,
-      "market_high": 332.82,
+      "market_high": 331.91,
       "fees": 0.0,
-      "risk_reserve": 5.27,
+      "risk_reserve": 5.28,
       "travel_cost": 0.0,
-      "expected_profit": 94.43,
-      "roi_percent": 54.0,
-      "discount_percent": 36.3,
+      "expected_profit": 94.8,
+      "roi_percent": 54.2,
+      "discount_percent": 36.4,
       "opening_bid": 143.22,
       "target_buy_price": 162.75,
-      "max_buy_price": 209.43,
+      "max_buy_price": 209.8,
       "deal_score": 84,
       "risk_score": 16,
       "liquidity_score": 88,
@@ -2424,23 +2424,23 @@
       "score_breakdown": {
         "discount": 22.6,
         "profit": 9.1,
-        "roi": 12.1,
+        "roi": 12.2,
         "liquidity": 10.6,
         "confidence": 14.6,
         "risk_penalty": 3.2
       },
       "note": "Marktwaardes op basis van vraagprijzen zijn schattingen, geen gegarandeerde gerealiseerde verkoopprijzen.",
       "quick_sale_value": 244.29,
-      "realistic_market_value": 274.71,
-      "optimistic_value": 332.82,
+      "realistic_market_value": 275.08,
+      "optimistic_value": 331.91,
       "source_agreement_percent": null,
       "valuation_sources": [
         {
           "source": "Marktplaats",
-          "value": 266.11,
-          "low": 222.49,
-          "high": 339.09,
-          "samples": 33,
+          "value": 266.56,
+          "low": 222.5,
+          "high": 337.31,
+          "samples": 34,
           "kind": "actieve vraagprijzen"
         },
         {
@@ -2458,8 +2458,8 @@
     "is_deal": true,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 33,
-      "median_asking": 299.0
+      "sample_count": 34,
+      "median_asking": 299.5
     },
     "repair": {
       "detected": false
