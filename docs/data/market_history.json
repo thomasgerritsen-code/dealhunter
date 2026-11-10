@@ -6661,11 +6661,11 @@
       "asking_high": 650.0
     },
     {
-      "at": "2026-11-10T03:40:38.288112+00:00",
-      "sample_count": 10,
-      "median_asking": 485.0,
-      "estimated_resale": 431.65,
-      "asking_low": 345.0,
+      "at": "2026-11-10T18:54:42.143359+00:00",
+      "sample_count": 11,
+      "median_asking": 475.0,
+      "estimated_resale": 422.75,
+      "asking_low": 325.0,
       "asking_high": 650.0
     }
   ],
@@ -26151,12 +26151,12 @@
       "asking_high": 100.0
     },
     {
-      "at": "2026-11-10T03:40:38.288112+00:00",
-      "sample_count": 1,
-      "median_asking": 100.0,
-      "estimated_resale": 89.0,
-      "asking_low": 100.0,
-      "asking_high": 100.0
+      "at": "2026-11-10T18:54:42.143359+00:00",
+      "sample_count": 2,
+      "median_asking": 95.0,
+      "estimated_resale": 84.55,
+      "asking_low": 92.0,
+      "asking_high": 98.0
     }
   ],
   "JBL TLX2 LUIDSPREKERSET": [
@@ -51327,12 +51327,12 @@
       "asking_high": 150.0
     },
     {
-      "at": "2026-11-10T03:40:38.288112+00:00",
+      "at": "2026-11-10T18:54:42.143359+00:00",
       "sample_count": 1,
-      "median_asking": 150.0,
-      "estimated_resale": 135.0,
-      "asking_low": 150.0,
-      "asking_high": 150.0
+      "median_asking": 125.0,
+      "estimated_resale": 112.5,
+      "asking_low": 125.0,
+      "asking_high": 125.0
     }
   ],
   "Tannoy 611": [
