@@ -53646,5 +53646,15 @@
       "asking_low": 75.0,
       "asking_high": 75.0
     }
+  ],
+  "KEF C30 BOXEN OP": [
+    {
+      "at": "2026-11-11T18:09:27.695987+00:00",
+      "sample_count": 1,
+      "median_asking": 200.0,
+      "estimated_resale": 178.0,
+      "asking_low": 200.0,
+      "asking_high": 200.0
+    }
   ]
 }
