@@ -13949,12 +13949,12 @@
       "asking_high": 175.0
     },
     {
-      "at": "2026-11-12T00:36:42.630830+00:00",
-      "sample_count": 1,
-      "median_asking": 175.0,
-      "estimated_resale": 155.75,
-      "asking_low": 175.0,
-      "asking_high": 175.0
+      "at": "2026-11-12T16:18:21.710641+00:00",
+      "sample_count": 2,
+      "median_asking": 162.5,
+      "estimated_resale": 144.62,
+      "asking_low": 155.0,
+      "asking_high": 170.0
     }
   ],
   "KEF CAPRICE II LUIDSPREKERBOXEN": [
@@ -54246,6 +54246,14 @@
     },
     {
       "at": "2026-11-08T23:31:14.333614+00:00",
+      "sample_count": 1,
+      "median_asking": 756.25,
+      "estimated_resale": 673.06,
+      "asking_low": 756.25,
+      "asking_high": 756.25
+    },
+    {
+      "at": "2026-11-12T16:18:21.710641+00:00",
       "sample_count": 1,
       "median_asking": 756.25,
       "estimated_resale": 673.06,
