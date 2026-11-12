@@ -2287,6 +2287,96 @@
     "is_repair_deal": false
   },
   {
+    "id": "marktplaats-html:m2463650170",
+    "found_at": "2026-11-12T00:36:13.890619+00:00",
+    "last_seen_at": "2026-11-12T00:36:13.890619+00:00",
+    "source": "marktplaats-html",
+    "query": "shure sm7b",
+    "category_hint": "Audio",
+    "title": "Shure SM7B Legendarische Dynamische Zangmicrofoon",
+    "description": "Bewaren in Mijn Favorieten Shure SM7B Legendarische Dynamische Zangmicrofoon De shure sm7b is een legendarische dynamische microfoon die bekend staat om zijn uitzonderlijke geluidskwaliteit en veelzijdigheid. Perfect voor professionele zangopnames, podcasts, voice-overs en ins Zo goed als nieuw Ophalen of Verzenden € 164,99 Vandaag Dagtopper Arabella van Loon Almere Bewaren in Mijn Favorieten Shure SM7B Legendarische Dynamische Zangmicrofoon € 164,99 De shure sm7b is een legendarische dynamische microfoon die bekend staat om zijn uitzonderlijke geluidskwaliteit en veelzijdigheid. Perfect voor professionele zangopnames, podcasts, voice-overs en ins Zo goed als nieuw Ophalen of Verzenden Arabella van Loon Almere Vandaag Dagtopper Bewaren in Mijn Favorieten Shure SM7B Legendarische Dynamische Zangmicrofoon € 164,99 Details Ophalen of Verzenden Zo goed als nieuw Studiomicrofoon De shure sm7b",
+    "url": "https://www.marktplaats.nl/v/muziek-en-instrumenten/microfoons/m2463650170-shure-sm7b-legendarische-dynamische-zangmicrofoon",
+    "asking_price": 164.99,
+    "previous_asking_price": null,
+    "price_drop_percent": 0.0,
+    "promoted": true,
+    "matched_product": "Shure SM7B",
+    "recognition_confidence": 86,
+    "condition": "zo goed als nieuw",
+    "analysis": {
+      "matched_product": "Shure SM7B",
+      "category": "Audio",
+      "source": "Marktplaats profiel (34 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (34 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 34,
+      "asking_price": 164.99,
+      "expected_resale": 275.08,
+      "market_low": 244.29,
+      "market_high": 330.09,
+      "fees": 0.0,
+      "risk_reserve": 5.28,
+      "travel_cost": 0.0,
+      "expected_profit": 104.81,
+      "roi_percent": 63.5,
+      "discount_percent": 40.0,
+      "opening_bid": 151.79,
+      "target_buy_price": 164.99,
+      "max_buy_price": 209.8,
+      "deal_score": 89,
+      "risk_score": 16,
+      "liquidity_score": 88,
+      "confidence_percent": 81,
+      "recognition_confidence_percent": 86,
+      "market_confidence_percent": 77,
+      "verdict": "TOPDEAL",
+      "recommendation": "ZEER INTERESSANT",
+      "risk_reasons": [],
+      "score_breakdown": {
+        "discount": 24.9,
+        "profit": 10.1,
+        "roi": 14.3,
+        "liquidity": 10.6,
+        "confidence": 14.6,
+        "risk_penalty": 3.2
+      },
+      "note": "Marktwaardes op basis van vraagprijzen zijn schattingen, geen gegarandeerde gerealiseerde verkoopprijzen.",
+      "quick_sale_value": 244.29,
+      "realistic_market_value": 275.08,
+      "optimistic_value": 330.09,
+      "source_agreement_percent": null,
+      "valuation_sources": [
+        {
+          "source": "Marktplaats",
+          "value": 266.56,
+          "low": 222.5,
+          "high": 333.75,
+          "samples": 34,
+          "kind": "actieve vraagprijzen"
+        },
+        {
+          "source": "Referentiecatalogus",
+          "value": 285.0,
+          "low": 256.5,
+          "high": 313.5,
+          "samples": 0,
+          "kind": "lokale handmatige referentie"
+        }
+      ],
+      "multi_source": true
+    },
+    "result_status": "deal",
+    "is_deal": true,
+    "exclusion_reason": null,
+    "market_profile": {
+      "sample_count": 34,
+      "median_asking": 299.5
+    },
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
+  },
+  {
     "id": "marktplaats-html:a1531036094",
     "found_at": "2026-09-15T14:14:47.303504+00:00",
     "last_seen_at": "2026-09-22T03:27:17.018672+00:00",
