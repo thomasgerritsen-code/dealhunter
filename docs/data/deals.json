@@ -1,8 +1,77 @@
 [
   {
+    "id": "marktplaats-html:m2465063322",
+    "found_at": "2026-11-12T22:18:21.541073+00:00",
+    "last_seen_at": "2026-11-12T22:18:21.541073+00:00",
+    "source": "marktplaats-html",
+    "query": "xbox series x",
+    "category_hint": "Spelcomputers",
+    "title": "Grand Theft Auto V - Xbox Series X|S (Digitale Gamecode)",
+    "description": "Bewaren in Mijn Favorieten Grand Theft Auto V - Xbox Series X|S (Digitale Gamecode) Verkoop van grand theft auto v voor de xbox series x|s. Dit betreft een digitale gamecode, dus geen fysieke disc. De game is nieuw en ongebruikt. Geschikt voor liefhebbers van actie en avontuur in een Nieuw Ophalen of Verzenden € 80,00 Vandaag Dagtopper Jesse Raalte Bewaren in Mijn Favorieten Grand Theft Auto V - Xbox Series X|S (Digitale Gamecode) € 80,00 Verkoop van grand theft auto v voor de xbox series x|s. Dit betreft een digitale gamecode, dus geen fysieke disc. De game is nieuw en ongebruikt. Geschikt voor liefhebbers van actie en avontuur in een Nieuw Ophalen of Verzenden Jesse Raalte Vandaag Dagtopper Bewaren in Mijn Favorieten Grand Theft Auto V - Xbox Series X|S (Digitale Gamecode) € 80,00 Details Ophalen of Verzenden Nieuw Xbox Series X Verkoop van grand theft auto v voor de xbox series x|s. D",
+    "url": "https://www.marktplaats.nl/v/spelcomputers-en-games/spelcomputers-xbox-series-x-en-s/m2465063322-grand-theft-auto-v-xbox-series-x-s-digitale-gamecode",
+    "asking_price": 80.0,
+    "previous_asking_price": null,
+    "price_drop_percent": 0.0,
+    "promoted": true,
+    "matched_product": "Microsoft Xbox Series X 1TB",
+    "recognition_confidence": 93,
+    "condition": "nieuw",
+    "analysis": {
+      "matched_product": "Microsoft Xbox Series X 1TB",
+      "category": "Spelcomputers",
+      "source": "Marktplaats profiel (60 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (60 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 60,
+      "asking_price": 80.0,
+      "expected_resale": 516.39,
+      "market_low": 365.62,
+      "market_high": 547.37,
+      "fees": 0.0,
+      "risk_reserve": 26.15,
+      "travel_cost": 0.0,
+      "expected_profit": 410.24,
+      "roi_percent": 512.8,
+      "discount_percent": 84.5,
+      "opening_bid": 73.6,
+      "target_buy_price": 80.0,
+      "max_buy_price": 397.29,
+      "deal_score": 100,
+      "risk_score": 26,
+      "liquidity_score": 87,
+      "confidence_percent": 85,
+      "recognition_confidence_percent": 93,
+      "market_confidence_percent": 77,
+      "verdict": "TOPDEAL",
+      "recommendation": "ZEER INTERESSANT",
+      "risk_reasons": [
+        "Vraagprijs is <45% van geschatte waarde: extra fraude-/defectcheck"
+      ],
+      "score_breakdown": {
+        "discount": 28,
+        "profit": 24,
+        "roi": 18,
+        "liquidity": 10.4,
+        "confidence": 15.2,
+        "risk_penalty": 5.2
+      },
+      "note": "Marktwaardes op basis van vraagprijzen zijn schattingen, geen gegarandeerde gerealiseerde verkoopprijzen."
+    },
+    "result_status": "deal",
+    "is_deal": true,
+    "exclusion_reason": null,
+    "market_profile": {
+      "sample_count": 60,
+      "median_asking": 558.5
+    },
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
+  },
+  {
     "id": "marktplaats-html:a1533684013",
     "found_at": "2026-11-12T16:17:37.162392+00:00",
-    "last_seen_at": "2026-11-12T16:17:37.162392+00:00",
+    "last_seen_at": "2026-11-12T22:18:21.539768+00:00",
     "source": "marktplaats-html",
     "query": "xbox series x",
     "category_hint": "Spelcomputers",
@@ -479,7 +548,7 @@
   {
     "id": "marktplaats-html:a1532562771",
     "found_at": "2026-10-30T19:21:48.230455+00:00",
-    "last_seen_at": "2026-11-12T16:18:09.437385+00:00",
+    "last_seen_at": "2026-11-12T22:18:54.218232+00:00",
     "source": "marktplaats-html",
     "query": "ps5 defect",
     "category_hint": "Spelcomputers",
