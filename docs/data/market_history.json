@@ -14269,12 +14269,12 @@
       "asking_high": 170.0
     },
     {
-      "at": "2026-11-13T02:41:55.720706+00:00",
-      "sample_count": 2,
-      "median_asking": 162.5,
-      "estimated_resale": 144.62,
-      "asking_low": 155.0,
-      "asking_high": 170.0
+      "at": "2026-11-13T17:34:44.738799+00:00",
+      "sample_count": 1,
+      "median_asking": 175.0,
+      "estimated_resale": 155.75,
+      "asking_low": 175.0,
+      "asking_high": 175.0
     }
   ],
   "KEF CAPRICE II LUIDSPREKERBOXEN": [
@@ -53263,12 +53263,12 @@
       "asking_high": 59.95
     },
     {
-      "at": "2026-11-13T02:41:55.720706+00:00",
-      "sample_count": 1,
-      "median_asking": 59.95,
-      "estimated_resale": 53.36,
-      "asking_low": 59.95,
-      "asking_high": 59.95
+      "at": "2026-11-13T17:34:44.738799+00:00",
+      "sample_count": 2,
+      "median_asking": 56.23,
+      "estimated_resale": 50.04,
+      "asking_low": 53.99,
+      "asking_high": 58.46
     }
   ],
   "Tannoy REVOLUTION R3": [
