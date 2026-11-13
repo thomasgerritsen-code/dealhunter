@@ -4419,12 +4419,12 @@
       "asking_high": 263.98
     },
     {
-      "at": "2026-11-13T02:41:55.720706+00:00",
-      "sample_count": 8,
-      "median_asking": 234.49,
-      "estimated_resale": 215.73,
-      "asking_low": 93.99,
-      "asking_high": 263.98
+      "at": "2026-11-13T10:00:01.461797+00:00",
+      "sample_count": 7,
+      "median_asking": 249.98,
+      "estimated_resale": 229.98,
+      "asking_low": 75.78,
+      "asking_high": 266.98
     }
   ],
   "Nintendo Switch (variant onbekend)": [
@@ -57281,6 +57281,16 @@
       "estimated_resale": 178.0,
       "asking_low": 200.0,
       "asking_high": 200.0
+    }
+  ],
+  "JBL LX 8 3": [
+    {
+      "at": "2026-11-13T10:00:01.461797+00:00",
+      "sample_count": 1,
+      "median_asking": 15.0,
+      "estimated_resale": 13.35,
+      "asking_low": 15.0,
+      "asking_high": 15.0
     }
   ]
 }
