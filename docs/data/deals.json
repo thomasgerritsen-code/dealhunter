@@ -617,7 +617,7 @@
   {
     "id": "marktplaats-html:a1532562771",
     "found_at": "2026-10-30T19:21:48.230455+00:00",
-    "last_seen_at": "2026-11-14T02:44:20.801083+00:00",
+    "last_seen_at": "2026-11-14T20:30:29.537432+00:00",
     "source": "marktplaats-html",
     "query": "ps5 defect",
     "category_hint": "Spelcomputers",
@@ -2741,7 +2741,7 @@
   {
     "id": "marktplaats-html:a1533682067",
     "found_at": "2026-11-13T17:33:55.447022+00:00",
-    "last_seen_at": "2026-11-13T17:33:55.447022+00:00",
+    "last_seen_at": "2026-11-14T20:29:51.092092+00:00",
     "source": "marktplaats-html",
     "query": "nintendo switch oled",
     "category_hint": "Spelcomputers",
@@ -3037,6 +3037,73 @@
     "market_profile": {
       "sample_count": 7,
       "median_asking": 249.98
+    },
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
+  },
+  {
+    "id": "marktplaats-html:a1534141526",
+    "found_at": "2026-11-14T20:30:32.960184+00:00",
+    "last_seen_at": "2026-11-14T20:30:32.960184+00:00",
+    "source": "marktplaats-html",
+    "query": "festool defect",
+    "category_hint": "Gereedschap",
+    "title": "Festool TS 55 REBQ Invalzaagmachine 1200W | Gebruikt",
+    "description": "Bewaren in Mijn Favorieten Festool TS 55 REBQ Invalzaagmachine 1200W | Gebruikt Festool ts 55 rebq invalzaagmachine 1200w | gebruikt - gebruikt - 1200w - incl. Stoomsnoer - excl. Koffer - 3 maanden garantie - let op! Achteraf betalen via riverty en klarna ook mogelijk!!! (Nederla Ophalen of Verzenden € 249,99 Vandaag Topadvertentie Used Products Nijmegen Nijmegen Bewaren in Mijn Favorieten Festool TS 55 REBQ Invalzaagmachine 1200W | Gebruikt € 249,99 Festool ts 55 rebq invalzaagmachine 1200w | gebruikt - gebruikt - 1200w - incl. Stoomsnoer - excl. Koffer - 3 maanden garantie - let op! Achteraf betalen via riverty en klarna ook mogelijk!!! (Nederla Ophalen of Verzenden Used Products Nijmegen Nijmegen Vandaag Topadvertentie Bewaren in Mijn Favorieten Festool TS 55 REBQ Invalzaagmachine 1200W | Gebruikt € 249,99 Details Ophalen of Verzenden Festool ts 55 rebq invalzaagmachine 1200w | gebrui",
+    "url": "https://www.marktplaats.nl/v/doe-het-zelf-en-verbouw/gereedschap-zaagmachines/a1534141526-festool-ts-55-rebq-invalzaagmachine-1200w-gebruikt",
+    "asking_price": 249.99,
+    "previous_asking_price": null,
+    "price_drop_percent": 0.0,
+    "promoted": true,
+    "matched_product": "Festool TS 55 REBQ",
+    "recognition_confidence": 98,
+    "condition": "goed",
+    "analysis": {
+      "matched_product": "Festool TS 55 REBQ",
+      "category": "Gereedschap",
+      "source": "lokale referentiecatalogus",
+      "valuation_basis": "lokale referentiecatalogus",
+      "valuation_samples": 0,
+      "asking_price": 249.99,
+      "expected_resale": 381.3,
+      "market_low": 343.17,
+      "market_high": 419.43,
+      "fees": 0.0,
+      "risk_reserve": 8.24,
+      "travel_cost": 0.0,
+      "expected_profit": 123.07,
+      "roi_percent": 49.2,
+      "discount_percent": 34.4,
+      "opening_bid": 204.59,
+      "target_buy_price": 232.49,
+      "max_buy_price": 304.43,
+      "deal_score": 82,
+      "risk_score": 18,
+      "liquidity_score": 82,
+      "confidence_percent": 77,
+      "recognition_confidence_percent": 98,
+      "market_confidence_percent": 58,
+      "verdict": "INTERESSANT",
+      "recommendation": "INTERESSANT",
+      "risk_reasons": [],
+      "score_breakdown": {
+        "discount": 21.4,
+        "profit": 11.8,
+        "roi": 11.1,
+        "liquidity": 9.8,
+        "confidence": 13.9,
+        "risk_penalty": 3.6
+      },
+      "note": "Marktwaardes op basis van vraagprijzen zijn schattingen, geen gegarandeerde gerealiseerde verkoopprijzen."
+    },
+    "result_status": "deal",
+    "is_deal": true,
+    "exclusion_reason": null,
+    "market_profile": {
+      "sample_count": 0,
+      "median_asking": null
     },
     "repair": {
       "detected": false
