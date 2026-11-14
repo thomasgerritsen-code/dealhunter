@@ -59100,5 +59100,15 @@
       "asking_low": 15.0,
       "asking_high": 15.0
     }
+  ],
+  "Tektronix 492AP PROGRAMMEERBARE SPECTRUM": [
+    {
+      "at": "2026-11-14T09:27:05.168973+00:00",
+      "sample_count": 1,
+      "median_asking": 980.0,
+      "estimated_resale": 882.0,
+      "asking_low": 980.0,
+      "asking_high": 980.0
+    }
   ]
 }
