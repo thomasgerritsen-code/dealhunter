@@ -59099,6 +59099,14 @@
       "estimated_resale": 13.35,
       "asking_low": 15.0,
       "asking_high": 15.0
+    },
+    {
+      "at": "2026-11-14T15:58:34.477427+00:00",
+      "sample_count": 1,
+      "median_asking": 23.0,
+      "estimated_resale": 20.47,
+      "asking_low": 23.0,
+      "asking_high": 23.0
     }
   ],
   "Tektronix 492AP PROGRAMMEERBARE SPECTRUM": [
@@ -59109,6 +59117,16 @@
       "estimated_resale": 882.0,
       "asking_low": 980.0,
       "asking_high": 980.0
+    }
+  ],
+  "JBL XTREME 3 BATTERIJ": [
+    {
+      "at": "2026-11-14T15:58:34.477427+00:00",
+      "sample_count": 1,
+      "median_asking": 70.0,
+      "estimated_resale": 62.3,
+      "asking_low": 70.0,
+      "asking_high": 70.0
     }
   ]
 }
