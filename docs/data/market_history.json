@@ -62818,5 +62818,45 @@
       "asking_low": 199.0,
       "asking_high": 199.0
     }
+  ],
+  "Tektronix TYPE 515A KATHODESTRAALOSCILLOSCOOP": [
+    {
+      "at": "2026-11-16T10:51:40.291384+00:00",
+      "sample_count": 1,
+      "median_asking": 450.0,
+      "estimated_resale": 405.0,
+      "asking_low": 450.0,
+      "asking_high": 450.0
+    }
+  ],
+  "Tektronix TYPE 515A": [
+    {
+      "at": "2026-11-16T10:51:40.291384+00:00",
+      "sample_count": 1,
+      "median_asking": 180.0,
+      "estimated_resale": 162.0,
+      "asking_low": 180.0,
+      "asking_high": 180.0
+    }
+  ],
+  "KEF C30": [
+    {
+      "at": "2026-11-16T10:51:40.291384+00:00",
+      "sample_count": 1,
+      "median_asking": 150.0,
+      "estimated_resale": 133.5,
+      "asking_low": 150.0,
+      "asking_high": 150.0
+    }
+  ],
+  "Tannoy EN MIVOC 5": [
+    {
+      "at": "2026-11-16T10:51:40.291384+00:00",
+      "sample_count": 1,
+      "median_asking": 100.0,
+      "estimated_resale": 89.0,
+      "asking_low": 100.0,
+      "asking_high": 100.0
+    }
   ]
 }
