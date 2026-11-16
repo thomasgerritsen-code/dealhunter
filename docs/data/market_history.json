@@ -1931,12 +1931,12 @@
       "asking_high": 908.0
     },
     {
-      "at": "2026-11-16T03:00:43.571310+00:00",
-      "sample_count": 2,
-      "median_asking": 905.0,
-      "estimated_resale": 832.6,
-      "asking_low": 902.0,
-      "asking_high": 908.0
+      "at": "2026-11-16T20:42:48.554268+00:00",
+      "sample_count": 1,
+      "median_asking": 910.0,
+      "estimated_resale": 837.2,
+      "asking_low": 910.0,
+      "asking_high": 910.0
     }
   ],
   "Fluke T6 600": [
@@ -62852,6 +62852,16 @@
   "Tannoy EN MIVOC 5": [
     {
       "at": "2026-11-16T10:51:40.291384+00:00",
+      "sample_count": 1,
+      "median_asking": 100.0,
+      "estimated_resale": 89.0,
+      "asking_low": 100.0,
+      "asking_high": 100.0
+    }
+  ],
+  "Tannoy 20 GOLD": [
+    {
+      "at": "2026-11-16T20:42:48.554268+00:00",
       "sample_count": 1,
       "median_asking": 100.0,
       "estimated_resale": 89.0,
