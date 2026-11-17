@@ -3987,12 +3987,12 @@
       "asking_high": 450.0
     },
     {
-      "at": "2026-11-17T11:46:10.152121+00:00",
-      "sample_count": 3,
-      "median_asking": 450.0,
-      "estimated_resale": 414.0,
-      "asking_low": 390.0,
-      "asking_high": 450.0
+      "at": "2026-11-17T20:04:59.682706+00:00",
+      "sample_count": 2,
+      "median_asking": 400.0,
+      "estimated_resale": 368.0,
+      "asking_low": 370.0,
+      "asking_high": 430.0
     }
   ],
   "Valve Steam Deck OLED 1TB": [
@@ -56805,12 +56805,12 @@
       "asking_high": 99.99
     },
     {
-      "at": "2026-11-17T03:11:30.577207+00:00",
-      "sample_count": 2,
-      "median_asking": 89.99,
-      "estimated_resale": 80.09,
-      "asking_low": 83.99,
-      "asking_high": 95.99
+      "at": "2026-11-17T20:04:59.682706+00:00",
+      "sample_count": 1,
+      "median_asking": 99.99,
+      "estimated_resale": 88.99,
+      "asking_low": 99.99,
+      "asking_high": 99.99
     }
   ],
   "Tektronix DPO2002B DIGITAL PHOSPHOR": [
@@ -62619,6 +62619,14 @@
       "estimated_resale": 673.06,
       "asking_low": 756.25,
       "asking_high": 756.25
+    },
+    {
+      "at": "2026-11-17T20:04:59.682706+00:00",
+      "sample_count": 1,
+      "median_asking": 756.25,
+      "estimated_resale": 673.06,
+      "asking_low": 756.25,
+      "asking_high": 756.25
     }
   ],
   "Tannoy PASSIEF STUDIO EN": [
@@ -64739,6 +64747,26 @@
       "estimated_resale": 89.0,
       "asking_low": 100.0,
       "asking_high": 100.0
+    }
+  ],
+  "Tektronix 2212 ANALOGE": [
+    {
+      "at": "2026-11-17T20:04:59.682706+00:00",
+      "sample_count": 1,
+      "median_asking": 150.0,
+      "estimated_resale": 135.0,
+      "asking_low": 150.0,
+      "asking_high": 150.0
+    }
+  ],
+  "JBL TLX6 VLOERSTAANDE LUIDSPREKERS": [
+    {
+      "at": "2026-11-17T20:04:59.682706+00:00",
+      "sample_count": 1,
+      "median_asking": 80.0,
+      "estimated_resale": 71.2,
+      "asking_low": 80.0,
+      "asking_high": 80.0
     }
   ]
 }
