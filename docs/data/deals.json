@@ -2203,7 +2203,7 @@
   {
     "id": "marktplaats-html:a1534141526",
     "found_at": "2026-11-14T20:30:32.960184+00:00",
-    "last_seen_at": "2026-11-17T03:11:21.884992+00:00",
+    "last_seen_at": "2026-11-17T11:46:00.983792+00:00",
     "source": "marktplaats-html",
     "query": "festool defect",
     "category_hint": "Gereedschap",
@@ -2360,7 +2360,7 @@
       "asking_price": 320.0,
       "expected_resale": 558.35,
       "market_low": 547.09,
-      "market_high": 561.16,
+      "market_high": 645.62,
       "fees": 0.0,
       "risk_reserve": 18.76,
       "travel_cost": 0.0,
