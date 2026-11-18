@@ -2202,7 +2202,7 @@
   {
     "id": "marktplaats-html:a1534141526",
     "found_at": "2026-11-14T20:30:32.960184+00:00",
-    "last_seen_at": "2026-11-18T02:20:28.443648+00:00",
+    "last_seen_at": "2026-11-18T10:21:33.049383+00:00",
     "source": "marktplaats-html",
     "query": "festool defect",
     "category_hint": "Gereedschap",
@@ -2824,13 +2824,13 @@
     "analysis": {
       "matched_product": "Microsoft Xbox Series S 512GB",
       "category": "Spelcomputers",
-      "source": "Marktplaats profiel (28 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_basis": "Marktplaats profiel (28 niet-gepromote advertenties) + lokale referentiecatalogus",
-      "valuation_samples": 28,
+      "source": "Marktplaats profiel (29 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (29 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 29,
       "asking_price": 130.0,
       "expected_resale": 213.9,
-      "market_low": 179.24,
-      "market_high": 237.5,
+      "market_low": 180.95,
+      "market_high": 236.22,
       "fees": 0.0,
       "risk_reserve": 4.62,
       "travel_cost": 0.0,
@@ -2863,7 +2863,7 @@
     "is_deal": true,
     "exclusion_reason": null,
     "market_profile": {
-      "sample_count": 28,
+      "sample_count": 29,
       "median_asking": 260.0
     },
     "repair": {
