@@ -59605,12 +59605,12 @@
       "asking_high": 95.99
     },
     {
-      "at": "2026-11-19T08:01:00.748475+00:00",
-      "sample_count": 2,
-      "median_asking": 89.99,
-      "estimated_resale": 80.09,
-      "asking_low": 83.99,
-      "asking_high": 95.99
+      "at": "2026-11-19T17:14:02.311938+00:00",
+      "sample_count": 1,
+      "median_asking": 99.99,
+      "estimated_resale": 88.99,
+      "asking_low": 99.99,
+      "asking_high": 99.99
     }
   ],
   "Tektronix DPO2002B DIGITAL PHOSPHOR": [
@@ -68553,6 +68553,26 @@
       "estimated_resale": 44.5,
       "asking_low": 50.0,
       "asking_high": 50.0
+    }
+  ],
+  "JBL XL 1000 VLOERSTAANDE": [
+    {
+      "at": "2026-11-19T17:14:02.311938+00:00",
+      "sample_count": 1,
+      "median_asking": 100.0,
+      "estimated_resale": 89.0,
+      "asking_low": 100.0,
+      "asking_high": 100.0
+    }
+  ],
+  "Tannoy REVOLUTION RC": [
+    {
+      "at": "2026-11-19T17:14:02.311938+00:00",
+      "sample_count": 1,
+      "median_asking": 100.0,
+      "estimated_resale": 89.0,
+      "asking_low": 100.0,
+      "asking_high": 100.0
     }
   ]
 }
