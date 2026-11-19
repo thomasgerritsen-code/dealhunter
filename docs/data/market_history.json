@@ -845,11 +845,11 @@
       "asking_high": 650.0
     },
     {
-      "at": "2026-11-19T00:51:15.300412+00:00",
-      "sample_count": 60,
-      "median_asking": 550.0,
-      "estimated_resale": 506.0,
-      "asking_low": 400.0,
+      "at": "2026-11-19T23:35:53.983664+00:00",
+      "sample_count": 58,
+      "median_asking": 558.5,
+      "estimated_resale": 513.82,
+      "asking_low": 425.0,
       "asking_high": 650.0
     }
   ],
