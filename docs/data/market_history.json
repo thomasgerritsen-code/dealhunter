@@ -4549,12 +4549,12 @@
       "asking_high": 688.0
     },
     {
-      "at": "2026-11-19T00:51:15.300412+00:00",
-      "sample_count": 3,
-      "median_asking": 595.0,
-      "estimated_resale": 547.4,
-      "asking_low": 583.0,
-      "asking_high": 688.0
+      "at": "2026-11-19T08:01:00.748475+00:00",
+      "sample_count": 4,
+      "median_asking": 622.5,
+      "estimated_resale": 572.7,
+      "asking_low": 587.0,
+      "asking_high": 690.0
     }
   ],
   "Valve Steam Deck OLED": [
@@ -59605,12 +59605,12 @@
       "asking_high": 95.99
     },
     {
-      "at": "2026-11-19T00:51:15.300412+00:00",
-      "sample_count": 1,
-      "median_asking": 99.99,
-      "estimated_resale": 88.99,
-      "asking_low": 99.99,
-      "asking_high": 99.99
+      "at": "2026-11-19T08:01:00.748475+00:00",
+      "sample_count": 2,
+      "median_asking": 89.99,
+      "estimated_resale": 80.09,
+      "asking_low": 83.99,
+      "asking_high": 95.99
     }
   ],
   "Tektronix DPO2002B DIGITAL PHOSPHOR": [
