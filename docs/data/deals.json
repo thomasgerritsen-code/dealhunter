@@ -1,8 +1,77 @@
 [
   {
+    "id": "marktplaats-html:a1534380982",
+    "found_at": "2026-11-20T21:03:14.823786+00:00",
+    "last_seen_at": "2026-11-20T21:03:14.823786+00:00",
+    "source": "marktplaats-html",
+    "query": "xbox series x",
+    "category_hint": "Spelcomputers",
+    "title": "Microsoft - Xbox Series X - Assassins Creed Black Flag",
+    "description": "Bewaren in Mijn Favorieten Microsoft - Xbox Series X - Assassins Creed Black Flag De nieuwe assassin's creed black flag resynced collector's edition voor xbox series x zit verzegeld in de originele verpakking en bevat de console niet. Titel: microsoft - xbox series x - assa Nieuw € 8,00 Vandaag Topadvertentie Catawiki Heel Nederland Bewaren in Mijn Favorieten Microsoft - Xbox Series X - Assassins Creed Black Flag € 8,00 De nieuwe assassin's creed black flag resynced collector's edition voor xbox series x zit verzegeld in de originele verpakking en bevat de console niet. Titel: microsoft - xbox series x - assa Nieuw Catawiki Heel Nederland Vandaag Topadvertentie Bewaren in Mijn Favorieten Microsoft - Xbox Series X - Assassins Creed Black Flag € 8,00 Details Nieuw De nieuwe assassin's creed black flag resynced collector's edition voor xbox series x zit verzegeld in de originele verpakking ",
+    "url": "https://www.marktplaats.nl/v/spelcomputers-en-games/spelcomputers-overige-accessoires/a1534380982-microsoft-xbox-series-x-assassins-creed-black-flag",
+    "asking_price": 8.0,
+    "previous_asking_price": null,
+    "price_drop_percent": 0.0,
+    "promoted": true,
+    "matched_product": "Microsoft Xbox Series X 1TB",
+    "recognition_confidence": 93,
+    "condition": "nieuw",
+    "analysis": {
+      "matched_product": "Microsoft Xbox Series X 1TB",
+      "category": "Spelcomputers",
+      "source": "Marktplaats profiel (57 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (57 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 57,
+      "asking_price": 8.0,
+      "expected_resale": 523.33,
+      "market_low": 370.54,
+      "market_high": 554.72,
+      "fees": 0.0,
+      "risk_reserve": 26.3,
+      "travel_cost": 0.0,
+      "expected_profit": 489.02,
+      "roi_percent": 6112.8,
+      "discount_percent": 98.5,
+      "opening_bid": 7.36,
+      "target_buy_price": 8.0,
+      "max_buy_price": 402.82,
+      "deal_score": 100,
+      "risk_score": 26,
+      "liquidity_score": 87,
+      "confidence_percent": 85,
+      "recognition_confidence_percent": 93,
+      "market_confidence_percent": 77,
+      "verdict": "TOPDEAL",
+      "recommendation": "ZEER INTERESSANT",
+      "risk_reasons": [
+        "Vraagprijs is <45% van geschatte waarde: extra fraude-/defectcheck"
+      ],
+      "score_breakdown": {
+        "discount": 28,
+        "profit": 24,
+        "roi": 18,
+        "liquidity": 10.4,
+        "confidence": 15.2,
+        "risk_penalty": 5.2
+      },
+      "note": "Marktwaardes op basis van vraagprijzen zijn schattingen, geen gegarandeerde gerealiseerde verkoopprijzen."
+    },
+    "result_status": "deal",
+    "is_deal": true,
+    "exclusion_reason": null,
+    "market_profile": {
+      "sample_count": 57,
+      "median_asking": 566.99
+    },
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
+  },
+  {
     "id": "marktplaats-html:a1530339842",
     "found_at": "2026-11-19T23:35:42.302637+00:00",
-    "last_seen_at": "2026-11-19T23:35:42.302637+00:00",
+    "last_seen_at": "2026-11-20T21:03:48.039133+00:00",
     "source": "marktplaats-html",
     "query": "ps5 defect",
     "category_hint": "Spelcomputers",
@@ -755,7 +824,7 @@
   {
     "id": "marktplaats-html:a1532562771",
     "found_at": "2026-10-30T19:21:48.230455+00:00",
-    "last_seen_at": "2026-11-20T13:10:55.312348+00:00",
+    "last_seen_at": "2026-11-20T21:03:48.037253+00:00",
     "source": "marktplaats-html",
     "query": "ps5 defect",
     "category_hint": "Spelcomputers",
