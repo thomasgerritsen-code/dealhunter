@@ -60957,12 +60957,12 @@
       "asking_high": 99.99
     },
     {
-      "at": "2026-11-20T04:16:53.801354+00:00",
-      "sample_count": 2,
-      "median_asking": 89.99,
-      "estimated_resale": 80.09,
-      "asking_low": 83.99,
-      "asking_high": 95.99
+      "at": "2026-11-20T13:11:06.988394+00:00",
+      "sample_count": 1,
+      "median_asking": 99.99,
+      "estimated_resale": 88.99,
+      "asking_low": 99.99,
+      "asking_high": 99.99
     }
   ],
   "Tektronix DPO2002B DIGITAL PHOSPHOR": [
@@ -67555,6 +67555,14 @@
       "estimated_resale": 673.06,
       "asking_low": 756.25,
       "asking_high": 756.25
+    },
+    {
+      "at": "2026-11-20T13:11:06.988394+00:00",
+      "sample_count": 1,
+      "median_asking": 756.25,
+      "estimated_resale": 673.06,
+      "asking_low": 756.25,
+      "asking_high": 756.25
     }
   ],
   "Tannoy PASSIEF STUDIO EN": [
@@ -70429,6 +70437,16 @@
       "estimated_resale": 89.0,
       "asking_low": 100.0,
       "asking_high": 100.0
+    }
+  ],
+  "Tannoy WHARFDALE 5 1": [
+    {
+      "at": "2026-11-20T13:11:06.988394+00:00",
+      "sample_count": 1,
+      "median_asking": 550.0,
+      "estimated_resale": 489.5,
+      "asking_low": 550.0,
+      "asking_high": 550.0
     }
   ]
 }
