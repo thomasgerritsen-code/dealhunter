@@ -1,5 +1,74 @@
 [
   {
+    "id": "marktplaats-html:a1523895281",
+    "found_at": "2026-11-21T22:04:15.992921+00:00",
+    "last_seen_at": "2026-11-21T22:04:15.992921+00:00",
+    "source": "marktplaats-html",
+    "query": "ps5",
+    "category_hint": "Spelcomputers",
+    "title": "Internal SSD 980 Pro M.2 NVME 1TB met Heatsink - Samsung PS5",
+    "description": "Bewaren in Mijn Favorieten Internal SSD 980 Pro M.2 NVME 1TB met Heatsink - Samsung PS5 Playstation 5 console, controllers en games kopen met garantie bij gooplaystation5 & goohoo . Bestellen kan eenvoudig via onze site, betalen kan met ideal of achteraf betalen . Wij hebben verschil Zo goed als nieuw Ophalen of Verzenden € 195,00 Vandaag Topadvertentie GooPlayStation5.nl Nijmegen Bewaren in Mijn Favorieten Internal SSD 980 Pro M.2 NVME 1TB met Heatsink - Samsung PS5 € 195,00 Playstation 5 console, controllers en games kopen met garantie bij gooplaystation5 & goohoo . Bestellen kan eenvoudig via onze site, betalen kan met ideal of achteraf betalen . Wij hebben verschil Zo goed als nieuw Ophalen of Verzenden GooPlayStation5.nl Nijmegen Vandaag Topadvertentie Bewaren in Mijn Favorieten Internal SSD 980 Pro M.2 NVME 1TB met Heatsink - Samsung PS5 € 195,00 Details Ophalen of Verzenden Zo goe",
+    "url": "https://www.marktplaats.nl/v/spelcomputers-en-games/games-sony-playstation-5/a1523895281-internal-ssd-980-pro-m-2-nvme-1tb-met-heatsink-samsung-ps5",
+    "asking_price": 195.0,
+    "previous_asking_price": null,
+    "price_drop_percent": 0.0,
+    "promoted": true,
+    "matched_product": "Sony PlayStation 5 Pro",
+    "recognition_confidence": 66,
+    "condition": "zo goed als nieuw",
+    "analysis": {
+      "matched_product": "Sony PlayStation 5 Pro",
+      "category": "Spelcomputers",
+      "source": "lokale referentiecatalogus",
+      "valuation_basis": "lokale referentiecatalogus",
+      "valuation_samples": 0,
+      "asking_price": 195.0,
+      "expected_resale": 663.0,
+      "market_low": 596.7,
+      "market_high": 729.3,
+      "fees": 0.0,
+      "risk_reserve": 29.32,
+      "travel_cost": 0.0,
+      "expected_profit": 438.68,
+      "roi_percent": 225.0,
+      "discount_percent": 70.6,
+      "opening_bid": 179.4,
+      "target_buy_price": 195.0,
+      "max_buy_price": 514.34,
+      "deal_score": 100,
+      "risk_score": 26,
+      "liquidity_score": 92,
+      "confidence_percent": 66,
+      "recognition_confidence_percent": 75,
+      "market_confidence_percent": 58,
+      "verdict": "TOPDEAL",
+      "recommendation": "ZEER INTERESSANT",
+      "risk_reasons": [
+        "Vraagprijs is <45% van geschatte waarde: extra fraude-/defectcheck"
+      ],
+      "score_breakdown": {
+        "discount": 28,
+        "profit": 24,
+        "roi": 18,
+        "liquidity": 11.0,
+        "confidence": 11.9,
+        "risk_penalty": 5.2
+      },
+      "note": "Marktwaardes op basis van vraagprijzen zijn schattingen, geen gegarandeerde gerealiseerde verkoopprijzen."
+    },
+    "result_status": "deal",
+    "is_deal": true,
+    "exclusion_reason": null,
+    "market_profile": {
+      "sample_count": 0,
+      "median_asking": null
+    },
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
+  },
+  {
     "id": "marktplaats-html:a1534323885",
     "found_at": "2026-11-21T09:42:13.007641+00:00",
     "last_seen_at": "2026-11-21T16:57:21.939061+00:00",
@@ -893,7 +962,7 @@
   {
     "id": "marktplaats-html:a1532562771",
     "found_at": "2026-10-30T19:21:48.230455+00:00",
-    "last_seen_at": "2026-11-21T16:57:55.963559+00:00",
+    "last_seen_at": "2026-11-21T22:04:58.437454+00:00",
     "source": "marktplaats-html",
     "query": "ps5 defect",
     "category_hint": "Spelcomputers",
