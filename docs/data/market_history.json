@@ -8277,12 +8277,12 @@
       "asking_high": 650.0
     },
     {
-      "at": "2026-11-21T02:06:51.687432+00:00",
-      "sample_count": 12,
-      "median_asking": 425.0,
-      "estimated_resale": 378.25,
-      "asking_low": 305.0,
-      "asking_high": 646.0
+      "at": "2026-11-21T09:42:59.491463+00:00",
+      "sample_count": 8,
+      "median_asking": 422.5,
+      "estimated_resale": 376.02,
+      "asking_low": 300.0,
+      "asking_high": 669.0
     }
   ],
   "JBL LANCER 77": [
@@ -62253,12 +62253,12 @@
       "asking_high": 99.99
     },
     {
-      "at": "2026-11-21T02:06:51.687432+00:00",
-      "sample_count": 2,
-      "median_asking": 89.99,
-      "estimated_resale": 80.09,
-      "asking_low": 83.99,
-      "asking_high": 95.99
+      "at": "2026-11-21T09:42:59.491463+00:00",
+      "sample_count": 1,
+      "median_asking": 99.99,
+      "estimated_resale": 88.99,
+      "asking_low": 99.99,
+      "asking_high": 99.99
     }
   ],
   "Tektronix DPO2002B DIGITAL PHOSPHOR": [
@@ -69110,6 +69110,14 @@
     },
     {
       "at": "2026-11-20T13:11:06.988394+00:00",
+      "sample_count": 1,
+      "median_asking": 756.25,
+      "estimated_resale": 673.06,
+      "asking_low": 756.25,
+      "asking_high": 756.25
+    },
+    {
+      "at": "2026-11-21T09:42:59.491463+00:00",
       "sample_count": 1,
       "median_asking": 756.25,
       "estimated_resale": 673.06,

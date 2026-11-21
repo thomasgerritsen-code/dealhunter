@@ -1,5 +1,74 @@
 [
   {
+    "id": "marktplaats-html:a1534323885",
+    "found_at": "2026-11-21T09:42:13.007641+00:00",
+    "last_seen_at": "2026-11-21T09:42:13.007641+00:00",
+    "source": "marktplaats-html",
+    "query": "xbox series x",
+    "category_hint": "Spelcomputers",
+    "title": "Grand Theft Auto VI (GTA 6) (Code in a Box) Xbox Series",
+    "description": "Bewaren in Mijn Favorieten Grand Theft Auto VI (GTA 6) (Code in a Box) Xbox Series Xbox series consoles, controllers en accessoires met garantie kopen bij gooxboxone & goohoo . Bestellen kan eenvoudig via onze site, betalen kan met ideal of achteraf betalen . Wij hebben verschil Zo goed als nieuw Ophalen of Verzenden € 76,00 Vandaag Topadvertentie GooXboxSeries.nl Nijmegen Bewaren in Mijn Favorieten Grand Theft Auto VI (GTA 6) (Code in a Box) Xbox Series € 76,00 Xbox series consoles, controllers en accessoires met garantie kopen bij gooxboxone & goohoo . Bestellen kan eenvoudig via onze site, betalen kan met ideal of achteraf betalen . Wij hebben verschil Zo goed als nieuw Ophalen of Verzenden GooXboxSeries.nl Nijmegen Vandaag Topadvertentie Bewaren in Mijn Favorieten Grand Theft Auto VI (GTA 6) (Code in a Box) Xbox Series € 76,00 Details Ophalen of Verzenden Zo goed als nieuw Xbox serie",
+    "url": "https://www.marktplaats.nl/v/spelcomputers-en-games/games-xbox-series-x-en-s/a1534323885-grand-theft-auto-vi-gta-6-code-in-a-box-xbox-series",
+    "asking_price": 76.0,
+    "previous_asking_price": null,
+    "price_drop_percent": 0.0,
+    "promoted": true,
+    "matched_product": "Microsoft Xbox Series X 1TB",
+    "recognition_confidence": 93,
+    "condition": "zo goed als nieuw",
+    "analysis": {
+      "matched_product": "Microsoft Xbox Series X 1TB",
+      "category": "Spelcomputers",
+      "source": "Marktplaats profiel (61 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_basis": "Marktplaats profiel (61 niet-gepromote advertenties) + lokale referentiecatalogus",
+      "valuation_samples": 61,
+      "asking_price": 76.0,
+      "expected_resale": 485.63,
+      "market_low": 325.07,
+      "market_high": 490.11,
+      "fees": 0.0,
+      "risk_reserve": 25.49,
+      "travel_cost": 0.0,
+      "expected_profit": 384.14,
+      "roi_percent": 505.5,
+      "discount_percent": 84.4,
+      "opening_bid": 69.92,
+      "target_buy_price": 76.0,
+      "max_buy_price": 372.73,
+      "deal_score": 100,
+      "risk_score": 26,
+      "liquidity_score": 87,
+      "confidence_percent": 85,
+      "recognition_confidence_percent": 93,
+      "market_confidence_percent": 77,
+      "verdict": "TOPDEAL",
+      "recommendation": "ZEER INTERESSANT",
+      "risk_reasons": [
+        "Vraagprijs is <45% van geschatte waarde: extra fraude-/defectcheck"
+      ],
+      "score_breakdown": {
+        "discount": 28,
+        "profit": 24,
+        "roi": 18,
+        "liquidity": 10.4,
+        "confidence": 15.2,
+        "risk_penalty": 5.2
+      },
+      "note": "Marktwaardes op basis van vraagprijzen zijn schattingen, geen gegarandeerde gerealiseerde verkoopprijzen."
+    },
+    "result_status": "deal",
+    "is_deal": true,
+    "exclusion_reason": null,
+    "market_profile": {
+      "sample_count": 61,
+      "median_asking": 550.0
+    },
+    "repair": {
+      "detected": false
+    },
+    "is_repair_deal": false
+  },
+  {
     "id": "marktplaats-html:a1534380982",
     "found_at": "2026-11-20T21:03:14.823786+00:00",
     "last_seen_at": "2026-11-21T02:06:09.190831+00:00",
