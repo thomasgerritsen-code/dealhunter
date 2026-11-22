@@ -877,11 +877,11 @@
       "asking_high": 650.0
     },
     {
-      "at": "2026-11-22T09:42:52.593624+00:00",
+      "at": "2026-11-22T17:24:41.817303+00:00",
       "sample_count": 57,
-      "median_asking": 566.99,
-      "estimated_resale": 521.63,
-      "asking_low": 430.0,
+      "median_asking": 550.0,
+      "estimated_resale": 506.0,
+      "asking_low": 425.0,
       "asking_high": 650.0
     }
   ],
@@ -14231,12 +14231,12 @@
       "asking_high": 14.0
     },
     {
-      "at": "2026-11-22T02:07:07.794769+00:00",
-      "sample_count": 2,
-      "median_asking": 12.5,
-      "estimated_resale": 11.12,
-      "asking_low": 11.0,
-      "asking_high": 14.0
+      "at": "2026-11-22T17:24:41.817303+00:00",
+      "sample_count": 1,
+      "median_asking": 10.0,
+      "estimated_resale": 8.9,
+      "asking_low": 10.0,
+      "asking_high": 10.0
     }
   ],
   "Fluke 51 THERMOMETER": [
