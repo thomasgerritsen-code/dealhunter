@@ -893,11 +893,11 @@
       "asking_high": 650.0
     },
     {
-      "at": "2026-11-24T00:07:12.600409+00:00",
+      "at": "2026-11-24T09:47:52.906098+00:00",
       "sample_count": 55,
-      "median_asking": 566.99,
-      "estimated_resale": 521.63,
-      "asking_low": 445.0,
+      "median_asking": 550.0,
+      "estimated_resale": 506.0,
+      "asking_low": 425.0,
       "asking_high": 650.0
     }
   ],
@@ -65925,12 +65925,12 @@
       "asking_high": 99.99
     },
     {
-      "at": "2026-11-24T00:07:12.600409+00:00",
-      "sample_count": 2,
-      "median_asking": 89.99,
-      "estimated_resale": 80.09,
-      "asking_low": 83.99,
-      "asking_high": 95.99
+      "at": "2026-11-24T09:47:52.906098+00:00",
+      "sample_count": 1,
+      "median_asking": 99.99,
+      "estimated_resale": 88.99,
+      "asking_low": 99.99,
+      "asking_high": 99.99
     }
   ],
   "Tektronix DPO2002B DIGITAL PHOSPHOR": [
@@ -73574,6 +73574,14 @@
     },
     {
       "at": "2026-11-23T12:23:25.807291+00:00",
+      "sample_count": 1,
+      "median_asking": 756.25,
+      "estimated_resale": 673.06,
+      "asking_low": 756.25,
+      "asking_high": 756.25
+    },
+    {
+      "at": "2026-11-24T09:47:52.906098+00:00",
       "sample_count": 1,
       "median_asking": 756.25,
       "estimated_resale": 673.06,
