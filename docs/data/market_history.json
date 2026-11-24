@@ -893,11 +893,11 @@
       "asking_high": 650.0
     },
     {
-      "at": "2026-11-24T09:47:52.906098+00:00",
-      "sample_count": 55,
-      "median_asking": 550.0,
-      "estimated_resale": 506.0,
-      "asking_low": 425.0,
+      "at": "2026-11-24T20:24:34.679898+00:00",
+      "sample_count": 53,
+      "median_asking": 566.99,
+      "estimated_resale": 521.63,
+      "asking_low": 450.0,
       "asking_high": 650.0
     }
   ],
@@ -77575,6 +77575,36 @@
       "estimated_resale": 112.5,
       "asking_low": 125.0,
       "asking_high": 125.0
+    }
+  ],
+  "Sennheiser MKH 816 P48": [
+    {
+      "at": "2026-11-24T20:24:34.679898+00:00",
+      "sample_count": 1,
+      "median_asking": 500.0,
+      "estimated_resale": 445.0,
+      "asking_low": 500.0,
+      "asking_high": 500.0
+    }
+  ],
+  "Sennheiser MKH 415T RICHTMICROFOON": [
+    {
+      "at": "2026-11-24T20:24:34.679898+00:00",
+      "sample_count": 1,
+      "median_asking": 355.0,
+      "estimated_resale": 315.95,
+      "asking_low": 355.0,
+      "asking_high": 355.0
+    }
+  ],
+  "JBL TLX 220": [
+    {
+      "at": "2026-11-24T20:24:34.679898+00:00",
+      "sample_count": 1,
+      "median_asking": 100.0,
+      "estimated_resale": 89.0,
+      "asking_low": 100.0,
+      "asking_high": 100.0
     }
   ]
 }
