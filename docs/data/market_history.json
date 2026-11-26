@@ -68261,12 +68261,12 @@
       "asking_high": 99.99
     },
     {
-      "at": "2026-11-26T04:23:24.107682+00:00",
-      "sample_count": 1,
-      "median_asking": 99.99,
-      "estimated_resale": 88.99,
-      "asking_low": 99.99,
-      "asking_high": 99.99
+      "at": "2026-11-26T22:56:15.827565+00:00",
+      "sample_count": 2,
+      "median_asking": 89.99,
+      "estimated_resale": 80.09,
+      "asking_low": 83.99,
+      "asking_high": 95.99
     }
   ],
   "Tektronix DPO2002B DIGITAL PHOSPHOR": [
@@ -81124,6 +81124,26 @@
     },
     {
       "at": "2026-11-26T04:23:24.107682+00:00",
+      "sample_count": 1,
+      "median_asking": 90.0,
+      "estimated_resale": 80.1,
+      "asking_low": 90.0,
+      "asking_high": 90.0
+    }
+  ],
+  "Tektronix T922 15MHZ DUAL": [
+    {
+      "at": "2026-11-26T22:56:15.827565+00:00",
+      "sample_count": 1,
+      "median_asking": 125.0,
+      "estimated_resale": 112.5,
+      "asking_low": 125.0,
+      "asking_high": 125.0
+    }
+  ],
+  "JBL TLX 2 BOEKENPLANK": [
+    {
+      "at": "2026-11-26T22:56:15.827565+00:00",
       "sample_count": 1,
       "median_asking": 90.0,
       "estimated_resale": 80.1,
